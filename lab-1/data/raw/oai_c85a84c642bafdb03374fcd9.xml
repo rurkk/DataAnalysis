@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:46:02Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2309.09074" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2309.09074</identifier>
+        <datestamp>2023-09-19</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2309.09074</id>
+        <created>2023-09-16</created>
+            <updated>2023-09-19</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Zhiwei</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Weizhong</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Yaowei</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Kani</forenames>
+                </author>
+        </authors>
+        <title>Test-Time Compensated Representation Learning for Extreme Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>13 pages, 10 figures, 5 tables</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting is a challenging task due to the complex spatio-temporal correlations among traffic series. In this paper, we identify an underexplored problem in multivariate traffic series prediction: extreme events. Road congestion and rush hours can result in low correlation in vehicle speeds at various intersections during adjacent time periods. Existing methods generally predict future series based on recent observations and entirely discard training data during the testing phase, rendering them unreliable for forecasting highly nonlinear multivariate time series. To tackle this issue, we propose a test-time compensated representation learning framework comprising a spatio-temporal decomposed data bank and a multi-head spatial transformer model (CompFormer). The former component explicitly separates all training data along the temporal dimension according to periodicity characteristics, while the latter component establishes a connection between recent observations and historical series in the data bank through a spatial attention matrix. This enables the CompFormer to transfer robust features to overcome anomalous events while using fewer computational resources. Our modules can be flexibly integrated with existing forecasting methods through end-to-end training, and we demonstrate their effectiveness on the METR-LA and PEMS-BAY benchmarks. Extensive experimental results show that our method is particularly important in extreme events, and can achieve significant improvements over six strong baselines, with an overall improvement of up to 28.2%.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

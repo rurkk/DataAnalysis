@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:09:05Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2307.05517" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2307.05517</identifier>
+        <datestamp>2023-07-13</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2307.05517</id>
+        <created>2023-07-07</created>
+            <updated>2023-07-13</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Zhengdao</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Hwang</keyname>
+                        <forenames>Kai</forenames>
+                </author>
+        </authors>
+        <title>Adaptive Graph Convolution Networks for Traffic Flow Forecasting</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic flow forecasting is a highly challenging task due to the dynamic spatial-temporal road conditions. Graph neural networks (GNN) has been widely applied in this task. However, most of these GNNs ignore the effects of time-varying road conditions due to the fixed range of the convolution receptive field. In this paper, we propose a novel Adaptive Graph Convolution Networks (AGC-net) to address this issue in GNN. The AGC-net is constructed by the Adaptive Graph Convolution (AGC) based on a novel context attention mechanism, which consists of a set of graph wavelets with various learnable scales. The AGC transforms the spatial graph representations into time-sensitive features considering the temporal context. Moreover, a shifted graph convolution kernel is designed to enhance the AGC, which attempts to correct the deviations caused by inaccurate topology. Experimental results on two public traffic datasets demonstrate the effectiveness of the AGC-net\footnote{Code is available at: https://github.com/zhengdaoli/AGC-net} which outperforms other baseline models significantly.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

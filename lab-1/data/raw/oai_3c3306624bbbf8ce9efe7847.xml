@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:55:43Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2204.06171" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2204.06171</identifier>
+        <datestamp>2022-08-02</datestamp>
+            <setSpec>cs:cs:RO</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2204.06171</id>
+        <created>2022-07-30</created>
+            <updated>2022-08-02</updated>
+        <authors>
+                <author>
+                    <keyname>Sun</keyname>
+                        <forenames>Jiankai</forenames>
+                </author>
+                <author>
+                    <keyname>Kousik</keyname>
+                        <forenames>Shreyas</forenames>
+                </author>
+                <author>
+                    <keyname>Fridovich-Keil</keyname>
+                        <forenames>David</forenames>
+                </author>
+                <author>
+                    <keyname>Schwager</keyname>
+                        <forenames>Mac</forenames>
+                </author>
+        </authors>
+        <title>Self-Supervised Traffic Advisors: Distributed, Multi-view Traffic Prediction for Smart Cities</title>
+            <categories>cs.RO</categories>
+            <comments>2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Connected and Autonomous Vehicles (CAVs) are becoming more widely deployed, but it is unclear how to best deploy smart infrastructure to maximize their capabilities. One key challenge is to ensure CAVs can reliably perceive other agents, especially occluded ones. A further challenge is the desire for smart infrastructure to be autonomous and readily scalable to wide-area deployments, similar to modern traffic lights. The present work proposes the Self-Supervised Traffic Advisor (SSTA), an infrastructure edge device concept that leverages self-supervised video prediction in concert with a communication and co-training framework to enable autonomously predicting traffic throughout a smart city. An SSTA is a statically-mounted camera that overlooks an intersection or area of complex traffic flow that predicts traffic flow as future video frames and learns to communicate with neighboring SSTAs to enable predicting traffic before it appears in the Field of View (FOV). The proposed framework aims at three goals: (1) inter-device communication to enable high-quality predictions, (2) scalability to an arbitrary number of devices, and (3) lifelong online learning to ensure adaptability to changing circumstances. Finally, an SSTA can broadcast its future predicted video frames directly as information for CAVs to run their own post-processing for the purpose of control.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

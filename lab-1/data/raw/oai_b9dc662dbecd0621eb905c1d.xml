@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:55:31Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2111.07513" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2111.07513</identifier>
+        <datestamp>2022-03-23</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>stat:stat:ML</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2111.07513</id>
+        <created>2022-03-22</created>
+            <updated>2022-03-23</updated>
+        <authors>
+                <author>
+                    <keyname>Shin</keyname>
+                        <forenames>Yuyol</forenames>
+                </author>
+                <author>
+                    <keyname>Yoon</keyname>
+                        <forenames>Yoonjin</forenames>
+                </author>
+        </authors>
+        <title>A Comparative Study on Basic Elements of Deep Learning Models for Spatial-Temporal Traffic Forecasting</title>
+            <categories>cs.LG stat.ML</categories>
+            <comments>14 pages, 4 figures, 3 Tables, This paper is accepted for AAAI-22 Workshop: AI for Transportation</comments>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Traffic forecasting plays a crucial role in intelligent transportation systems. The spatial-temporal complexities in transportation networks make the problem especially challenging. The recently suggested deep learning models share basic elements such as graph convolution, graph attention, recurrent units, and/or attention mechanism. In this study, we designed an in-depth comparative study for four deep neural network models utilizing different basic elements. For base models, one RNN-based model and one attention-based model were chosen from previous literature. Then, the spatial feature extraction layers in the models were substituted with graph convolution and graph attention. To analyze the performance of each element in various environments, we conducted experiments on four real-world datasets - highway speed, highway flow, urban speed from a homogeneous road link network, and urban speed from a heterogeneous road link network. The results demonstrate that the RNN-based model and the attention-based model show a similar level of performance for short-term prediction, and the attention-based model outperforms the RNN in longer-term predictions. The choice of graph convolution and graph attention makes a larger difference in the RNN-based models. Also, our modified version of GMAN shows comparable performance with the original with less memory consumption.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

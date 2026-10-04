@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:53:49Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2203.03965" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2203.03965</identifier>
+        <datestamp>2022-11-11</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>stat:stat:AP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2203.03965</id>
+        <created>2022-11-10</created>
+            <updated>2022-11-11</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Mingxi</forenames>
+                </author>
+                <author>
+                    <keyname>Tang</keyname>
+                        <forenames>Yihong</forenames>
+                </author>
+                <author>
+                    <keyname>Ma</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+        </authors>
+        <title>Few-Sample Traffic Prediction with Graph Networks using Locale as Relational Inductive Biases</title>
+            <categories>cs.LG stat.AP</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Accurate short-term traffic prediction plays a pivotal role in various smart mobility operation and management systems. Currently, most of the state-of-the-art prediction models are based on graph neural networks (GNNs), and the required training samples are proportional to the size of the traffic network. In many cities, the available amount of traffic data is substantially below the minimum requirement due to the data collection expense. It is still an open question to develop traffic prediction models with a small size of training data on large-scale networks. We notice that the traffic states of a node for the near future only depend on the traffic states of its localized neighborhoods, which can be represented using the graph relational inductive biases. In view of this, this paper develops a graph network (GN)-based deep learning model LocaleGN that depicts the traffic dynamics using localized data aggregating and updating functions, as well as the node-wise recurrent neural networks. LocaleGN is a light-weighted model designed for training on few samples without over-fitting, and hence it can solve the problem of few-sample traffic prediction. The proposed model is examined on predicting both traffic speed and flow with six datasets, and the experimental results demonstrate that LocaleGN outperforms existing state-of-the-art baseline models. It is also demonstrated that the learned knowledge from LocaleGN can be transferred across cities. The research outcomes can help to develop light-weighted traffic prediction systems, especially for cities lacking historically archived traffic data.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

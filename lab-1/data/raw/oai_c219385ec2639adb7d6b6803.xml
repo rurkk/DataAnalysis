@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:55:24Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2412.03188" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2412.03188</identifier>
+        <datestamp>2025-05-23</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:DC</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2412.03188</id>
+        <created>2025-05-22</created>
+            <updated>2025-05-23</updated>
+        <authors>
+                <author>
+                    <keyname>Kralj</keyname>
+                        <forenames>Ivan</forenames>
+                </author>
+                <author>
+                    <keyname>Giaretta</keyname>
+                        <forenames>Lodovico</forenames>
+                </author>
+                <author>
+                    <keyname>Ježić</keyname>
+                        <forenames>Gordan</forenames>
+                </author>
+                <author>
+                    <keyname>Žarko</keyname>
+                        <forenames>Ivana Podnar</forenames>
+                </author>
+                <author>
+                    <keyname>Girdzijauskas</keyname>
+                        <forenames>Šarūnas</forenames>
+                </author>
+        </authors>
+        <title>Semi-decentralized Training of Spatio-Temporal Graph Neural Networks for Traffic Prediction</title>
+            <categories>cs.LG cs.AI cs.DC</categories>
+            <comments>9 pages, 4 figures, 3 tables, conference</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>In smart mobility, large networks of geographically distributed sensors produce vast amounts of high-frequency spatio-temporal data that must be processed in real time to avoid major disruptions. Traditional centralized approaches are increasingly unsuitable to this task, as they struggle to scale with expanding sensor networks, and reliability issues in central components can easily affect the whole deployment. To address these challenges, we explore and adapt semi-decentralized training techniques for Spatio-Temporal Graph Neural Networks (ST-GNNs) in smart mobility domain. We implement a simulation framework where sensors are grouped by proximity into multiple cloudlets, each handling a subgraph of the traffic graph, fetching node features from other cloudlets to train its own local ST-GNN model, and exchanging model updates with other cloudlets to ensure consistency, enhancing scalability and removing reliance on a centralized aggregator. We perform extensive comparative evaluation of four different ST-GNN training setups -- centralized, traditional FL, server-free FL, and Gossip Learning -- on large-scale traffic datasets, the METR-LA and PeMS-BAY datasets, for short-, mid-, and long-term vehicle speed predictions. Experimental results show that semi-decentralized setups are comparable to centralized approaches in performance metrics, while offering advantages in terms of scalability and fault tolerance. In addition, we highlight often overlooked issues in existing literature for distributed ST-GNNs, such as the variation in model performance across different geographical areas due to region-specific traffic patterns, and the significant communication overhead and computational costs that arise from the large receptive field of GNNs, leading to substantial data transfers and increased computation of partial embeddings.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

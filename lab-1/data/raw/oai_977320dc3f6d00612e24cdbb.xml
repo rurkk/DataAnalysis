@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:54:46Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2004.08170" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2004.08170</identifier>
+        <datestamp>2020-04-20</datestamp>
+            <setSpec>cs:cs:NE</setSpec>
+            <setSpec>cs:cs:ET</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2004.08170</id>
+        <created>2020-04-17</created>
+            <updated>2020-04-20</updated>
+        <authors>
+                <author>
+                    <keyname>Del Ser</keyname>
+                        <forenames>Javier</forenames>
+                </author>
+                <author>
+                    <keyname>Lana</keyname>
+                        <forenames>Ibai</forenames>
+                </author>
+                <author>
+                    <keyname>Manibardo</keyname>
+                        <forenames>Eric L.</forenames>
+                </author>
+                <author>
+                    <keyname>Oregi</keyname>
+                        <forenames>Izaskun</forenames>
+                </author>
+                <author>
+                    <keyname>Osaba</keyname>
+                        <forenames>Eneko</forenames>
+                </author>
+                <author>
+                    <keyname>Lobo</keyname>
+                        <forenames>Jesus L.</forenames>
+                </author>
+                <author>
+                    <keyname>Bilbao</keyname>
+                        <forenames>Miren Nekane</forenames>
+                </author>
+                <author>
+                    <keyname>Vlahogianni</keyname>
+                        <forenames>Eleni I.</forenames>
+                </author>
+        </authors>
+        <title>Deep Echo State Networks for Short-Term Traffic Forecasting: Performance Comparison and Statistical Assessment</title>
+            <categories>cs.NE cs.ET cs.LG</categories>
+            <comments>6 pages, 4 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>In short-term traffic forecasting, the goal is to accurately predict future values of a traffic parameter of interest occurring shortly after the prediction is queried. The activity reported in this long-standing research field has been lately dominated by different Deep Learning approaches, yielding overly complex forecasting models that in general achieve accuracy gains of questionable practical utility. In this work we elaborate on the performance of Deep Echo State Networks for this particular task. The efficient learning algorithm and simpler parametric configuration of these alternative modeling approaches make them emerge as a competitive traffic forecasting method for real ITS applications deployed in devices and systems with stringently limited computational resources. An extensive comparison benchmark is designed with real traffic data captured over the city of Madrid (Spain), amounting to more than 130 automatic Traffic Readers (ATRs) and several shallow learning, ensembles and Deep Learning models. Results from this comparison benchmark and the analysis of the statistical significance of the reported performance gaps are decisive: Deep Echo State Networks achieve more accurate traffic forecasts than the rest of considered modeling counterparts.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

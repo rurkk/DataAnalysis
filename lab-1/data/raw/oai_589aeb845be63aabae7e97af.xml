@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:46:37Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2305.19591" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2305.19591</identifier>
+        <datestamp>2023-06-06</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2305.19591</id>
+        <created>2023-06-04</created>
+            <updated>2023-06-06</updated>
+        <authors>
+                <author>
+                    <keyname>Shaygan</keyname>
+                        <forenames>Maryam</forenames>
+                </author>
+                <author>
+                    <keyname>Meese</keyname>
+                        <forenames>Collin</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Wanxin</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Xiaolong</forenames>
+                </author>
+                <author>
+                    <keyname>Nejad</keyname>
+                        <forenames>Mark</forenames>
+                </author>
+        </authors>
+        <title>Traffic Prediction using Artificial Intelligence: Review of Recent Advances and Emerging Opportunities</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Published in Transportation Research Part C: Emerging Technologies (TR_C), Volume 145, 2022</comments>
+            <doi>10.1016/j.trc.2022.103921</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction plays a crucial role in alleviating traffic congestion which represents a critical problem globally, resulting in negative consequences such as lost hours of additional travel time and increased fuel consumption. Integrating emerging technologies into transportation systems provides opportunities for improving traffic prediction significantly and brings about new research problems. In order to lay the foundation for understanding the open research challenges in traffic prediction, this survey aims to provide a comprehensive overview of traffic prediction methodologies. Specifically, we focus on the recent advances and emerging research opportunities in Artificial Intelligence (AI)-based traffic prediction methods, due to their recent success and potential in traffic prediction, with an emphasis on multivariate traffic time series modeling. We first provide a list and explanation of the various data types and resources used in the literature. Next, the essential data preprocessing methods within the traffic prediction context are categorized, and the prediction methods and applications are subsequently summarized. Lastly, we present primary research challenges in traffic prediction and discuss some directions for future research.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

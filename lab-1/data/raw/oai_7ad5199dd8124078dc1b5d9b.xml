@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:47:23Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2408.02689" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2408.02689</identifier>
+        <datestamp>2025-08-11</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2408.02689</id>
+        <created>2025-08-08</created>
+            <updated>2025-08-11</updated>
+        <authors>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Zibo</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Zhe</forenames>
+                </author>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Zelin</forenames>
+                </author>
+                <author>
+                    <keyname>Xiao</keyname>
+                        <forenames>Tingsong</forenames>
+                </author>
+                <author>
+                    <keyname>Xiao</keyname>
+                        <forenames>Zhengkun</forenames>
+                </author>
+                <author>
+                    <keyname>zhang</keyname>
+                        <forenames>Yupu</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Haibo</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Shigang</forenames>
+                </author>
+        </authors>
+        <title>Spatio-Temporal Partial Sensing Forecast for Long-term Traffic</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Published in Transactions on Machine Learning Research, 2025</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting uses recent measurements by sensors installed at chosen locations to forecast the future road traffic. Existing work either assumes all locations are equipped with sensors or focuses on short-term forecast. This paper studies partial sensing forecast of long-term traffic, assuming sensors are available only at some locations. The problem is challenging due to the unknown data distribution at unsensed locations, the intricate spatio-temporal correlation in long-term forecasting, as well as noise to traffic patterns. We propose a Spatio-temporal Long-term Partial sensing Forecast model (SLPF) for traffic prediction, with several novel contributions, including a rank-based embedding technique to reduce the impact of noise in data, a spatial transfer matrix to overcome the spatial distribution shift from sensed locations to unsensed locations, and a multi-step training process that utilizes all available data to successively refine the model parameters for better accuracy. Extensive experiments on several real-world traffic datasets demonstrate its superior performance. Our source code is at https://github.com/zbliu98/SLPF</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

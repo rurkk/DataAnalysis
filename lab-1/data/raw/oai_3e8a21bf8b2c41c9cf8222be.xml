@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:50:50Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2110.10380" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2110.10380</identifier>
+        <datestamp>2022-03-09</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:NE</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2110.10380</id>
+        <created>2022-03-08</created>
+            <updated>2022-03-09</updated>
+        <authors>
+                <author>
+                    <keyname>Lee</keyname>
+                        <forenames>Hyunwook</forenames>
+                </author>
+                <author>
+                    <keyname>Jin</keyname>
+                        <forenames>Seungmin</forenames>
+                </author>
+                <author>
+                    <keyname>Chu</keyname>
+                        <forenames>Hyeshin</forenames>
+                </author>
+                <author>
+                    <keyname>Lim</keyname>
+                        <forenames>Hongkyu</forenames>
+                </author>
+                <author>
+                    <keyname>Ko</keyname>
+                        <forenames>Sungahn</forenames>
+                </author>
+        </authors>
+        <title>Learning to Remember Patterns: Pattern Matching Memory Networks for Traffic Forecasting</title>
+            <categories>cs.LG cs.NE</categories>
+            <comments>15 pages, Accepted as poster to ICLR 2022</comments>
+            <journal-ref>International Conference on Learning Representations (ICLR 2022)</journal-ref>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting is a challenging problem due to complex road networks and sudden speed changes caused by various events on roads. A number of models have been proposed to solve this challenging problem with a focus on learning spatio-temporal dependencies of roads. In this work, we propose a new perspective of converting the forecasting problem into a pattern matching task, assuming that large data can be represented by a set of patterns. To evaluate the validness of the new perspective, we design a novel traffic forecasting model, called Pattern-Matching Memory Networks (PM-MemNet), which learns to match input data to the representative patterns with a key-value memory structure. We first extract and cluster representative traffic patterns, which serve as keys in the memory. Then via matching the extracted keys and inputs, PM-MemNet acquires necessary information of existing traffic patterns from the memory and uses it for forecasting. To model spatio-temporal correlation of traffic, we proposed novel memory architecture GCMem, which integrates attention and graph convolution for memory enhancement. The experiment results indicate that PM-MemNet is more accurate than state-of-the-art models, such as Graph WaveNet with higher responsiveness. We also present a qualitative analysis result, describing how PM-MemNet works and achieves its higher accuracy when road speed rapidly changes.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

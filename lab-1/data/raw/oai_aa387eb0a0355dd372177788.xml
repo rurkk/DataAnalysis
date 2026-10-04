@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:07:49Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2309.12028" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2309.12028</identifier>
+        <datestamp>2023-09-22</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:SI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2309.12028</id>
+        <created>2023-09-21</created>
+            <updated>2023-09-22</updated>
+        <authors>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Yusheng</forenames>
+                </author>
+                <author>
+                    <keyname>Luo</keyname>
+                        <forenames>Xiao</forenames>
+                </author>
+                <author>
+                    <keyname>Ju</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Chong</forenames>
+                </author>
+                <author>
+                    <keyname>Hua</keyname>
+                        <forenames>Xian-Sheng</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Ming</forenames>
+                </author>
+        </authors>
+        <title>Dynamic Hypergraph Structure Learning for Traffic Flow Forecasting</title>
+            <categories>cs.LG cs.AI cs.SI</categories>
+            <comments>Accepted by 2023 IEEE 39th International Conference on Data Engineering (ICDE 2023)</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>This paper studies the problem of traffic flow forecasting, which aims to predict future traffic conditions on the basis of road networks and traffic conditions in the past. The problem is typically solved by modeling complex spatio-temporal correlations in traffic data using spatio-temporal graph neural networks (GNNs). However, the performance of these methods is still far from satisfactory since GNNs usually have limited representation capacity when it comes to complex traffic networks. Graphs, by nature, fall short in capturing non-pairwise relations. Even worse, existing methods follow the paradigm of message passing that aggregates neighborhood information linearly, which fails to capture complicated spatio-temporal high-order interactions. To tackle these issues, in this paper, we propose a novel model named Dynamic Hypergraph Structure Learning (DyHSL) for traffic flow prediction. To learn non-pairwise relationships, our DyHSL extracts hypergraph structural information to model dynamics in the traffic networks, and updates each node representation by aggregating messages from its associated hyperedges. Additionally, to capture high-order spatio-temporal relations in the road network, we introduce an interactive graph convolution block, which further models the neighborhood interaction for each node. Finally, we integrate these two views into a holistic multi-scale correlation extraction module, which conducts temporal pooling with different scales to model different temporal patterns. Extensive experiments on four popular traffic benchmark datasets demonstrate the effectiveness of our proposed DyHSL compared with a broad range of competing baselines.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

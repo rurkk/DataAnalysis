@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:39:51Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2304.10961" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2304.10961</identifier>
+        <datestamp>2023-04-24</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2304.10961</id>
+        <created>2023-04-21</created>
+            <updated>2023-04-24</updated>
+        <authors>
+                <author>
+                    <keyname>Mi</keyname>
+                        <forenames>Jiajia</forenames>
+                </author>
+        </authors>
+        <title>An Incomplete Tensor Tucker decomposition based Traffic Speed Prediction Method</title>
+            <categories>cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>In intelligent transport systems, it is common and inevitable with missing data. While complete and valid traffic speed data is of great importance to intelligent transportation systems. A latent factorization-of-tensors (LFT) model is one of the most attractive approaches to solve missing traffic data recovery due to its well-scalability. A LFT model achieves optimization usually via a stochastic gradient descent (SGD) solver, however, the SGD-based LFT suffers from slow convergence. To deal with this issue, this work integrates the unique advantages of the proportional-integral-derivative (PID) controller into a Tucker decomposition based LFT model. It adopts two-fold ideas: a) adopting tucker decomposition to build a LFT model for achieving a better recovery accuracy. b) taking the adjusted instance error based on the PID control theory into the SGD solver to effectively improve convergence rate. Our experimental studies on two major city traffic road speed datasets show that the proposed model achieves significant efficiency gain and highly competitive prediction accuracy.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

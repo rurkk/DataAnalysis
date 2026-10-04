@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:40:15Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2307.01227" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2307.01227</identifier>
+        <datestamp>2023-07-13</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2307.01227</id>
+        <created>2023-07-12</created>
+            <updated>2023-07-13</updated>
+        <authors>
+                <author>
+                    <keyname>Lee</keyname>
+                        <forenames>Sangrok</forenames>
+                </author>
+                <author>
+                    <keyname>Kim</keyname>
+                        <forenames>Ha Young</forenames>
+                </author>
+        </authors>
+        <title>ESGCN: Edge Squeeze Attention Graph Convolutional Network for Traffic Flow Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>7 Pages, 3 figures</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting is a highly challenging task owing to the dynamical spatio-temporal dependencies of traffic flows. To handle this, we focus on modeling the spatio-temporal dynamics and propose a network termed Edge Squeeze Graph Convolutional Network (ESGCN) to forecast traffic flow in multiple regions. ESGCN consists of two modules: W-module and ES module. W-module is a fully node-wise convolutional network. It encodes the time-series of each traffic region separately and decomposes the time-series at various scales to capture fine and coarse features. The ES module models the spatio-temporal dynamics using Graph Convolutional Network (GCN) and generates an Adaptive Adjacency Matrix (AAM) with temporal features. To improve the accuracy of AAM, we introduce three key concepts. 1) Using edge features to directly capture the spatiotemporal flow representation among regions. 2) Applying an edge attention mechanism to GCN to extract the AAM from the edge features. Here, the attention mechanism can effectively determine important spatio-temporal adjacency relations. 3) Proposing a novel node contrastive loss to suppress obstructed connections and emphasize related connections. Experimental results show that ESGCN achieves state-of-the-art performance by a large margin on four real-world datasets (PEMS03, 04, 07, and 08) with a low computational cost.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

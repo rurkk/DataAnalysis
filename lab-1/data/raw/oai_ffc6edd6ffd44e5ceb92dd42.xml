@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:35Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2607.27371" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2607.27371</identifier>
+        <datestamp>2026-07-31</datestamp>
+            <setSpec>eess:eess:SY</setSpec>
+            <setSpec>cs:cs:SY</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2607.27371</id>
+        <created>2026-07-29</created>
+            <updated>2026-07-31</updated>
+        <authors>
+                <author>
+                    <keyname>McCreesh</keyname>
+                        <forenames>Michael</forenames>
+                </author>
+                <author>
+                    <keyname>Gupta</keyname>
+                        <forenames>Rohit</forenames>
+                </author>
+                <author>
+                    <keyname>Smith</keyname>
+                        <forenames>Stephen L.</forenames>
+                </author>
+        </authors>
+        <title>Dynamics-matched Physical Reservoir Computing for Undersensed Traffic Prediction</title>
+            <categories>eess.SY cs.SY</categories>
+            <comments>16 pages, 4 figures. Has been submitted for journal publication</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Machine learning methods are increasingly used for traffic prediction in applications such as autonomous driving. Such predictions must be both highly accurate and immediately available, making methods with low computational costs and fast training times of interest. One such method is reservoir computing, in which the rich dynamics of a nonlinear system serves as a computational substrate and only a linear readout vector is trained. In this work we use a traffic network as the reservoir for predicting the behavior of an undersensed traffic network. This matching of the highly nonlinear dynamics allows for similar encoding between the behaviors of the reservoir and target network, enabling a more direct prediction. We show that a reservoir governed by the Improved Intelligent Driver Model (IIDM) satisfies the echo state property for a class of slowly-varying inputs. Through simulations we show that the echo state property likely holds for a larger class of inputs, and that the IIDM reservoir computer (IIDM-RC) accurately predicts an undersensed vehicle network governed by varying car-following models. We also compare with echo state networks (ESNs) and Long Short-Term Memory (LSTM) networks, finding improvements using IIDM-RC in both prediction accuracy and training time.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

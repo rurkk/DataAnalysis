@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:56:39Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2406.13057" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2406.13057</identifier>
+        <datestamp>2025-06-18</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2406.13057</id>
+        <created>2024-06-18</created>
+            <updated>2025-06-18</updated>
+        <authors>
+                <author>
+                    <keyname>Bian</keyname>
+                        <forenames>Zilin</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Jingqin</forenames>
+                </author>
+                <author>
+                    <keyname>Ozbay</keyname>
+                        <forenames>Kaan</forenames>
+                </author>
+                <author>
+                    <keyname>Zuo</keyname>
+                        <forenames>Fan</forenames>
+                </author>
+                <author>
+                    <keyname>Zuo</keyname>
+                        <forenames>Dachuan</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Zhenning</forenames>
+                </author>
+        </authors>
+        <title>Informed along the road: roadway capacity driven graph convolution network for network-wide traffic prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <doi>10.1109/ITSC58415.2024.10920133</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>While deep learning has shown success in predicting traffic states, most methods treat it as a general prediction task without considering transportation aspects. Recently, graph neural networks have proven effective for this task, but few incorporate external factors that impact roadway capacity and traffic flow. This study introduces the Roadway Capacity Driven Graph Convolution Network (RCDGCN) model, which incorporates static and dynamic roadway capacity attributes in spatio-temporal settings to predict network-wide traffic states. The model was evaluated on two real-world datasets with different transportation factors: the ICM-495 highway network and an urban network in Manhattan, New York City. Results show RCDGCN outperformed baseline methods in forecasting accuracy. Analyses, including ablation experiments, weight analysis, and case studies, investigated the effect of capacity-related factors. The study demonstrates the potential of using RCDGCN for transportation system management.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:52:52Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2007.05460" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2007.05460</identifier>
+        <datestamp>2020-12-07</datestamp>
+            <setSpec>cs:cs:NI</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2007.05460</id>
+        <created>2020-12-04</created>
+            <updated>2020-12-07</updated>
+        <authors>
+                <author>
+                    <keyname>Mallah</keyname>
+                        <forenames>Ranwa Al</forenames>
+                </author>
+                <author>
+                    <keyname>Farooq</keyname>
+                        <forenames>Bilal</forenames>
+                </author>
+                <author>
+                    <keyname>Quintero</keyname>
+                        <forenames>Alejandro</forenames>
+                </author>
+        </authors>
+        <title>Prediction of Traffic Flow via Connected Vehicles</title>
+            <categories>cs.NI cs.AI</categories>
+            <doi>10.1109/TMC.2020.3006713</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>We propose a Short-term Traffic flow Prediction (STP) framework so that transportation authorities take early actions to control flow and prevent congestion. We anticipate flow at future time frames on a target road segment based on historical flow data and innovative features such as real time feeds and trajectory data provided by Connected Vehicles (CV) technology. To cope with the fact that existing approaches do not adapt to variation in traffic, we show how this novel approach allows advanced modelling by integrating into the forecasting of flow, the impact of the various events that CV realistically encountered on segments along their trajectory. We solve the STP problem with a Deep Neural Networks (DNN) in a multitask learning setting augmented by input from CV. Results show that our approach, namely MTL-CV, with an average Root-Mean-Square Error (RMSE) of 0.052, outperforms state-of-the-art ARIMA time series (RMSE of 0.255) and baseline classifiers (RMSE of 0.122). Compared to single task learning with Artificial Neural Network (ANN), ANN had a lower performance, 0.113 for RMSE, than MTL-CV. MTL-CV learned historical similarities between segments, in contrast to using direct historical trends in the measure, because trends may not exist in the measure but do in the similarities.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

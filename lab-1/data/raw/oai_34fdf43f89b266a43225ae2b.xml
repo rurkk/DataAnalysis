@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:49:07Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2410.19192" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2410.19192</identifier>
+        <datestamp>2024-12-02</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2410.19192</id>
+        <created>2024-11-29</created>
+            <updated>2024-12-02</updated>
+        <authors>
+                <author>
+                    <keyname>Kieu</keyname>
+                        <forenames>Duc</forenames>
+                </author>
+                <author>
+                    <keyname>Kieu</keyname>
+                        <forenames>Tung</forenames>
+                </author>
+                <author>
+                    <keyname>Han</keyname>
+                        <forenames>Peng</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Bin</forenames>
+                </author>
+                <author>
+                    <keyname>Jensen</keyname>
+                        <forenames>Christian S.</forenames>
+                </author>
+                <author>
+                    <keyname>Le</keyname>
+                        <forenames>Bac</forenames>
+                </author>
+        </authors>
+        <title>TEAM: Topological Evolution-aware Framework for Traffic Forecasting--Extended Version</title>
+            <categories>cs.LG</categories>
+            <comments>16 pages. An extended version of &#34;TEAM: Topological Evolution-aware Framework for Traffic Forecasting&#34; accepted at PVLDB 2025</comments>
+            <doi>10.14778/3705829.3705844</doi>
+            <license>http://creativecommons.org/licenses/by-nc-sa/4.0/</license>
+            <abstract>Due to the global trend towards urbanization, people increasingly move to and live in cities that then continue to grow. Traffic forecasting plays an important role in the intelligent transportation systems of cities as well as in spatio-temporal data mining. State-of-the-art forecasting is achieved by deep-learning approaches due to their ability to contend with complex spatio-temporal dynamics. However, existing methods assume the input is fixed-topology road networks and static traffic time series. These assumptions fail to align with urbanization, where time series are collected continuously and road networks evolve over time. In such settings, deep-learning models require frequent re-initialization and re-training, imposing high computational costs. To enable much more efficient training without jeopardizing model accuracy, we propose the Topological Evolution-aware Framework (TEAM) for traffic forecasting that incorporates convolution and attention. This combination of mechanisms enables better adaptation to newly collected time series, while being able to maintain learned knowledge from old time series. TEAM features a continual learning module based on the Wasserstein metric that acts as a buffer that can identify the most stable and the most changing network nodes. Then, only data related to stable nodes is employed for re-training when consolidating a model. Further, only data of new nodes and their adjacent nodes as well as data pertaining to changing nodes are used to re-train the model. Empirical studies with two real-world traffic datasets offer evidence that TEAM is capable of much lower re-training costs than existing methods are, without jeopardizing forecasting accuracy.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

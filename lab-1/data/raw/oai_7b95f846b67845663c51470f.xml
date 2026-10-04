@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:39:55Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2212.12767" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2212.12767</identifier>
+        <datestamp>2022-12-27</datestamp>
+            <setSpec>stat:stat:ML</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2212.12767</id>
+        <created>2022-12-24</created>
+            <updated>2022-12-27</updated>
+        <authors>
+                <author>
+                    <keyname>Xiao</keyname>
+                        <forenames>Yanan</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Minyu</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Zichen</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Lu</forenames>
+                </author>
+                <author>
+                    <keyname>Yin</keyname>
+                        <forenames>Minghao</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Jianan</forenames>
+                </author>
+        </authors>
+        <title>Streaming Traffic Flow Prediction Based on Continuous Reinforcement Learning</title>
+            <categories>stat.ML cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow prediction is an important part of smart transportation. The goal is to predict future traffic conditions based on historical data recorded by sensors and the traffic network. As the city continues to build, parts of the transportation network will be added or modified. How to accurately predict expanding and evolving long-term streaming networks is of great significance. To this end, we propose a new simulation-based criterion that considers teaching autonomous agents to mimic sensor patterns, planning their next visit based on the sensor&#39;s profile (e.g., traffic, speed, occupancy). The data recorded by the sensor is most accurate when the agent can perfectly simulate the sensor&#39;s activity pattern. We propose to formulate the problem as a continuous reinforcement learning task, where the agent is the next flow value predictor, the action is the next time-series flow value in the sensor, and the environment state is a dynamically fused representation of the sensor and transportation network. Actions taken by the agent change the environment, which in turn forces the agent&#39;s mode to update, while the agent further explores changes in the dynamic traffic network, which helps the agent predict its next visit more accurately. Therefore, we develop a strategy in which sensors and traffic networks update each other and incorporate temporal context to quantify state representations evolving over time.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

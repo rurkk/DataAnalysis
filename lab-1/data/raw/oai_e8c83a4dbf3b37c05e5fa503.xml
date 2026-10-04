@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:57:18Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2201.05760" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2201.05760</identifier>
+        <datestamp>2025-02-18</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2201.05760</id>
+        <created>2025-02-14</created>
+            <updated>2025-02-18</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Tianya</forenames>
+                </author>
+        </authors>
+        <title>Network Level Spatial Temporal Traffic State Forecasting with Hierarchical-Attention-LSTM (HierAttnLSTM)</title>
+            <categories>cs.LG cs.AI</categories>
+            <journal-ref>Digital Transportation and Safety 2024</journal-ref>
+            <doi>10.48130/dts-0024-0021</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic state data, such as speed, volume and travel time collected from ubiquitous traffic monitoring sensors require advanced network level analytics for forecasting and identifying significant traffic patterns. This paper leverages diverse traffic state datasets from the Caltrans Performance Measurement System (PeMS) hosted on the open benchmark and achieved promising performance compared to well recognized spatial-temporal models. Drawing inspiration from the success of hierarchical architectures in various Artificial Intelligence (AI) tasks, we integrate cell and hidden states from low-level to high-level Long Short-Term Memory (LSTM) networks with an attention pooling mechanism, similar to human perception systems. The developed hierarchical structure is designed to account for dependencies across different time scales, capturing the spatial-temporal correlations of network-level traffic states, enabling the prediction of traffic states for all corridors rather than a single link or route. The efficiency of designed attention-based LSTM is analyzed by ablation study. Comparative results with baseline LSTM models demonstrate that the Hierarchical Attention LSTM (HierAttnLSTM) model not only provides higher prediction accuracy but also effectively forecasts unusual congestion patterns. Data and code are made publicly available to support reproducible scientific research.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

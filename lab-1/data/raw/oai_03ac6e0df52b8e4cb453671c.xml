@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:48:09Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2605.16726" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2605.16726</identifier>
+        <datestamp>2026-05-19</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2605.16726</id>
+        <created>2026-05-16</created>
+            <updated>2026-05-19</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Tianchi</forenames>
+                </author>
+        </authors>
+        <title>A Global-Local Graph Attention Network for Traffic Forecasting</title>
+            <categories>cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is a significant part of intelligent transportation systems. One of the critical challenges of traffic forecasting is to find spatio-temporal correlations. In recent years, graph convolutional networks and graph attention networks have replaced traditional statistical models to predict future traffic. However, it is complicated for both of them to allow vertices to have far different characters. To address this, we propose the Global-Local Graph Attention Network (GLGAT) with pairwise encoding and the event-based adjacency matrix. The GLGAT allows vertices to have a global attention matrix set for the whole graph and assigns local attention matrix sets to each vertex. Experiments on two real-world traffic datasets show that GLGAT can effectively capture spatio-temporal correlations and has competitive performance against other state-of-the-art baselines.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

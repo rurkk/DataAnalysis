@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-11T17:04:15Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2512.21685" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2512.21685</identifier>
+        <datestamp>2025-12-29</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2512.21685</id>
+        <created>2025-12-25</created>
+            <updated>2025-12-29</updated>
+        <authors>
+                <author>
+                    <keyname>Lv</keyname>
+                        <forenames>Haochen</forenames>
+                </author>
+                <author>
+                    <keyname>Lin</keyname>
+                        <forenames>Yan</forenames>
+                </author>
+                <author>
+                    <keyname>Guo</keyname>
+                        <forenames>Shengnan</forenames>
+                </author>
+                <author>
+                    <keyname>Mao</keyname>
+                        <forenames>Xiaowei</forenames>
+                </author>
+                <author>
+                    <keyname>Nie</keyname>
+                        <forenames>Hong</forenames>
+                </author>
+                <author>
+                    <keyname>Gong</keyname>
+                        <forenames>Letian</forenames>
+                </author>
+                <author>
+                    <keyname>Lin</keyname>
+                        <forenames>Youfang</forenames>
+                </author>
+                <author>
+                    <keyname>Wan</keyname>
+                        <forenames>Huaiyu</forenames>
+                </author>
+        </authors>
+        <title>RIPCN: A Road Impedance Principal Component Network for Probabilistic Traffic Flow Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted at KDD 2026. 12 pages, 10 figures</comments>
+            <acm-class>None</acm-class>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic flow forecasting is crucial for intelligent transportation services such as navigation and ride-hailing. In such applications, uncertainty estimation in forecasting is important because it helps evaluate traffic risk levels, assess forecast reliability, and provide timely warnings. As a result, probabilistic traffic flow forecasting (PTFF) has gained significant attention, as it produces both point forecasts and uncertainty estimates. However, existing PTFF approaches still face two key challenges: (1) how to uncover and model the causes of traffic flow uncertainty for reliable forecasting, and (2) how to capture the spatiotemporal correlations of uncertainty for accurate prediction.
+  To address these challenges, we propose RIPCN, a Road Impedance Principal Component Network that integrates domain-specific transportation theory with spatiotemporal principal component learning for PTFF. RIPCN introduces a dynamic impedance evolution network that captures directional traffic transfer patterns driven by road congestion level and flow variability, revealing the direct causes of uncertainty and enhancing both reliability and interpretability. In addition, a principal component network is designed to forecast the dominant eigenvectors of future flow covariance, enabling the model to capture spatiotemporal uncertainty correlations. This design allows for accurate and efficient uncertainty estimation while also improving point prediction performance. Experimental results on real-world datasets show that our approach outperforms existing probabilistic forecasting methods.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

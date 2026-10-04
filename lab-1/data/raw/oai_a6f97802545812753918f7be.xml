@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:46:10Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2602.14049" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2602.14049</identifier>
+        <datestamp>2026-02-17</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2602.14049</id>
+        <created>2026-02-15</created>
+            <updated>2026-02-17</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Yue</forenames>
+                </author>
+                <author>
+                    <keyname>Karapetyan</keyname>
+                        <forenames>Areg</forenames>
+                </author>
+                <author>
+                    <keyname>Difallah</keyname>
+                        <forenames>Djellel</forenames>
+                </author>
+                <author>
+                    <keyname>Madanat</keyname>
+                        <forenames>Samer</forenames>
+                </author>
+        </authors>
+        <title>UniST-Pred: A Robust Unified Framework for Spatio-Temporal Traffic Forecasting in Transportation Networks Under Disruptions</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Spatio-temporal traffic forecasting is a core component of intelligent transportation systems, supporting various downstream tasks such as signal control and network-level traffic management. In real-world deployments, forecasting models must operate under structural and observational uncertainties, conditions that are rarely considered in model design. Recent approaches achieve strong short-term predictive performance by tightly coupling spatial and temporal modeling, often at the cost of increased complexity and limited modularity. In contrast, efficient time-series models capture long-range temporal dependencies without relying on explicit network structure. We propose UniST-Pred, a unified spatio-temporal forecasting framework that first decouples temporal modeling from spatial representation learning, then integrates both through adaptive representation-level fusion. To assess robustness of the proposed approach, we construct a dataset based on an agent-based, microscopic traffic simulator (MATSim) and evaluate UniST-Pred under severe network disconnection scenarios. Additionally, we benchmark UniST-Pred on standard traffic prediction datasets, demonstrating its competitive performance against existing well-established models despite a lightweight design. The results illustrate that UniST-Pred maintains strong predictive performance across both real-world and simulated datasets, while also yielding interpretable spatio-temporal representations under infrastructure disruptions. The source code and the generated dataset are available at https://anonymous.4open.science/r/UniST-Pred-EF27</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

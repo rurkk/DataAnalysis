@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:45:54Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2202.06725" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2202.06725</identifier>
+        <datestamp>2022-08-30</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2202.06725</id>
+        <created>2022-08-29</created>
+            <updated>2022-08-30</updated>
+        <authors>
+                <author>
+                    <keyname>Hermes</keyname>
+                        <forenames>Luca</forenames>
+                </author>
+                <author>
+                    <keyname>Hammer</keyname>
+                        <forenames>Barbara</forenames>
+                </author>
+                <author>
+                    <keyname>Melnik</keyname>
+                        <forenames>Andrew</forenames>
+                </author>
+                <author>
+                    <keyname>Velioglu</keyname>
+                        <forenames>Riza</forenames>
+                </author>
+                <author>
+                    <keyname>Vieth</keyname>
+                        <forenames>Markus</forenames>
+                </author>
+                <author>
+                    <keyname>Schilling</keyname>
+                        <forenames>Malte</forenames>
+                </author>
+        </authors>
+        <title>A Graph-based U-Net Model for Predicting Traffic in unseen Cities</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>About to be published in IJCNN Proceedings 2022</comments>
+            <license>http://creativecommons.org/licenses/by-sa/4.0/</license>
+            <abstract>Accurate traffic prediction is a key ingredient to enable traffic management like rerouting cars to reduce road congestion or regulating traffic via dynamic speed limits to maintain a steady flow. A way to represent traffic data is in the form of temporally changing heatmaps visualizing attributes of traffic, such as speed and volume. In recent works, U-Net models have shown SOTA performance on traffic forecasting from heatmaps. We propose to combine the U-Net architecture with graph layers which improves spatial generalization to unseen road networks compared to a Vanilla U-Net. In particular, we specialize existing graph operations to be sensitive to geographical topology and generalize pooling and upsampling operations to be applicable to graphs.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:47:35Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2309.11284" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2309.11284</identifier>
+        <datestamp>2023-09-21</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2309.11284</id>
+        <created>2023-09-20</created>
+            <updated>2023-09-21</updated>
+        <authors>
+                <author>
+                    <keyname>Ma</keyname>
+                        <forenames>Qian</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Zijian</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Xiangyu</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Haoliang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Hongwei</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Yiqi</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Zitao</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Wanyu</forenames>
+                </author>
+        </authors>
+        <title>Rethinking Sensors Modeling: Hierarchical Information Enhanced Traffic Forecasting</title>
+            <categories>cs.AI</categories>
+            <comments>9 pages, accepted by CIKM&#39;23</comments>
+            <doi>10.1145/3583780.3614910</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>With the acceleration of urbanization, traffic forecasting has become an essential role in smart city construction. In the context of spatio-temporal prediction, the key lies in how to model the dependencies of sensors. However, existing works basically only consider the micro relationships between sensors, where the sensors are treated equally, and their macroscopic dependencies are neglected. In this paper, we argue to rethink the sensor&#39;s dependency modeling from two hierarchies: regional and global perspectives. Particularly, we merge original sensors with high intra-region correlation as a region node to preserve the inter-region dependency. Then, we generate representative and common spatio-temporal patterns as global nodes to reflect a global dependency between sensors and provide auxiliary information for spatio-temporal dependency learning. In pursuit of the generality and reality of node representations, we incorporate a Meta GCN to calibrate the regional and global nodes in the physical data space. Furthermore, we devise the cross-hierarchy graph convolution to propagate information from different hierarchies. In a nutshell, we propose a Hierarchical Information Enhanced Spatio-Temporal prediction method, HIEST, to create and utilize the regional dependency and common spatio-temporal patterns. Extensive experiments have verified the leading performance of our HIEST against state-of-the-art baselines. We publicize the code to ease reproducibility.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:52:36Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2510.07426" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2510.07426</identifier>
+        <datestamp>2025-10-10</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2510.07426</id>
+        <created>2025-10-08</created>
+            <updated>2025-10-10</updated>
+        <authors>
+                <author>
+                    <keyname>Guettala</keyname>
+                        <forenames>Walid</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Yufan</forenames>
+                </author>
+                <author>
+                    <keyname>Gulyás</keyname>
+                        <forenames>László</forenames>
+                </author>
+        </authors>
+        <title>Less is More: Strategic Expert Selection Outperforms Ensemble Complexity in Traffic Forecasting</title>
+            <categories>cs.AI</categories>
+            <comments>Accepted to IEEE ICTAI 2025. Version 0.9. 10 pages, 5 figures. Preprint differs from the published version in formatting and minor wording</comments>
+            <msc-class>68T07, 68T05, 62M10, 90B20</msc-class>
+            <acm-class>68T07, 68T05, 62M10, 90B20</acm-class>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is fundamental to intelligent transportation systems, enabling congestion mitigation and emission reduction in increasingly complex urban environments. While recent graph neural network approaches have advanced spatial temporal modeling, existing mixture of experts frameworks like Time Enhanced Spatio Temporal Attention Model (TESTAM) lack explicit incorporation of physical road network topology, limiting their spatial capabilities. We present TESTAM+, an enhanced spatio temporal forecasting framework that introduces a novel SpatioSemantic Expert integrating physical road topology with data driven feature similarity through hybrid graph construction. TESTAM+ achieves significant improvements over TESTAM: 1.3% MAE reduction on METR LA (3.10 vs. 3.14) and 4.1% improvement on PEMS BAY (1.65 vs. 1.72). Through comprehensive ablation studies, we discover that strategic expert selection fundamentally outperforms naive ensemble aggregation. Individual experts demonstrate remarkable effectiveness: the Adaptive Expert achieves 1.63 MAE on PEMS BAY, outperforming the original three expert TESTAM (1.72 MAE), while the SpatioSemantic Expert matches this performance with identical 1.63 MAE. The optimal Identity + Adaptive configuration achieves an 11.5% MAE reduction compared to state of the art MegaCRN on METR LA (2.99 vs. 3.38), while reducing inference latency by 53.1% compared to the full four expert TESTAM+. Our findings reveal that fewer, strategically designed experts outperform complex multi expert ensembles, establishing new state of the art performance with superior computational efficiency for real time deployment.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

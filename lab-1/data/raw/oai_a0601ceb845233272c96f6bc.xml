@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:49:46Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2401.14695" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2401.14695</identifier>
+        <datestamp>2024-01-29</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2401.14695</id>
+        <created>2024-01-26</created>
+            <updated>2024-01-29</updated>
+        <authors>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Jiajia</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Ling</forenames>
+                </author>
+        </authors>
+        <title>Continuously Evolving Graph Neural Controlled Differential Equations for Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>9 pages, 4 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>As a crucial technique for developing a smart city, traffic forecasting has become a popular research focus in academic and industrial communities for decades. This task is highly challenging due to complex and dynamic spatial-temporal dependencies in traffic networks. Existing works ignore continuous temporal dependencies and spatial dependencies evolving over time. In this paper, we propose Continuously Evolving Graph Neural Controlled Differential Equations (CEGNCDE) to capture continuous temporal dependencies and spatial dependencies over time simultaneously. Specifically, a continuously evolving graph generator (CEGG) based on NCDE is introduced to generate the spatial dependencies graph that continuously evolves over time from discrete historical observations. Then, a graph neural controlled differential equations (GNCDE) framework is introduced to capture continuous temporal dependencies and spatial dependencies over time simultaneously. Extensive experiments demonstrate that CEGNCDE outperforms the SOTA methods by average 2.34% relative MAE reduction, 0.97% relative RMSE reduction, and 3.17% relative MAPE reduction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

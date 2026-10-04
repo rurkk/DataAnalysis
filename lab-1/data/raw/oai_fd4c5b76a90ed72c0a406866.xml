@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-10T08:53:24Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2608.20656" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2608.20656</identifier>
+        <datestamp>2026-08-24</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2608.20656</id>
+        <created>2026-08-21</created>
+            <updated>2026-08-24</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Guangyu</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Zhidan</forenames>
+                </author>
+        </authors>
+        <title>RiskTraf: Risk-Extrapolated Residual Learning for Multi-Variate Traffic Flow Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted by CIKM 2026 Oral</comments>
+            <journal-ref>CIKM&#39; 2026</journal-ref>
+            <doi>10.1145/3799682.3840707</doi>
+            <license>http://creativecommons.org/licenses/by-sa/4.0/</license>
+            <abstract>Traffic sensors commonly record flow, speed, and occupancy, but standard traffic flow forecasting benchmarks and models rarely exploit all three raw measurements reliably. Although speed and occupancy provide sensor-native traffic-state information beyond flow alone, existing releases often omit these variables, replace them with proxies, or contain logically inconsistent records. Moreover, direct empirical risk minimization over three-variable inputs may exploit regime-dependent shortcuts, as the relationships among flow, speed, and occupancy vary substantially between free-flow and congested states. We introduce \textbf{PEMSB-3V}, a public benchmark suite that preserves raw flow, speed, and occupancy measurements from PeMS detectors for flow prediction. We also propose \textbf{RiskTraf}, a model-agnostic risk-extrapolated residual plug-in. For each trained spatio-temporal backbone, RiskTraf freezes the selected checkpoint and learns a lightweight zero-start residual head from historical speed and occupancy. The residual head constructs ordered traffic-risk environments and optimizes horizon-wise flow corrections with a risk extrapolation objective, thereby mitigating regime-specific shortcut correlations without modifying the backbone. Extensive experiments demonstrate that RiskTraf consistently improves diverse forecasting backbones and outperforms debiasing and distribution-shift adaptation methods. Our code and benchmark are available at https://github.com/Guangyu4/RiskTraf.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

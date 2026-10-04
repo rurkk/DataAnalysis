@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:43:24Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2206.11078" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2206.11078</identifier>
+        <datestamp>2022-11-01</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2206.11078</id>
+        <created>2022-10-30</created>
+            <updated>2022-11-01</updated>
+        <authors>
+                <author>
+                    <keyname>Tsai</keyname>
+                        <forenames>Meng-Ju</forenames>
+                </author>
+                <author>
+                    <keyname>Cui</keyname>
+                        <forenames>Zhiyong</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Hao</forenames>
+                </author>
+                <author>
+                    <keyname>Kopca</keyname>
+                        <forenames>Cole</forenames>
+                </author>
+                <author>
+                    <keyname>Tien</keyname>
+                        <forenames>Sophie</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Yinhai</forenames>
+                </author>
+        </authors>
+        <title>Traffic-Twitter Transformer: A Nature Language Processing-joined Framework For Network-wide Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>With accurate and timely traffic forecasting, the impacted traffic conditions can be predicted in advance to guide agencies and residents to respond to changes in traffic patterns appropriately. However, existing works on traffic forecasting mainly relied on historical traffic patterns confining to short-term prediction, under 1 hour, for instance. To better manage future roadway capacity and accommodate social and human impacts, it is crucial to propose a flexible and comprehensive framework to predict physical-aware long-term traffic conditions for public users and transportation agencies. In this paper, the gap of robust long-term traffic forecasting was bridged by taking social media features into consideration. A correlation study and a linear regression model were first implemented to evaluate the significance of the correlation between two time-series data, traffic intensity and Twitter data intensity. Two time-series data were then fed into our proposed social-aware framework, Traffic-Twitter Transformer, which integrated Nature Language representations into time-series records for long-term traffic prediction. Experimental results in the Great Seattle Area showed that our proposed model outperformed baseline models in all evaluation matrices. This NLP-joined social-aware framework can become a valuable implement of network-wide traffic prediction and management for traffic agencies.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

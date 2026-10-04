@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:39:48Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2205.00517" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2205.00517</identifier>
+        <datestamp>2022-05-03</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:RO</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2205.00517</id>
+        <created>2022-05-01</created>
+            <updated>2022-05-03</updated>
+        <authors>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Wenzheng</forenames>
+                </author>
+        </authors>
+        <title>Accurate non-stationary short-term traffic flow prediction method</title>
+            <categories>cs.LG cs.RO</categories>
+            <comments>8 pages, 7 figures, 2 tables</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Precise and timely traffic flow prediction plays a critical role in developing intelligent transportation systems and has attracted considerable attention in recent decades. Despite the significant progress in this area brought by deep learning, challenges remain. Traffic flows usually change dramatically in a short period, which prevents the current methods from accurately capturing the future trend and likely causes the over-fitting problem, leading to unsatisfied accuracy. To this end, this paper proposes a Long Short-Term Memory (LSTM) based method that can forecast the short-term traffic flow precisely and avoid local optimum problems during training. Specifically, instead of using the non-stationary raw traffic data directly, we first decompose them into sub-components, where each one is less noisy than the original input. Afterward, Sample Entropy (SE) is employed to merge similar components to reduce the computation cost. The merged features are fed into the LSTM, and we then introduce a spatiotemporal module to consider the neighboring relationships in the recombined signals to avoid strong autocorrelation. During training, we utilize the Grey Wolf Algorithm (GWO) to optimize the parameters of LSTM, which overcome the overfitting issue. We conduct the experiments on a UK public highway traffic flow dataset, and the results show that the proposed method performs favorably against other state-of-the-art methods with better adaption performance on extreme outliers, delay effects, and trend-changing responses.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

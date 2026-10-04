@@ -1,0 +1,4 @@
+{
+  "url": "https://api.datacite.org/dois?provider-id=arxiv&query=%28%22traffic+forecasting%22+OR+%22traffic+prediction%22+OR+%22traffic+flow+prediction%22+OR+%22traffic+flow+forecasting%22+OR+%22traffic+speed+prediction%22+OR+%22traffic+speed+forecasting%22+OR+%22traffic+volume+prediction%22+OR+%22traffic+volume+forecasting%22%29+AND+publicationYear%3A%5B2020+TO+2026%5D&page%5Bsize%5D=50&page%5Bnumber%5D=1&sort=relevance",
+  "retrieved_at": "2026-09-13T17:07:10.342785+00:00"
+}

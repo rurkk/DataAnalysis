@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:56:27Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2604.16859" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2604.16859</identifier>
+        <datestamp>2026-04-21</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2604.16859</id>
+        <created>2026-04-18</created>
+            <updated>2026-04-21</updated>
+        <authors>
+                <author>
+                    <keyname>He</keyname>
+                        <forenames>Dongyi</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Yuanquan</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Bin</forenames>
+                </author>
+                <author>
+                    <keyname>Yan</keyname>
+                        <forenames>He</forenames>
+                </author>
+        </authors>
+        <title>GAMMA-Net: Adaptive Long-Horizon Traffic Spatio-Temporal Forecasting Model based on Interleaved Graph Attention and Multi-Axis Mamba</title>
+            <categories>cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic forecasting is crucial for intelligent transportation systems, supporting effective traffic management, congestion reduction, and informed urban planning. However, traditional models often fail to adequately capture the intricate spatio-temporal dependencies present in traffic data. To overcome these limitations, we introduce GAMMA-Net, a novel approach that integrates Graph Attention Networks (GAT) with multi-axis Selective State Space Models (Mamba). The GAT component uses a self-attention mechanism to dynamically adjust the influence of nodes within the traffic network, enabling adaptive spatial dependency modeling based on real-time conditions. Simultaneously, the Mamba module efficiently models long-term temporal and spatial dynamics without the heavy computational cost of conventional recurrent architectures. Extensive experiments on several benchmark traffic datasets, including METR-LA, PEMS-BAY, PEMS03, PEMS04, PEMS07, and PEMS08, show that GAMMA-Net consistently outperforms existing state-of-the-art models across different prediction horizons, achieving up to a 16.25% reduction in Mean Absolute Error (MAE) compared to baseline models. Ablation studies highlight the critical contributions of both the spatial and temporal components, emphasizing their complementary role in improving prediction accuracy. In conclusion, the GAMMA-Net model sets a new standard in traffic forecasting, offering a powerful tool for next-generation traffic management and urban planning. The code for this study is available at https://github.com/hdy6438/GAMMA-Net</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

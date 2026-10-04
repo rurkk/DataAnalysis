@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:20Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2605.29768" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2605.29768</identifier>
+        <datestamp>2026-06-23</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2605.29768</id>
+        <created>2026-06-21</created>
+            <updated>2026-06-23</updated>
+        <authors>
+                <author>
+                    <keyname>Yin</keyname>
+                        <forenames>Du</forenames>
+                </author>
+                <author>
+                    <keyname>Xue</keyname>
+                        <forenames>Hao</forenames>
+                </author>
+                <author>
+                    <keyname>Prabowo</keyname>
+                        <forenames>Arian</forenames>
+                </author>
+                <author>
+                    <keyname>Ao</keyname>
+                        <forenames>Shuang</forenames>
+                </author>
+                <author>
+                    <keyname>Salim</keyname>
+                        <forenames>Flora</forenames>
+                </author>
+        </authors>
+        <title>From XXLTraffic to EvoXXLTraffic: Scaling Traffic Forecasting to Sensor-Evolving Networks</title>
+            <categories>cs.AI</categories>
+            <comments>Under Review</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Existing traffic forecasting benchmarks assume a fixed sensor set, but real road-sensor networks grow continuously as the road network changes year by year. We introduce the XXLTraffic dataset family, which spans up to 27 years of California PeMS and Transport for NSW data. The fixed-sensor subsets of XXLTraffic support extremely long forecasting with multi-year gaps and standard hourly / daily long-horizon forecasting. We extend it to EvoXXLTraffic, a sensor-evolving reorganization that exposes per-year active sensors, yearly traffic-flow matrices, and yearly graph snapshots across nine PeMS districts, with growth ratios ranging from +305% to over +10,000%. We define a yearly streaming forecasting protocol on EvoXXLTraffic in which each calendar year is a continual task, and benchmark a wide range of representative baselines drawn from static spatio-temporal GNNs, naïve online schemes, evolving-graph continual methods, and retrieval / test-time methods. We find that our ultra-large evolutionary dataset better reflects the real world, and many state-of-the-art (SOTA) results no longer work. Our dataset complements existing benchmarks by enabling more realistic forecasting under ultra-long evolutionary road networks. Our code and baselines are available at github repo: https://github.com/cruiseresearchgroup/TSAS26-EvoXXLTraffic</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

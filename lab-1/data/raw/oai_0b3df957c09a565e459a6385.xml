@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-10T22:14:19Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2601.10328" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2601.10328</identifier>
+        <datestamp>2026-01-16</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2601.10328</id>
+        <created>2026-01-15</created>
+            <updated>2026-01-16</updated>
+        <authors>
+                <author>
+                    <keyname>Zou</keyname>
+                        <forenames>Yiqing</forenames>
+                </author>
+                <author>
+                    <keyname>Yuan</keyname>
+                        <forenames>Hanning</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Qianyu</forenames>
+                </author>
+                <author>
+                    <keyname>Yuan</keyname>
+                        <forenames>Ziqiang</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Shuliang</forenames>
+                </author>
+                <author>
+                    <keyname>Ruan</keyname>
+                        <forenames>Sijie</forenames>
+                </author>
+        </authors>
+        <title>Meta Dynamic Graph for Traffic Flow Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>Accepted to AAAI 2026</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow prediction is a typical spatio-temporal prediction problem and has a wide range of applications. The core challenge lies in modeling the underlying complex spatio-temporal dependencies. Various methods have been proposed, and recent studies show that the modeling of dynamics is useful to meet the core challenge. While handling spatial dependencies and temporal dependencies using separate base model structures may hinder the modeling of spatio-temporal correlations, the modeling of dynamics can bridge this gap. Incorporating spatio-temporal heterogeneity also advances the main goal, since it can extend the parameter space and allow more flexibility. Despite these advances, two limitations persist: 1) the modeling of dynamics is often limited to the dynamics of spatial topology (e.g., adjacency matrix changes), which, however, can be extended to a broader scope; 2) the modeling of heterogeneity is often separated for spatial and temporal dimensions, but this gap can also be bridged by the modeling of dynamics. To address the above limitations, we propose a novel framework for traffic prediction, called Meta Dynamic Graph (MetaDG). MetaDG leverages dynamic graph structures of node representations to explicitly model spatio-temporal dynamics. This generates both dynamic adjacency matrices and meta-parameters, extending dynamic modeling beyond topology while unifying the capture of spatio-temporal heterogeneity into a single dimension. Extensive experiments on four real-world datasets validate the effectiveness of MetaDG.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-10T03:04:24Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2602.05133" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2602.05133</identifier>
+        <datestamp>2026-02-06</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2602.05133</id>
+        <created>2026-02-04</created>
+            <updated>2026-02-06</updated>
+        <authors>
+                <author>
+                    <keyname>Fofanah</keyname>
+                        <forenames>Abdul Joseph</forenames>
+                </author>
+                <author>
+                    <keyname>Wen</keyname>
+                        <forenames>Lian</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>David</forenames>
+                </author>
+                <author>
+                    <keyname>Kamara</keyname>
+                        <forenames>Alpha Alimamy</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Zhongyi</forenames>
+                </author>
+        </authors>
+        <title>CAST-CKT: Chaos-Aware Spatio-Temporal and Cross-City Knowledge Transfer for Traffic Flow Prediction</title>
+            <categories>cs.AI cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction in data-scarce, cross-city settings is challenging due to complex nonlinear dynamics and domain shifts. Existing methods often fail to capture traffic&#39;s inherent chaotic nature for effective few-shot learning. We propose CAST-CKT, a novel Chaos-Aware Spatio-Temporal and Cross-City Knowledge Transfer framework. It employs an efficient chaotic analyser to quantify traffic predictability regimes, driving several key innovations: chaos-aware attention for regime-adaptive temporal modelling; adaptive topology learning for dynamic spatial dependencies; and chaotic consistency-based cross-city alignment for knowledge transfer. The framework also provides horizon-specific predictions with uncertainty quantification. Theoretical analysis shows improved generalisation bounds. Extensive experiments on four benchmarks in cross-city few-shot settings show CAST-CKT outperforms state-of-the-art methods by significant margins in MAE and RMSE, while offering interpretable regime analysis. Code is available at https://github.com/afofanah/CAST-CKT.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

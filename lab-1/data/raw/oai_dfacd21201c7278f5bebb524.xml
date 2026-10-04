@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:39:33Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2507.00085" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2507.00085</identifier>
+        <datestamp>2025-07-02</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2507.00085</id>
+        <created>2025-06-30</created>
+            <updated>2025-07-02</updated>
+        <authors>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Ruiyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Jia</keyname>
+                        <forenames>Dongyao</forenames>
+                </author>
+                <author>
+                    <keyname>Lim</keyname>
+                        <forenames>Eng Gee</forenames>
+                </author>
+                <author>
+                    <keyname>Fan</keyname>
+                        <forenames>Pengfei</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Yuli</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Shangbo</forenames>
+                </author>
+        </authors>
+        <title>A Joint Topology-Data Fusion Graph Network for Robust Traffic Speed Prediction with Data Anomalism</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic prediction is essential for Intelligent Transportation Systems (ITS), yet current methods struggle with the inherent complexity and non-linearity of traffic dynamics, making it difficult to integrate spatial and temporal characteristics. Furthermore, existing approaches use static techniques to address non-stationary and anomalous historical data, which limits adaptability and undermines data smoothing. To overcome these challenges, we propose the Graph Fusion Enhanced Network (GFEN), an innovative framework for network-level traffic speed prediction. GFEN introduces a novel topological spatiotemporal graph fusion technique that meticulously extracts and merges spatial and temporal correlations from both data distribution and network topology using trainable methods, enabling the modeling of multi-scale spatiotemporal features. Additionally, GFEN employs a hybrid methodology combining a k-th order difference-based mathematical framework with an attention-based deep learning structure to adaptively smooth historical observations and dynamically mitigate data anomalies and non-stationarity. Extensive experiments demonstrate that GFEN surpasses state-of-the-art methods by approximately 6.3% in prediction accuracy and exhibits convergence rates nearly twice as fast as recent hybrid models, confirming its superior performance and potential to significantly enhance traffic prediction system efficiency.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

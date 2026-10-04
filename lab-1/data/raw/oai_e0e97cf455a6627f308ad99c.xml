@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:39:29Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2205.04762" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2205.04762</identifier>
+        <datestamp>2022-05-11</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2205.04762</id>
+        <created>2022-05-10</created>
+            <updated>2022-05-11</updated>
+        <authors>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Zhijun</forenames>
+                </author>
+                <author>
+                    <keyname>Lu</keyname>
+                        <forenames>Zhe</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Qiushi</forenames>
+                </author>
+                <author>
+                    <keyname>Zhong</keyname>
+                        <forenames>Hongliang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Yishi</forenames>
+                </author>
+                <author>
+                    <keyname>Xue</keyname>
+                        <forenames>Jie</forenames>
+                </author>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Chaozhong</forenames>
+                </author>
+        </authors>
+        <title>A spatial-temporal short-term traffic flow prediction model based on dynamical-learning graph convolution mechanism</title>
+            <categories>cs.LG</categories>
+            <comments>21 pages, 16 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Short-term traffic flow prediction is a vital branch of the Intelligent Traffic System (ITS) and plays an important role in traffic management. Graph convolution network (GCN) is widely used in traffic prediction models to better deal with the graphical structure data of road networks. However, the influence weights among different road sections are usually distinct in real life, and hard to be manually analyzed. Traditional GCN mechanism, relying on manually-set adjacency matrix, is unable to dynamically learn such spatial pattern during the training. To deal with this drawback, this paper proposes a novel location graph convolutional network (Location-GCN). Location-GCN solves this problem by adding a new learnable matrix into the GCN mechanism, using the absolute value of this matrix to represent the distinct influence levels among different nodes. Then, long short-term memory (LSTM) is employed in the proposed traffic prediction model. Moreover, Trigonometric function encoding is used in this study to enable the short-term input sequence to convey the long-term periodical information. Ultimately, the proposed model is compared with the baseline models and evaluated on two real word traffic flow datasets. The results show our model is more accurate and robust on both datasets than other representative traffic prediction models.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-10T11:28:12Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2602.02528" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2602.02528</identifier>
+        <datestamp>2026-04-08</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2602.02528</id>
+        <created>2026-04-07</created>
+            <updated>2026-04-08</updated>
+        <authors>
+                <author>
+                    <keyname>Fan</keyname>
+                        <forenames>Lixiang</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Bohao</forenames>
+                </author>
+                <author>
+                    <keyname>Zou</keyname>
+                        <forenames>Tao</forenames>
+                </author>
+                <author>
+                    <keyname>Ye</keyname>
+                        <forenames>Junchen</forenames>
+                </author>
+                <author>
+                    <keyname>Du</keyname>
+                        <forenames>Bowen</forenames>
+                </author>
+        </authors>
+        <title>Incident-Guided Spatiotemporal Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Recent years have witnessed the rapid development of deep-learning-based, graph-neural-network-based forecasting methods for modern intelligent transportation systems. However, most existing work focuses exclusively on capturing spatio-temporal dependencies from historical traffic data, while overlooking the fact that suddenly occurring transportation incidents, such as traffic accidents and adverse weather, serve as external disturbances that can substantially alter temporal patterns. We argue that this issue has become a major obstacle to modeling the dynamics of traffic systems and improving prediction accuracy, but the unpredictability of incidents makes it difficult to observe patterns from historical sequences. To address these challenges, this paper proposes a novel framework named the Incident-Guided Spatiotemporal Graph Neural Network (IGSTGNN). IGSTGNN explicitly models the incident&#39;s impact through two core components: an Incident-Context Spatial Fusion (ICSF) module to capture the initial heterogeneous spatial influence, and a Temporal Incident Impact Decay (TIID) module to model the subsequent dynamic dissipation. To facilitate research on the spatio-temporal impact of incidents on traffic flow, a large-scale dataset is constructed and released, featuring incident records that are time-aligned with traffic time series. On this new benchmark, the proposed IGSTGNN framework is demonstrated to achieve state-of-the-art performance. Furthermore, the generalizability of the ICSF and TIID modules is validated by integrating them into various existing models.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:49:38Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2210.02737" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2210.02737</identifier>
+        <datestamp>2022-10-07</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2210.02737</id>
+        <created>2022-10-06</created>
+            <updated>2022-10-07</updated>
+        <authors>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Le</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Mingcai</forenames>
+                </author>
+                <author>
+                    <keyname>Du</keyname>
+                        <forenames>Yuntao</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Haiyang</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Chongjun</forenames>
+                </author>
+        </authors>
+        <title>Spatial-Temporal Graph Convolutional Gated Recurrent Network for Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>As an important part of intelligent transportation systems, traffic forecasting has attracted tremendous attention from academia and industry. Despite a lot of methods being proposed for traffic forecasting, it is still difficult to model complex spatial-temporal dependency. Temporal dependency includes short-term dependency and long-term dependency, and the latter is often overlooked. Spatial dependency can be divided into two parts: distance-based spatial dependency and hidden spatial dependency. To model complex spatial-temporal dependency, we propose a novel framework for traffic forecasting, named Spatial-Temporal Graph Convolutional Gated Recurrent Network (STGCGRN). We design an attention module to capture long-term dependency by mining periodic information in traffic data. We propose a Double Graph Convolution Gated Recurrent Unit (DGCGRU) to capture spatial dependency, which integrates graph convolutional network and GRU. The graph convolution part models distance-based spatial dependency with the distance-based predefined adjacency matrix and hidden spatial dependency with the self-adaptive adjacency matrix, respectively. Specially, we employ the multi-head mechanism to capture multiple hidden dependencies. In addition, the periodic pattern of each prediction node may be different, which is often ignored, resulting in mutual interference of periodic information among nodes when modeling spatial dependency. For this, we explore the architecture of model and improve the performance. Experiments on four datasets demonstrate the superior performance of our model.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

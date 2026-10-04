@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:44:50Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2412.17524" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2412.17524</identifier>
+        <datestamp>2024-12-24</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2412.17524</id>
+        <created>2024-12-23</created>
+            <updated>2024-12-24</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Jiyao</forenames>
+                </author>
+                <author>
+                    <keyname>Peng</keyname>
+                        <forenames>Zehua</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Yijia</forenames>
+                </author>
+                <author>
+                    <keyname>He</keyname>
+                        <forenames>Dengbo</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Lei</forenames>
+                </author>
+        </authors>
+        <title>STAHGNet: Modeling Hybrid-grained Heterogenous Dependency Efficiently for Traffic Prediction</title>
+            <categories>cs.AI</categories>
+            <comments>Accepted by Neural Computing and Applications</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow prediction plays a critical role in the intelligent transportation system, and it is also a challenging task because of the underlying complex Spatio-temporal patterns and heterogeneities evolving across time. However, most present works mostly concentrate on solely capturing Spatial-temporal dependency or extracting implicit similarity graphs, but the hybrid-granularity evolution is ignored in their modeling process. In this paper, we proposed a novel data-driven end-to-end framework, named Spatio-Temporal Aware Hybrid Graph Network (STAHGNet), to couple the hybrid-grained heterogeneous correlations in series simultaneously through an elaborately Hybrid Graph Attention Module (HGAT) and Coarse-granularity Temporal Graph (CTG) generator. Furthermore, an automotive feature engineering with domain knowledge and a random neighbor sampling strategy is utilized to improve efficiency and reduce computational complexity. The MAE, RMSE, and MAPE are used for evaluation metrics. Tested on four real-life datasets, our proposal outperforms eight classical baselines and four state-of-the-art (SOTA) methods (e.g., MAE 14.82 on PeMSD3; MAE 18.92 on PeMSD4). Besides, extensive experiments and visualizations verify the effectiveness of each component in STAHGNet. In terms of computational cost, STAHGNet saves at least four times the space compared to the previous SOTA models. The proposed model will be beneficial for more efficient TFP as well as intelligent transport system construction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

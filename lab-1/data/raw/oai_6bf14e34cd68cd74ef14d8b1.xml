@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:49:26Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2510.23656" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2510.23656</identifier>
+        <datestamp>2025-10-29</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2510.23656</id>
+        <created>2025-10-25</created>
+            <updated>2025-10-29</updated>
+        <authors>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Fuqiang</forenames>
+                </author>
+                <author>
+                    <keyname>Ding</keyname>
+                        <forenames>Weiping</forenames>
+                </author>
+                <author>
+                    <keyname>Miranda-Moreno</keyname>
+                        <forenames>Luis</forenames>
+                </author>
+                <author>
+                    <keyname>Sun</keyname>
+                        <forenames>Lijun</forenames>
+                </author>
+        </authors>
+        <title>Error Adjustment Based on Spatiotemporal Correlation Fusion for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>12 pages, 7 figures, 3 tables</comments>
+            <journal-ref>Information Fusion, Volume 126, Part B, 2026, 103635, ISSN 1566-2535</journal-ref>
+            <doi>10.1016/j.inffus.2025.103635</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Deep neural networks (DNNs) play a significant role in an increasing body of research on traffic forecasting due to their effectively capturing spatiotemporal patterns embedded in traffic data. A general assumption of training the said forecasting models via mean squared error estimation is that the errors across time steps and spatial positions are uncorrelated. However, this assumption does not really hold because of the autocorrelation caused by both the temporality and spatiality of traffic data. This gap limits the performance of DNN-based forecasting models and is overlooked by current studies. To fill up this gap, this paper proposes Spatiotemporally Autocorrelated Error Adjustment (SAEA), a novel and general framework designed to systematically adjust autocorrelated prediction errors in traffic forecasting. Unlike existing approaches that assume prediction errors follow a random Gaussian noise distribution, SAEA models these errors as a spatiotemporal vector autoregressive (VAR) process to capture their intrinsic dependencies. First, it explicitly captures both spatial and temporal error correlations by a coefficient matrix, which is then embedded into a newly formulated cost function. Second, a structurally sparse regularization is introduced to incorporate prior spatial information, ensuring that the learned coefficient matrix aligns with the inherent road network structure. Finally, an inference process with test-time error adjustment is designed to dynamically refine predictions, mitigating the impact of autocorrelated errors in real-time forecasting. The effectiveness of the proposed approach is verified on different traffic datasets. Results across a wide range of traffic forecasting models show that our method enhances performance in almost all cases.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

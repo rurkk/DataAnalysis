@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:58:00Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2407.04440" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2407.04440</identifier>
+        <datestamp>2025-02-18</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:NE</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2407.04440</id>
+        <created>2024-09-21</created>
+            <updated>2025-02-18</updated>
+        <authors>
+                <author>
+                    <keyname>Jakhmola</keyname>
+                        <forenames>Yash</forenames>
+                </author>
+                <author>
+                    <keyname>Panja</keyname>
+                        <forenames>Madhurima</forenames>
+                </author>
+                <author>
+                    <keyname>Mishra</keyname>
+                        <forenames>Nitish Kumar</forenames>
+                </author>
+                <author>
+                    <keyname>Ghosh</keyname>
+                        <forenames>Kripabandhu</forenames>
+                </author>
+                <author>
+                    <keyname>Kumar</keyname>
+                        <forenames>Uttam</forenames>
+                </author>
+                <author>
+                    <keyname>Chakraborty</keyname>
+                        <forenames>Tanujit</forenames>
+                </author>
+        </authors>
+        <title>Spatiotemporal Forecasting of Traffic Flow using Wavelet-based Temporal Attention</title>
+            <categories>cs.LG cs.NE</categories>
+            <journal-ref>IEEE Access, 2024, Volume: 12</journal-ref>
+            <doi>10.1109/ACCESS.2024.3516195</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Spatiotemporal forecasting of traffic flow data represents a typical problem in the field of machine learning, impacting urban traffic management systems. In general, spatiotemporal forecasting problems involve complex interactions, nonlinearities, and long-range dependencies due to the interwoven nature of the temporal and spatial dimensions. Due to this, traditional statistical and machine learning methods cannot adequately handle the temporal and spatial dependencies in these complex traffic flow datasets. A prevalent approach in the field combines graph convolutional networks and multi-head attention mechanisms for spatiotemporal processing. This paper proposes a wavelet-based temporal attention model, namely a wavelet-based dynamic spatiotemporal aware graph neural network (W-DSTAGNN), for tackling the traffic forecasting problem. Wavelet decomposition can help by decomposing the signal into components that can be analyzed independently, reducing the impact of non-stationarity and handling long-range dependencies of traffic flow datasets. Benchmark experiments using three popularly used statistical metrics confirm that our proposal efficiently captures spatiotemporal correlations and outperforms ten state-of-the-art models (including both temporal and spatiotemporal benchmarks) on three publicly available traffic datasets. Our proposed ensemble method can better handle dynamic temporal and spatial dependencies and make reliable long-term forecasts. In addition to point forecasts, our proposed model can generate interval forecasts that significantly enhance probabilistic forecasting for traffic datasets.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

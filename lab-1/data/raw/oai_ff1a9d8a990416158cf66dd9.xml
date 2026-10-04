@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:41:59Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2606.17613" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2606.17613</identifier>
+        <datestamp>2026-06-17</datestamp>
+            <setSpec>cs:cs:DC</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2606.17613</id>
+        <created>2026-06-16</created>
+            <updated>2026-06-17</updated>
+        <authors>
+                <author>
+                    <keyname>Purini</keyname>
+                        <forenames>Suresh</forenames>
+                </author>
+                <author>
+                    <keyname>Narwadkar</keyname>
+                        <forenames>Archit</forenames>
+                </author>
+                <author>
+                    <keyname>Gangadharan</keyname>
+                        <forenames>Deepak</forenames>
+                </author>
+        </authors>
+        <title>From GPU to Microcontroller: Online Ridge Regression for Edge-Deployable Traffic Prediction</title>
+            <categories>cs.DC</categories>
+            <comments>8 pages, IEEE Intelligent Transportation Systems Conference, 2026</comments>
+            <acm-class>None</acm-class>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>State-of-the-art traffic flow forecasting models, including Graph Convolutional Networks and graph-less MLPs, require centralized GPU training across all sensors, making them impractical for resource-constrained intelligent transportation deployments. We show that much of this complexity is unnecessary. A parametric analysis of the recent graph-less model GLMST reveals that reducing its internal embedding dimension from 64 to 4 degrades MAPE by less than one percentage point, suggesting that the model&#39;s effective capacity far exceeds what the task requires. Motivated by this finding, we replace the neural architecture entirely with per-sensor Ridge regression using horizon-aligned periodic features, combined with Recursive Least Squares (RLS) for online adaptation. With only 444 parameters per sensor (80x fewer than GLMST) and test-time online adaptation, our method achieves the best MAPE on three of four PEMS benchmarks, and remains within one percentage point on the fourth. Because each sensor&#39;s model is self-contained and involves only elementary linear algebra, the entire pipeline (training, inference, and online adaptation) runs on edge hardware without a GPU. An ESP32 microcontroller (160 MHz, 520 KB SRAM) completes cold-start training in 7.4s and each predict-and-update in under 2ms with zero heap allocation; a single Raspberry Pi 5 core completes cold-start training in 0.21s and each predict-and-update in 0.26ms.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

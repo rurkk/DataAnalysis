@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:08:46Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2212.04548" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2212.04548</identifier>
+        <datestamp>2024-02-20</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2212.04548</id>
+        <created>2024-02-19</created>
+            <updated>2024-02-20</updated>
+        <authors>
+                <author>
+                    <keyname>Bhaumik</keyname>
+                        <forenames>Kishor Kumar</forenames>
+                </author>
+                <author>
+                    <keyname>Niloy</keyname>
+                        <forenames>Fahim Faisal</forenames>
+                </author>
+                <author>
+                    <keyname>Mahmud</keyname>
+                        <forenames>Saif</forenames>
+                </author>
+                <author>
+                    <keyname>Woo</keyname>
+                        <forenames>Simon</forenames>
+                </author>
+        </authors>
+        <title>STLGRU: Spatio-Temporal Lightweight Graph GRU for Traffic Flow Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>PAKDD 2024 (Oral)</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Reliable forecasting of traffic flow requires efficient modeling of traffic data. Indeed, different correlations and influences arise in a dynamic traffic network, making modeling a complicated task. Existing literature has proposed many different methods to capture traffic networks&#39; complex underlying spatial-temporal relations. However, given the heterogeneity of traffic data, consistently capturing both spatial and temporal dependencies presents a significant challenge. Also, as more and more sophisticated methods are being proposed, models are increasingly becoming memory-heavy and, thus, unsuitable for low-powered devices. To this end, we propose Spatio-Temporal Lightweight Graph GRU, namely STLGRU, a novel traffic forecasting model for predicting traffic flow accurately. Specifically, our proposed STLGRU can effectively capture dynamic local and global spatial-temporal relations of traffic networks using memory-augmented attention and gating mechanisms in a continuously synchronized manner. Moreover, instead of employing separate temporal and spatial components, we show that our memory module and gated unit can successfully learn the spatial-temporal dependencies with reduced memory usage and fewer parameters. Extensive experimental results on three real-world public traffic datasets demonstrate that our method can not only achieve state-of-the-art performance but also exhibit competitive computational efficiency. Our code is available at https://github.com/Kishor-Bhaumik/STLGRU</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

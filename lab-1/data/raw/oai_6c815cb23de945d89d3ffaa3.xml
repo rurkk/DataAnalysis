@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:56:58Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2406.13038" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2406.13038</identifier>
+        <datestamp>2024-06-21</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>eess:eess:SP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2406.13038</id>
+        <created>2024-06-18</created>
+            <updated>2024-06-21</updated>
+        <authors>
+                <author>
+                    <keyname>Bian</keyname>
+                        <forenames>Zilin</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Jingqin</forenames>
+                </author>
+                <author>
+                    <keyname>Ozbay</keyname>
+                        <forenames>Kaan</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Zhenning</forenames>
+                </author>
+        </authors>
+        <title>Traffic Prediction considering Multiple Levels of Spatial-temporal Information: A Multi-scale Graph Wavelet-based Approach</title>
+            <categories>cs.AI eess.SP</categories>
+            <license>http://creativecommons.org/licenses/by-nc-sa/4.0/</license>
+            <abstract>Although traffic prediction has been receiving considerable attention with a number of successes in the context of intelligent transportation systems, the prediction of traffic states over a complex transportation network that contains different road types has remained a challenge. This study proposes a multi-scale graph wavelet temporal convolution network (MSGWTCN) to predict the traffic states in complex transportation networks. Specifically, a multi-scale spatial block is designed to simultaneously capture the spatial information at different levels, and the gated temporal convolution network is employed to extract the temporal dependencies of the data. The model jointly learns to mount multiple levels of the spatial interactions by stacking graph wavelets with different scales. Two real-world datasets are used in this study to investigate the model performance, including a highway network in Seattle and a dense road network of Manhattan in New York City. Experiment results show that the proposed model outperforms other baseline models. Furthermore, different scales of graph wavelets are found to be effective in extracting local, intermediate and global information at the same time and thus enable the model to learn a complex transportation network topology with various types of road segments. By carefully customizing the scales of wavelets, the model is able to improve the prediction performance and better adapt to different network configurations.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

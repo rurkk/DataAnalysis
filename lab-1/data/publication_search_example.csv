@@ -1,0 +1,6 @@
+arxiv_id,title,shared_count,common_keywords,url
+2507.09805,Federated Learning with Graph-Based Aggregation for Traffic Forecasting,4,"central server, client, federated learning, fl",https://arxiv.org/abs/2507.09805
+2407.12226,Individualized Federated Learning for Traffic Prediction with Error Driven Aggregation,2,"federated learning, fl",https://arxiv.org/abs/2407.12226
+2512.24625,AutoFed: Personalized Federated Traffic Prediction via Adaptive Prompt,2,"client, federated learning",https://arxiv.org/abs/2512.24625
+2005.05069,Transfer Learning and Online Learning for Traffic Forecasting under Different Data Availability Conditions: Alternatives and Pitfalls,1,batch learning,https://arxiv.org/abs/2005.05069
+2104.00055,SST-GNN: Simplified Spatio-temporal Traffic forecasting model using Graph Neural Network,1,aggregation mechanism,https://arxiv.org/abs/2104.00055

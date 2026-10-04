@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:54:16Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2302.10428" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2302.10428</identifier>
+        <datestamp>2023-02-22</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2302.10428</id>
+        <created>2023-02-21</created>
+            <updated>2023-02-22</updated>
+        <authors>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Ruiyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Shangbo</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Yuli</forenames>
+                </author>
+        </authors>
+        <title>A Dynamic Temporal Self-attention Graph Convolutional Network for Traffic Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>10 pages, 9 figures, 3 tables</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic prediction in real time plays an important role in Intelligent Transportation System (ITS) and travel navigation guidance. There have been many attempts to predict short-term traffic status which consider the spatial and temporal dependencies of traffic information such as temporal graph convolutional network (T-GCN) model and convolutional long short-term memory (Conv-LSTM) model. However, most existing methods use simple adjacent matrix consisting of 0 and 1 to capture the spatial dependence which can not meticulously describe the urban road network topological structure and the law of dynamic change with time. In order to tackle the problem, this paper proposes a dynamic temporal self-attention graph convolutional network (DT-SGN) model which considers the adjacent matrix as a trainable attention score matrix and adapts network parameters to different inputs. Specially, self-attention graph convolutional network (SGN) is chosen to capture the spatial dependence and the dynamic gated recurrent unit (Dynamic-GRU) is chosen to capture temporal dependence and learn dynamic changes of input data. Experiments demonstrate the superiority of our method over state-of-art model-driven model and data-driven models on real-world traffic datasets.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

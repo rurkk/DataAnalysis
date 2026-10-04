@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:47:31Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2505.12136" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2505.12136</identifier>
+        <datestamp>2026-04-21</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2505.12136</id>
+        <created>2025-05-17</created>
+            <updated>2026-04-21</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Xiao</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Shun-Ren</forenames>
+                </author>
+        </authors>
+        <title>Lightweight Spatio-Temporal Attention Network with Graph Embedding and Rotational Position Encoding for Traffic Forecasting</title>
+            <categories>cs.AI</categories>
+            <journal-ref>2025 IEEE International Conference on Service Operations and Logistics, and Informatics (SOLI)</journal-ref>
+            <doi>10.1109/SOLI66289.2025.11396273</doi>
+            <license>http://creativecommons.org/licenses/by-nc-sa/4.0/</license>
+            <abstract>Traffic forecasting is a key task in the field of Intelligent Transportation Systems. Recent research on traffic forecasting has mainly focused on combining graph neural networks (GNNs) with other models. However, GNNs only consider short-range spatial information. In this study, we present a novel model termed LSTAN-GERPE (Lightweight Spatio-Temporal Attention Network with Graph Embedding and Rotational Position Encoding). This model leverages both Temporal and Spatial Attention mechanisms to effectively capture long-range traffic dynamics. Additionally, the optimal frequency for rotational position encoding is determined through a grid search approach in both the spatial and temporal attention mechanisms. This systematic optimization enables the model to effectively capture complex traffic patterns. The model also enhances feature representation by incorporating geographical location maps into the spatio-temporal embeddings. Without extensive feature engineering, the proposed method in this paper achieves advanced accuracy on the real-world traffic forecasting datasets PeMS04 and PeMS08.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

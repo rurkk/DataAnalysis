@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:53:25Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2408.01016" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2408.01016</identifier>
+        <datestamp>2024-08-05</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:IT</setSpec>
+            <setSpec>math:math:IT</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2408.01016</id>
+        <created>2024-08-02</created>
+            <updated>2024-08-05</updated>
+        <authors>
+                <author>
+                    <keyname>Olug</keyname>
+                        <forenames>Eren</forenames>
+                </author>
+                <author>
+                    <keyname>Kaya</keyname>
+                        <forenames>Kiymet</forenames>
+                </author>
+                <author>
+                    <keyname>Tugay</keyname>
+                        <forenames>Resul</forenames>
+                </author>
+                <author>
+                    <keyname>Oguducu</keyname>
+                        <forenames>Sule Gunduz</forenames>
+                </author>
+        </authors>
+        <title>IBB Traffic Graph Data: Benchmarking and Road Traffic Prediction Model</title>
+            <categories>cs.LG cs.AI cs.IT math.IT</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Road traffic congestion prediction is a crucial component of intelligent transportation systems, since it enables proactive traffic management, enhances suburban experience, reduces environmental impact, and improves overall safety and efficiency. Although there are several public datasets, especially for metropolitan areas, these datasets may not be applicable to practical scenarios due to insufficiency in the scale of data (i.e. number of sensors and road links) and several external factors like different characteristics of the target area such as urban, highways and the data collection location. To address this, this paper introduces a novel IBB Traffic graph dataset as an alternative benchmark dataset to mitigate these limitations and enrich the literature with new geographical characteristics. IBB Traffic graph dataset covers the sensor data collected at 2451 distinct locations. Moreover, we propose a novel Road Traffic Prediction Model that strengthens temporal links through feature engineering, node embedding with GLEE to represent inter-related relationships within the traffic network, and traffic prediction with ExtraTrees. The results indicate that the proposed model consistently outperforms the baseline models, demonstrating an average accuracy improvement of 4%.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

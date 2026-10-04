@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:48:51Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2310.12353" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2310.12353</identifier>
+        <datestamp>2024-05-17</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2310.12353</id>
+        <created>2023-10-18</created>
+            <updated>2024-05-17</updated>
+        <authors>
+                <author>
+                    <keyname>Islam</keyname>
+                        <forenames>Syed</forenames>
+                </author>
+                <author>
+                    <keyname>Filipovska</keyname>
+                        <forenames>Monika</forenames>
+                </author>
+        </authors>
+        <title>Networkwide Traffic State Forecasting Using Exogenous Information: A Multi-Dimensional Graph Attention-Based Approach</title>
+            <categories>cs.LG</categories>
+            <comments>Transportation Research Board Annual Meeting 2023</comments>
+            <doi>10.1177/03611981241247050</doi>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Traffic state forecasting is crucial for traffic management and control strategies, as well as user- and system-level decision making in the transportation network. While traffic forecasting has been approached with a variety of techniques over the last couple of decades, most approaches simply rely on endogenous traffic variables for state prediction, despite the evidence that exogenous factors can significantly impact traffic conditions. This paper proposes a multi-dimensional spatio-temporal graph attention-based traffic prediction approach (M-STGAT), which predicts traffic based on past observations of speed, along with lane closure events, temperature, and visibility across the transportation network. The approach is based on a graph attention network architecture, which also learns based on the structure of the transportation network on which these variables are observed. Numerical experiments are performed using traffic speed and lane closure data from the California Department of Transportation (Caltrans) Performance Measurement System (PeMS). The corresponding weather data were downloaded from the National Oceanic and Atmospheric Administration (NOOA) Automated Surface Observing Systems (ASOS). For comparison, the numerical experiments implement three alternative models which do not allow for the multi-dimensional input. The M-STGAT is shown to outperform the three alternative models, when performing tests using our primary data set for prediction with a 30-, 45-, and 60-minute prediction horizon, in terms of three error measures: Mean Absolute Error (MAE), Root Mean Square Error (RMSE) and Mean Absolute Percentage Error (MAPE). However, the model&#39;s transferability can vary for different transfer data sets and this aspect may require further investigation.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

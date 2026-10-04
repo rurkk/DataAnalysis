@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:54:42Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2405.17898" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2405.17898</identifier>
+        <datestamp>2024-05-29</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:CY</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2405.17898</id>
+        <created>2024-05-28</created>
+            <updated>2024-05-29</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Zhonghang</forenames>
+                </author>
+                <author>
+                    <keyname>Xia</keyname>
+                        <forenames>Lianghao</forenames>
+                </author>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Yong</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Chao</forenames>
+                </author>
+        </authors>
+        <title>FlashST: A Simple and Universal Prompt-Tuning Framework for Traffic Prediction</title>
+            <categories>cs.LG cs.AI cs.CY</categories>
+            <comments>This paper has been accepted by ICML 2024 (poster)</comments>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>The objective of traffic prediction is to accurately forecast and analyze the dynamics of transportation patterns, considering both space and time. However, the presence of distribution shift poses a significant challenge in this field, as existing models struggle to generalize well when faced with test data that significantly differs from the training distribution. To tackle this issue, this paper introduces a simple and universal spatio-temporal prompt-tuning framework-FlashST, which adapts pre-trained models to the specific characteristics of diverse downstream datasets, improving generalization in diverse traffic prediction scenarios. Specifically, the FlashST framework employs a lightweight spatio-temporal prompt network for in-context learning, capturing spatio-temporal invariant knowledge and facilitating effective adaptation to diverse scenarios. Additionally, we incorporate a distribution mapping mechanism to align the data distributions of pre-training and downstream data, facilitating effective knowledge transfer in spatio-temporal forecasting. Empirical evaluations demonstrate the effectiveness of our FlashST across different spatio-temporal prediction tasks using diverse urban datasets. Code is available at https://github.com/HKUDS/FlashST.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

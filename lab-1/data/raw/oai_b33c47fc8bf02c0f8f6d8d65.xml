@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:40:30Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2105.09421" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2105.09421</identifier>
+        <datestamp>2021-05-21</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2105.09421</id>
+        <created>2021-05-19</created>
+            <updated>2021-05-21</updated>
+        <authors>
+                <author>
+                    <keyname>Lee</keyname>
+                        <forenames>Ming-Chang</forenames>
+                </author>
+                <author>
+                    <keyname>Lin</keyname>
+                        <forenames>Jia-Chun</forenames>
+                </author>
+                <author>
+                    <keyname>Gran</keyname>
+                        <forenames>Ernst Gunnar</forenames>
+                </author>
+        </authors>
+        <title>DistTune: Distributed Fine-Grained Adaptive Traffic Speed Prediction for Growing Transportation Networks</title>
+            <categories>cs.LG</categories>
+            <comments>16 pages,21 figures, 4 tables</comments>
+            <journal-ref>Transportation Research Record, May 2021</journal-ref>
+            <doi>10.1177/03611981211011170</doi>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Over the past decade, many approaches have been introduced for traffic speed prediction. However, providing fine-grained, accurate, time-efficient, and adaptive traffic speed prediction for a growing transportation network where the size of the network keeps increasing and new traffic detectors are constantly deployed has not been well studied. To address this issue, this paper presents DistTune based on Long Short-Term Memory (LSTM) and the Nelder-Mead method. Whenever encountering an unprocessed detector, DistTune decides if it should customize an LSTM model for this detector by comparing the detector with other processed detectors in terms of the normalized traffic speed patterns they have observed. If similarity is found, DistTune directly shares an existing LSTM model with this detector to achieve time-efficient processing. Otherwise, DistTune customizes an LSTM model for the detector to achieve fine-grained prediction. To make DistTune even more time-efficient, DistTune performs on a cluster of computing nodes in parallel. To achieve adaptive traffic speed prediction, DistTune also provides LSTM re-customization for detectors that suffer from unsatisfactory prediction accuracy due to for instance traffic speed pattern change. Extensive experiments based on traffic data collected from freeway I5-N in California are conducted to evaluate the performance of DistTune. The results demonstrate that DistTune provides fine-grained, accurate, time-efficient, and adaptive traffic speed prediction for a growing transportation network.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

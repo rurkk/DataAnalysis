@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:40:26Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2303.17782" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2303.17782</identifier>
+        <datestamp>2023-04-03</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2303.17782</id>
+        <created>2023-03-31</created>
+            <updated>2023-04-03</updated>
+        <authors>
+                <author>
+                    <keyname>Koh</keyname>
+                        <forenames>Zann</forenames>
+                </author>
+                <author>
+                    <keyname>Qin</keyname>
+                        <forenames>Yan</forenames>
+                </author>
+                <author>
+                    <keyname>Guan</keyname>
+                        <forenames>Yong Liang</forenames>
+                </author>
+                <author>
+                    <keyname>Yuen</keyname>
+                        <forenames>Chau</forenames>
+                </author>
+        </authors>
+        <title>A Slow-Shifting Concerned Machine Learning Method for Short-term Traffic Flow Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>6 pages, 4 figures. Accepted for IEEE International Conference on Smart Mobility 2023 (IEEE SM&#39;23)</comments>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>The ability to predict traffic flow over time for crowded areas during rush hours is increasingly important as it can help authorities make informed decisions for congestion mitigation or scheduling of infrastructure development in an area. However, a crucial challenge in traffic flow forecasting is the slow shifting in temporal peaks between daily and weekly cycles, resulting in the nonstationarity of the traffic flow signal and leading to difficulty in accurate forecasting. To address this challenge, we propose a slow shifting concerned machine learning method for traffic flow forecasting, which includes two parts. First, we take advantage of Empirical Mode Decomposition as the feature engineering to alleviate the nonstationarity of traffic flow data, yielding a series of stationary components. Second, due to the superiority of Long-Short-Term-Memory networks in capturing temporal features, an advanced traffic flow forecasting model is developed by taking the stationary components as inputs. Finally, we apply this method on a benchmark of real-world data and provide a comparison with other existing methods. Our proposed method outperforms the state-of-art results by 14.55% and 62.56% using the metrics of root mean squared error and mean absolute percentage error, respectively.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:46:14Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2504.21358" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2504.21358</identifier>
+        <datestamp>2025-05-01</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2504.21358</id>
+        <created>2025-04-30</created>
+            <updated>2025-05-01</updated>
+        <authors>
+                <author>
+                    <keyname>Zheng</keyname>
+                        <forenames>Xiao</forenames>
+                </author>
+                <author>
+                    <keyname>Bagloee</keyname>
+                        <forenames>Saeed Asadi</forenames>
+                </author>
+                <author>
+                    <keyname>Sarvi</keyname>
+                        <forenames>Majid</forenames>
+                </author>
+        </authors>
+        <title>A comparative study of deep learning and ensemble learning to extend the horizon of traffic forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>32 pages, 16 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is vital for Intelligent Transportation Systems, for which Machine Learning (ML) methods have been extensively explored to develop data-driven Artificial Intelligence (AI) solutions. Recent research focuses on modelling spatial-temporal correlations for short-term traffic prediction, leaving the favourable long-term forecasting a challenging and open issue. This paper presents a comparative study on large-scale real-world signalized arterials and freeway traffic flow datasets, aiming to evaluate promising ML methods in the context of large forecasting horizons up to 30 days. Focusing on modelling capacity for temporal dynamics, we develop one ensemble ML method, eXtreme Gradient Boosting (XGBoost), and a range of Deep Learning (DL) methods, including Recurrent Neural Network (RNN)-based methods and the state-of-the-art Transformer-based method. Time embedding is leveraged to enhance their understanding of seasonality and event factors. Experimental results highlight that while the attention mechanism/Transformer framework is effective for capturing long-range dependencies in sequential data, as the forecasting horizon extends, the key to effective traffic forecasting gradually shifts from temporal dependency capturing to periodicity modelling. Time embedding is particularly effective in this context, helping naive RNN outperform Informer by 31.1% for 30-day-ahead forecasting. Meanwhile, as an efficient and robust model, XGBoost, while learning solely from time features, performs competitively with DL methods. Moreover, we investigate the impacts of various factors like input sequence length, holiday traffic, data granularity, and training data size. The findings offer valuable insights and serve as a reference for future long-term traffic forecasting research and the improvement of AI&#39;s corresponding learning capabilities.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

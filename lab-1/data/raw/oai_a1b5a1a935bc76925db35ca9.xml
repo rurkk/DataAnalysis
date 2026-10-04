@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:42:30Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2404.11854" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2404.11854</identifier>
+        <datestamp>2024-04-19</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2404.11854</id>
+        <created>2024-04-18</created>
+            <updated>2024-04-19</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Wenfeng</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Xin</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Anqi</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Xiaoting</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Ti</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Honglei</forenames>
+                </author>
+        </authors>
+        <title>SGRU: A High-Performance Structured Gated Recurrent Unit for Traffic Flow Prediction</title>
+            <categories>cs.AI</categories>
+            <comments>7 pages, 6 figures, conference</comments>
+            <doi>10.1109/ICPADS60453.2023</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow prediction is an essential task in constructing smart cities and is a typical Multivariate Time Series (MTS) Problem. Recent research has abandoned Gated Recurrent Units (GRU) and utilized dilated convolutions or temporal slicing for feature extraction, and they have the following drawbacks: (1) Dilated convolutions fail to capture the features of adjacent time steps, resulting in the loss of crucial transitional data. (2) The connections within the same temporal slice are strong, while the connections between different temporal slices are too loose. In light of these limitations, we emphasize the importance of analyzing a complete time series repeatedly and the crucial role of GRU in MTS. Therefore, we propose SGRU: Structured Gated Recurrent Units, which involve structured GRU layers and non-linear units, along with multiple layers of time embedding to enhance the model&#39;s fitting performance. We evaluate our approach on four publicly available California traffic datasets: PeMS03, PeMS04, PeMS07, and PeMS08 for regression prediction. Experimental results demonstrate that our model outperforms baseline models with average improvements of 11.7%, 18.6%, 18.5%, and 12.0% respectively.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

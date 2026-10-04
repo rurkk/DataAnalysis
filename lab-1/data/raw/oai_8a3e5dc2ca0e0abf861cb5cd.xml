@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-11T00:42:33Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2601.06664" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2601.06664</identifier>
+        <datestamp>2026-01-13</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2601.06664</id>
+        <created>2026-01-10</created>
+            <updated>2026-01-13</updated>
+        <authors>
+                <author>
+                    <keyname>Rafi</keyname>
+                        <forenames>Md Nafees Fuad</forenames>
+                </author>
+                <author>
+                    <keyname>Hasan</keyname>
+                        <forenames>Samiul</forenames>
+                </author>
+        </authors>
+        <title>Reinforcement Learning-Guided Dynamic Multi-Graph Fusion for Evacuation Traffic Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Real-time traffic prediction is critical for managing transportation systems during hurricane evacuations. Although data-driven graph-learning models have demonstrated strong capabilities in capturing the complex spatiotemporal dynamics of evacuation traffic at a network level, they mostly consider a single dimension (e.g., travel-time or distance) to construct the underlying graph. Furthermore, these models often lack interpretability, offering little insight into which input variables contribute most to their predictive performance. To overcome these limitations, we develop a novel Reinforcement Learning-guided Dynamic Multi-Graph Fusion (RL-DMF) framework for evacuation traffic prediction. We construct multiple dynamic graphs at each time step to represent heterogeneous spatiotemporal relationships between traffic detectors. A dynamic multi-graph fusion (DMF) module is employed to adaptively learn and combine information from these graphs. To enhance model interpretability, we introduce RL-based intelligent feature selection and ranking (RL-IFSR) method that learns to mask irrelevant features during model training. The model is evaluated using a real-world dataset of 12 hurricanes affecting Florida from 2016 to 2024. For an unseen hurricane (Milton, 2024), the model achieves a 95% accuracy (RMSE = 293.9) for predicting the next 1-hour traffic flow. Moreover, the model can forecast traffic flow for up to next 6 hours with 90% accuracy (RMSE = 426.4). The RL-DMF framework outperforms several state-of-the-art traffic prediction models. Furthermore, ablation experiments confirm the effectiveness of dynamic multi-graph fusion and RL-IFSR approaches for improving model performance. This research provides a generalized and interpretable model for real-time evacuation traffic forecasting, with significant implications for evacuation traffic management.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

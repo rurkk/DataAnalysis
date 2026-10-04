@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:57:14Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2511.08888" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2511.08888</identifier>
+        <datestamp>2025-12-01</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2511.08888</id>
+        <created>2025-11-27</created>
+            <updated>2025-12-01</updated>
+        <authors>
+                <author>
+                    <keyname>Cheong</keyname>
+                        <forenames>Christopher</forenames>
+                </author>
+                <author>
+                    <keyname>Davis</keyname>
+                        <forenames>Gary</forenames>
+                </author>
+                <author>
+                    <keyname>Choi</keyname>
+                        <forenames>Seongjin</forenames>
+                </author>
+        </authors>
+        <title>Weaver: Kronecker Product Approximations of Spatiotemporal Attention for Traffic Network Forecasting</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Spatiotemporal forecasting on transportation networks is a complex task that requires understanding how traffic nodes interact within a dynamic, evolving system dictated by traffic flow dynamics and social behavioral patterns. The importance of transportation networks and ITS for modern mobility and commerce necessitates forecasting models that are not only accurate but also interpretable, efficient, and robust under structural or temporal perturbations. Recent approaches, particularly Transformer-based architectures, have improved predictive performance but often at the cost of high computational overhead and diminished architectural interpretability. In this work, we introduce Weaver, a novel attention-based model that applies Kronecker product approximations (KPA) to decompose the PN X PN spatiotemporal attention of O(P^2N^2) complexity into local P X P temporal and N X N spatial attention maps. This Kronecker attention map enables our Parallel-Kronecker Matrix-Vector product (P2-KMV) for efficient spatiotemporal message passing with O(P^2N + N^2P) complexity. To capture real-world traffic dynamics, we address the importance of negative edges in modeling traffic behavior by introducing Valence Attention using the continuous Tanimoto coefficient (CTC), which provides properties conducive to precise latent graph generation and training stability. To fully utilize the model&#39;s learning capacity, we introduce the Traffic Phase Dictionary for self-conditioning. Evaluations on PEMS-BAY and METR-LA show that Weaver achieves competitive performance across model categories while training more efficiently.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

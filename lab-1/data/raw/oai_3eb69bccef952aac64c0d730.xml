@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:50:54Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2208.04350" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2208.04350</identifier>
+        <datestamp>2022-08-12</datestamp>
+            <setSpec>cs:cs:HC</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2208.04350</id>
+        <created>2022-08-11</created>
+            <updated>2022-08-12</updated>
+        <authors>
+                <author>
+                    <keyname>Jin</keyname>
+                        <forenames>Seungmin</forenames>
+                </author>
+                <author>
+                    <keyname>Lee</keyname>
+                        <forenames>Hyunwook</forenames>
+                </author>
+                <author>
+                    <keyname>Park</keyname>
+                        <forenames>Cheonbok</forenames>
+                </author>
+                <author>
+                    <keyname>Chu</keyname>
+                        <forenames>Hyeshin</forenames>
+                </author>
+                <author>
+                    <keyname>Tae</keyname>
+                        <forenames>Yunwon</forenames>
+                </author>
+                <author>
+                    <keyname>Choo</keyname>
+                        <forenames>Jaegul</forenames>
+                </author>
+                <author>
+                    <keyname>Ko</keyname>
+                        <forenames>Sungahn</forenames>
+                </author>
+        </authors>
+        <title>A Visual Analytics System for Improving Attention-based Traffic Forecasting Models</title>
+            <categories>cs.HC cs.LG</categories>
+            <comments>9 pages paper, 2 pages references, and 3 pages appendix. Accepted to IEEE VIS 2022</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>With deep learning (DL) outperforming conventional methods for different tasks, much effort has been devoted to utilizing DL in various domains. Researchers and developers in the traffic domain have also designed and improved DL models for forecasting tasks such as estimation of traffic speed and time of arrival. However, there exist many challenges in analyzing DL models due to the black-box property of DL models and complexity of traffic data (i.e., spatio-temporal dependencies). Collaborating with domain experts, we design a visual analytics system, AttnAnalyzer, that enables users to explore how DL models make predictions by allowing effective spatio-temporal dependency analysis. The system incorporates dynamic time warping (DTW) and Granger causality tests for computational spatio-temporal dependency analysis while providing map, table, line chart, and pixel views to assist user to perform dependency and model behavior analysis. For the evaluation, we present three case studies showing how AttnAnalyzer can effectively explore model behaviors and improve model performance in two different road networks. We also provide domain expert feedback.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

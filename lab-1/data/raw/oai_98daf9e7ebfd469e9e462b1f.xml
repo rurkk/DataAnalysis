@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:43:38Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2003.13977" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2003.13977</identifier>
+        <datestamp>2020-10-22</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>eess:eess:SP</setSpec>
+            <setSpec>stat:stat:ML</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2003.13977</id>
+        <created>2020-04-01</created>
+            <updated>2020-10-22</updated>
+        <authors>
+                <author>
+                    <keyname>de Medrano</keyname>
+                        <forenames>Rodrigo</forenames>
+                </author>
+                <author>
+                    <keyname>Aznarte</keyname>
+                        <forenames>José L.</forenames>
+                </author>
+        </authors>
+        <title>A Spatio-Temporal Spot-Forecasting Framework for Urban Traffic Prediction</title>
+            <categories>cs.LG eess.SP stat.ML</categories>
+            <comments>16 pages, 14 figures</comments>
+            <doi>10.1016/j.asoc.2020.106615</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Spatio-temporal forecasting is an open research field whose interest is growing exponentially. In this work we focus on creating a complex deep neural framework for spatio-temporal traffic forecasting with comparatively very good performance and that shows to be adaptable over several spatio-temporal conditions while remaining easy to understand and interpret. Our proposal is based on an interpretable attention-based neural network in which several modules are combined in order to capture key spatio-temporal time series components. Through extensive experimentation, we show how the results of our approach are stable and better than those of other state-of-the-art alternatives.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

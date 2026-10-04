@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:09:39Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2305.17677" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2305.17677</identifier>
+        <datestamp>2023-05-30</datestamp>
+            <setSpec>cs:cs:DC</setSpec>
+            <setSpec>cs:cs:CR</setSpec>
+            <setSpec>cs:cs:NI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2305.17677</id>
+        <created>2023-05-28</created>
+            <updated>2023-05-30</updated>
+        <authors>
+                <author>
+                    <keyname>Meese</keyname>
+                        <forenames>Collin</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Hang</forenames>
+                </author>
+                <author>
+                    <keyname>Asif</keyname>
+                        <forenames>Syed Ali</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Wanxin</forenames>
+                </author>
+                <author>
+                    <keyname>Shen</keyname>
+                        <forenames>Chien-Chung</forenames>
+                </author>
+                <author>
+                    <keyname>Nejad</keyname>
+                        <forenames>Mark</forenames>
+                </author>
+        </authors>
+        <title>BFRT: Blockchained Federated Learning for Real-time Traffic Flow Prediction</title>
+            <categories>cs.DC cs.CR cs.NI</categories>
+            <comments>Published in 2022 22nd IEEE International Symposium on Cluster, Cloud and Internet Computing (CCGrid)</comments>
+            <doi>10.1109/CCGrid54584.2022.00041</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate real-time traffic flow prediction can be leveraged to relieve traffic congestion and associated negative impacts. The existing centralized deep learning methodologies have demonstrated high prediction accuracy, but suffer from privacy concerns due to the sensitive nature of transportation data. Moreover, the emerging literature on traffic prediction by distributed learning approaches, including federated learning, primarily focuses on offline learning. This paper proposes BFRT, a blockchained federated learning architecture for online traffic flow prediction using real-time data and edge computing. The proposed approach provides privacy for the underlying data, while enabling decentralized model training in real-time at the Internet of Vehicles edge. We federate GRU and LSTM models and conduct extensive experiments with dynamically collected arterial traffic data shards. We prototype the proposed permissioned blockchain network on Hyperledger Fabric and perform extensive tests using virtual machines to simulate the edge nodes. Experimental results outperform the centralized models, highlighting the feasibility of our approach for facilitating privacy-preserving and decentralized real-time traffic flow prediction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

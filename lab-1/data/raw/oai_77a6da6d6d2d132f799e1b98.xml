@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:41:32Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2302.12598" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2302.12598</identifier>
+        <datestamp>2023-09-07</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2302.12598</id>
+        <created>2023-09-06</created>
+            <updated>2023-09-07</updated>
+        <authors>
+                <author>
+                    <keyname>Luo</keyname>
+                        <forenames>Xunlian</forenames>
+                </author>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Chunjiang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Detian</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Qing</forenames>
+                </author>
+        </authors>
+        <title>Dynamic Graph Convolutional Network with Attention Fusion for Traffic Flow Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>8 pages, 5 figure, accepted by ECAI 2023</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate and real-time traffic state prediction is of great practical importance for urban traffic control and web mapping services. With the support of massive data, deep learning methods have shown their powerful capability in capturing the complex spatialtemporal patterns of traffic networks. However, existing approaches use pre-defined graphs and a simple set of spatial-temporal components, making it difficult to model multi-scale spatial-temporal dependencies. In this paper, we propose a novel dynamic graph convolution network with attention fusion to tackle this gap. The method first enhances the interaction of temporal feature dimensions, and then it combines a dynamic graph learner with GRU to jointly model synchronous spatial-temporal correlations. We also incorporate spatial-temporal attention modules to effectively capture longrange, multifaceted domain spatial-temporal patterns. We conduct extensive experiments in four real-world traffic datasets to demonstrate that our method surpasses state-of-the-art performance compared to 18 baseline methods.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

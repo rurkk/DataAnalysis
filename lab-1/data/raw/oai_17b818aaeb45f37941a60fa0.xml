@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:09:32Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2303.09789" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2303.09789</identifier>
+        <datestamp>2023-03-21</datestamp>
+            <setSpec>cs:cs:CV</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2303.09789</id>
+        <created>2023-03-20</created>
+            <updated>2023-03-21</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Kuo</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Lingbo</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Yang</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Guanbin</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Fan</forenames>
+                </author>
+                <author>
+                    <keyname>Lin</keyname>
+                        <forenames>Liang</forenames>
+                </author>
+        </authors>
+        <title>Urban Regional Function Guided Traffic Flow Prediction</title>
+            <categories>cs.CV cs.AI</categories>
+            <comments>15 pages, 8 figures.This work has been accepted by Information Sciences</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>The prediction of traffic flow is a challenging yet crucial problem in spatial-temporal analysis, which has recently gained increasing interest. In addition to spatial-temporal correlations, the functionality of urban areas also plays a crucial role in traffic flow prediction. However, the exploration of regional functional attributes mainly focuses on adding additional topological structures, ignoring the influence of functional attributes on regional traffic patterns. Different from the existing works, we propose a novel module named POI-MetaBlock, which utilizes the functionality of each region (represented by Point of Interest distribution) as metadata to further mine different traffic characteristics in areas with different functions. Specifically, the proposed POI-MetaBlock employs a self-attention architecture and incorporates POI and time information to generate dynamic attention parameters for each region, which enables the model to fit different traffic patterns of various areas at different times. Furthermore, our lightweight POI-MetaBlock can be easily integrated into conventional traffic flow prediction models. Extensive experiments demonstrate that our module significantly improves the performance of traffic flow prediction and outperforms state-of-the-art methods that use metadata.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:49:42Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2307.00518" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2307.00518</identifier>
+        <datestamp>2023-07-04</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2307.00518</id>
+        <created>2023-07-02</created>
+            <updated>2023-07-04</updated>
+        <authors>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Binqing</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Ling</forenames>
+                </author>
+        </authors>
+        <title>DSTCGCN: Learning Dynamic Spatial-Temporal Cross Dependencies for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting is essential to intelligent transportation systems, which is challenging due to the complicated spatial and temporal dependencies within a road network. Existing works usually learn spatial and temporal dependencies separately, ignoring the dependencies crossing spatial and temporal dimensions. In this paper, we propose DSTCGCN, a dynamic spatial-temporal cross graph convolution network to learn dynamic spatial and temporal dependencies jointly via graphs for traffic forecasting. Specifically, we introduce a fast Fourier transform (FFT) based attentive selector to choose relevant time steps for each time step based on time-varying traffic data. Given the selected time steps, we introduce a dynamic cross graph construction module, consisting of the spatial graph construction, temporal connection graph construction, and fusion modules, to learn dynamic spatial-temporal cross dependencies without pre-defined priors. Extensive experiments on six real-world datasets demonstrate that DSTCGCN achieves the state-of-the-art performance.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:09:43Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2503.13540" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2503.13540</identifier>
+        <datestamp>2025-03-19</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2503.13540</id>
+        <created>2025-03-16</created>
+            <updated>2025-03-19</updated>
+        <authors>
+                <author>
+                    <keyname>Geng</keyname>
+                        <forenames>Weiyang</forenames>
+                </author>
+                <author>
+                    <keyname>Pan</keyname>
+                        <forenames>Yiming</forenames>
+                </author>
+                <author>
+                    <keyname>Xing</keyname>
+                        <forenames>Zhecong</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Dongyu</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Rui</forenames>
+                </author>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Yuan</forenames>
+                </author>
+        </authors>
+        <title>MSCMHMST: A traffic flow prediction model based on Transformer</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://creativecommons.org/licenses/by-nc-sa/4.0/</license>
+            <abstract>This study proposes a hybrid model based on Transformers, named MSCMHMST, aimed at addressing key challenges in traffic flow prediction. Traditional single-method approaches show limitations in traffic prediction tasks, whereas hybrid methods, by integrating the strengths of different models, can provide more accurate and robust predictions. The MSCMHMST model introduces a multi-head, multi-scale attention mechanism, allowing the model to parallel process different parts of the data and learn its intrinsic representations from multiple perspectives, thereby enhancing the model&#39;s ability to handle complex situations. This mechanism enables the model to capture features at various scales effectively, understanding both short-term changes and long-term trends. Verified through experiments on the PeMS04/08 dataset with specific experimental settings, the MSCMHMST model demonstrated excellent robustness and accuracy in long, medium, and short-term traffic flow predictions. The results indicate that this model has significant potential, offering a new and effective solution for the field of traffic flow prediction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

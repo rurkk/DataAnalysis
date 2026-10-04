@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:10:13Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2001.09821" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2001.09821</identifier>
+        <datestamp>2020-02-05</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>eess:eess:SP</setSpec>
+            <setSpec>stat:stat:ML</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2001.09821</id>
+        <created>2020-02-04</created>
+            <updated>2020-02-05</updated>
+        <authors>
+                <author>
+                    <keyname>Lee</keyname>
+                        <forenames>Ming-Chang</forenames>
+                </author>
+                <author>
+                    <keyname>Lin</keyname>
+                        <forenames>Jia-Chun</forenames>
+                </author>
+        </authors>
+        <title>DALC: Distributed Automatic LSTM Customization for Fine-Grained Traffic Speed Prediction</title>
+            <categories>cs.LG eess.SP stat.ML</categories>
+            <comments>12 pages, 5 figures, the 34th International Conference on Advanced Information Networking and Applications (AINA 2020), Springer</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Over the past decade, several approaches have been introduced for short-term traffic prediction. However, providing fine-grained traffic prediction for large-scale transportation networks where numerous detectors are geographically deployed to collect traffic data is still an open issue. To address this issue, in this paper, we formulate the problem of customizing an LSTM model for a single detector into a finite Markov decision process and then introduce an Automatic LSTM Customization (ALC) algorithm to automatically customize an LSTM model for a single detector such that the corresponding prediction accuracy can be as satisfactory as possible and the time consumption can be as low as possible. Based on the ALC algorithm, we introduce a distributed approach called Distributed Automatic LSTM Customization (DALC) to customize an LSTM model for every detector in large-scale transportation networks. Our experiment demonstrates that the DALC provides higher prediction accuracy than several approaches provided by Apache Spark MLlib.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

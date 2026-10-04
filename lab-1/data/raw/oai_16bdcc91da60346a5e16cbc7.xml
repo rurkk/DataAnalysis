@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:56:23Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2607.26467" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2607.26467</identifier>
+        <datestamp>2026-07-30</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:NE</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2607.26467</id>
+        <created>2026-07-29</created>
+            <updated>2026-07-30</updated>
+        <authors>
+                <author>
+                    <keyname>Vu</keyname>
+                        <forenames>Truong Giang</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Li</forenames>
+                </author>
+                <author>
+                    <keyname>Pazzi</keyname>
+                        <forenames>Richard W.</forenames>
+                </author>
+        </authors>
+        <title>Neural Architecture Search for Traffic Prediction: A Survey of Methods, Challenges, and Future Directions</title>
+            <categories>cs.LG cs.NE</categories>
+            <comments>8 pages, 3 tables. Accepted at UrbCom 2026, the 8th International Workshop on Urban Computing, co-located with IEEE DCOSS-IoT 2026</comments>
+            <acm-class>None</acm-class>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction is a core task in intelligent transportation systems, supporting applications such as adaptive signal control, route guidance, and ride-hailing dispatch. Deep learning models, including graph convolutional networks, recurrent networks, and Transformers, achieve strong results on standard benchmarks, but their architectures are designed by hand, requiring significant expert effort and producing models that often generalize poorly across cities and datasets. Neural Architecture Search (NAS) offers a systematic alternative to manual design. It automates the search over candidate architectures of deep learning models, finding designs that match the spatial-temporal structure of traffic data without manual trial and error. This survey reviews NAS methods applied to traffic prediction, organized by search strategy: gradient-based methods, evolutionary methods, and one-shot weight-sharing methods. For each category, we analyze how the search space is designed to cover spatial and temporal traffic operators, and how the search strategy balances cost against architecture quality. We also discuss open challenges, computational scalability to large road networks, manual search space design, cross-city generalization, dynamic graph structure, and the open question of NAS for spatial-temporal foundation models, and identify directions for future research.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

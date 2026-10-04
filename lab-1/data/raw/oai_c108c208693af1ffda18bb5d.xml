@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:52:21Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2104.00055" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2104.00055</identifier>
+        <datestamp>2021-04-02</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2104.00055</id>
+        <created>2021-03-31</created>
+            <updated>2021-04-02</updated>
+        <authors>
+                <author>
+                    <keyname>Roy</keyname>
+                        <forenames>Amit</forenames>
+                </author>
+                <author>
+                    <keyname>Roy</keyname>
+                        <forenames>Kashob Kumar</forenames>
+                </author>
+                <author>
+                    <keyname>Ali</keyname>
+                        <forenames>Amin Ahsan</forenames>
+                </author>
+                <author>
+                    <keyname>Amin</keyname>
+                        <forenames>M Ashraful</forenames>
+                </author>
+                <author>
+                    <keyname>Rahman</keyname>
+                        <forenames>A K M Mahbubur</forenames>
+                </author>
+        </authors>
+        <title>SST-GNN: Simplified Spatio-temporal Traffic forecasting model using Graph Neural Network</title>
+            <categories>cs.LG</categories>
+            <comments>Accepted for publication in 25th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD-2021)</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>To capture spatial relationships and temporal dynamics in traffic data, spatio-temporal models for traffic forecasting have drawn significant attention in recent years. Most of the recent works employed graph neural networks(GNN) with multiple layers to capture the spatial dependency. However, road junctions with different hop-distance can carry distinct traffic information which should be exploited separately but existing multi-layer GNNs are incompetent to discriminate between their impact. Again, to capture the temporal interrelationship, recurrent neural networks are common in state-of-the-art approaches that often fail to capture long-range dependencies. Furthermore, traffic data shows repeated patterns in a daily or weekly period which should be addressed explicitly. To address these limitations, we have designed a Simplified Spatio-temporal Traffic forecasting GNN(SST-GNN) that effectively encodes the spatial dependency by separately aggregating different neighborhood representations rather than with multiple layers and capture the temporal dependency with a simple yet effective weighted spatio-temporal aggregation mechanism. We capture the periodic traffic patterns by using a novel position encoding scheme with historical and current data in two different models. With extensive experimental analysis, we have shown that our model has significantly outperformed the state-of-the-art models on three real-world traffic datasets from the Performance Measurement System (PeMS).</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:50:35Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2305.05237" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2305.05237</identifier>
+        <datestamp>2023-10-04</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2305.05237</id>
+        <created>2023-09-21</created>
+            <updated>2023-10-04</updated>
+        <authors>
+                <author>
+                    <keyname>Prabowo</keyname>
+                        <forenames>Arian</forenames>
+                </author>
+                <author>
+                    <keyname>Xue</keyname>
+                        <forenames>Hao</forenames>
+                </author>
+                <author>
+                    <keyname>Shao</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Koniusz</keyname>
+                        <forenames>Piotr</forenames>
+                </author>
+                <author>
+                    <keyname>Salim</keyname>
+                        <forenames>Flora D.</forenames>
+                </author>
+        </authors>
+        <title>Traffic Forecasting on New Roads Using Spatial Contrastive Pre-Training (SCPT)</title>
+            <categories>cs.LG</categories>
+            <comments>25 pages including reference, an additional 3 pages of appendix, 8 figures. ECML PKDD 2023 Journal track special issue: Data Mining and Knowledge Discovery (DAMI)</comments>
+            <doi>10.1007/s10618-023-00982-0</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>New roads are being constructed all the time. However, the capabilities of previous deep forecasting models to generalize to new roads not seen in the training data (unseen roads) are rarely explored. In this paper, we introduce a novel setup called a spatio-temporal (ST) split to evaluate the models&#39; capabilities to generalize to unseen roads. In this setup, the models are trained on data from a sample of roads, but tested on roads not seen in the training data. Moreover, we also present a novel framework called Spatial Contrastive Pre-Training (SCPT) where we introduce a spatial encoder module to extract latent features from unseen roads during inference time. This spatial encoder is pre-trained using contrastive learning. During inference, the spatial encoder only requires two days of traffic data on the new roads and does not require any re-training. We also show that the output from the spatial encoder can be used effectively to infer latent node embeddings on unseen roads during inference time. The SCPT framework also incorporates a new layer, named the spatially gated addition (SGA) layer, to effectively combine the latent features from the output of the spatial encoder to existing backbones. Additionally, since there is limited data on the unseen roads, we argue that it is better to decouple traffic signals to trivial-to-capture periodic signals and difficult-to-capture Markovian signals, and for the spatial encoder to only learn the Markovian signals. Finally, we empirically evaluated SCPT using the ST split setup on four real-world datasets. The results showed that adding SCPT to a backbone consistently improves forecasting performance on unseen roads. More importantly, the improvements are greater when forecasting further into the future. The codes are available on GitHub: https://github.com/cruiseresearchgroup/forecasting-on-new-roads .</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

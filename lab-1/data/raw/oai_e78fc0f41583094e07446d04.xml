@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:56:32Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2505.01279" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2505.01279</identifier>
+        <datestamp>2025-08-12</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2505.01279</id>
+        <created>2025-08-09</created>
+            <updated>2025-08-12</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Zhaoyan</forenames>
+                </author>
+                <author>
+                    <keyname>Song</keyname>
+                        <forenames>Xiangchi</forenames>
+                </author>
+                <author>
+                    <keyname>Ko</keyname>
+                        <forenames>In-Young</forenames>
+                </author>
+        </authors>
+        <title>Forecasting at Full Spectrum: Holistic Multi-Granular Traffic Modeling under High-Throughput Inference Regimes</title>
+            <categories>cs.LG</categories>
+            <comments>Accepted by The 34th ACM International Conference on Information and Knowledge Management (CIKM 2025)</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Notably, current intelligent transportation systems rely heavily on accurate traffic forecasting and swift inference provision to make timely decisions. While Graph Convolutional Networks (GCNs) have shown benefits in modeling complex traffic dependencies, the existing GCN-based approaches cannot fully extract and fuse multi-granular spatiotemporal features across various spatial and temporal scales sufficiently in a complete manner, proven to yield less accurate results. Besides, as extracting multi-granular features across scales has been a promising strategy across domains such as computer vision, natural language processing, and time-series forecasting, pioneering studies have attempted to leverage a similar mechanism for spatiotemporal traffic data mining. However, additional feature extraction branches introduced in prior studies critically increased model complexity and extended inference time, making it challenging to provide fast forecasts. In this paper, we propose MultiGran-STGCNFog, an efficient fog distributed inference system with a novel traffic forecasting model that employs multi-granular spatiotemporal feature fusion on generated dynamic traffic graphs to fully capture interdependent traffic dynamics. The proposed scheduling algorithm GA-DPHDS, optimizing layer execution order and layer-device scheduling scheme simultaneously, contributes to considerable inference throughput improvement by coordinating heterogeneous fog devices in a pipelined manner. Extensive experiments on real-world datasets demonstrate the superiority of the proposed method over selected GCN baselines.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

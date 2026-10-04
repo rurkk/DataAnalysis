@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-09T12:21:05Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2603.00997" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2603.00997</identifier>
+        <datestamp>2026-03-03</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>eess:eess:SP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2603.00997</id>
+        <created>2026-03-01</created>
+            <updated>2026-03-03</updated>
+        <authors>
+                <author>
+                    <keyname>Shi</keyname>
+                        <forenames>Sen</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Zhichao</forenames>
+                </author>
+                <author>
+                    <keyname>He</keyname>
+                        <forenames>Yangfan</forenames>
+                </author>
+        </authors>
+        <title>DWAFM: Dynamic Weighted Graph Structure Embedding Integrated with Attention and Frequency-Domain MLPs for Traffic Forecasting</title>
+            <categories>cs.LG eess.SP</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic prediction is a key task for intelligent transportation systems. The core difficulty lies in accurately modeling the complex spatial-temporal dependencies in traffic data. In recent years, improvements in network architecture have failed to bring significant performance enhancements, while embedding technology has shown great potential. However, existing embedding methods often ignore graph structure information or rely solely on static graph structures, making it difficult to effectively capture the dynamic associations between nodes that evolve over time. To address this issue, this letter proposes a novel dynamic weighted graph structure (DWGS) embedding method, which relies on a graph structure that can truly reflect the changes in the strength of dynamic associations between nodes over time. By first combining the DWGS embedding with the spatial-temporal adaptive embedding, as well as the temporal embedding and feature embedding, and then integrating attention and frequency-domain multi-layer perceptrons (MLPs), we design a novel traffic prediction model, termed the DWGS embedding integrated with attention and frequency-domain MLPs (DWAFM). Experiments on five real-world traffic datasets show that the DWAFM achieves better prediction performance than some state-of-the-arts.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

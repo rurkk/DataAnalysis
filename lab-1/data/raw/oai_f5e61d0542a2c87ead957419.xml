@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:08:31Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2510.27039" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2510.27039</identifier>
+        <datestamp>2025-11-03</datestamp>
+            <setSpec>cs:cs:DC</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2510.27039</id>
+        <created>2025-10-30</created>
+            <updated>2025-11-03</updated>
+        <authors>
+                <author>
+                    <keyname>Zheng</keyname>
+                        <forenames>Zhuo</forenames>
+                </author>
+                <author>
+                    <keyname>Meng</keyname>
+                        <forenames>Lingran</forenames>
+                </author>
+                <author>
+                    <keyname>Lin</keyname>
+                        <forenames>Ziyu</forenames>
+                </author>
+        </authors>
+        <title>A Cloud-Based Spatio-Temporal GNN-Transformer Hybrid Model for Traffic Flow Forecasting with External Feature Integration</title>
+            <categories>cs.DC</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Accurate traffic flow forecasting is essential for the development of intelligent transportation systems (ITS), supporting tasks such as traffic signal optimization, congestion management, and route planning. Traditional models often fail to effectively capture complex spatial-temporal dependencies in large-scale road networks, especially under the influence of external factors such as weather, holidays, and traffic accidents. To address this challenge, this paper proposes a cloud-based hybrid model that integrates Spatio-Temporal Graph Neural Networks (ST-GNN) with a Transformer architecture for traffic flow prediction. The model leverages the strengths of GNNs in modeling spatial correlations across road networks and the Transformers&#39; ability to capture long-term temporal dependencies. External contextual features are incorporated via feature fusion to enhance predictive accuracy. The proposed model is deployed on a cloud computing platform to achieve scalability and real-time adaptability. Experimental evaluation of the dataset shows that our model outperforms baseline methods (LSTM, TCN, GCN, pure Transformer) with an RMSE of only 17.92 and a MAE of only 10.53. These findings suggest that the hybrid GNN-Transformer approach provides an effective and scalable solution for cloud-based ITS applications, offering methodological advancements for traffic flow forecasting and practical implications for congestion mitigation.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

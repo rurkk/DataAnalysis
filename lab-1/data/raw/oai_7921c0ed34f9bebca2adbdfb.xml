@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:55:13Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2012.13479" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2012.13479</identifier>
+        <datestamp>2024-10-30</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2012.13479</id>
+        <created>2020-12-25</created>
+            <updated>2024-10-30</updated>
+        <authors>
+                <author>
+                    <keyname>Chan</keyname>
+                        <forenames>Victor</forenames>
+                </author>
+                <author>
+                    <keyname>Gan</keyname>
+                        <forenames>Qijian</forenames>
+                </author>
+                <author>
+                    <keyname>Bayen</keyname>
+                        <forenames>Alexandre</forenames>
+                </author>
+        </authors>
+        <title>A Graph Convolutional Network with Signal Phasing Information for Arterial Traffic Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>10 pages, 7 figures. This work has been submitted to the IEEE for possible publication</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate and reliable prediction of traffic measurements plays a crucial role in the development of modern intelligent transportation systems. Due to more complex road geometries and the presence of signal control, arterial traffic prediction is a level above freeway traffic prediction. Many existing studies on arterial traffic prediction only consider temporal measurements of flow and occupancy from loop sensors and neglect the rich spatial relationships between upstream and downstream detectors. As a result, they often suffer large prediction errors, especially for long horizons. We fill this gap by enhancing a deep learning approach, Diffusion Convolutional Recurrent Neural Network, with spatial information generated from signal timing plans at targeted intersections. Traffic at signalized intersections is modeled as a diffusion process with a transition matrix constructed from the phase splits of the signal phase timing plan. We apply this novel method to predict traffic flow from loop sensor measurements and signal timing plans at an arterial intersection in Arcadia, CA. We demonstrate that our proposed method yields superior forecasts; for a prediction horizon of 30 minutes, we cut the MAPE down to 16% for morning peaks, 10% for off peaks, and even 8% for afternoon peaks. In addition, we exemplify the robustness of our model through a number of experiments with various settings in detector coverage, detector type, and data quality.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

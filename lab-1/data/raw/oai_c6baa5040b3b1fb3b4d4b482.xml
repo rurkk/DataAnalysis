@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:40:50Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2501.04060" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2501.04060</identifier>
+        <datestamp>2025-01-09</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2501.04060</id>
+        <created>2025-01-07</created>
+            <updated>2025-01-09</updated>
+        <authors>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Mei</forenames>
+                </author>
+                <author>
+                    <keyname>Weng</keyname>
+                        <forenames>Wenchao</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Jun</forenames>
+                </author>
+                <author>
+                    <keyname>Lin</keyname>
+                        <forenames>Yiqian</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Jing</forenames>
+                </author>
+                <author>
+                    <keyname>Seng</keyname>
+                        <forenames>Dewen</forenames>
+                </author>
+        </authors>
+        <title>SFADNet: Spatio-temporal Fused Graph based on Attention Decoupling Network for Traffic Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>Accepted by 2025 lEEE International Conference on Acoustics, speech, and signal Processing (lCASSP2025)</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>In recent years, traffic flow prediction has played a crucial role in the management of intelligent transportation systems. However, traditional prediction methods are often limited by static spatial modeling, making it difficult to accurately capture the dynamic and complex relationships between time and space, thereby affecting prediction accuracy. This paper proposes an innovative traffic flow prediction network, SFADNet, which categorizes traffic flow into multiple traffic patterns based on temporal and spatial feature matrices. For each pattern, we construct an independent adaptive spatio-temporal fusion graph based on a cross-attention mechanism, employing residual graph convolution modules and time series modules to better capture dynamic spatio-temporal relationships under different fine-grained traffic patterns. Extensive experimental results demonstrate that SFADNet outperforms current state-of-the-art baselines across four large-scale datasets.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

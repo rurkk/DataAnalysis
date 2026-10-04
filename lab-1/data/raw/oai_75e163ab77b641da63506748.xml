@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:48:02Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2412.14569" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2412.14569</identifier>
+        <datestamp>2025-03-13</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2412.14569</id>
+        <created>2024-12-19</created>
+            <updated>2025-03-13</updated>
+        <authors>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Chaoqun</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Xuanpeng</forenames>
+                </author>
+                <author>
+                    <keyname>Gong</keyname>
+                        <forenames>Chen</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Guangyu</forenames>
+                </author>
+        </authors>
+        <title>Global Spatio-Temporal Fusion-based Traffic Prediction Algorithm with Anomaly Aware</title>
+            <categories>cs.LG cs.AI</categories>
+            <journal-ref>GLOBECOM 2024 - 2024 IEEE Global Communications Conference</journal-ref>
+            <doi>10.1109/GLOBECOM52923.2024.10901114</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction is an indispensable component of urban planning and traffic management. Achieving accurate traffic prediction hinges on the ability to capture the potential spatio-temporal relationships among road sensors. However, the majority of existing works focus on local short-term spatio-temporal correlations, failing to fully consider the interactions of different sensors in the long-term state. In addition, these works do not analyze the influences of anomalous factors, or have insufficient ability to extract personalized features of anomalous factors, which make them ineffectively capture their spatio-temporal influences on traffic prediction. To address the aforementioned issues, We propose a global spatio-temporal fusion-based traffic prediction algorithm that incorporates anomaly awareness. Initially, based on the designed anomaly detection network, we construct an efficient anomalous factors impacting module (AFIM), to evaluate the spatio-temporal impact of unexpected external events on traffic prediction. Furthermore, we propose a multi-scale spatio-temporal feature fusion module (MTSFFL) based on the transformer architecture, to obtain all possible both long and short term correlations among different sensors in a wide-area traffic environment for accurate prediction of traffic flow. Finally, experiments are implemented based on real-scenario public transportation datasets (PEMS04 and PEMS08) to demonstrate that our approach can achieve state-of-the-art performance.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

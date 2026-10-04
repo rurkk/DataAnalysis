@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:56:06Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2011.09469" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2011.09469</identifier>
+        <datestamp>2020-11-19</datestamp>
+            <setSpec>stat:stat:AP</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2011.09469</id>
+        <created>2020-11-18</created>
+            <updated>2020-11-19</updated>
+        <authors>
+                <author>
+                    <keyname>Comert</keyname>
+                        <forenames>Gurcan</forenames>
+                </author>
+                <author>
+                    <keyname>Begashaw</keyname>
+                        <forenames>Negash</forenames>
+                </author>
+                <author>
+                    <keyname>Huynh</keyname>
+                        <forenames>Nathan</forenames>
+                </author>
+        </authors>
+        <title>Improved Grey System Models for Predicting Traffic Parameters</title>
+            <categories>stat.AP cs.AI</categories>
+            <comments>16 pages, 7 figures</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>In transportation applications such as real-time route guidance, ramp metering, congestion pricing and special events traffic management, accurate short-term traffic flow prediction is needed. For this purpose, this paper proposes several novel \textit{online} Grey system models (GM): GM(1,1$|cos(ωt)$), GM(1,1$|sin(ωt)$, $cos(ωt)$), and GM(1,1$|e^{-at}$,$sin(ωt)$,$cos(ωt)$). To evaluate the performance of the proposed models, they are compared against a set of benchmark models: GM(1,1) model, Grey Verhulst models with and without Fourier error corrections, linear time series model, and nonlinear time series model. The evaluation is performed using loop detector and probe vehicle data from California, Virginia, and Oregon. Among the benchmark models, the error corrected Grey Verhulst model with Fourier outperformed the GM(1,1) model, linear time series, and non-linear time series models. In turn, the three proposed models, GM(1,1$|cos(ωt)$), GM(1,1$|sin(ωt)$,$cos(ωt)$), and GM(1,1$|e^{-at}$,$sin(ωt)$,$cos(ωt)$), outperformed the Grey Verhulst model in prediction by at least $65\%$, $16\%$, and $11\%$, in terms of Root Mean Squared Error, and by $82\%$, $58\%$, and $42\%$, in terms of Mean Absolute Percentage Error, respectively. It is observed that the proposed Grey system models are more adaptive to location (e.g., perform well for all roadway types) and traffic parameters (e.g., speed, travel time, occupancy, and volume), and they do not require as many data points for training (4 observations are found to be sufficient).</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

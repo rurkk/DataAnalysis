@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:47:43Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2211.14701" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2211.14701</identifier>
+        <datestamp>2023-03-08</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2211.14701</id>
+        <created>2023-03-06</created>
+            <updated>2023-03-08</updated>
+        <authors>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Renhe</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Zhaonan</forenames>
+                </author>
+                <author>
+                    <keyname>Yong</keyname>
+                        <forenames>Jiawei</forenames>
+                </author>
+                <author>
+                    <keyname>Jeph</keyname>
+                        <forenames>Puneet</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Quanjun</forenames>
+                </author>
+                <author>
+                    <keyname>Kobayashi</keyname>
+                        <forenames>Yasumasa</forenames>
+                </author>
+                <author>
+                    <keyname>Song</keyname>
+                        <forenames>Xuan</forenames>
+                </author>
+                <author>
+                    <keyname>Fukushima</keyname>
+                        <forenames>Shintaro</forenames>
+                </author>
+                <author>
+                    <keyname>Suzumura</keyname>
+                        <forenames>Toyotaro</forenames>
+                </author>
+        </authors>
+        <title>Spatio-Temporal Meta-Graph Learning for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted by AAAI 2023</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting as a canonical task of multivariate time series forecasting has been a significant research topic in AI community. To address the spatio-temporal heterogeneity and non-stationarity implied in the traffic stream, in this study, we propose Spatio-Temporal Meta-Graph Learning as a novel Graph Structure Learning mechanism on spatio-temporal data. Specifically, we implement this idea into Meta-Graph Convolutional Recurrent Network (MegaCRN) by plugging the Meta-Graph Learner powered by a Meta-Node Bank into GCRN encoder-decoder. We conduct a comprehensive evaluation on two benchmark datasets (i.e., METR-LA and PEMS-BAY) and a new large-scale traffic speed dataset called EXPY-TKY that covers 1843 expressway road links in Tokyo. Our model outperformed the state-of-the-arts on all three datasets. Besides, through a series of qualitative evaluations, we demonstrate that our model can explicitly disentangle the road links and time slots with different patterns and be robustly adaptive to any anomalous traffic situations. Codes and datasets are available at https://github.com/deepkashiwa20/MegaCRN.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

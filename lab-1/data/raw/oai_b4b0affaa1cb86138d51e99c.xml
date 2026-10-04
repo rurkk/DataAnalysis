@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:48:13Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2202.12586" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2202.12586</identifier>
+        <datestamp>2022-05-18</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2202.12586</id>
+        <created>2022-05-17</created>
+            <updated>2022-05-18</updated>
+        <authors>
+                <author>
+                    <keyname>Tang</keyname>
+                        <forenames>Jiabin</forenames>
+                </author>
+                <author>
+                    <keyname>Qian</keyname>
+                        <forenames>Tang</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Shijing</forenames>
+                </author>
+                <author>
+                    <keyname>Du</keyname>
+                        <forenames>Shengdong</forenames>
+                </author>
+                <author>
+                    <keyname>Hu</keyname>
+                        <forenames>Jie</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Tianrui</forenames>
+                </author>
+        </authors>
+        <title>Spatio-Temporal Latent Graph Structure Learning for Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>This paper has been accepted as a full paper at IJCNN 2022</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic forecasting, the foundation of intelligent transportation systems (ITS), has never been more significant than nowadays due to the prosperity of smart cities and urban computing. Recently, Graph Neural Network truly outperforms the traditional methods. Nevertheless, the most conventional GNN-based model works well while given a pre-defined graph structure. And the existing methods of defining the graph structures focus purely on spatial dependencies and ignore the temporal correlation. Besides, the semantics of the static pre-defined graph adjacency applied during the whole training progress is always incomplete, thus overlooking the latent topologies that may fine-tune the model. To tackle these challenges, we propose a new traffic forecasting framework -- Spatio-Temporal Latent Graph Structure Learning networks (ST-LGSL). More specifically, the model employs a graph generator based on Multilayer perceptron and K-Nearest Neighbor, which learns the latent graph topological information from the entire data considering both spatial and temporal dynamics. Furthermore, with the initialization of MLP-kNN based on ground-truth adjacency matrix and similarity metric in kNN, ST-LGSL aggregates the topologies focusing on geography and node similarity. Additionally, the generated graphs act as the input of the Spatio-temporal prediction module combined with the Diffusion Graph Convolutions and Gated Temporal Convolutions Networks. Experimental results on two benchmarking datasets in real world demonstrate that ST-LGSL outperforms various types of state-of-art baselines.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

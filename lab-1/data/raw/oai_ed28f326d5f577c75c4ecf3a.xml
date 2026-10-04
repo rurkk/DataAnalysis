@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:56:43Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2409.16532" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2409.16532</identifier>
+        <datestamp>2025-01-03</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2409.16532</id>
+        <created>2024-12-31</created>
+            <updated>2025-01-03</updated>
+        <authors>
+                <author>
+                    <keyname>Jing</keyname>
+                        <forenames>Zihao</forenames>
+                </author>
+        </authors>
+        <title>Graph Pruning Based Spatial and Temporal Graph Convolutional Network with Transfer Learning for Traffic Prediction</title>
+            <categories>cs.AI</categories>
+            <comments>Code is available at: https://github.com/selmiss/GP-TLSTGCN</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>With the process of urbanization and the rapid growth of population, the issue of traffic congestion has become an increasingly critical concern. Intelligent transportation systems heavily rely on real-time and precise prediction algorithms to address this problem. While Recurrent Neural Network (RNN) and Graph Convolutional Network (GCN) methods in deep learning have demonstrated high accuracy in predicting road conditions when sufficient data is available, forecasting in road networks with limited data remains a challenging task. This study proposed a novel Spatial-temporal Convolutional Network (TL-GPSTGN) based on graph pruning and transfer learning framework to tackle this issue. Firstly, the essential structure and information of the graph are extracted by analyzing the correlation and information entropy of the road network structure and feature data. By utilizing graph pruning techniques, the adjacency matrix of the graph and the input feature data are processed, resulting in a significant improvement in the model&#39;s migration performance. Subsequently, the well-characterized data are inputted into the spatial-temporal graph convolutional network to capture the spatial-temporal relationships and make predictions regarding the road conditions. Furthermore, this study conducts comprehensive testing and validation of the TL-GPSTGN method on real datasets, comparing its prediction performance against other commonly used models under identical conditions. The results demonstrate the exceptional predictive accuracy of TL-GPSTGN on a single dataset, as well as its robust migration performance across different datasets.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

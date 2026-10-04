@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:44:13Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2010.07498" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2010.07498</identifier>
+        <datestamp>2020-10-16</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:GR</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2010.07498</id>
+        <created>2020-10-15</created>
+            <updated>2020-10-16</updated>
+        <authors>
+                <author>
+                    <keyname>Fu</keyname>
+                        <forenames>Jun</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Zhibo</forenames>
+                </author>
+        </authors>
+        <title>Bayesian Spatio-Temporal Graph Convolutional Network for Traffic Forecasting</title>
+            <categories>cs.LG cs.GR</categories>
+            <comments>7 pages</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>In traffic forecasting, graph convolutional networks (GCNs), which model traffic flows as spatio-temporal graphs, have achieved remarkable performance. However, existing GCN-based methods heuristically define the graph structure as the physical topology of the road network, ignoring potential dependence of the graph structure over traffic data. And the defined graph structure is deterministic, which lacks investigation of uncertainty. In this paper, we propose a Bayesian Spatio-Temporal Graph Convolutional Network (BSTGCN) for traffic prediction. The graph structure in our network is learned from the physical topology of the road network and traffic data in an end-to-end manner, which discovers a more accurate description of the relationship among traffic flows. Moreover, a parametric generative model is proposed to represent the graph structure, which enhances the generalization capability of GCNs. We verify the effectiveness of our method on two real-world datasets, and the experimental results demonstrate that BSTGCN attains superior performance compared with state-of-the-art methods.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

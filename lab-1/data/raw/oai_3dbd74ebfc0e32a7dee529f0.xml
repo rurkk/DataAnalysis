@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:45:13Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2212.05782" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2212.05782</identifier>
+        <datestamp>2024-09-05</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2212.05782</id>
+        <created>2024-09-04</created>
+            <updated>2024-09-05</updated>
+        <authors>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Ting</forenames>
+                </author>
+                <author>
+                    <keyname>Marques</keyname>
+                        <forenames>Rodrigo Kappes</forenames>
+                </author>
+                <author>
+                    <keyname>Yu</keyname>
+                        <forenames>Lei</forenames>
+                </author>
+        </authors>
+        <title>GT-CausIn: a novel causal-based insight for traffic prediction</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting is an important application of spatiotemporal series prediction. Among different methods, graph neural networks have achieved so far the most promising results, learning relations between graph nodes then becomes a crucial task. However, improvement space is very limited when these relations are learned in a node-to-node manner. The challenge stems from (1) obscure temporal dependencies between different stations, (2) difficulties in defining variables beyond the node level, and (3) no ready-made method to validate the learned relations. To confront these challenges, we define legitimate traffic causal variables to discover the causal relation inside the traffic network, which is carefully checked with statistic tools and case analysis. We then present a novel model named Graph Spatial-Temporal Network Based on Causal Insight (GT-CausIn), where prior learned causal information is integrated with graph diffusion layers and temporal convolutional network (TCN) layers. Experiments are carried out on two real-world traffic datasets: PEMS-BAY and METR-LA, which show that GT-CausIn significantly outperforms the state-of-the-art models on mid-term and long-term prediction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

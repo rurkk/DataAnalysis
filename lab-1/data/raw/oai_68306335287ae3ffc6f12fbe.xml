@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:41:55Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2410.15589" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2410.15589</identifier>
+        <datestamp>2024-10-22</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2410.15589</id>
+        <created>2024-10-21</created>
+            <updated>2024-10-22</updated>
+        <authors>
+                <author>
+                    <keyname>Bhaumik</keyname>
+                        <forenames>Kishor Kumar</forenames>
+                </author>
+                <author>
+                    <keyname>Kim</keyname>
+                        <forenames>Minha</forenames>
+                </author>
+                <author>
+                    <keyname>Niloy</keyname>
+                        <forenames>Fahim Faisal</forenames>
+                </author>
+                <author>
+                    <keyname>Ali</keyname>
+                        <forenames>Amin Ahsan</forenames>
+                </author>
+                <author>
+                    <keyname>Woo</keyname>
+                        <forenames>Simon S.</forenames>
+                </author>
+        </authors>
+        <title>SSMT: Few-Shot Traffic Forecasting with Single Source Meta-Transfer</title>
+            <categories>cs.LG</categories>
+            <comments>ICPR 2024</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting in Intelligent Transportation Systems (ITS) is vital for intelligent traffic prediction. Yet, ITS often relies on data from traffic sensors or vehicle devices, where certain cities might not have all those smart devices or enabling infrastructures. Also, recent studies have employed meta-learning to generalize spatial-temporal traffic networks, utilizing data from multiple cities for effective traffic forecasting for data-scarce target cities. However, collecting data from multiple cities can be costly and time-consuming. To tackle this challenge, we introduce Single Source Meta-Transfer Learning (SSMT) which relies only on a single source city for traffic prediction. Our method harnesses this transferred knowledge to enable few-shot traffic forecasting, particularly when the target city possesses limited data. Specifically, we use memory-augmented attention to store the heterogeneous spatial knowledge from the source city and selectively recall them for the data-scarce target city. We extend the idea of sinusoidal positional encoding to establish meta-learning tasks by leveraging diverse temporal traffic patterns from the source city. Moreover, to capture a more generalized representation of the positions we introduced a meta-positional encoding that learns the most optimal representation of the temporal pattern across all the tasks. We experiment on five real-world benchmark datasets to demonstrate that our method outperforms several existing methods in time series traffic prediction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

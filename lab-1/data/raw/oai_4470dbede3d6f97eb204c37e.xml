@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:42:11Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2404.15034" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2404.15034</identifier>
+        <datestamp>2024-04-24</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2404.15034</id>
+        <created>2024-04-23</created>
+            <updated>2024-04-24</updated>
+        <authors>
+                <author>
+                    <keyname>Miao</keyname>
+                        <forenames>Hao</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Senzhang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Meiyue</forenames>
+                </author>
+                <author>
+                    <keyname>Guo</keyname>
+                        <forenames>Diansheng</forenames>
+                </author>
+                <author>
+                    <keyname>Sun</keyname>
+                        <forenames>Funing</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Fan</forenames>
+                </author>
+        </authors>
+        <title>Deep Multi-View Channel-Wise Spatio-Temporal Network for Traffic Flow Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted by AAAI2020 workshop</comments>
+            <license>http://creativecommons.org/licenses/by-nc-sa/4.0/</license>
+            <abstract>Accurately forecasting traffic flows is critically important to many real applications including public safety and intelligent transportation systems. The challenges of this problem include both the dynamic mobility patterns of the people and the complex spatial-temporal correlations of the urban traffic data. Meanwhile, most existing models ignore the diverse impacts of the various traffic observations (e.g. vehicle speed and road occupancy) on the traffic flow prediction, and different traffic observations can be considered as different channels of input features. We argue that the analysis in multiple-channel traffic observations might help to better address this problem. In this paper, we study the novel problem of multi-channel traffic flow prediction, and propose a deep \underline{M}ulti-\underline{V}iew \underline{C}hannel-wise \underline{S}patio-\underline{T}emporal \underline{Net}work (MVC-STNet) model to effectively address it. Specifically, we first construct the localized and globalized spatial graph where the multi-view fusion module is used to effectively extract the local and global spatial dependencies. Then LSTM is used to learn the temporal correlations. To effectively model the different impacts of various traffic observations on traffic flow prediction, a channel-wise graph convolutional network is also designed. Extensive experiments are conducted over the PEMS04 and PEMS08 datasets. The results demonstrate that the proposed MVC-STNet outperforms state-of-the-art methods by a large margin.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

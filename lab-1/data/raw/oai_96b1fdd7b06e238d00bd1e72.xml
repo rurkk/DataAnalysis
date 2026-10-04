@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:41:13Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2210.01799" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2210.01799</identifier>
+        <datestamp>2022-10-06</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2210.01799</id>
+        <created>2022-10-01</created>
+            <updated>2022-10-06</updated>
+        <authors>
+                <author>
+                    <keyname>Luo</keyname>
+                        <forenames>Ruikang</forenames>
+                </author>
+                <author>
+                    <keyname>Song</keyname>
+                        <forenames>Yaofeng</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Liping</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Yicheng</forenames>
+                </author>
+                <author>
+                    <keyname>Su</keyname>
+                        <forenames>Rong</forenames>
+                </author>
+        </authors>
+        <title>STGIN: A Spatial Temporal Graph-Informer Network for Long Sequence Traffic Speed Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>12 pages, 18 figures and 2 tables</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate long series forecasting of traffic information is critical for the development of intelligent traffic systems. We may benefit from the rapid growth of neural network analysis technology to better understand the underlying functioning patterns of traffic networks as a result of this progress. Due to the fact that traffic data and facility utilization circumstances are sequentially dependent on past and present situations, several related neural network techniques based on temporal dependency extraction models have been developed to solve the problem. The complicated topological road structure, on the other hand, amplifies the effect of spatial interdependence, which cannot be captured by pure temporal extraction approaches. Additionally, the typical Deep Recurrent Neural Network (RNN) topology has a constraint on global information extraction, which is required for comprehensive long-term prediction. This study proposes a new spatial-temporal neural network architecture, called Spatial-Temporal Graph-Informer (STGIN), to handle the long-term traffic parameters forecasting issue by merging the Informer and Graph Attention Network (GAT) layers for spatial and temporal relationships extraction. The attention mechanism potentially guarantees long-term prediction performance without significant information loss from distant inputs. On two real-world traffic datasets with varying horizons, experimental findings validate the long sequence prediction abilities, and further interpretation is provided.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

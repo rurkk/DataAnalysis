@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:44:05Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2501.07593" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2501.07593</identifier>
+        <datestamp>2025-01-15</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2501.07593</id>
+        <created>2025-01-09</created>
+            <updated>2025-01-15</updated>
+        <authors>
+                <author>
+                    <keyname>Ata</keyname>
+                        <forenames>Karimeh Ibrahim Mohammad</forenames>
+                </author>
+                <author>
+                    <keyname>Hassan</keyname>
+                        <forenames>Mohd Khair</forenames>
+                </author>
+                <author>
+                    <keyname>Ismaeel</keyname>
+                        <forenames>Ayad Ghany</forenames>
+                </author>
+                <author>
+                    <keyname>Al-Haddad</keyname>
+                        <forenames>Syed Abdul Rahman</forenames>
+                </author>
+                <author>
+                    <keyname>Alquthami</keyname>
+                        <forenames>Thamer</forenames>
+                </author>
+                <author>
+                    <keyname>Alani</keyname>
+                        <forenames>Sameer</forenames>
+                </author>
+        </authors>
+        <title>A Multi-Layer CNN-GRUSKIP model based on transformer for spatial TEMPORAL traffic flow prediction</title>
+            <categories>cs.LG</categories>
+            <comments>17 Pages, 18 Figures, 6 Tables</comments>
+            <journal-ref>Ain Shams Engineering Journal, Vol. 15, Issue 12, December 2024</journal-ref>
+            <doi>10.1016/j.asej.2024.103045</doi>
+            <license>http://creativecommons.org/publicdomain/zero/1.0/</license>
+            <abstract>Traffic flow prediction remains a cornerstone for intelligent transportation systems ITS, influencing both route optimization and environmental efforts. While Recurrent Neural Networks RNN and traditional Convolutional Neural Networks CNN offer some insights into the spatial temporal dynamics of traffic data, they are often limited when navigating sparse and extended spatial temporal patterns. In response, the CNN-GRUSKIP model emerges as a pioneering approach. Notably, it integrates the GRU-SKIP mechanism, a hybrid model that leverages the Gate Recurrent Unit of GRU capabilities to process sequences with the SKIP feature of ability to bypass and connect longer temporal dependencies, making it especially potent for traffic flow predictions with erratic and extended patterns. Another distinctive aspect is its non-standard 6-layer CNN, meticulously designed for in-depth spatiotemporal correlation extraction. The model comprises (1) the specialized CNN feature extraction, (2) the GRU-SKIP enhanced long-temporal module adept at capturing extended patterns, (3) a transformer module employing encoder-decoder and multi-attention mechanisms to hone prediction accuracy and trim model complexity, and (4) a bespoke prediction module. When tested against real-world datasets from California of Caltrans Performance Measurement System PeMS, specifically PeMS districts 4 and 8, the CNN-GRUSKIP consistently outperformed established models such as ARIMA, Graph Wave Net, HA, LSTM, STGCN, and APTN. With its potent predictive prowess and adaptive architecture, the CNN-GRUSKIP model stands to redefine ITS applications, especially where nuanced traffic dynamics are in play.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

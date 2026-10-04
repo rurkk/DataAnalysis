@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:53:37Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2407.12226" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2407.12226</identifier>
+        <datestamp>2026-02-18</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2407.12226</id>
+        <created>2026-02-16</created>
+            <updated>2026-02-18</updated>
+        <authors>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Hang</forenames>
+                </author>
+                <author>
+                    <keyname>Meese</keyname>
+                        <forenames>Collin</forenames>
+                </author>
+                <author>
+                    <keyname>Nejad</keyname>
+                        <forenames>Mark</forenames>
+                </author>
+                <author>
+                    <keyname>Shen</keyname>
+                        <forenames>Chien-Chung</forenames>
+                </author>
+        </authors>
+        <title>Individualized Federated Learning for Traffic Prediction with Error Driven Aggregation</title>
+            <categories>cs.LG</categories>
+            <comments>30 pages, 7 figures</comments>
+            <doi>10.1145/3796508</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Low-latency traffic prediction is vital for smart city traffic management. Federated Learning has emerged as a promising technique for Traffic Prediction (FLTP), offering several advantages such as privacy preservation, reduced communication overhead, improved prediction accuracy, and enhanced adaptability to changing traffic conditions. However, majority of the current FLTP frameworks lack a real-time model updating scheme, which hinders their ability to continuously incorporate new incoming traffic data and adapt effectively to the changing dynamics of traffic trends. Another concern with the existing FLTP frameworks is their reliance on the conventional FL model aggregation method, which involves assigning an identical model (i.e., the global model) to all traffic monitoring devices to predict their individual local traffic trends, thereby neglecting the non-IID characteristics of traffic data collected in different locations. Building upon these findings and harnessing insights from reinforcement learning, we propose NeighborFL, an individualized real-time federated learning scheme that introduces a haversine distance-based and error-driven, personalized local models grouping heuristic from the perspective of each individual traffic node. This approach allows NeighborFL to create location-aware and tailored prediction models for each client while fostering collaborative learning. Simulations demonstrate the effectiveness of NeighborFL, offering improved real-time prediction accuracy over three baseline models, with one experimental setting showing a 16.9% reduction in MSE value compared to a naive FL setting.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:52:25Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2508.19389" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2508.19389</identifier>
+        <datestamp>2025-08-28</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>stat:stat:AP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2508.19389</id>
+        <created>2025-08-26</created>
+            <updated>2025-08-28</updated>
+        <authors>
+                <author>
+                    <keyname>Ahmad</keyname>
+                        <forenames>Owais</forenames>
+                </author>
+                <author>
+                    <keyname>Ramezankhani</keyname>
+                        <forenames>Milad</forenames>
+                </author>
+                <author>
+                    <keyname>Deodhar</keyname>
+                        <forenames>Anirudh</forenames>
+                </author>
+        </authors>
+        <title>DETNO: A Diffusion-Enhanced Transformer Neural Operator for Long-Term Traffic Forecasting</title>
+            <categories>cs.LG stat.AP</categories>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Accurate long-term traffic forecasting remains a critical challenge in intelligent transportation systems, particularly when predicting high-frequency traffic phenomena such as shock waves and congestion boundaries over extended rollout horizons. Neural operators have recently gained attention as promising tools for modeling traffic flow. While effective at learning function space mappings, they inherently produce smooth predictions that fail to reconstruct high-frequency features such as sharp density gradients which results in rapid error accumulation during multi-step rollout predictions essential for real-time traffic management. To address these fundamental limitations, we introduce a unified Diffusion-Enhanced Transformer Neural Operator (DETNO) architecture. DETNO leverages a transformer neural operator with cross-attention mechanisms, providing model expressivity and super-resolution, coupled with a diffusion-based refinement component that iteratively reconstructs high-frequency traffic details through progressive denoising. This overcomes the inherent smoothing limitations and rollout instability of standard neural operators. Through comprehensive evaluation on chaotic traffic datasets, our method demonstrates superior performance in extended rollout predictions compared to traditional and transformer-based neural operators, preserving high-frequency components and improving stability over long prediction horizons.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

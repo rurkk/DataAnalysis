@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:54:12Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2310.20223" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2310.20223</identifier>
+        <datestamp>2023-11-01</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2310.20223</id>
+        <created>2023-10-31</created>
+            <updated>2023-11-01</updated>
+        <authors>
+                <author>
+                    <keyname>Sun</keyname>
+                        <forenames>Maoxiang</forenames>
+                </author>
+                <author>
+                    <keyname>Ding</keyname>
+                        <forenames>Weilong</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Tianpu</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Zijian</forenames>
+                </author>
+                <author>
+                    <keyname>Xing</keyname>
+                        <forenames>Mengda</forenames>
+                </author>
+        </authors>
+        <title>STDA-Meta: A Meta-Learning Framework for Few-Shot Traffic Prediction</title>
+            <categories>cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>As the development of cities, traffic congestion becomes an increasingly pressing issue, and traffic prediction is a classic method to relieve that issue. Traffic prediction is one specific application of spatio-temporal prediction learning, like taxi scheduling, weather prediction, and ship trajectory prediction. Against these problems, classical spatio-temporal prediction learning methods including deep learning, require large amounts of training data. In reality, some newly developed cities with insufficient sensors would not hold that assumption, and the data scarcity makes predictive performance worse. In such situation, the learning method on insufficient data is known as few-shot learning (FSL), and the FSL of traffic prediction remains challenges. On the one hand, graph structures&#39; irregularity and dynamic nature of graphs cannot hold the performance of spatio-temporal learning method. On the other hand, conventional domain adaptation methods cannot work well on insufficient training data, when transferring knowledge from different domains to the intended target domain.To address these challenges, we propose a novel spatio-temporal domain adaptation (STDA) method that learns transferable spatio-temporal meta-knowledge from data-sufficient cities in an adversarial manner. This learned meta-knowledge can improve the prediction performance of data-scarce cities. Specifically, we train the STDA model using a Model-Agnostic Meta-Learning (MAML) based episode learning process, which is a model-agnostic meta-learning framework that enables the model to solve new learning tasks using only a small number of training samples. We conduct numerous experiments on four traffic prediction datasets, and our results show that the prediction performance of our model has improved by 7\% compared to baseline models on the two metrics of MAE and RMSE.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

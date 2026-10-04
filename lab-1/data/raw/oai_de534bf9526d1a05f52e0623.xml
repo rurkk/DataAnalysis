@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:09:55Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2407.17703" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2407.17703</identifier>
+        <datestamp>2024-12-24</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>physics:physics:soc-ph</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2407.17703</id>
+        <created>2024-12-21</created>
+            <updated>2024-12-24</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Yatao</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Yi</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Song</forenames>
+                </author>
+                <author>
+                    <keyname>Raubal</keyname>
+                        <forenames>Martin</forenames>
+                </author>
+        </authors>
+        <title>Context-aware knowledge graph framework for traffic speed forecasting using graph neural network</title>
+            <categories>cs.LG physics.soc-ph</categories>
+            <license>http://creativecommons.org/licenses/by-nc-sa/4.0/</license>
+            <abstract>Human mobility is intricately influenced by urban contexts spatially and temporally, constituting essential domain knowledge in understanding traffic systems. While existing traffic forecasting models primarily rely on raw traffic data and advanced deep learning techniques, incorporating contextual information remains underexplored due to insufficient integration frameworks and the complexity of urban contexts. This study proposes a novel context-aware knowledge graph (CKG) framework to enhance traffic speed forecasting by effectively modeling spatial and temporal contexts. Employing a relation-dependent integration strategy, the framework generates context-aware representations from the spatial and temporal units of CKG to capture spatio-temporal dependencies of urban contexts. A CKG-GNN model, combining the CKG, dual-view multi-head self-attention (MHSA), and graph neural network (GNN), is then designed to predict traffic speed utilizing these context-aware representations. Our experiments demonstrate that CKG&#39;s configuration significantly influences embedding performance, with ComplEx and KG2E emerging as optimal for embedding spatial and temporal units, respectively. The CKG-GNN model establishes a benchmark for 10-120 min predictions, achieving average MAE, MAPE, and RMSE of $3.46\pm0.01$, $14.76\pm0.09\%$, and $5.08\pm0.01$, respectively. Compared to the baseline DCRNN model, integrating the spatial unit improves the MAE by 0.04 and the temporal unit by 0.13, while integrating both units further reduces it by 0.18. The dual-view MHSA analysis reveals the crucial role of relation-dependent features from the context-based view and the model&#39;s ability to prioritize recent time slots in prediction from the sequence-based view. Overall, this study underscores the importance of merging context-aware knowledge graphs with graph neural networks to improve traffic forecasting.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

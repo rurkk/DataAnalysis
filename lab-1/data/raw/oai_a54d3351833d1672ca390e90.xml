@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:43:46Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2501.03628" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2501.03628</identifier>
+        <datestamp>2025-11-24</datestamp>
+            <setSpec>physics:cond-mat:stat-mech</setSpec>
+            <setSpec>cs:cs:SY</setSpec>
+            <setSpec>eess:eess:SY</setSpec>
+            <setSpec>physics:nlin:CG</setSpec>
+            <setSpec>physics:physics:soc-ph</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2501.03628</id>
+        <created>2025-01-07</created>
+            <updated>2025-11-24</updated>
+        <authors>
+                <author>
+                    <keyname>Yajima</keyname>
+                        <forenames>Yoshiyuki</forenames>
+                </author>
+                <author>
+                    <keyname>Prasad</keyname>
+                        <forenames>Hemant</forenames>
+                </author>
+                <author>
+                    <keyname>Ikefuji</keyname>
+                        <forenames>Daisuke</forenames>
+                </author>
+                <author>
+                    <keyname>Suzuki</keyname>
+                        <forenames>Takemasa</forenames>
+                </author>
+                <author>
+                    <keyname>Tominaga</keyname>
+                        <forenames>Shin</forenames>
+                </author>
+                <author>
+                    <keyname>Sakurai</keyname>
+                        <forenames>Hitoshi</forenames>
+                </author>
+                <author>
+                    <keyname>Otani</keyname>
+                        <forenames>Manabu</forenames>
+                </author>
+        </authors>
+        <title>A Novel Approach to Real-Time Short-Term Traffic Prediction based on Distributed Fiber-Optic Sensing and Data Assimilation with a Stochastic Cell-Automata Model</title>
+            <categories>cond-mat.stat-mech cs.SY eess.SY nlin.CG physics.soc-ph</categories>
+            <comments>22 pages, 11 figures</comments>
+            <report-no>Presented in the Transportation Research Board 104th Annual Meeting 2025</report-no>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>This paper demonstrates real-time short-term traffic flow prediction through distributed fiber-optic sensing (DFOS) and data assimilation with a stochastic cell-automata-based traffic model. Traffic congestion on expressways is a severe issue. To alleviate its negative impacts, it is necessary to optimize traffic flow prior to becoming serious congestion. For this purpose, real-time short-term traffic flow prediction is promising. However, conventional traffic monitoring apparatus used in prediction methods faces a technical issue due to the sparsity in traffic flow data. To overcome the issue for realizing real-time traffic prediction, this paper employs DFOS, which enables to obtain spatially continuous and real-time traffic flow data along the road without dead zones. Using mean velocities derived from DFOS data as a feature extraction, this paper proposes a real-time data assimilation method for the short-term prediction. As the theoretical model, the stochastic Nishinari-Fukui-Schadschneider model is adopted. Future traffic flow is simulated with the optimal values of model parameters estimated from observed mean velocities and the initial condition estimated as the latest microscopic traffic state. This concept is validated using two congestion scenarios obtained in Japanese expressways. The results show that the mean absolute error of the predicted mean velocities is 10-15 km/h in the prediction horizon of 30 minutes. Furthermore, the prediction error in congestion length and travel time decreases by 40-84% depending on congestion scenarios when compared with conventional methods with traffic counters. This paper concludes that real-time data assimilation using DFOS enables an accurate short-term traffic prediction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

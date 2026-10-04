@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:08:58Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2403.17753" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2403.17753</identifier>
+        <datestamp>2026-01-29</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2403.17753</id>
+        <created>2024-03-29</created>
+            <updated>2026-01-29</updated>
+        <authors>
+                <author>
+                    <keyname>Shao</keyname>
+                        <forenames>Zhiqi</forenames>
+                </author>
+                <author>
+                    <keyname>Bell</keyname>
+                        <forenames>Michael G. H.</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Ze</forenames>
+                </author>
+                <author>
+                    <keyname>Geers</keyname>
+                        <forenames>D. Glenn</forenames>
+                </author>
+                <author>
+                    <keyname>Yao</keyname>
+                        <forenames>Xusheng</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Junbin</forenames>
+                </author>
+        </authors>
+        <title>CCDSReFormer: Traffic Flow Prediction with a Criss-Crossed Dual-Stream Enhanced Rectified Transformer Model</title>
+            <categories>cs.LG</categories>
+            <comments>18 pages</comments>
+            <acm-class>None</acm-class>
+            <journal-ref>Communications in Transportation Research 5 (2025): 100189</journal-ref>
+            <doi>10.1016/j.commtr.2025.100189</doi>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Accurate, and effective traffic forecasting is vital for smart traffic systems, crucial in urban traffic planning and management. Current Spatio-Temporal Transformer models, despite their prediction capabilities, struggle with balancing computational efficiency and accuracy, favoring global over local information, and handling spatial and temporal data separately, limiting insight into complex interactions. We introduce the Criss-Crossed Dual-Stream Enhanced Rectified Transformer model (CCDSReFormer), which includes three innovative modules: Enhanced Rectified Spatial Self-attention (ReSSA), Enhanced Rectified Delay Aware Self-attention (ReDASA), and Enhanced Rectified Temporal Self-attention (ReTSA). These modules aim to lower computational needs via sparse attention, focus on local information for better traffic dynamics understanding, and merge spatial and temporal insights through a unique learning method. Extensive tests on six real-world datasets highlight CCDSReFormer&#39;s superior performance. An ablation study also confirms the significant impact of each component on the model&#39;s predictive accuracy, showcasing our model&#39;s ability to forecast traffic flow effectively.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

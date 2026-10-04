@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:50:46Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2104.12518" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2104.12518</identifier>
+        <datestamp>2021-04-29</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2104.12518</id>
+        <created>2021-04-28</created>
+            <updated>2021-04-29</updated>
+        <authors>
+                <author>
+                    <keyname>Roy</keyname>
+                        <forenames>Amit</forenames>
+                </author>
+                <author>
+                    <keyname>Roy</keyname>
+                        <forenames>Kashob Kumar</forenames>
+                </author>
+                <author>
+                    <keyname>Ali</keyname>
+                        <forenames>Amin Ahsan</forenames>
+                </author>
+                <author>
+                    <keyname>Amin</keyname>
+                        <forenames>M Ashraful</forenames>
+                </author>
+                <author>
+                    <keyname>Rahman</keyname>
+                        <forenames>A K M Mahbubur</forenames>
+                </author>
+        </authors>
+        <title>Unified Spatio-Temporal Modeling for Traffic Forecasting using Graph Neural Network</title>
+            <categories>cs.LG</categories>
+            <comments>Accepted for publication in International Joint Conference on Neural Networks (IJCNN-2021)</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Research in deep learning models to forecast traffic intensities has gained great attention in recent years due to their capability to capture the complex spatio-temporal relationships within the traffic data. However, most state-of-the-art approaches have designed spatial-only (e.g. Graph Neural Networks) and temporal-only (e.g. Recurrent Neural Networks) modules to separately extract spatial and temporal features. However, we argue that it is less effective to extract the complex spatio-temporal relationship with such factorized modules. Besides, most existing works predict the traffic intensity of a particular time interval only based on the traffic data of the previous one hour of that day. And thereby ignores the repetitive daily/weekly pattern that may exist in the last hour of data. Therefore, we propose a Unified Spatio-Temporal Graph Convolution Network (USTGCN) for traffic forecasting that performs both spatial and temporal aggregation through direct information propagation across different timestamp nodes with the help of spectral graph convolution on a spatio-temporal graph. Furthermore, it captures historical daily patterns in previous days and current-day patterns in current-day traffic data. Finally, we validate our work&#39;s effectiveness through experimental analysis, which shows that our model USTGCN can outperform state-of-the-art performances in three popular benchmark datasets from the Performance Measurement System (PeMS). Moreover, the training time is reduced significantly with our proposed USTGCN model.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

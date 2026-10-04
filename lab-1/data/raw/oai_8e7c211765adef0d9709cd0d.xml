@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:52:06Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2403.05029" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2403.05029</identifier>
+        <datestamp>2024-03-15</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2403.05029</id>
+        <created>2024-03-14</created>
+            <updated>2024-03-15</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Chengyang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Yong</forenames>
+                </author>
+                <author>
+                    <keyname>Shao</keyname>
+                        <forenames>Qitan</forenames>
+                </author>
+                <author>
+                    <keyname>Feng</keyname>
+                        <forenames>Jiangtao</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Bo</forenames>
+                </author>
+                <author>
+                    <keyname>Lv</keyname>
+                        <forenames>Yisheng</forenames>
+                </author>
+                <author>
+                    <keyname>Piao</keyname>
+                        <forenames>Xinglin</forenames>
+                </author>
+                <author>
+                    <keyname>Yin</keyname>
+                        <forenames>Baocai</forenames>
+                </author>
+        </authors>
+        <title>BjTT: A Large-scale Multimodal Dataset for Traffic Prediction</title>
+            <categories>cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction is one of the most significant foundations in Intelligent Transportation Systems (ITS). Traditional traffic prediction methods rely only on historical traffic data to predict traffic trends and face two main challenges. 1) insensitivity to unusual events. 2) limited performance in long-term prediction. In this work, we explore how generative models combined with text describing the traffic system can be applied for traffic generation, and name the task Text-to-Traffic Generation (TTG). The key challenge of the TTG task is how to associate text with the spatial structure of the road network and traffic data for generating traffic situations. To this end, we propose ChatTraffic, the first diffusion model for text-to-traffic generation. To guarantee the consistency between synthetic and real data, we augment a diffusion model with the Graph Convolutional Network (GCN) to extract spatial correlations of traffic data. In addition, we construct a large dataset containing text-traffic pairs for the TTG task. We benchmarked our model qualitatively and quantitatively on the released dataset. The experimental results indicate that ChatTraffic can generate realistic traffic situations from the text. Our code and dataset are available at https://github.com/ChyaZhang/ChatTraffic.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

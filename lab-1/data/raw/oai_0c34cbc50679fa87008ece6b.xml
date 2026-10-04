@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:40:03Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2302.08658" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2302.08658</identifier>
+        <datestamp>2023-02-20</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:DC</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2302.08658</id>
+        <created>2023-02-17</created>
+            <updated>2023-02-20</updated>
+        <authors>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Qingxiang</forenames>
+                </author>
+                <author>
+                    <keyname>Sun</keyname>
+                        <forenames>Sheng</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Min</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Yuwei</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Bo</forenames>
+                </author>
+        </authors>
+        <title>Online Spatio-Temporal Correlation-Based Federated Learning for Traffic Flow Forecasting</title>
+            <categories>cs.LG cs.DC</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow forecasting (TFF) is of great importance to the construction of Intelligent Transportation Systems (ITS). To mitigate communication burden and tackle with the problem of privacy leakage aroused by centralized forecasting methods, Federated Learning (FL) has been applied to TFF. However, existing FL-based approaches employ batch learning manner, which makes the pre-trained models inapplicable to subsequent traffic data, thus exhibiting subpar prediction performance. In this paper, we perform the first study of forecasting traffic flow adopting Online Learning (OL) manner in FL framework and then propose a novel prediction method named Online Spatio-Temporal Correlation-based Federated Learning (FedOSTC), aiming to guarantee performance gains regardless of traffic fluctuation. Specifically, clients employ Gated Recurrent Unit (GRU)-based encoders to obtain the internal temporal patterns inside traffic data sequences. Then, the central server evaluates spatial correlation among clients via Graph Attention Network (GAT), catering to the dynamic changes of spatial closeness caused by traffic fluctuation. Furthermore, to improve the generalization of the global model for upcoming traffic data, a period-aware aggregation mechanism is proposed to aggregate the local models which are optimized using Online Gradient Descent (OGD) algorithm at clients. We perform comprehensive experiments on two real-world datasets to validate the efficiency and effectiveness of our proposed method and the numerical results demonstrate the superiority of FedOSTC.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

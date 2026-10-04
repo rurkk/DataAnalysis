@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:43:01Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2408.10269" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2408.10269</identifier>
+        <datestamp>2025-11-11</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:CY</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2408.10269</id>
+        <created>2024-08-16</created>
+            <updated>2025-11-11</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Zhonghang</forenames>
+                </author>
+                <author>
+                    <keyname>Xia</keyname>
+                        <forenames>Long</forenames>
+                </author>
+                <author>
+                    <keyname>Shi</keyname>
+                        <forenames>Lei</forenames>
+                </author>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Yong</forenames>
+                </author>
+                <author>
+                    <keyname>Yin</keyname>
+                        <forenames>Dawei</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Chao</forenames>
+                </author>
+        </authors>
+        <title>OpenCity: Open Spatio-Temporal Foundation Models for Traffic Prediction</title>
+            <categories>cs.LG cs.AI cs.CY</categories>
+            <comments>12 pages</comments>
+            <journal-ref>ACM TIST, 2025</journal-ref>
+            <doi>10.1145/3773912</doi>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Accurate traffic forecasting is crucial for effective urban planning and transportation management, enabling efficient resource allocation and enhanced travel experiences. However, existing models often face limitations in generalization, struggling with zero-shot prediction on unseen regions and cities, as well as diminished long-term accuracy. This is primarily due to the inherent challenges in handling the spatial and temporal heterogeneity of traffic data, coupled with the significant distribution shift across time and space. In this work, we aim to unlock new possibilities for building versatile, resilient and adaptive spatio-temporal foundation models for traffic prediction. To achieve this goal, we introduce a novel foundation model, named OpenCity, that can effectively capture and normalize the underlying spatio-temporal patterns from diverse data characteristics, facilitating zero-shot generalization across diverse urban environments. OpenCity integrates the Transformer architecture with graph neural networks to model the complex spatio-temporal dependencies in traffic data. By pre-training OpenCity on large-scale, heterogeneous traffic datasets, we enable the model to learn rich, generalizable representations that can be seamlessly applied to a wide range of traffic forecasting scenarios. Experimental results demonstrate that OpenCity exhibits exceptional zero-shot predictive performance. Moreover, OpenCity showcases promising scaling laws, suggesting the potential for developing a truly one-for-all traffic prediction solution that can adapt to new urban contexts with minimal overhead. We made our proposed OpenCity model open-source and it is available at the following link: https://github.com/HKUDS/OpenCity.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

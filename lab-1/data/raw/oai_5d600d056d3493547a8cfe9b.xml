@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:07:29Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2502.19823" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2502.19823</identifier>
+        <datestamp>2025-05-14</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2502.19823</id>
+        <created>2025-05-13</created>
+            <updated>2025-05-14</updated>
+        <authors>
+                <author>
+                    <keyname>Kong</keyname>
+                        <forenames>Weiyang</forenames>
+                </author>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Kaiqi</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Sen</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Yubao</forenames>
+                </author>
+        </authors>
+        <title>GraphSparseNet: a Novel Method for Large Scale Traffic Flow Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted by VLDB 2025</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow forecasting is a critical spatio-temporal data mining task with wide-ranging applications in intelligent route planning and dynamic traffic management. Recent advancements in deep learning, particularly through Graph Neural Networks (GNNs), have significantly enhanced the accuracy of these forecasts by capturing complex spatio-temporal dynamics. However, the scalability of GNNs remains a challenge due to their exponential growth in model complexity with increasing nodes in the graph. Existing methods to address this issue, including sparsification, decomposition, and kernel-based approaches, either do not fully resolve the complexity issue or risk compromising predictive accuracy. This paper introduces GraphSparseNet (GSNet), a novel framework designed to improve both the scalability and accuracy of GNN-based traffic forecasting models. GraphSparseNet is comprised of two core modules: the Feature Extractor and the Relational Compressor. These modules operate with linear time and space complexity, thereby reducing the overall computational complexity of the model to a linear scale. Our extensive experiments on multiple real-world datasets demonstrate that GraphSparseNet not only significantly reduces training time by 3.51x compared to state-of-the-art linear models but also maintains high predictive performance.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

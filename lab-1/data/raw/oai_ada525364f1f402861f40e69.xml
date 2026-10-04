@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:39:14Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2409.17440" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2409.17440</identifier>
+        <datestamp>2024-09-27</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2409.17440</id>
+        <created>2024-09-26</created>
+            <updated>2024-09-27</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Guangyu</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Yujie</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Ming</forenames>
+                </author>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Zhiqiao</forenames>
+                </author>
+                <author>
+                    <keyname>Tang</keyname>
+                        <forenames>Jiafu</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Jiabi</forenames>
+                </author>
+        </authors>
+        <title>A Time Series is Worth Five Experts: Heterogeneous Mixture of Experts for Traffic Flow Prediction</title>
+            <categories>cs.AI</categories>
+            <comments>20 pages, 4 figures</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Accurate traffic prediction faces significant challenges, necessitating a deep understanding of both temporal and spatial cues and their complex interactions across multiple variables. Recent advancements in traffic prediction systems are primarily due to the development of complex sequence-centric models. However, existing approaches often embed multiple variables and spatial relationships at each time step, which may hinder effective variable-centric learning, ultimately leading to performance degradation in traditional traffic prediction tasks. To overcome these limitations, we introduce variable-centric and prior knowledge-centric modeling techniques. Specifically, we propose a Heterogeneous Mixture of Experts (TITAN) model for traffic flow prediction. TITAN initially consists of three experts focused on sequence-centric modeling. Then, designed a low-rank adaptive method, TITAN simultaneously enables variable-centric modeling. Furthermore, we supervise the gating process using a prior knowledge-centric modeling strategy to ensure accurate routing. Experiments on two public traffic network datasets, METR-LA and PEMS-BAY, demonstrate that TITAN effectively captures variable-centric dependencies while ensuring accurate routing. Consequently, it achieves improvements in all evaluation metrics, ranging from approximately 4.37\% to 11.53\%, compared to previous state-of-the-art (SOTA) models. The code is open at \href{https://github.com/sqlcow/TITAN}{https://github.com/sqlcow/TITAN}.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

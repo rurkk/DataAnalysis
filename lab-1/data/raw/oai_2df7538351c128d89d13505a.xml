@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:09:51Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2412.08460" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2412.08460</identifier>
+        <datestamp>2025-03-21</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:DC</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2412.08460</id>
+        <created>2025-03-20</created>
+            <updated>2025-03-21</updated>
+        <authors>
+                <author>
+                    <keyname>Orozco</keyname>
+                        <forenames>Fermin</forenames>
+                </author>
+                <author>
+                    <keyname>de Gusmão</keyname>
+                        <forenames>Pedro Porto Buarque</forenames>
+                </author>
+                <author>
+                    <keyname>Wen</keyname>
+                        <forenames>Hongkai</forenames>
+                </author>
+                <author>
+                    <keyname>Wahlström</keyname>
+                        <forenames>Johan</forenames>
+                </author>
+                <author>
+                    <keyname>Luo</keyname>
+                        <forenames>Man</forenames>
+                </author>
+        </authors>
+        <title>Federated Learning for Traffic Flow Prediction with Synthetic Data Augmentation</title>
+            <categories>cs.LG cs.AI cs.DC</categories>
+            <comments>11 pages, 7 figures, 6 tables, ACM format</comments>
+            <acm-class>None</acm-class>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Deep-learning based traffic prediction models require vast amounts of data to learn embedded spatial and temporal dependencies. The inherent privacy and commercial sensitivity of such data has encouraged a shift towards decentralised data-driven methods, such as Federated Learning (FL). Under a traditional Machine Learning paradigm, traffic flow prediction models can capture spatial and temporal relationships within centralised data. In reality, traffic data is likely distributed across separate data silos owned by multiple stakeholders. In this work, a cross-silo FL setting is motivated to facilitate stakeholder collaboration for optimal traffic flow prediction applications. This work introduces an FL framework, referred to as FedTPS, to generate synthetic data to augment each client&#39;s local dataset by training a diffusion-based trajectory generation model through FL. The proposed framework is evaluated on a large-scale real world ride-sharing dataset using various FL methods and Traffic Flow Prediction models, including a novel prediction model we introduce, which leverages Temporal and Graph Attention mechanisms to learn the Spatio-Temporal dependencies embedded within regional traffic flow data. Experimental results show that FedTPS outperforms multiple other FL baselines with respect to global model performance.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

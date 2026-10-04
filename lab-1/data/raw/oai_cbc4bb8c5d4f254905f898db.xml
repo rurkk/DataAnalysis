@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:40:58Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2307.04954" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2307.04954</identifier>
+        <datestamp>2023-07-18</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>stat:stat:ML</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2307.04954</id>
+        <created>2023-07-17</created>
+            <updated>2023-07-18</updated>
+        <authors>
+                <author>
+                    <keyname>Sengupta</keyname>
+                        <forenames>Agnimitra</forenames>
+                </author>
+                <author>
+                    <keyname>Das</keyname>
+                        <forenames>Adway</forenames>
+                </author>
+                <author>
+                    <keyname>Guler</keyname>
+                        <forenames>S. Ilgin</forenames>
+                </author>
+        </authors>
+        <title>Hybrid hidden Markov LSTM for short-term traffic flow prediction</title>
+            <categories>cs.LG stat.ML</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Deep learning (DL) methods have outperformed parametric models such as historical average, ARIMA and variants in predicting traffic variables into short and near-short future, that are critical for traffic management. Specifically, recurrent neural network (RNN) and its variants (e.g. long short-term memory) are designed to retain long-term temporal correlations and therefore are suitable for modeling sequences. However, multi-regime models assume the traffic system to evolve through multiple states (say, free-flow, congestion in traffic) with distinct characteristics, and hence, separate models are trained to characterize the traffic dynamics within each regime. For instance, Markov-switching models with a hidden Markov model (HMM) for regime identification is capable of capturing complex dynamic patterns and non-stationarity. Interestingly, both HMM and LSTM can be used for modeling an observation sequence from a set of latent or, hidden state variables. In LSTM, the latent variable is computed in a deterministic manner from the current observation and the previous latent variable, while, in HMM, the set of latent variables is a Markov chain. Inspired by research in natural language processing, a hybrid hidden Markov-LSTM model that is capable of learning complementary features in traffic data is proposed for traffic flow prediction. Results indicate significant performance gains in using hybrid architecture compared to conventional methods such as Markov switching ARIMA and LSTM.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

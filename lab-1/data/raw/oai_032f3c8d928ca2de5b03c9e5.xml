@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:41:48Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2401.07762" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2401.07762</identifier>
+        <datestamp>2024-01-17</datestamp>
+            <setSpec>cs:cs:CE</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2401.07762</id>
+        <created>2024-01-15</created>
+            <updated>2024-01-17</updated>
+        <authors>
+                <author>
+                    <keyname>Ying</keyname>
+                        <forenames>Jun</forenames>
+                </author>
+                <author>
+                    <keyname>Dong</keyname>
+                        <forenames>Xin</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Bowei</forenames>
+                </author>
+                <author>
+                    <keyname>Tian</keyname>
+                        <forenames>Zihan</forenames>
+                </author>
+        </authors>
+        <title>Auto-Regressive Model with Exogenous Input--ARX--based traffic-flow prediction</title>
+            <categories>cs.CE</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow prediction is widely used in travel decision making, traffic control, roadway system planning, business sectors, and government agencies. ARX models have proved to be highly effective and versatile. In this research, we investigated the applications of ARX models in prediction for real traffic flow in New York City. The ARX models were constructed by linear/polynomial or neural networks. Comparative studies were carried out based on the results by the efficiency, accuracy, and training computational demand of the algorithms.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:56:14Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2408.13293" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2408.13293</identifier>
+        <datestamp>2024-08-27</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2408.13293</id>
+        <created>2024-08-23</created>
+            <updated>2024-08-27</updated>
+        <authors>
+                <author>
+                    <keyname>Dong</keyname>
+                        <forenames>Pingping</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Xiao-Lin</forenames>
+                </author>
+                <author>
+                    <keyname>Bose</keyname>
+                        <forenames>Indranil</forenames>
+                </author>
+                <author>
+                    <keyname>Ng</keyname>
+                        <forenames>Kam K. H.</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Xiaoning</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Xiaoge</forenames>
+                </author>
+        </authors>
+        <title>Causally-Aware Spatio-Temporal Multi-Graph Convolution Network for Accurate and Reliable Traffic Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Accurate and reliable prediction has profound implications to a wide range of applications. In this study, we focus on an instance of spatio-temporal learning problem--traffic prediction--to demonstrate an advanced deep learning model developed for making accurate and reliable forecast. Despite the significant progress in traffic prediction, limited studies have incorporated both explicit and implicit traffic patterns simultaneously to improve prediction performance. Meanwhile, the variability nature of traffic states necessitates quantifying the uncertainty of model predictions in a statistically principled way; however, extant studies offer no provable guarantee on the statistical validity of confidence intervals in reflecting its actual likelihood of containing the ground truth. In this paper, we propose an end-to-end traffic prediction framework that leverages three primary components to generate accurate and reliable traffic predictions: dynamic causal structure learning for discovering implicit traffic patterns from massive traffic data, causally-aware spatio-temporal multi-graph convolution network (CASTMGCN) for learning spatio-temporal dependencies, and conformal prediction for uncertainty quantification. CASTMGCN fuses several graphs that characterize different important aspects of traffic networks and an auxiliary graph that captures the effect of exogenous factors on the road network. On this basis, a conformal prediction approach tailored to spatio-temporal data is further developed for quantifying the uncertainty in node-wise traffic predictions over varying prediction horizons. Experimental results on two real-world traffic datasets demonstrate that the proposed method outperforms several state-of-the-art models in prediction accuracy; moreover, it generates more efficient prediction regions than other methods while strictly satisfying the statistical validity in coverage.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

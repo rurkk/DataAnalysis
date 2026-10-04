@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:09:58Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2401.04148" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2401.04148</identifier>
+        <datestamp>2026-01-12</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>eess:eess:SP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2401.04148</id>
+        <created>2024-01-08</created>
+            <updated>2026-01-12</updated>
+        <authors>
+                <author>
+                    <keyname>Guo</keyname>
+                        <forenames>Pengxin</forenames>
+                </author>
+                <author>
+                    <keyname>Jin</keyname>
+                        <forenames>Pengrong</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Ziyue</forenames>
+                </author>
+                <author>
+                    <keyname>Bai</keyname>
+                        <forenames>Lei</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Yu</forenames>
+                </author>
+        </authors>
+        <title>Online Test-Time Adaptation of Spatial-Temporal Traffic Flow Forecasting</title>
+            <categories>cs.LG cs.AI eess.SP</categories>
+            <doi>10.1109/TITS.2025.3600237</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate spatial-temporal traffic flow forecasting is crucial in aiding traffic managers in implementing control measures and assisting drivers in selecting optimal travel routes. Traditional deep-learning based methods for traffic flow forecasting typically rely on historical data to train their models, which are then used to make predictions on future data. However, the performance of the trained model usually degrades due to the temporal drift between the historical and future data. To make the model trained on historical data better adapt to future data in a fully online manner, this paper conducts the first study of the online test-time adaptation techniques for spatial-temporal traffic flow forecasting problems. To this end, we propose an Adaptive Double Correction by Series Decomposition (ADCSD) method, which first decomposes the output of the trained model into seasonal and trend-cyclical parts and then corrects them by two separate modules during the testing phase using the latest observed data entry by entry. In the proposed ADCSD method, instead of fine-tuning the whole trained model during the testing phase, a lite network is attached after the trained model, and only the lite network is fine-tuned in the testing process each time a data entry is observed. Moreover, to satisfy that different time series variables may have different levels of temporal drift, two adaptive vectors are adopted to provide different weights for different time series variables. Extensive experiments on four real-world traffic flow forecasting datasets demonstrate the effectiveness of the proposed ADCSD method. The code is available at https://github.com/Pengxin-Guo/ADCSD.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

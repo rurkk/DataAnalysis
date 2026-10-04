@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:38:55Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2207.11030" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2207.11030</identifier>
+        <datestamp>2022-07-25</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2207.11030</id>
+        <created>2022-07-22</created>
+            <updated>2022-07-25</updated>
+        <authors>
+                <author>
+                    <keyname>Fu</keyname>
+                        <forenames>Pengyu</forenames>
+                </author>
+                <author>
+                    <keyname>Chu</keyname>
+                        <forenames>Liang</forenames>
+                </author>
+                <author>
+                    <keyname>Hou</keyname>
+                        <forenames>Zhuoran</forenames>
+                </author>
+                <author>
+                    <keyname>Hu</keyname>
+                        <forenames>Jincheng</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Yanjun</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Yuanjian</forenames>
+                </author>
+        </authors>
+        <title>A Transferable Intersection Reconstruction Network for Traffic Speed Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>14 pages, 12 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic speed prediction is the key to many valuable applications, and it is also a challenging task because of its various influencing factors. Recent work attempts to obtain more information through various hybrid models, thereby improving the prediction accuracy. However, the spatial information acquisition schemes of these methods have two-level differentiation problems. Either the modeling is simple but contains little spatial information, or the modeling is complete but lacks flexibility. In order to introduce more spatial information on the basis of ensuring flexibility, this paper proposes IRNet (Transferable Intersection Reconstruction Network). First, this paper reconstructs the intersection into a virtual intersection with the same structure, which simplifies the topology of the road network. Then, the spatial information is subdivided into intersection information and sequence information of traffic flow direction, and spatiotemporal features are obtained through various models. Third, a self-attention mechanism is used to fuse spatiotemporal features for prediction. In the comparison experiment with the baseline, not only the prediction effect, but also the transfer performance has obvious advantages.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

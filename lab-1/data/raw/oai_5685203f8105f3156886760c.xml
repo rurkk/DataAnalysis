@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:10:10Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2108.03594" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2108.03594</identifier>
+        <datestamp>2022-03-10</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2108.03594</id>
+        <created>2022-03-09</created>
+            <updated>2022-03-10</updated>
+        <authors>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Yaobin</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Weitang</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Zhongyi</forenames>
+                </author>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Zixuan</forenames>
+                </author>
+                <author>
+                    <keyname>Mao</keyname>
+                        <forenames>Tingyun</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Lili</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Mingwei</forenames>
+                </author>
+        </authors>
+        <title>MAF-GNN: Multi-adaptive Spatiotemporal-flow Graph Neural Network for Traffic Speed Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>The method has defects and needs to be improved</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting is a core element of intelligent traffic monitoring system. Approaches based on graph neural networks have been widely used in this task to effectively capture spatial and temporal dependencies of road networks. However, these approaches can not effectively define the complicated network topology. Besides, their cascade network structures have limitations in transmitting distinct features in the time and space dimensions. In this paper, we propose a Multi-adaptive Spatiotemporal-flow Graph Neural Network (MAF-GNN) for traffic speed forecasting. MAF-GNN introduces an effective Multi-adaptive Adjacency Matrices Mechanism to capture multiple latent spatial dependencies between traffic nodes. Additionally, we propose Spatiotemporal-flow Modules aiming to further enhance feature propagation in both time and space dimensions. MAF-GNN achieves better performance than other models on two real-world datasets of public traffic network, METR-LA and PeMS-Bay, demonstrating the effectiveness of the proposed approach.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

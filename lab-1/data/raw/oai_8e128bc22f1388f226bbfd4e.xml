@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:38:51Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2501.10796" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2501.10796</identifier>
+        <datestamp>2025-03-18</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2501.10796</id>
+        <created>2025-01-18</created>
+            <updated>2025-03-18</updated>
+        <authors>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Jing</forenames>
+                </author>
+                <author>
+                    <keyname>Ye</keyname>
+                        <forenames>Haocheng</forenames>
+                </author>
+                <author>
+                    <keyname>Ying</keyname>
+                        <forenames>Zhian</forenames>
+                </author>
+                <author>
+                    <keyname>Sun</keyname>
+                        <forenames>Yuntao</forenames>
+                </author>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Wenqiang</forenames>
+                </author>
+        </authors>
+        <title>Dynamic Trend Fusion Module for Traffic Flow Prediction</title>
+            <categories>cs.LG</categories>
+            <journal-ref>journal = {Applied Soft Computing}, pages = {112979}, year = {2025},</journal-ref>
+            <doi>10.1016/j.asoc.2025.112979</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Accurate traffic flow prediction is essential for applications like transport logistics but remains challenging due to complex spatio-temporal correlations and non-linear traffic patterns. Existing methods often model spatial and temporal dependencies separately, failing to effectively fuse them. To overcome this limitation, the Dynamic Spatial-Temporal Trend Transformer DST2former is proposed to capture spatio-temporal correlations through adaptive embedding and to fuse dynamic and static information for learning multi-view dynamic features of traffic networks. The approach employs the Dynamic Trend Representation Transformer (DTRformer) to generate dynamic trends using encoders for both temporal and spatial dimensions, fused via Cross Spatial-Temporal Attention. Predefined graphs are compressed into a representation graph to extract static attributes and reduce redundancy. Experiments on four real-world traffic datasets demonstrate that our framework achieves state-of-the-art performance.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

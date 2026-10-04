@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:52:13Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2112.02736" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2112.02736</identifier>
+        <datestamp>2021-12-07</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2112.02736</id>
+        <created>2021-12-06</created>
+            <updated>2021-12-07</updated>
+        <authors>
+                <author>
+                    <keyname>Fang</keyname>
+                        <forenames>Yuchen</forenames>
+                </author>
+                <author>
+                    <keyname>Qin</keyname>
+                        <forenames>Yanjun</forenames>
+                </author>
+                <author>
+                    <keyname>Luo</keyname>
+                        <forenames>Haiyong</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Fang</forenames>
+                </author>
+                <author>
+                    <keyname>Zeng</keyname>
+                        <forenames>Liang</forenames>
+                </author>
+                <author>
+                    <keyname>Hui</keyname>
+                        <forenames>Bo</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Chenxing</forenames>
+                </author>
+        </authors>
+        <title>CDGNet: A Cross-Time Dynamic Graph-based Deep Learning Model for Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>10 pages</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is important in intelligent transportation systems of webs and beneficial to traffic safety, yet is very challenging because of the complex and dynamic spatio-temporal dependencies in real-world traffic systems. Prior methods use the pre-defined or learnable static graph to extract spatial correlations. However, the static graph-based methods fail to mine the evolution of the traffic network. Researchers subsequently generate the dynamic graph for each time slice to reflect the changes of spatial correlations, but they follow the paradigm of independently modeling spatio-temporal dependencies, ignoring the cross-time spatial influence. In this paper, we propose a novel cross-time dynamic graph-based deep learning model, named CDGNet, for traffic forecasting. The model is able to effectively capture the cross-time spatial dependence between each time slice and its historical time slices by utilizing the cross-time dynamic graph. Meanwhile, we design a gating mechanism to sparse the cross-time dynamic graph, which conforms to the sparse spatial correlations in the real world. Besides, we propose a novel encoder-decoder architecture to incorporate the cross-time dynamic graph-based GCN for multi-step traffic forecasting. Experimental results on three real-world public traffic datasets demonstrate that CDGNet outperforms the state-of-the-art baselines. We additionally provide a qualitative study to analyze the effectiveness of our architecture.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

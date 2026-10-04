@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:55:51Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2303.10732" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2303.10732</identifier>
+        <datestamp>2023-03-21</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2303.10732</id>
+        <created>2023-03-19</created>
+            <updated>2023-03-21</updated>
+        <authors>
+                <author>
+                    <keyname>Angarita-Zapata</keyname>
+                        <forenames>Juan S.</forenames>
+                </author>
+                <author>
+                    <keyname>Masegosa</keyname>
+                        <forenames>Antonio D.</forenames>
+                </author>
+                <author>
+                    <keyname>Triguero</keyname>
+                        <forenames>Isaac</forenames>
+                </author>
+        </authors>
+        <title>AutoEn: An AutoML method based on ensembles of predefined Machine Learning pipelines for supervised Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Intelligent Transportation Systems are producing tons of hardly manageable traffic data, which motivates the use of Machine Learning (ML) for data-driven applications, such as Traffic Forecasting (TF). TF is gaining relevance due to its ability to mitigate traffic congestion by forecasting future traffic states. However, TF poses one big challenge to the ML paradigm, known as the Model Selection Problem (MSP): deciding the most suitable combination of data preprocessing techniques and ML method for traffic data collected under different transportation circumstances. In this context, Automated Machine Learning (AutoML), the automation of the ML workflow from data preprocessing to model validation, arises as a promising strategy to deal with the MSP in problem domains wherein expert ML knowledge is not always an available or affordable asset, such as TF. Various AutoML frameworks have been used to approach the MSP in TF. Most are based on online optimisation processes to search for the best-performing pipeline on a given dataset. This online optimisation could be complemented with meta-learning to warm-start the search phase and/or the construction of ensembles using pipelines derived from the optimisation process. However, given the complexity of the search space and the high computational cost of tuning-evaluating pipelines generated, online optimisation is only beneficial when there is a long time to obtain the final model. Thus, we introduce AutoEn, which is a simple and efficient method for automatically generating multi-classifier ensembles from a predefined set of ML pipelines. We compare AutoEn against Auto-WEKA and Auto-sklearn, two AutoML methods commonly used in TF. Experimental results demonstrate that AutoEn can lead to better or more competitive results in the general-purpose domain and in TF.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

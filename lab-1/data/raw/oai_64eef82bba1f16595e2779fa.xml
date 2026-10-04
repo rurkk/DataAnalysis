@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:46:29Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2104.09083" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2104.09083</identifier>
+        <datestamp>2022-05-06</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2104.09083</id>
+        <created>2022-05-05</created>
+            <updated>2022-05-06</updated>
+        <authors>
+                <author>
+                    <keyname>Sun</keyname>
+                        <forenames>Yidan</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Guiyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Lam</keyname>
+                        <forenames>Siew-Kei</forenames>
+                </author>
+                <author>
+                    <keyname>He</keyname>
+                        <forenames>Peilan</forenames>
+                </author>
+                <author>
+                    <keyname>Ning</keyname>
+                        <forenames>Fangxin</forenames>
+                </author>
+        </authors>
+        <title>Multi-fold Correlation Attention Network for Predicting Traffic Speeds with Heterogeneous Frequency</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Substantial efforts have been devoted to the investigation of spatiotemporal correlations for improving traffic speed prediction accuracy. However, existing works typically model the correlations based solely on the observed traffic state (e.g. traffic speed) without due consideration that different correlation measurements of the traffic data could exhibit a diverse set of patterns under different traffic situations. In addition, the existing works assume that all road segments can employ the same sampling frequency of traffic states, which is impractical. In this paper, we propose new measurements to model the spatial correlations among traffic data and show that the resulting correlation patterns vary significantly under various traffic situations. We propose a Heterogeneous Spatial Correlation (HSC) model to capture the spatial correlation based on a specific measurement, where the traffic data of varying road segments can be heterogeneous (i.e. obtained with different sampling frequency). We propose a Multi-fold Correlation Attention Network (MCAN), which relies on the HSC model to explore multi-fold spatial correlations and leverage LSTM networks to capture multi-fold temporal correlations to provide discriminating features in order to achieve accurate traffic prediction. The learned multi-fold spatiotemporal correlations together with contextual factors are fused with attention mechanism to make the final predictions. Experiments on real-world datasets demonstrate that the proposed MCAN model outperforms the state-of-the-art baselines.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

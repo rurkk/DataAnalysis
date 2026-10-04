@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-10T08:46:49Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2608.17440" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2608.17440</identifier>
+        <datestamp>2026-08-19</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2608.17440</id>
+        <created>2026-08-18</created>
+            <updated>2026-08-19</updated>
+        <authors>
+                <author>
+                    <keyname>Straten</keyname>
+                        <forenames>Mattis thor</forenames>
+                </author>
+                <author>
+                    <keyname>Wolker</keyname>
+                        <forenames>Yannick</forenames>
+                </author>
+                <author>
+                    <keyname>Strohm</keyname>
+                        <forenames>Steffen</forenames>
+                </author>
+                <author>
+                    <keyname>Mithare</keyname>
+                        <forenames>Prathvish</forenames>
+                </author>
+                <author>
+                    <keyname>Krestel</keyname>
+                        <forenames>Ralf</forenames>
+                </author>
+                <author>
+                    <keyname>Renz</keyname>
+                        <forenames>Matthias</forenames>
+                </author>
+        </authors>
+        <title>General Semantic Knowledge Infusion for Spatio-Temporal Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>8 pages, 3 figures (published at MDM&#39;26)</comments>
+            <journal-ref>M. t. Straten, et al. &#34;General Semantic Knowledge Infusion for Spatio-Temporal Traffic Forecasting,&#34; 2026 27th IEEE International Conference on Mobile Data Management (MDM), Athens, Greece, 2026, pp. 44-51</journal-ref>
+            <doi>10.1109/MDM71479.2026.00016</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Although Graph Neural Networks (GNNs) have made significant advances in spatio-temporal traffic forecasting, their performance is limited when they rely solely on sensor proximity or road-network topology. This paper presents a spatio-temporal prediction framework, developed to incorporate knowledge in various forms. This framework aims to improve sensor-level, contextual understanding of the environment. A general-purpose knowledge graph (e.g., Wikidata) is used to create semantic subgraphs around traffic sensors and generate knowledge graph embeddings that capture meaningful relationships, such as nearby points of interest, administrative hierarchies, and the functional roles of locations. These embeddings are then fused with conventional traffic sensor graphs to provide additional adjacency matrices informed by semantics. This allows GNNs to learn the semantic context beyond physical connectivity. This study differs from previous research in two key ways. Firstly, rather than proposing a novel GNN architecture, it demonstrates the general impact of external knowledge on prediction accuracy. Secondly, experiments with well-established traffic forecasting approaches show that external knowledge provides additional information that street network data alone cannot convey. The results show that integrating data from general-purpose knowledge graphs and sensor networks through data fusion can enhance the prediction accuracy of traffic forecasting models, and offers a potential pathway toward improved interpretability.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

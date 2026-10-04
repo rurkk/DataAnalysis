@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:43:57Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2607.24885" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2607.24885</identifier>
+        <datestamp>2026-07-29</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2607.24885</id>
+        <created>2026-07-27</created>
+            <updated>2026-07-29</updated>
+        <authors>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Jinpeng</forenames>
+                </author>
+                <author>
+                    <keyname>Yu</keyname>
+                        <forenames>Ziyu</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Tao</forenames>
+                </author>
+                <author>
+                    <keyname>Ma</keyname>
+                        <forenames>Jun</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Hongbo</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Senzhang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Zufeng</forenames>
+                </author>
+                <author>
+                    <keyname>Wei</keyname>
+                        <forenames>Kaimin</forenames>
+                </author>
+        </authors>
+        <title>Eliminating Propagation Delay: Attention-Based Spatial-Temporal Fusion Graph Convolution Network for Traffic Flow Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Predicting traffic flow is crucial to optimizing transportation systems and improving urban mobility. Many graph convolution-based models have been proposed to extract spatial-temporal features and predict traffic flow. However, most focus on spatial-temporal and semantic correlation in topological relationships. There are two primary problems to address. Firstly, the convolutional structure in the model focuses on utilizing static spatial dependencies and spatial-temporal relationships in topological structures, while neglecting the different information propagation delays between adjacent nodes in the convolution. Secondly, these methods often stack a large number of complex structures, resulting in a substantial increase in computational time during the model training phase, thereby disregarding the model&#39;s requirements for timeliness. In this paper, we propose a novel network called the Attention-Based Spatial-Temporal Fusion Graph Convolution Network (A-STFGCN). We design a spatial-temporal fusion block to extract the spatial-temporal feature correlations with propagation delay errors removed and to capture both long-term and short-term temporal characteristics of the data within a multi-head self-attention mechanism based on a mask matrix. Extensive experiments on five real-world datasets demonstrate that our method achieves the best overall performance while having good computation and data utilization efficiency compared with the eight baseline methods.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

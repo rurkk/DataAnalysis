@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:42:37Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2307.05949" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2307.05949</identifier>
+        <datestamp>2023-07-18</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>stat:stat:ML</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2307.05949</id>
+        <created>2023-07-17</created>
+            <updated>2023-07-18</updated>
+        <authors>
+                <author>
+                    <keyname>Sengupta</keyname>
+                        <forenames>Agnimitra</forenames>
+                </author>
+                <author>
+                    <keyname>Guler</keyname>
+                        <forenames>S. Ilgin</forenames>
+                </author>
+        </authors>
+        <title>Newell&#39;s theory based feature transformations for spatio-temporal traffic prediction</title>
+            <categories>cs.LG stat.ML</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Deep learning (DL) models for spatio-temporal traffic flow forecasting employ convolutional or graph-convolutional filters along with recurrent neural networks to capture spatial and temporal dependencies in traffic data. These models, such as CNN-LSTM, utilize traffic flows from neighboring detector stations to predict flows at a specific location of interest. However, these models are limited in their ability to capture the broader dynamics of the traffic system, as they primarily learn features specific to the detector configuration and traffic characteristics at the target location. Hence, the transferability of these models to different locations becomes challenging, particularly when data is unavailable at the new location for model training. To address this limitation, we propose a traffic flow physics-based feature transformation for spatio-temporal DL models. This transformation incorporates Newell&#39;s uncongested and congested-state estimators of traffic flows at the target locations, enabling the models to learn broader dynamics of the system. Our methodology is empirically validated using traffic data from two different locations. The results demonstrate that the proposed feature transformation improves the models&#39; performance in predicting traffic flows over different prediction horizons, as indicated by better goodness-of-fit statistics. An important advantage of our framework is its ability to be transferred to new locations where data is unavailable. This is achieved by appropriately accounting for spatial dependencies based on station distances and various traffic parameters. In contrast, regular DL models are not easily transferable as their inputs remain fixed. It should be noted that due to data limitations, we were unable to perform spatial sensitivity analysis, which calls for further research using simulated data.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:42:53Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2003.06309" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2003.06309</identifier>
+        <datestamp>2020-03-17</datestamp>
+            <setSpec>eess:eess:SP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2003.06309</id>
+        <created>2020-03-11</created>
+            <updated>2020-03-17</updated>
+        <authors>
+                <author>
+                    <keyname>Fan</keyname>
+                        <forenames>Xiaochen</forenames>
+                </author>
+                <author>
+                    <keyname>Xiang</keyname>
+                        <forenames>Chaocan</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Chao</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Panlong</forenames>
+                </author>
+                <author>
+                    <keyname>Gong</keyname>
+                        <forenames>Liangyi</forenames>
+                </author>
+                <author>
+                    <keyname>Song</keyname>
+                        <forenames>Xudong</forenames>
+                </author>
+                <author>
+                    <keyname>Nanda</keyname>
+                        <forenames>Priyadarsi</forenames>
+                </author>
+                <author>
+                    <keyname>He</keyname>
+                        <forenames>Xiangjian</forenames>
+                </author>
+        </authors>
+        <title>BuildSenSys: Reusing Building Sensing Data for Traffic Prediction with Cross-domain Learning</title>
+            <categories>eess.SP</categories>
+            <comments>17 pages; 17 figures. in IEEE Transactions on Mobile Computing</comments>
+            <journal-ref>IEEE Transactions on Mobile Computing, 2020, Early Access</journal-ref>
+            <doi>10.1109/TMC.2020.2976936</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>With the rapid development of smart cities, smart buildings are generating a massive amount of building sensing data by the equipped sensors. Indeed, building sensing data provides a promising way to enrich a series of data-demanding and cost-expensive urban mobile applications. In this paper, we study how to reuse building sensing data to predict traffic volume on nearby roads. Nevertheless, it is non-trivial to achieve accurate prediction on such cross-domain data with two major challenges. First, relationships between building sensing data and traffic data are not unknown as prior, and the spatio-temporal complexities impose more difficulties to uncover the underlying reasons behind the above relationships. Second, it is even more daunting to accurately predict traffic volume with dynamic building-traffic correlations, which are cross-domain, non-linear, and time-varying. To address the above challenges, we design and implement BuildSenSys, a first-of-its-kind system for nearby traffic volume prediction by reusing building sensing data. First, we conduct a comprehensive building-traffic analysis based on multi-source datasets, disclosing how and why building sensing data is correlated with nearby traffic volume. Second, we propose a novel recurrent neural network for traffic volume prediction based on cross-domain learning with two attention mechanisms. Specifically, a cross-domain attention mechanism captures the building-traffic correlations and adaptively extracts the most relevant building sensing data at each predicting step. Then, a temporal attention mechanism is employed to model the temporal dependencies of data across historical time intervals. The extensive experimental studies demonstrate that BuildSenSys outperforms all baseline methods with up to 65.3% accuracy improvement (e.g., 2.2% MAPE) in predicting nearby traffic volume.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

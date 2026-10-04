@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:58Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2202.03630" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2202.03630</identifier>
+        <datestamp>2022-08-22</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2202.03630</id>
+        <created>2022-08-19</created>
+            <updated>2022-08-22</updated>
+        <authors>
+                <author>
+                    <keyname>Tang</keyname>
+                        <forenames>Yihong</forenames>
+                </author>
+                <author>
+                    <keyname>Qu</keyname>
+                        <forenames>Ao</forenames>
+                </author>
+                <author>
+                    <keyname>Chow</keyname>
+                        <forenames>Andy H. F.</forenames>
+                </author>
+                <author>
+                    <keyname>Lam</keyname>
+                        <forenames>William H. K.</forenames>
+                </author>
+                <author>
+                    <keyname>Wong</keyname>
+                        <forenames>S. C.</forenames>
+                </author>
+                <author>
+                    <keyname>Ma</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+        </authors>
+        <title>Domain Adversarial Spatial-Temporal Network: A Transferable Framework for Short-term Traffic Forecasting across Cities</title>
+            <categories>cs.LG cs.AI</categories>
+            <doi>10.1145/3511808.3557294</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate real-time traffic forecast is critical for intelligent transportation systems (ITS) and it serves as the cornerstone of various smart mobility applications. Though this research area is dominated by deep learning, recent studies indicate that the accuracy improvement by developing new model structures is becoming marginal. Instead, we envision that the improvement can be achieved by transferring the &#34;forecasting-related knowledge&#34; across cities with different data distributions and network topologies. To this end, this paper aims to propose a novel transferable traffic forecasting framework: Domain Adversarial Spatial-Temporal Network (DASTNet). DASTNet is pre-trained on multiple source networks and fine-tuned with the target network&#39;s traffic data. Specifically, we leverage the graph representation learning and adversarial domain adaptation techniques to learn the domain-invariant node embeddings, which are further incorporated to model the temporal traffic data. To the best of our knowledge, we are the first to employ adversarial multi-domain adaptation for network-wide traffic forecasting problems. DASTNet consistently outperforms all state-of-the-art baseline methods on three benchmark datasets. The trained DASTNet is applied to Hong Kong&#39;s new traffic detectors, and accurate traffic predictions can be delivered immediately (within one day) when the detector is available. Overall, this study suggests an alternative to enhance the traffic forecasting methods and provides practical implications for cities lacking historical traffic data.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

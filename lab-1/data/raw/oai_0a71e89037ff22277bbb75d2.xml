@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:55:39Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2110.14331" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2110.14331</identifier>
+        <datestamp>2021-10-28</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>stat:stat:ML</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2110.14331</id>
+        <created>2021-10-27</created>
+            <updated>2021-10-28</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Sikai</forenames>
+                </author>
+                <author>
+                    <keyname>Zheng</keyname>
+                        <forenames>Hong</forenames>
+                </author>
+                <author>
+                    <keyname>Su</keyname>
+                        <forenames>Hongyi</forenames>
+                </author>
+                <author>
+                    <keyname>Yan</keyname>
+                        <forenames>Bo</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Jiamou</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Song</forenames>
+                </author>
+        </authors>
+        <title>GACAN: Graph Attention-Convolution-Attention Networks for Traffic Forecasting Based on Multi-granularity Time Series</title>
+            <categories>cs.LG stat.ML</categories>
+            <comments>This paper has been published in the IJCNN 2021 (https://ieeexplore.ieee.org/document/9534064/)</comments>
+            <journal-ref>International Joint Conference on Neural Networks (IJCNN), 2021, pp. 1-8</journal-ref>
+            <doi>10.1109/IJCNN52387.2021.9534064</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is an integral part of intelligent transportation systems (ITS). Achieving a high prediction accuracy is a challenging task due to a high level of dynamics and complex spatial-temporal dependency of road networks. For this task, we propose Graph Attention-Convolution-Attention Networks (GACAN). The model uses a novel Att-Conv-Att (ACA) block which contains two graph attention layers and one spectral-based GCN layer sandwiched in between. The graph attention layers are meant to capture temporal features while the spectral-based GCN layer is meant to capture spatial features. The main novelty of the model is the integration of time series of four different time granularities: the original time series, together with hourly, daily, and weekly time series. Unlike previous work that used multi-granularity time series by handling every time series separately, GACAN combines the outcome of processing all time series after each graph attention layer. Thus, the effects of different time granularities are integrated throughout the model. We perform a series of experiments on three real-world datasets. The experimental results verify the advantage of using multi-granularity time series and that the proposed GACAN model outperforms the state-of-the-art baselines.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

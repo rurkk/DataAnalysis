@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:52:32Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2412.09972" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2412.09972</identifier>
+        <datestamp>2025-01-03</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2412.09972</id>
+        <created>2024-12-31</created>
+            <updated>2025-01-03</updated>
+        <authors>
+                <author>
+                    <keyname>Fang</keyname>
+                        <forenames>Yuchen</forenames>
+                </author>
+                <author>
+                    <keyname>Liang</keyname>
+                        <forenames>Yuxuan</forenames>
+                </author>
+                <author>
+                    <keyname>Hui</keyname>
+                        <forenames>Bo</forenames>
+                </author>
+                <author>
+                    <keyname>Shao</keyname>
+                        <forenames>Zezhi</forenames>
+                </author>
+                <author>
+                    <keyname>Deng</keyname>
+                        <forenames>Liwei</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Xu</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Xinke</forenames>
+                </author>
+                <author>
+                    <keyname>Zheng</keyname>
+                        <forenames>Kai</forenames>
+                </author>
+        </authors>
+        <title>Efficient Large-Scale Traffic Forecasting with Transformers: A Spatial Data Management Perspective</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted by SIGKDD 2025</comments>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Road traffic forecasting is crucial in real-world intelligent transportation scenarios like traffic dispatching and path planning in city management and personal traveling. Spatio-temporal graph neural networks (STGNNs) stand out as the mainstream solution in this task. Nevertheless, the quadratic complexity of remarkable dynamic spatial modeling-based STGNNs has become the bottleneck over large-scale traffic data. From the spatial data management perspective, we present a novel Transformer framework called PatchSTG to efficiently and dynamically model spatial dependencies for large-scale traffic forecasting with interpretability and fidelity. Specifically, we design a novel irregular spatial patching to reduce the number of points involved in the dynamic calculation of Transformer. The irregular spatial patching first utilizes the leaf K-dimensional tree (KDTree) to recursively partition irregularly distributed traffic points into leaf nodes with a small capacity, and then merges leaf nodes belonging to the same subtree into occupancy-equaled and non-overlapped patches through padding and backtracking. Based on the patched data, depth and breadth attention are used interchangeably in the encoder to dynamically learn local and global spatial knowledge from points in a patch and points with the same index of patches. Experimental results on four real world large-scale traffic datasets show that our PatchSTG achieves train speed and memory utilization improvements up to $10\times$ and $4\times$ with the state-of-the-art performance.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

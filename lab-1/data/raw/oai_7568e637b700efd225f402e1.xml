@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:45:39Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2506.07179" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2506.07179</identifier>
+        <datestamp>2026-05-01</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2506.07179</id>
+        <created>2026-04-30</created>
+            <updated>2026-05-01</updated>
+        <authors>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Kaiqi</forenames>
+                </author>
+                <author>
+                    <keyname>Kong</keyname>
+                        <forenames>Weiyang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Sen</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Zitong</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Yubao</forenames>
+                </author>
+        </authors>
+        <title>Efficient Traffic Forecasting on Large-Scale Road Network by Regularized Adaptive Graph Convolution</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted by ICDE 2026</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction is a critical task in spatial-temporal forecasting with broad applications in travel planning and urban management. To model the complex spatial-temporal dependencies in traffic data, Spatial-Temporal Graph Convolutional Networks (STGCNs) have been widely employed, achieving advanced performance. However, when applied to large-scale road networks, the quadratic computational complexity of traditional graph convolution operations severely limits their scalability. Several methods attempt to address this issue through approximation, compression, or spatial partitioning. Nevertheless, these methods often either fail to achieve sufficient computational efficiency or compromise prediction accuracy. To address these challenges, we propose a Regularized Adaptive Graph Convolution (RAGC) model. First, to ensure scalability on large road networks, we develop the Efficient Cosine Operator (ECO), which performs graph convolution based on the cosine similarity of node embeddings with linear time complexity. Second, we introduce a regularized adaptive graph convolution framework that combines Stochastic Shared Embedding (SSE) and adaptive graph convolution through a residual difference mechanism. This design enables the model to learn high-quality node embeddings, thereby improving prediction accuracy while maintaining computational efficiency. Extensive experiments on four large-scale real-world traffic datasets show that RAGC consistently outperforms state-of-the-art methods in terms of prediction accuracy and exhibits competitive computational efficiency. The code is available at: https://github.com/wkq-wukaiqi/RAGC.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

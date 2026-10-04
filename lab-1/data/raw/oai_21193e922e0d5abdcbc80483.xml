@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:47Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2207.01301" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2207.01301</identifier>
+        <datestamp>2022-07-05</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2207.01301</id>
+        <created>2022-07-04</created>
+            <updated>2022-07-05</updated>
+        <authors>
+                <author>
+                    <keyname>Yin</keyname>
+                        <forenames>Xueyan</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Feifan</forenames>
+                </author>
+                <author>
+                    <keyname>Shen</keyname>
+                        <forenames>Yanming</forenames>
+                </author>
+                <author>
+                    <keyname>Qi</keyname>
+                        <forenames>Heng</forenames>
+                </author>
+                <author>
+                    <keyname>Yin</keyname>
+                        <forenames>Baocai</forenames>
+                </author>
+        </authors>
+        <title>NodeTrans: A Graph Transfer Learning Approach for Traffic Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Recently, deep learning methods have made great progress in traffic prediction, but their performance depends on a large amount of historical data. In reality, we may face the data scarcity issue. In this case, deep learning models fail to obtain satisfactory performance. Transfer learning is a promising approach to solve the data scarcity issue. However, existing transfer learning approaches in traffic prediction are mainly based on regular grid data, which is not suitable for the inherent graph data in the traffic network. Moreover, existing graph-based models can only capture shared traffic patterns in the road network, and how to learn node-specific patterns is also a challenge. In this paper, we propose a novel transfer learning approach to solve the traffic prediction with few data, which can transfer the knowledge learned from a data-rich source domain to a data-scarce target domain. First, a spatial-temporal graph neural network is proposed, which can capture the node-specific spatial-temporal traffic patterns of different road networks. Then, to improve the robustness of transfer, we design a pattern-based transfer strategy, where we leverage a clustering-based mechanism to distill common spatial-temporal patterns in the source domain, and use these knowledge to further improve the prediction performance of the target domain. Experiments on real-world datasets verify the effectiveness of our approach.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

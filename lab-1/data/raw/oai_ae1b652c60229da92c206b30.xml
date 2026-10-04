@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:10:17Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2212.12932" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2212.12932</identifier>
+        <datestamp>2022-12-27</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2212.12932</id>
+        <created>2022-12-25</created>
+            <updated>2022-12-27</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Dongkun</forenames>
+                </author>
+                <author>
+                    <keyname>Fan</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Pengyang</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Pengfei</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Dongjie</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Denghui</forenames>
+                </author>
+                <author>
+                    <keyname>Fu</keyname>
+                        <forenames>Yanjie</forenames>
+                </author>
+        </authors>
+        <title>Boosting Urban Traffic Speed Prediction via Integrating Implicit Spatial Correlations</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Urban traffic speed prediction aims to estimate the future traffic speed for improving the urban transportation services. Enormous efforts have been made on exploiting spatial correlations and temporal dependencies of traffic speed evolving patterns by leveraging explicit spatial relations (geographical proximity) through pre-defined geographical structures ({\it e.g.}, region grids or road networks). While achieving promising results, current traffic speed prediction methods still suffer from ignoring implicit spatial correlations (interactions), which cannot be captured by grid/graph convolutions. To tackle the challenge, we propose a generic model for enabling the current traffic speed prediction methods to preserve implicit spatial correlations. Specifically, we first develop a Dual-Transformer architecture, including a Spatial Transformer and a Temporal Transformer. The Spatial Transformer automatically learns the implicit spatial correlations across the road segments beyond the boundary of geographical structures, while the Temporal Transformer aims to capture the dynamic changing patterns of the implicit spatial correlations. Then, to further integrate both explicit and implicit spatial correlations, we propose a distillation-style learning framework, in which the existing traffic speed prediction methods are considered as the teacher model, and the proposed Dual-Transformer architectures are considered as the student model. The extensive experiments over three real-world datasets indicate significant improvements of our proposed framework over the existing methods.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

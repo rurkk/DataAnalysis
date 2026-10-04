@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:48:59Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2104.00488" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2104.00488</identifier>
+        <datestamp>2021-04-02</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2104.00488</id>
+        <created>2021-04-01</created>
+            <updated>2021-04-02</updated>
+        <authors>
+                <author>
+                    <keyname>Fu</keyname>
+                        <forenames>Jun</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Zhibo</forenames>
+                </author>
+        </authors>
+        <title>Bayesian Graph Convolutional Network for Traffic Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>9 pages</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Recently, adaptive graph convolutional network based traffic prediction methods, learning a latent graph structure from traffic data via various attention-based mechanisms, have achieved impressive performance. However, they are still limited to find a better description of spatial relationships between traffic conditions due to: (1) ignoring the prior of the observed topology of the road network; (2) neglecting the presence of negative spatial relationships; and (3) lacking investigation on uncertainty of the graph structure. In this paper, we propose a Bayesian Graph Convolutional Network (BGCN) framework to alleviate these issues. Under this framework, the graph structure is viewed as a random realization from a parametric generative model, and its posterior is inferred using the observed topology of the road network and traffic data. Specifically, the parametric generative model is comprised of two parts: (1) a constant adjacency matrix which discovers potential spatial relationships from the observed physical connections between roads using a Bayesian approach; (2) a learnable adjacency matrix that learns a global shared spatial correlations from traffic data in an end-to-end fashion and can model negative spatial correlations. The posterior of the graph structure is then approximated by performing Monte Carlo dropout on the parametric graph structure. We verify the effectiveness of our method on five real-world datasets, and the experimental results demonstrate that BGCN attains superior performance compared with state-of-the-art methods.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

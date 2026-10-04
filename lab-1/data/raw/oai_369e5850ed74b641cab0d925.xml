@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:54:31Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2311.12472" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2311.12472</identifier>
+        <datestamp>2025-01-14</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2311.12472</id>
+        <created>2025-01-13</created>
+            <updated>2025-01-14</updated>
+        <authors>
+                <author>
+                    <keyname>Ji</keyname>
+                        <forenames>Jiahao</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Wentao</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Jingyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Chao</forenames>
+                </author>
+        </authors>
+        <title>Seeing the Unseen: Learning Basis Confounder Representations for Robust Traffic Prediction</title>
+            <categories>cs.AI</categories>
+            <comments>12 pages, 10 figures, Accepted by KDD 2025</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction is essential for intelligent transportation systems and urban computing. It aims to establish a relationship between historical traffic data X and future traffic states Y by employing various statistical or deep learning methods. However, the relations of X -&gt; Y are often influenced by external confounders that simultaneously affect both X and Y , such as weather, accidents, and holidays. Existing deep-learning traffic prediction models adopt the classic front-door and back-door adjustments to address the confounder issue. However, these methods have limitations in addressing continuous or undefined confounders, as they depend on predefined discrete values that are often impractical in complex, real-world scenarios. To overcome this challenge, we propose the Spatial-Temporal sElf-superVised confoundEr learning (STEVE) model. This model introduces a basis vector approach, creating a base confounder bank to represent any confounder as a linear combination of a group of basis vectors. It also incorporates self-supervised auxiliary tasks to enhance the expressive power of the base confounder bank. Afterward, a confounder-irrelevant relation decoupling module is adopted to separate the confounder effects from direct X -&gt; Y relations. Extensive experiments across four large-scale datasets validate our model&#39;s superior performance in handling spatial and temporal distribution shifts and underscore its adaptability to unseen confounders. Our model implementation is available at https://github.com/bigscity/STEVE_CODE.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

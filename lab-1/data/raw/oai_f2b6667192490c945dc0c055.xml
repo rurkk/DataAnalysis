@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-10T02:24:21Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2602.05983" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2602.05983</identifier>
+        <datestamp>2026-02-06</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2602.05983</id>
+        <created>2026-02-05</created>
+            <updated>2026-02-06</updated>
+        <authors>
+                <author>
+                    <keyname>Kušić</keyname>
+                        <forenames>Krešimir</forenames>
+                </author>
+                <author>
+                    <keyname>Cahill</keyname>
+                        <forenames>Vinny</forenames>
+                </author>
+                <author>
+                    <keyname>Dusparic</keyname>
+                        <forenames>Ivana</forenames>
+                </author>
+        </authors>
+        <title>Geographically-aware Transformer-based Traffic Forecasting for Urban Motorway Digital Twins</title>
+            <categories>cs.AI</categories>
+            <comments>IEEE IV2026 37th IEEE Intelligent Vehicles Symposium</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>The operational effectiveness of digital-twin technology in motorway traffic management depends on the availability of a continuous flow of high-resolution real-time traffic data. To function as a proactive decision-making support layer within traffic management, a digital twin must also incorporate predicted traffic conditions in addition to real-time observations. Due to the spatio-temporal complexity and the time-variant, non-linear nature of traffic dynamics, predicting motorway traffic remains a difficult problem. Sequence-based deep-learning models offer clear advantages over classical machine learning and statistical models in capturing long-range, temporal dependencies in time-series traffic data, yet limitations in forecasting accuracy and model complexity point to the need for further improvements. To improve motorway traffic forecasting, this paper introduces a Geographically-aware Transformer-based Traffic Forecasting GATTF model, which exploits the geographical relationships between distributed sensors using their mutual information (MI). The model has been evaluated using real-time data from the Geneva motorway network in Switzerland and results confirm that incorporating geographical awareness through MI enhances the accuracy of GATTF forecasting compared to a standard Transformer, without increasing model complexity.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

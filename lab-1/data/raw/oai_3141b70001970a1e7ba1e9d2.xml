@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:55:01Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2605.25543" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2605.25543</identifier>
+        <datestamp>2026-05-26</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2605.25543</id>
+        <created>2026-05-25</created>
+            <updated>2026-05-26</updated>
+        <authors>
+                <author>
+                    <keyname>Gu</keyname>
+                        <forenames>Ruiwen</forenames>
+                </author>
+                <author>
+                    <keyname>Tan</keyname>
+                        <forenames>Qitai</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Yahao</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Xiao-Ping</forenames>
+                </author>
+        </authors>
+        <title>ADMFormer: An Adaptive-Decomposition Transformer with Time-Varying Masked Spatial Attention for Traffic Forecasting</title>
+            <categories>cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic forecasting is essential for intelligent transportation systems, supporting a wide range of real-world applications. However, it remains challenging due to two key factors:~(1) Traffic series contain heterogeneous temporal patterns, where stable periodic regularities coexist with event-driven fluctuations. Existing methods often treat them within a unified representation, limiting their ability to capture fine-grained temporal dynamics.~(2)Spatial dependencies among nodes are inherently dynamic and sparse, while dense all-pairs attention often introduces redundant interactions and amplifies noise. To address these issues, we propose ADMFormer, an Adaptive-Decomposition Transformer with Time-Varying Masked Spatial Attention. Specifically, ADMFormer first employs a time-node adaptive gating mechanism to decouple traffic signals into dominant regularities and residual fluctuations that vary across time and nodes. A dual-branch temporal module is then designed to separately capture global periodic dependencies and high-frequency irregular variations from these two decomposed components. Furthermore, ADMFormer introduces a time-varying masked spatial attention that sparsifies spatial interactions based on real-time traffic states, thereby effectively preserving dynamic and informative dependencies. Extensive experiments on four real-world datasets demonstrate that ADMFormer achieves state-of-the-art performance.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

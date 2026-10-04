@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:52:10Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2502.16935" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2502.16935</identifier>
+        <datestamp>2025-02-25</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2502.16935</id>
+        <created>2025-02-24</created>
+            <updated>2025-02-25</updated>
+        <authors>
+                <author>
+                    <keyname>Wölker</keyname>
+                        <forenames>Yannick</forenames>
+                </author>
+                <author>
+                    <keyname>Beth</keyname>
+                        <forenames>Christian</forenames>
+                </author>
+                <author>
+                    <keyname>Renz</keyname>
+                        <forenames>Matthias</forenames>
+                </author>
+                <author>
+                    <keyname>Biastoch</keyname>
+                        <forenames>Arne</forenames>
+                </author>
+        </authors>
+        <title>SUSTeR: Sparse Unstructured Spatio Temporal Reconstruction on Traffic Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>accepted and presented at ACM SIGSPATIAL &#39;23</comments>
+            <doi>10.1145/3589132.3625631</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Mining spatio-temporal correlation patterns for traffic prediction is a well-studied field. However, most approaches are based on the assumption of the availability of and accessibility to a sufficiently dense data source, which is rather the rare case in reality. Traffic sensors in road networks are generally highly sparse in their distribution: fleet-based traffic sensing is sparse in space but also sparse in time. There are also other traffic application, besides road traffic, like moving objects in the marine space, where observations are sparsely and arbitrarily distributed in space. In this paper, we tackle the problem of traffic prediction on sparse and spatially irregular and non-deterministic traffic observations. We draw a border between imputations and this work as we consider high sparsity rates and no fixed sensor locations. We advance correlation mining methods with a Sparse Unstructured Spatio Temporal Reconstruction (SUSTeR) framework that reconstructs traffic states from sparse non-stationary observations. For the prediction the framework creates a hidden context traffic state which is enriched in a residual fashion with each observation. Such an assimilated hidden traffic state can be used by existing traffic prediction methods to predict future traffic states. We query these states with query locations from the spatial domain.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

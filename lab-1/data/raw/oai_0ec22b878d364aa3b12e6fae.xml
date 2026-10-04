@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:44:54Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2501.10048" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2501.10048</identifier>
+        <datestamp>2025-01-20</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2501.10048</id>
+        <created>2025-01-17</created>
+            <updated>2025-01-20</updated>
+        <authors>
+                <author>
+                    <keyname>Cao</keyname>
+                        <forenames>Xiaoyang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhuang</keyname>
+                        <forenames>Dingyi</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Jinhua</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Shenhao</forenames>
+                </author>
+        </authors>
+        <title>Virtual Nodes Improve Long-term Traffic Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Effective traffic prediction is a cornerstone of intelligent transportation systems, enabling precise forecasts of traffic flow, speed, and congestion. While traditional spatio-temporal graph neural networks (ST-GNNs) have achieved notable success in short-term traffic forecasting, their performance in long-term predictions remains limited. This challenge arises from over-squashing problem, where bottlenecks and limited receptive fields restrict information flow and hinder the modeling of global dependencies. To address these challenges, this study introduces a novel framework that incorporates virtual nodes, which are additional nodes added to the graph and connected to existing nodes, in order to aggregate information across the entire graph within a single GNN layer. Our proposed model incorporates virtual nodes by constructing a semi-adaptive adjacency matrix. This matrix integrates distance-based and adaptive adjacency matrices, allowing the model to leverage geographical information while also learning task-specific features from data. Experimental results demonstrate that the inclusion of virtual nodes significantly enhances long-term prediction accuracy while also improving layer-wise sensitivity to mitigate the over-squashing problem. Virtual nodes also offer enhanced explainability by focusing on key intersections and high-traffic areas, as shown by the visualization of their adjacency matrix weights on road network heat maps. Our advanced approach enhances the understanding and management of urban traffic systems, making it particularly well-suited for real-world applications.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

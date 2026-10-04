@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:44:16Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2312.11933" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2312.11933</identifier>
+        <datestamp>2023-12-20</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2312.11933</id>
+        <created>2023-12-19</created>
+            <updated>2023-12-20</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Yujie</forenames>
+                </author>
+                <author>
+                    <keyname>Shao</keyname>
+                        <forenames>Zezhi</forenames>
+                </author>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Yongjun</forenames>
+                </author>
+                <author>
+                    <keyname>Qiu</keyname>
+                        <forenames>Qiang</forenames>
+                </author>
+                <author>
+                    <keyname>Cao</keyname>
+                        <forenames>Zhaogang</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Fei</forenames>
+                </author>
+        </authors>
+        <title>Dynamic Frequency Domain Graph Convolutional Network for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Complex spatial dependencies in transportation networks make traffic prediction extremely challenging. Much existing work is devoted to learning dynamic graph structures among sensors, and the strategy of mining spatial dependencies from traffic data, known as data-driven, tends to be an intuitive and effective approach. However, Time-Shift of traffic patterns and noise induced by random factors hinder data-driven spatial dependence modeling. In this paper, we propose a novel dynamic frequency domain graph convolution network (DFDGCN) to capture spatial dependencies. Specifically, we mitigate the effects of time-shift by Fourier transform, and introduce the identity embedding of sensors and time embedding when capturing data for graph learning since traffic data with noise is not entirely reliable. The graph is combined with static predefined and self-adaptive graphs during graph convolution to predict future traffic data through classical causal convolutions. Extensive experiments on four real-world datasets demonstrate that our model is effective and outperforms the baselines.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

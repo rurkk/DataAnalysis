@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:48:55Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2309.06800" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2309.06800</identifier>
+        <datestamp>2024-02-07</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2309.06800</id>
+        <created>2023-11-29</created>
+            <updated>2024-02-07</updated>
+        <authors>
+                <author>
+                    <keyname>Mei</keyname>
+                        <forenames>Hao</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Junxian</forenames>
+                </author>
+                <author>
+                    <keyname>Liang</keyname>
+                        <forenames>Zhiming</forenames>
+                </author>
+                <author>
+                    <keyname>Zheng</keyname>
+                        <forenames>Guanjie</forenames>
+                </author>
+                <author>
+                    <keyname>Shi</keyname>
+                        <forenames>Bin</forenames>
+                </author>
+                <author>
+                    <keyname>Wei</keyname>
+                        <forenames>Hua</forenames>
+                </author>
+        </authors>
+        <title>Uncertainty-aware Traffic Prediction under Missing Data</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>11 pages, 3 figures, a short version of this paper is accepted by ICDM 2023</comments>
+            <doi>10.1109/ICDM58522.2023.00152</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction is a crucial topic because of its broad scope of applications in the transportation domain. Recently, various studies have achieved promising results. However, most studies assume the prediction locations have complete or at least partial historical records and cannot be extended to non-historical recorded locations. In real-life scenarios, the deployment of sensors could be limited due to budget limitations and installation availability, which makes most current models not applicable. Though few pieces of literature tried to impute traffic states at the missing locations, these methods need the data simultaneously observed at the locations with sensors, making them not applicable to prediction tasks. Another drawback is the lack of measurement of uncertainty in prediction, making prior works unsuitable for risk-sensitive tasks or involving decision-making. To fill the gap, inspired by the previous inductive graph neural network, this work proposed an uncertainty-aware framework with the ability to 1) extend prediction to missing locations with no historical records and significantly extend spatial coverage of prediction locations while reducing deployment of sensors and 2) generate probabilistic prediction with uncertainty quantification to help the management of risk and decision making in the down-stream tasks. Through extensive experiments on real-life datasets, the result shows our method achieved promising results on prediction tasks, and the uncertainty quantification gives consistent results which highly correlated with the locations with and without historical data. We also show that our model could help support sensor deployment tasks in the transportation field to achieve higher accuracy with a limited sensor deployment budget.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

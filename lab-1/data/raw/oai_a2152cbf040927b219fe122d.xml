@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:44:28Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2303.09273" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2303.09273</identifier>
+        <datestamp>2023-03-17</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2303.09273</id>
+        <created>2023-03-16</created>
+            <updated>2023-03-17</updated>
+        <authors>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Ying</forenames>
+                </author>
+                <author>
+                    <keyname>Ye</keyname>
+                        <forenames>Yongchao</forenames>
+                </author>
+                <author>
+                    <keyname>Zeb</keyname>
+                        <forenames>Adnan</forenames>
+                </author>
+                <author>
+                    <keyname>Yu</keyname>
+                        <forenames>James J. Q.</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Zheng</forenames>
+                </author>
+        </authors>
+        <title>Adaptive Modeling of Uncertainties for Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>14 pages, 5 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Deep neural networks (DNNs) have emerged as a dominant approach for developing traffic forecasting models. These models are typically trained to minimize error on averaged test cases and produce a single-point prediction, such as a scalar value for traffic speed or travel time. However, single-point predictions fail to account for prediction uncertainty that is critical for many transportation management scenarios, such as determining the best- or worst-case arrival time. We present QuanTraffic, a generic framework to enhance the capability of an arbitrary DNN model for uncertainty modeling. QuanTraffic requires little human involvement and does not change the base DNN architecture during deployment. Instead, it automatically learns a standard quantile function during the DNN model training to produce a prediction interval for the single-point prediction. The prediction interval defines a range where the true value of the traffic prediction is likely to fall. Furthermore, QuanTraffic develops an adaptive scheme that dynamically adjusts the prediction interval based on the location and prediction window of the test input. We evaluated QuanTraffic by applying it to five representative DNN models for traffic forecasting across seven public datasets. We then compared QuanTraffic against five uncertainty quantification methods. Compared to the baseline uncertainty modeling techniques, QuanTraffic with base DNN architectures delivers consistently better and more robust performance than the existing ones on the reported datasets.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

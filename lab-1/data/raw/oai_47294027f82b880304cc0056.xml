@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-10T09:02:54Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2608.25498" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2608.25498</identifier>
+        <datestamp>2026-08-27</datestamp>
+            <setSpec>math:math:OC</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2608.25498</id>
+        <created>2026-08-26</created>
+            <updated>2026-08-27</updated>
+        <authors>
+                <author>
+                    <keyname>Yu</keyname>
+                        <forenames>Quan</forenames>
+                </author>
+                <author>
+                    <keyname>Ni</keyname>
+                        <forenames>Jie</forenames>
+                </author>
+                <author>
+                    <keyname>Dai</keyname>
+                        <forenames>Yu-Hong</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Xiongjun</forenames>
+                </author>
+        </authors>
+        <title>A Multi-View Coupled Tensor Decomposition for Lightweight Online Adaptive Traffic Prediction</title>
+            <categories>math.OC cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate online traffic prediction is essential for intelligent transportation systems, where forecasting must be performed continuously under imperfect sensing conditions. Missing observations and anomalous disturbances make this task challenging, particularly when prediction relies on a single traffic view. This paper proposes a Multi-View Coupled Tensor Decomposition (MVCTD) model for online traffic prediction from imperfect multi-view observations, such as speed, flow, and occupancy. The proposed model uses coupled tensor decomposition to build a structured latent forecasting space, in which shared spatial structures across traffic views and view-specific temporal dynamics are jointly modeled. A group sparse regularization is further introduced to capture correlated abnormal responses induced by real traffic anomalies and thus reduce their influence on forecasts. For streaming deployment, MVCTD performs iterative refinement only on the current latent tensor, while the remaining model variables are updated by lightweight closed-form steps based on summarized historical information, thereby avoiding repeated optimization over the full historical sequence. Experiments on real-world traffic datasets demonstrate that MVCTD achieves accurate forecasts with favorable runtime under severe missingness, confirming its suitability for online traffic prediction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

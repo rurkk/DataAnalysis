@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:08:16Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2011.14638" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2011.14638</identifier>
+        <datestamp>2020-12-01</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2011.14638</id>
+        <created>2020-11-30</created>
+            <updated>2020-12-01</updated>
+        <authors>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Xu</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Yuanxing</forenames>
+                </author>
+                <author>
+                    <keyname>Du</keyname>
+                        <forenames>Lun</forenames>
+                </author>
+                <author>
+                    <keyname>Fang</keyname>
+                        <forenames>Zheng</forenames>
+                </author>
+                <author>
+                    <keyname>Ren</keyname>
+                        <forenames>Yi</forenames>
+                </author>
+                <author>
+                    <keyname>Bian</keyname>
+                        <forenames>Kaigui</forenames>
+                </author>
+                <author>
+                    <keyname>Xie</keyname>
+                        <forenames>Kunqing</forenames>
+                </author>
+        </authors>
+        <title>TSSRGCN: Temporal Spectral Spatial Retrieval Graph Convolutional Network for Traffic Flow Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>Published as a conference paper at ICDM 2020</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow forecasting is of great significance for improving the efficiency of transportation systems and preventing emergencies. Due to the highly non-linearity and intricate evolutionary patterns of short-term and long-term traffic flow, existing methods often fail to take full advantage of spatial-temporal information, especially the various temporal patterns with different period shifting and the characteristics of road segments. Besides, the globality representing the absolute value of traffic status indicators and the locality representing the relative value have not been considered simultaneously. This paper proposes a neural network model that focuses on the globality and locality of traffic networks as well as the temporal patterns of traffic data. The cycle-based dilated deformable convolution block is designed to capture different time-varying trends on each node accurately. Our model can extract both global and local spatial information since we combine two graph convolutional network methods to learn the representations of nodes and edges. Experiments on two real-world datasets show that the model can scrutinize the spatial-temporal correlation of traffic data, and its performance is better than the compared state-of-the-art methods. Further analysis indicates that the locality and globality of the traffic networks are critical to traffic flow prediction and the proposed TSSRGCN model can adapt to the various temporal traffic patterns.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

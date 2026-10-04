@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:42:34Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2401.04135" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2401.04135</identifier>
+        <datestamp>2024-01-10</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2401.04135</id>
+        <created>2024-01-07</created>
+            <updated>2024-01-10</updated>
+        <authors>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Haiyang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Chunjiang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Detian</forenames>
+                </author>
+        </authors>
+        <title>Global-Aware Enhanced Spatial-Temporal Graph Recurrent Networks: A New Framework For Traffic Flow Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow prediction plays a crucial role in alleviating traffic congestion and enhancing transport efficiency. While combining graph convolution networks with recurrent neural networks for spatial-temporal modeling is a common strategy in this realm, the restricted structure of recurrent neural networks limits their ability to capture global information. For spatial modeling, many prior studies learn a graph structure that is assumed to be fixed and uniform at all time steps, which may not be true. This paper introduces a novel traffic prediction framework, Global-Aware Enhanced Spatial-Temporal Graph Recurrent Network (GA-STGRN), comprising two core components: a spatial-temporal graph recurrent neural network and a global awareness layer. Within this framework, three innovative prediction models are formulated. A sequence-aware graph neural network is proposed and integrated into the Gated Recurrent Unit (GRU) to learn non-fixed graphs at different time steps and capture local temporal relationships. To enhance the model&#39;s global perception, three distinct global spatial-temporal transformer-like architectures (GST^2) are devised for the global awareness layer. We conduct extensive experiments on four real traffic datasets and the results demonstrate the superiority of our framework and the three concrete models.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

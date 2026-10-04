@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:45:32Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2005.05128" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2005.05128</identifier>
+        <datestamp>2020-05-12</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>eess:eess:SP</setSpec>
+            <setSpec>stat:stat:ML</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2005.05128</id>
+        <created>2020-05-08</created>
+            <updated>2020-05-12</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Jichen</forenames>
+                </author>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Weiguo</forenames>
+                </author>
+                <author>
+                    <keyname>Sun</keyname>
+                        <forenames>Yongqi</forenames>
+                </author>
+                <author>
+                    <keyname>Tian</keyname>
+                        <forenames>Chunzi</forenames>
+                </author>
+        </authors>
+        <title>An Effective Dynamic Spatio-temporal Framework with Multi-Source Information for Traffic Prediction</title>
+            <categories>cs.LG eess.SP stat.ML</categories>
+            <comments>12pages, 12 figures, 6 tables</comments>
+            <acm-class>None</acm-class>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic prediction is necessary not only for management departments to dispatch vehicles but also for drivers to avoid congested roads. Many traffic forecasting methods based on deep learning have been proposed in recent years, and their main aim is to solve the problem of spatial dependencies and temporal dynamics. In this paper, we propose a useful dynamic model to predict the urban traffic volume by combining fully bidirectional LSTM, the more complex attention mechanism, and the external features, including weather conditions and events. First, we adopt the bidirectional LSTM to obtain temporal dependencies of traffic volume dynamically in each layer, which is different from the hybrid methods combining bidirectional and unidirectional ones; second, we use a more elaborate attention mechanism to learn short-term and long-term periodic temporal dependencies; and finally, we collect the weather conditions and events as the external features to further improve the prediction precision. The experimental results show that the proposed model improves the prediction precision by approximately 3-7 percent on the NYC-Taxi and NYC-Bike datasets compared to the most recently developed method, being a useful tool for the urban traffic prediction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

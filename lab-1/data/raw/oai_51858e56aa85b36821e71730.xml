@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:06Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2603.16857" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2603.16857</identifier>
+        <datestamp>2026-03-18</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2603.16857</id>
+        <created>2026-03-17</created>
+            <updated>2026-03-18</updated>
+        <authors>
+                <author>
+                    <keyname>Patil</keyname>
+                        <forenames>Mayur</forenames>
+                </author>
+                <author>
+                    <keyname>Ahmed</keyname>
+                        <forenames>Qadeer</forenames>
+                </author>
+                <author>
+                    <keyname>Midlam-Mohler</keyname>
+                        <forenames>Shawn</forenames>
+                </author>
+                <author>
+                    <keyname>Marik</keyname>
+                        <forenames>Stephanie</forenames>
+                </author>
+                <author>
+                    <keyname>Sheldon</keyname>
+                        <forenames>Allen</forenames>
+                </author>
+                <author>
+                    <keyname>Chhajer</keyname>
+                        <forenames>Rajeev</forenames>
+                </author>
+                <author>
+                    <keyname>Santhanam</keyname>
+                        <forenames>Nithin</forenames>
+                </author>
+        </authors>
+        <title>Long-Horizon Traffic Forecasting via Incident-Aware Conformal Spatio-Temporal Transformers</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Reliable multi-horizon traffic forecasting is challenging because network conditions are stochastic, incident disruptions are intermittent, and effective spatial dependencies vary across time-of-day patterns. This study is conducted on the Ohio Department of Transportation (ODOT) traffic count data and corresponding ODOT crash records. This work utilizes a Spatio-Temporal Transformer (STT) model with Adaptive Conformal Prediction (ACP) to produce multi-horizon forecasts with calibrated uncertainty. We propose a piecewise Coefficient of Variation (CV) strategy that models hour-to-hour traveltime variability using a log-normal distribution, enabling the construction of a per-hour dynamic adjacency matrix. We further perturb edge weights using incident-related severity signals derived from the ODOT crash dataset that comprises incident clearance time, weather conditions, speed violations, work zones, and roadway functional class, to capture localized disruptions and peak/off-peak transitions. This dynamic graph construction replaces a fixed-CV assumption and better represents changing traffic conditions within the forecast window. For validation, we generate extended trips via multi-hour loop runs on the Columbus, Ohio, network in SUMO simulations and apply a Monte Carlo simulation to obtain travel-time distributions for a Vehicle Under Test (VUT). Experiments demonstrate improved long-horizon accuracy and well-calibrated prediction intervals compared to other baseline methods.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

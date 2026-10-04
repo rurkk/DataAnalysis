@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:53:52Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2510.16053" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2510.16053</identifier>
+        <datestamp>2025-10-21</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2510.16053</id>
+        <created>2025-10-16</created>
+            <updated>2025-10-21</updated>
+        <authors>
+                <author>
+                    <keyname>Yu</keyname>
+                        <forenames>Chenyang</forenames>
+                </author>
+                <author>
+                    <keyname>Xie</keyname>
+                        <forenames>Xinpeng</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Yan</forenames>
+                </author>
+                <author>
+                    <keyname>Qiu</keyname>
+                        <forenames>Chenxi</forenames>
+                </author>
+        </authors>
+        <title>FUSE-Traffic: Fusion of Unstructured and Structured Data for Event-aware Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <doi>10.1145/3748636.3762776</doi>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Accurate traffic forecasting is a core technology for building Intelligent Transportation Systems (ITS), enabling better urban resource allocation and improved travel experiences. With growing urbanization, traffic congestion has intensified, highlighting the need for reliable and responsive forecasting models. In recent years, deep learning, particularly Graph Neural Networks (GNNs), has emerged as the mainstream paradigm in traffic forecasting. GNNs can effectively capture complex spatial dependencies in road network topology and dynamic temporal evolution patterns in traffic flow data. Foundational models such as STGCN and GraphWaveNet, along with more recent developments including STWave and D2STGNN, have achieved impressive performance on standard traffic datasets. These approaches incorporate sophisticated graph convolutional structures and temporal modeling mechanisms, demonstrating particular effectiveness in capturing and forecasting traffic patterns characterized by periodic regularities. To address this challenge, researchers have explored various ways to incorporate event information. Early attempts primarily relied on manually engineered event features. For instance, some approaches introduced manually defined incident effect scores or constructed specific subgraphs for different event-induced traffic conditions. While these methods somewhat enhance responsiveness to specific events, their core drawback lies in a heavy reliance on domain experts&#39; prior knowledge, making generalization to diverse and complex unknown events difficult, and low-dimensional manual features often lead to the loss of rich semantic details.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

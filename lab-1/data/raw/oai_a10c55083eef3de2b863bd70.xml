@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:07:37Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2401.10155" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2401.10155</identifier>
+        <datestamp>2024-06-18</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2401.10155</id>
+        <created>2024-06-17</created>
+            <updated>2024-06-18</updated>
+        <authors>
+                <author>
+                    <keyname>Dai</keyname>
+                        <forenames>Ben-Ao</forenames>
+                </author>
+                <author>
+                    <keyname>Ye</keyname>
+                        <forenames>Bao-Lin</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Lingxi</forenames>
+                </author>
+        </authors>
+        <title>A novel hybrid time-varying graph neural network for traffic flow forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>16 pages,7 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Real-time and precise traffic flow prediction is vital for the efficiency of intelligent transportation systems. Traditional methods often employ graph neural networks (GNNs) with predefined graphs to describe spatial correlations among traffic nodes in urban road networks. However, these pre-defined graphs are limited by existing knowledge and graph generation methodologies, offering an incomplete picture of spatial correlations. While time-varying graphs based on data-driven learning have attempted to address these limitations, they still struggle with adequately capturing the inherent spatial correlations in traffic data. Moreover, most current methods for capturing dynamic temporal correlations rely on a unified calculation scheme using a temporal multi-head self-attention mechanism, which at some level might leads to inaccuracies. In order to overcome these challenges, we have proposed a novel hybrid time-varying graph neural network (HTVGNN) for traffic flow prediction. Firstly, a novel enhanced temporal perception multi-head self-attention mechanism based on time-varying mask enhancement was reported to more accurately model the dynamic temporal dependencies among distinct traffic nodes in the traffic network. Secondly, we have proposed a novel graph learning strategy to concurrently learn both static and dynamic spatial associations between different traffic nodes in road networks. Meanwhile, in order to enhance the learning ability of time-varying graphs, a coupled graph learning mechanism was designed to couple the graphs learned at each time step. Finally, the effectiveness of the proposed method HTVGNN was demonstrated with four real data sets. Simulation results revealed that HTVGNN achieves superior prediction accuracy compared to the state of the art spatio-temporal graph neural network models. Additionally, the ablation experiment verifies that the coupled graph learning mechanism can effectively improve the long-term prediction performance of HTVGNN.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:54:35Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2111.00869" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2111.00869</identifier>
+        <datestamp>2021-11-02</datestamp>
+            <setSpec>cs:cs:CV</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2111.00869</id>
+        <created>2021-10-19</created>
+            <updated>2021-11-02</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>He</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Shiyu</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Xuejiao</forenames>
+                </author>
+                <author>
+                    <keyname>Su</keyname>
+                        <forenames>Liangcai</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Hongjie</forenames>
+                </author>
+                <author>
+                    <keyname>Jin</keyname>
+                        <forenames>Duo</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Linghao</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Jianbing</forenames>
+                </author>
+                <author>
+                    <keyname>Yoo</keyname>
+                        <forenames>Jaesoo</forenames>
+                </author>
+        </authors>
+        <title>DetectorNet: Transformer-enhanced Spatial Temporal Graph Neural Network for Traffic Prediction</title>
+            <categories>cs.CV cs.AI cs.LG</categories>
+            <comments>The 29th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL 2021)</comments>
+            <doi>10.1145/3474717.3483920</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Detectors with high coverage have direct and far-reaching benefits for road users in route planning and avoiding traffic congestion, but utilizing these data presents unique challenges including: the dynamic temporal correlation, and the dynamic spatial correlation caused by changes in road conditions. Although the existing work considers the significance of modeling with spatial-temporal correlation, what it has learned is still a static road network structure, which cannot reflect the dynamic changes of roads, and eventually loses much valuable potential information. To address these challenges, we propose DetectorNet enhanced by Transformer. Differs from previous studies, our model contains a Multi-view Temporal Attention module and a Dynamic Attention module, which focus on the long-distance and short-distance temporal correlation, and dynamic spatial correlation by dynamically updating the learned knowledge respectively, so as to make accurate prediction. In addition, the experimental results on two public datasets and the comparison results of four ablation experiments proves that the performance of DetectorNet is better than the eleven advanced baselines.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

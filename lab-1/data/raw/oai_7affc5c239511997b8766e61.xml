@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:57:10Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2507.01982" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2507.01982</identifier>
+        <datestamp>2025-07-04</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2507.01982</id>
+        <created>2025-06-26</created>
+            <updated>2025-07-04</updated>
+        <authors>
+                <author>
+                    <keyname>Long</keyname>
+                        <forenames>Siqing</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Xiangzhi</forenames>
+                </author>
+                <author>
+                    <keyname>Xie</keyname>
+                        <forenames>Jiemin</forenames>
+                </author>
+                <author>
+                    <keyname>Cai</keyname>
+                        <forenames>Ming</forenames>
+                </author>
+        </authors>
+        <title>DKGCM: A Spatio-Temporal Prediction Model for Traffic Flow by Fusing Spatial Node Clustering Method and Fourier Bidirectional Mamba Mechanism</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>39 pages, 14 figures</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Accurate traffic demand forecasting enables transportation management departments to allocate resources more effectively, thereby improving their utilization efficiency. However, complex spatiotemporal relationships in traffic systems continue to limit the performance of demand forecasting models. To improve the accuracy of spatiotemporal traffic demand prediction, we propose a new graph convolutional network structure called DKGCM. Specifically, we first consider the spatial flow distribution of different traffic nodes and propose a novel temporal similarity-based clustering graph convolution method, DK-GCN. This method utilizes Dynamic Time Warping (DTW) and K-means clustering to group traffic nodes and more effectively capture spatial dependencies. On the temporal scale, we integrate the Fast Fourier Transform (FFT) within the bidirectional Mamba deep learning framework to capture temporal dependencies in traffic demand. To further optimize model training, we incorporate the GRPO reinforcement learning strategy to enhance the loss function feedback mechanism. Extensive experiments demonstrate that our model outperforms several advanced methods and achieves strong results on three public datasets.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

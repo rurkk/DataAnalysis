@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:52:28Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2603.11816" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2603.11816</identifier>
+        <datestamp>2026-03-13</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2603.11816</id>
+        <created>2026-03-12</created>
+            <updated>2026-03-13</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Zhiwei</forenames>
+                </author>
+                <author>
+                    <keyname>Du</keyname>
+                        <forenames>Xinyi</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Weihao</forenames>
+                </author>
+                <author>
+                    <keyname>Guo</keyname>
+                        <forenames>Xuanchi</forenames>
+                </author>
+                <author>
+                    <keyname>Han</keyname>
+                        <forenames>Wenjuan</forenames>
+                </author>
+        </authors>
+        <title>VisiFold: Long-Term Traffic Forecasting via Temporal Folding Graph and Node Visibility</title>
+            <categories>cs.AI</categories>
+            <comments>15 pages, 9 figures, accepted by ICDE 2026</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is a cornerstone of intelligent transportation systems. While existing research has made significant progress in short-term prediction, long-term forecasting remains a largely uncharted and challenging frontier. Extending the prediction horizon intensifies two critical issues: escalating computational resource consumption and increasingly complex spatial-temporal dependencies. Current approaches, which rely on spatial-temporal graphs and process temporal and spatial dimensions separately, suffer from snapshot-stacking inflation and cross-step fragmentation. To overcome these limitations, we propose \textit{VisiFold}. Our framework introduces a novel temporal folding graph that consolidates a sequence of temporal snapshots into a single graph. Furthermore, we present a node visibility mechanism that incorporates node-level masking and subgraph sampling to overcome the computational bottleneck imposed by large node counts. Extensive experiments show that VisiFold not only drastically reduces resource consumption but also outperforms existing baselines in long-term forecasting tasks. Remarkably, even with a high mask ratio of 80\%, VisiFold maintains its performance advantage. By effectively breaking the resource constraints in both temporal and spatial dimensions, our work paves the way for more realistic long-term traffic forecasting. The code is available at~ https://github.com/PlanckChang/VisiFold.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

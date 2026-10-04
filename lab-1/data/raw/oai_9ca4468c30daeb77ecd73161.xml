@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:07:14Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2407.11074" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2407.11074</identifier>
+        <datestamp>2024-07-17</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2407.11074</id>
+        <created>2024-07-13</created>
+            <updated>2024-07-17</updated>
+        <authors>
+                <author>
+                    <keyname>Long</keyname>
+                        <forenames>Baichao</forenames>
+                </author>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Wang</forenames>
+                </author>
+                <author>
+                    <keyname>Xiao</keyname>
+                        <forenames>Jianli</forenames>
+                </author>
+        </authors>
+        <title>ST-RetNet: A Long-term Spatial-Temporal Traffic Flow Prediction Method</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow forecasting is considered a critical task in the field of intelligent transportation systems. In this paper, to address the issue of low accuracy in long-term forecasting of spatial-temporal big data on traffic flow, we propose an innovative model called Spatial-Temporal Retentive Network (ST-RetNet). We extend the Retentive Network to address the task of traffic flow forecasting. At the spatial scale, we integrate a topological graph structure into Spatial Retentive Network(S-RetNet), utilizing an adaptive adjacency matrix to extract dynamic spatial features of the road network. We also employ Graph Convolutional Networks to extract static spatial features of the road network. These two components are then fused to capture dynamic and static spatial correlations. At the temporal scale, we propose the Temporal Retentive Network(T-RetNet), which has been demonstrated to excel in capturing long-term dependencies in traffic flow patterns compared to other time series models, including Recurrent Neural Networks based and transformer models. We achieve the spatial-temporal traffic flow forecasting task by integrating S-RetNet and T-RetNet to form ST-RetNet. Through experimental comparisons conducted on four real-world datasets, we demonstrate that ST-RetNet outperforms the state-of-the-art approaches in traffic flow forecasting.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

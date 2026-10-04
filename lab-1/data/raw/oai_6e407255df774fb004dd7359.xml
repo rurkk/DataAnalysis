@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:55:20Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2210.16049" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2210.16049</identifier>
+        <datestamp>2022-10-31</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>stat:stat:ML</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2210.16049</id>
+        <created>2022-10-28</created>
+            <updated>2022-10-31</updated>
+        <authors>
+                <author>
+                    <keyname>Laña</keyname>
+                        <forenames>Ibai</forenames>
+                </author>
+                <author>
+                    <keyname>Ignacio</keyname>
+                </author>
+                <author>
+                    <keyname>Olabarrieta</keyname>
+                </author>
+                <author>
+                    <keyname>Del Ser</keyname>
+                        <forenames>Javier</forenames>
+                </author>
+        </authors>
+        <title>Measuring the Confidence of Traffic Forecasting Models: Techniques, Experimental Comparison and Guidelines towards Their Actionability</title>
+            <categories>cs.LG cs.AI stat.ML</categories>
+            <comments>46 pages, 12 figures, under review</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>The estimation of the amount of uncertainty featured by predictive machine learning models has acquired a great momentum in recent years. Uncertainty estimation provides the user with augmented information about the model&#39;s confidence in its predicted outcome. Despite the inherent utility of this information for the trustworthiness of the user, there is a thin consensus around the different types of uncertainty that one can gauge in machine learning models and the suitability of different techniques that can be used to quantify the uncertainty of a specific model. This subject is mostly non existent within the traffic modeling domain, even though the measurement of the confidence associated to traffic forecasts can favor significantly their actionability in practical traffic management systems. This work aims to cover this lack of research by reviewing different techniques and metrics of uncertainty available in the literature, and by critically discussing how confidence levels computed for traffic forecasting models can be helpful for researchers and practitioners working in this research area. To shed light with empirical evidence, this critical discussion is further informed by experimental results produced by different uncertainty estimation techniques over real traffic data collected in Madrid (Spain), rendering a general overview of the benefits and caveats of every technique, how they can be compared to each other, and how the measured uncertainty decreases depending on the amount, quality and diversity of data used to produce the forecasts.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

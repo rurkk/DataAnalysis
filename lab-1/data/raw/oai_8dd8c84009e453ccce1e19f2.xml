@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:50:27Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2305.19292" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2305.19292</identifier>
+        <datestamp>2023-06-01</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2305.19292</id>
+        <created>2023-05-30</created>
+            <updated>2023-06-01</updated>
+        <authors>
+                <author>
+                    <keyname>Ting</keyname>
+                        <forenames>Ta Jiun</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Xiaocan</forenames>
+                </author>
+                <author>
+                    <keyname>Sanner</keyname>
+                        <forenames>Scott</forenames>
+                </author>
+                <author>
+                    <keyname>Abdulhai</keyname>
+                        <forenames>Baher</forenames>
+                </author>
+        </authors>
+        <title>Revisiting Random Forests in a Comparative Evaluation of Graph Convolutional Neural Network Variants for Traffic Prediction</title>
+            <categories>cs.LG</categories>
+            <journal-ref>The International Conference on Intelligent Transportation Systems 2021</journal-ref>
+            <doi>10.1109/ITSC48978.2021.9564595</doi>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Traffic prediction is a spatiotemporal predictive task that plays an essential role in intelligent transportation systems. Today, graph convolutional neural networks (GCNNs) have become the prevailing models in the traffic prediction literature since they excel at extracting spatial correlations. In this work, we classify the components of successful GCNN prediction models and analyze the effects of matrix factorization, attention mechanism, and weight sharing on their performance. Furthermore, we compare these variations against random forests, a traditional regression method that predates GCNNs by over 15 years. We evaluated these methods using simulated data of two regions in Toronto as well as real-world sensor data from selected California highways. We found that incorporating matrix factorization, attention, and location-specific model weights either individually or collectively into GCNNs can result in a better overall performance. Moreover, although random forest regression is a less compact model, it matches or exceeds the performance of all variations of GCNNs in our experiments. This suggests that the current graph convolutional methods may not be the best approach to traffic prediction and there is still room for improvement. Finally, our findings also suggest that for future research on GCNN for traffic prediction to be credible, researchers must include performance comparison to random forests.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

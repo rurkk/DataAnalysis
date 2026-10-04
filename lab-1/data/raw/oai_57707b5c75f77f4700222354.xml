@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:09:13Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2203.06213" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2203.06213</identifier>
+        <datestamp>2022-03-15</datestamp>
+            <setSpec>cs:cs:HC</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2203.06213</id>
+        <created>2022-03-11</created>
+            <updated>2022-03-15</updated>
+        <authors>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Yifan</forenames>
+                </author>
+                <author>
+                    <keyname>Feng</keyname>
+                        <forenames>Zezheng</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Hongjun</forenames>
+                </author>
+                <author>
+                    <keyname>Fan</keyname>
+                        <forenames>Zipei</forenames>
+                </author>
+                <author>
+                    <keyname>Song</keyname>
+                        <forenames>Xuan</forenames>
+                </author>
+        </authors>
+        <title>TrafPS: A Visual Analysis System Interpreting Traffic Prediction in Shapley</title>
+            <categories>cs.HC cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>In recent years, deep learning approaches have been proved good performance in traffic flow prediction, many complex models have been proposed to make traffic flow prediction more accurate. However, lacking transparency limits the domain experts on understanding when and where the input data mainly impact the results. Most urban experts and planners can only adjust traffic based on their own experience and can not react effectively toward the potential traffic jam. To tackle this problem, we adapt Shapley value and present a visualization analysis system , which can provide experts with the interpretation of traffic flow prediction. TrafPS consists of three layers, from data process to results computation and visualization. We design three visualization views in TrafPS to support the prediction analysis process. One demonstration shows that the TrafPS supports an effective analytical pipeline on interpreting the prediction flow to users and provides an intuitive visualization for decision making.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

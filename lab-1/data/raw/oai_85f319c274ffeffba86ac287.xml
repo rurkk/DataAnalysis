@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:44:58Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2107.01528" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2107.01528</identifier>
+        <datestamp>2021-08-17</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2107.01528</id>
+        <created>2021-08-16</created>
+            <updated>2021-08-17</updated>
+        <authors>
+                <author>
+                    <keyname>Ye</keyname>
+                        <forenames>Jiexia</forenames>
+                </author>
+                <author>
+                    <keyname>Zheng</keyname>
+                        <forenames>Furong</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Juanjuan</forenames>
+                </author>
+                <author>
+                    <keyname>Ye</keyname>
+                        <forenames>Kejiang</forenames>
+                </author>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Chengzhong</forenames>
+                </author>
+        </authors>
+        <title>Incorporating Reachability Knowledge into a Multi-Spatial Graph Convolution Based Seq2Seq Model for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>12 pages, 9 figures</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Accurate traffic state prediction is the foundation of transportation control and guidance. It is very challenging due to the complex spatiotemporal dependencies in traffic data. Existing works cannot perform well for multi-step traffic prediction that involves long future time period. The spatiotemporal information dilution becomes serve when the time gap between input step and predicted step is large, especially when traffic data is not sufficient or noisy. To address this issue, we propose a multi-spatial graph convolution based Seq2Seq model. Our main novelties are three aspects: (1) We enrich the spatiotemporal information of model inputs by fusing multi-view features (time, location and traffic states) (2) We build multiple kinds of spatial correlations based on both prior knowledge and data-driven knowledge to improve model performance especially in insufficient or noisy data cases. (3) A spatiotemporal attention mechanism based on reachability knowledge is novelly designed to produce high-level features fed into decoder of Seq2Seq directly to ease information dilution. Our model is evaluated on two real world traffic datasets and achieves better performance than other competitors.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

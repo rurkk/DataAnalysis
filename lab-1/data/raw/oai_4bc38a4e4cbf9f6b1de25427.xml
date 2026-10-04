@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:57:25Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2501.12281" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2501.12281</identifier>
+        <datestamp>2026-04-21</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2501.12281</id>
+        <created>2026-04-18</created>
+            <updated>2026-04-21</updated>
+        <authors>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Qishen</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Yifan</forenames>
+                </author>
+                <author>
+                    <keyname>Makridis</keyname>
+                        <forenames>Michail A.</forenames>
+                </author>
+                <author>
+                    <keyname>Kouvelas</keyname>
+                        <forenames>Anastasios</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Yibing</forenames>
+                </author>
+                <author>
+                    <keyname>Hu</keyname>
+                        <forenames>Simon</forenames>
+                </author>
+        </authors>
+        <title>MoGERNN: An Inductive Traffic Predictor for Unobserved Locations</title>
+            <categories>cs.LG</categories>
+            <journal-ref>Transportation Research Part C: Emerging Technologies, Volume 174, 2025, 105080, ISSN 0968-090X</journal-ref>
+            <doi>10.1016/j.trc.2025.105080</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Given a partially observed road network, how can we predict the traffic state of interested unobserved locations? Traffic prediction is crucial for advanced traffic management systems, with deep learning approaches showing exceptional performance. However, most existing approaches assume sensors are deployed at all locations of interest, which is impractical due to financial constraints. Furthermore, these methods are typically fragile to structural changes in sensing networks, which require costly retraining even for minor changes in sensor configuration. To address these challenges, we propose MoGERNN, an inductive spatio-temporal graph model with two key components: (i) a Mixture of Graph Experts (MoGE) with sparse gating mechanisms that dynamically route nodes to specialized graph aggregators, capturing heterogeneous spatial dependencies efficiently; (ii) a graph encoder-decoder architecture that leverages these embeddings to capture both spatial and temporal dependencies for comprehensive traffic state prediction. Experiments on two real-world datasets show MoGERNN consistently outperforms baseline methods for both observed and unobserved locations. MoGERNN can accurately predict congestion evolution even in areas without sensors, offering valuable information for traffic management. Moreover, MoGERNN is adaptable to the changes of sensor network, maintaining competitive performance even compared to its retrained counterpart. Tests performed with different numbers of available sensors confirm its consistent superiority, and ablation studies validate the effectiveness of its key modules. The code of this work is publicly available at: https://github.com/ZJU-TSELab/MoGERNN.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

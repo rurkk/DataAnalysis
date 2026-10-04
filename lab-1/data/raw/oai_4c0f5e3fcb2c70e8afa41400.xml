@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:50:04Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2406.12693" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2406.12693</identifier>
+        <datestamp>2025-12-03</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2406.12693</id>
+        <created>2025-12-02</created>
+            <updated>2025-12-03</updated>
+        <authors>
+                <author>
+                    <keyname>Yin</keyname>
+                        <forenames>Du</forenames>
+                </author>
+                <author>
+                    <keyname>Xue</keyname>
+                        <forenames>Hao</forenames>
+                </author>
+                <author>
+                    <keyname>Prabowo</keyname>
+                        <forenames>Arian</forenames>
+                </author>
+                <author>
+                    <keyname>Ao</keyname>
+                        <forenames>Shuang</forenames>
+                </author>
+                <author>
+                    <keyname>Salim</keyname>
+                        <forenames>Flora</forenames>
+                </author>
+        </authors>
+        <title>XXLTraffic: Expanding and Extremely Long Traffic forecasting beyond test adaptation</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Updated version. SIGSPATIAL 2025 Best Paper</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting is crucial for smart cities and intelligent transportation initiatives, where deep learning has made significant progress in modeling complex spatio-temporal patterns in recent years. However, current public datasets have limitations in reflecting the distribution shift nature of real-world scenarios, characterized by continuously evolving infrastructures, varying temporal distributions, and long temporal gaps due to sensor downtimes or changes in traffic patterns. These limitations inevitably restrict the practical applicability of existing traffic forecasting datasets. To bridge this gap, we present XXLTraffic, largest available public traffic dataset with the longest timespan collected from Los Angeles, USA, and New South Wales, Australia, curated to support research in extremely long forecasting beyond test adaptation. Our benchmark includes both typical time-series forecasting settings with hourly and daily aggregated data and novel configurations that introduce gaps and down-sample the training size to better simulate practical constraints. We anticipate the new XXLTraffic will provide a fresh perspective for the time-series and traffic forecasting communities. It would also offer a robust platform for developing and evaluating models designed to tackle the extremely long forecasting problems beyond test adaptation. Our dataset supplements existing spatio-temporal data resources and leads to new research directions in this domain.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

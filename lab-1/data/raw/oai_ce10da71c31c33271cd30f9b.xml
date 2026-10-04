@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:45:43Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2401.02723" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2401.02723</identifier>
+        <datestamp>2024-04-08</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:CV</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2401.02723</id>
+        <created>2024-04-05</created>
+            <updated>2024-04-08</updated>
+        <authors>
+                <author>
+                    <keyname>Yaqub</keyname>
+                        <forenames>Muhammad</forenames>
+                </author>
+                <author>
+                    <keyname>Ahmad</keyname>
+                        <forenames>Shahzad</forenames>
+                </author>
+                <author>
+                    <keyname>Manan</keyname>
+                        <forenames>Malik Abdul</forenames>
+                </author>
+                <author>
+                    <keyname>Chuhan</keyname>
+                        <forenames>Imran Shabir</forenames>
+                </author>
+        </authors>
+        <title>Predicting Traffic Flow with Federated Learning and Graph Neural with Asynchronous Computations Network</title>
+            <categories>cs.LG cs.CV</categories>
+            <comments>I request to withdraw my paper from arXiv due to significant updates and improvements identified post-submission. These enhancements will substantially elevate the work&#39;s quality and impact. I plan to resubmit the revised paper upon completion of these updates. Thank you for accommodating this request</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Real-time traffic flow prediction holds significant importance within the domain of Intelligent Transportation Systems (ITS). The task of achieving a balance between prediction precision and computational efficiency presents a significant challenge. In this article, we present a novel deep-learning method called Federated Learning and Asynchronous Graph Convolutional Network (FLAGCN). Our framework incorporates the principles of asynchronous graph convolutional networks with federated learning to enhance the accuracy and efficiency of real-time traffic flow prediction. The FLAGCN model employs a spatial-temporal graph convolution technique to asynchronously address spatio-temporal dependencies within traffic data effectively. To efficiently handle the computational requirements associated with this deep learning model, this study used a graph federated learning technique known as GraphFL. This approach is designed to facilitate the training process. The experimental results obtained from conducting tests on two distinct traffic datasets demonstrate that the utilization of FLAGCN leads to the optimization of both training and inference durations while maintaining a high level of prediction accuracy. FLAGCN outperforms existing models with significant improvements by achieving up to approximately 6.85% reduction in RMSE, 20.45% reduction in MAPE, compared to the best-performing existing models.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

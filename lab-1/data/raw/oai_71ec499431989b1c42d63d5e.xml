@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:54:04Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2308.07496" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2308.07496</identifier>
+        <datestamp>2023-08-16</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2308.07496</id>
+        <created>2023-08-14</created>
+            <updated>2023-08-16</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Zepu</forenames>
+                </author>
+                <author>
+                    <keyname>Nie</keyname>
+                        <forenames>Yuqi</forenames>
+                </author>
+                <author>
+                    <keyname>Sun</keyname>
+                        <forenames>Peng</forenames>
+                </author>
+                <author>
+                    <keyname>Nguyen</keyname>
+                        <forenames>Nam H.</forenames>
+                </author>
+                <author>
+                    <keyname>Mulvey</keyname>
+                        <forenames>John</forenames>
+                </author>
+                <author>
+                    <keyname>Poor</keyname>
+                        <forenames>H. Vincent</forenames>
+                </author>
+        </authors>
+        <title>ST-MLP: A Cascaded Spatio-Temporal Linear Framework with Channel-Independence Strategy for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>The criticality of prompt and precise traffic forecasting in optimizing traffic flow management in Intelligent Transportation Systems (ITS) has drawn substantial scholarly focus. Spatio-Temporal Graph Neural Networks (STGNNs) have been lauded for their adaptability to road graph structures. Yet, current research on STGNNs architectures often prioritizes complex designs, leading to elevated computational burdens with only minor enhancements in accuracy. To address this issue, we propose ST-MLP, a concise spatio-temporal model solely based on cascaded Multi-Layer Perceptron (MLP) modules and linear layers. Specifically, we incorporate temporal information, spatial information and predefined graph structure with a successful implementation of the channel-independence strategy - an effective technique in time series forecasting. Empirical results demonstrate that ST-MLP outperforms state-of-the-art STGNNs and other models in terms of accuracy and computational efficiency. Our finding encourages further exploration of more concise and effective neural network architectures in the field of traffic forecasting.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

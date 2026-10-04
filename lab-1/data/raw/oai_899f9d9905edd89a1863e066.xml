@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:39:36Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2002.07922" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2002.07922</identifier>
+        <datestamp>2020-02-20</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:NE</setSpec>
+            <setSpec>eess:eess:SP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2002.07922</id>
+        <created>2020-02-18</created>
+            <updated>2020-02-20</updated>
+        <authors>
+                <author>
+                    <keyname>Farahani</keyname>
+                        <forenames>Mehrdad</forenames>
+                </author>
+                <author>
+                    <keyname>Farahani</keyname>
+                        <forenames>Marzieh</forenames>
+                </author>
+                <author>
+                    <keyname>Manthouri</keyname>
+                        <forenames>Mohammad</forenames>
+                </author>
+                <author>
+                    <keyname>Kaynak</keyname>
+                        <forenames>Okyay</forenames>
+                </author>
+        </authors>
+        <title>Short-Term Traffic Flow Prediction Using Variational LSTM Networks</title>
+            <categories>cs.LG cs.NE eess.SP</categories>
+            <comments>18 pages, 13 figures</comments>
+            <license>http://creativecommons.org/licenses/by-nc-sa/4.0/</license>
+            <abstract>Traffic flow characteristics are one of the most critical decision-making and traffic policing factors in a region. Awareness of the predicted status of the traffic flow has prime importance in traffic management and traffic information divisions. The purpose of this research is to suggest a forecasting model for traffic flow by using deep learning techniques based on historical data in the Intelligent Transportation Systems area. The historical data collected from the Caltrans Performance Measurement Systems (PeMS) for six months in 2019. The proposed prediction model is a Variational Long Short-Term Memory Encoder in brief VLSTM-E try to estimate the flow accurately in contrast to other conventional methods. VLSTM-E can provide more reliable short-term traffic flow by considering the distribution and missing values.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

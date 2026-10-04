@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:46:52Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2503.14980" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2503.14980</identifier>
+        <datestamp>2025-03-20</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2503.14980</id>
+        <created>2025-03-19</created>
+            <updated>2025-03-20</updated>
+        <authors>
+                <author>
+                    <keyname>Low</keyname>
+                        <forenames>Matthew</forenames>
+                </author>
+                <author>
+                    <keyname>Prabowo</keyname>
+                        <forenames>Arian</forenames>
+                </author>
+                <author>
+                    <keyname>Xue</keyname>
+                        <forenames>Hao</forenames>
+                </author>
+                <author>
+                    <keyname>Salim</keyname>
+                        <forenames>Flora</forenames>
+                </author>
+        </authors>
+        <title>Embedding spatial context in urban traffic forecasting with contrastive pre-training</title>
+            <categories>cs.LG</categories>
+            <comments>21 pages with references, 10 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Urban traffic forecasting is a commonly encountered problem, with wide-ranging applications in fields such as urban planning, civil engineering and transport. In this paper, we study the enhancement of traffic forecasting with pre-training, focusing on spatio-temporal graph methods. While various machine learning methods to solve traffic forecasting problems have been explored and extensively studied, there is a gap of a more contextual approach: studying how relevant non-traffic data can improve prediction performance on traffic forecasting problems. We call this data spatial context. We introduce a novel method of combining road and traffic information through the notion of a traffic quotient graph, a quotient graph formed from road geometry and traffic sensors. We also define a way to encode this relationship in the form of a geometric encoder, pre-trained using contrastive learning methods and enhanced with OpenStreetMap data. We introduce and discuss ways to integrate this geometric encoder with existing graph neural network (GNN)-based traffic forecasting models, using a contrastive pre-training paradigm. We demonstrate the potential for this hybrid model to improve generalisation and performance with zero additional traffic data. Code for this paper is available at https://github.com/mattchrlw/forecasting-on-new-roads.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:42:07Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2606.18367" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2606.18367</identifier>
+        <datestamp>2026-07-02</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2606.18367</id>
+        <created>2026-07-01</created>
+            <updated>2026-07-02</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Yingshuo</forenames>
+                </author>
+                <author>
+                    <keyname>Sun</keyname>
+                        <forenames>Xian</forenames>
+                </author>
+                <author>
+                    <keyname>Kong</keyname>
+                        <forenames>Lingdong</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Yanhang</forenames>
+                </author>
+                <author>
+                    <keyname>Fan</keyname>
+                        <forenames>Zhichao</forenames>
+                </author>
+                <author>
+                    <keyname>Zhuang</keyname>
+                        <forenames>Zexin</forenames>
+                </author>
+        </authors>
+        <title>Do Time Series Foundation Model Benchmarks Hide Regime-Dependent Failures? Evidence from Traffic Speed Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>5 pages, 2 figures. Accepted at the Workshop on Forecasting as a New Frontier of Intelligence, ICML 2026</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Standard benchmarks evaluate time series foundation models (TSFMs) using aggregate metrics, but these can mask severe failures in critical operating regimes. We introduce regime-stratified evaluation and apply it to three TSFMs on two standard traffic speed benchmarks. Traffic exhibits abrupt regime switching between free-flow and congested states, producing bimodal speed distributions during transitions. When we stratify by traffic regime, both accuracy and prediction-interval coverage degrade sharply during transitions: transition-regime MAE reaches 11 mph (versus 3 mph overall), and empirical coverage of 90% prediction intervals drops as low as 55%. These failures are invisible in aggregate metrics because free-flow observations dominate the sample. A simple historical conditional baseline (sampling from per-sensor training distributions) achieves better transition coverage than any TSFM, but has far worse overall accuracy. We propose bimodal mixture augmentation (BMA), a post-hoc method that combines TSFM forecasts with historical distributional knowledge, approaching the historical baseline&#39;s transition coverage while preserving the TSFM&#39;s accuracy. Our results suggest that TSFM benchmarks should incorporate regime-aware evaluation to surface failures that aggregate metrics hide.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

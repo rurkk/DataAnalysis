@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:45:47Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2511.09450" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2511.09450</identifier>
+        <datestamp>2025-11-13</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2511.09450</id>
+        <created>2025-11-12</created>
+            <updated>2025-11-13</updated>
+        <authors>
+                <author>
+                    <keyname>Sherfenaz</keyname>
+                        <forenames>Amanta</forenames>
+                </author>
+                <author>
+                    <keyname>Haque</keyname>
+                        <forenames>Nazmul</forenames>
+                </author>
+                <author>
+                    <keyname>Prova</keyname>
+                        <forenames>Protiva Sadhukhan</forenames>
+                </author>
+                <author>
+                    <keyname>Raihan</keyname>
+                        <forenames>Md Asif</forenames>
+                </author>
+                <author>
+                    <keyname>Hadiuzzaman</keyname>
+                        <forenames>Md.</forenames>
+                </author>
+        </authors>
+        <title>How does the Performance of the Data-driven Traffic Flow Forecasting Models deteriorate with Increasing Forecasting Horizon? An Extensive Approach Considering Statistical, Machine Learning and Deep Learning Models</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>6,227 words text + 2*250 (2 tables) = 6,727 words</comments>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>With rapid urbanization in recent decades, traffic congestion has intensified due to increased movement of people and goods. As planning shifts from demand-based to supply-oriented strategies, Intelligent Transportation Systems (ITS) have become essential for managing traffic within existing infrastructure. A core ITS function is traffic forecasting, enabling proactive measures like ramp metering, signal control, and dynamic routing through platforms such as Google Maps. This study assesses the performance of statistical, machine learning (ML), and deep learning (DL) models in forecasting traffic speed and flow using real-world data from California&#39;s Harbor Freeway, sourced from the Caltrans Performance Measurement System (PeMS). Each model was evaluated over 20 forecasting windows (up to 1 hour 40 minutes) using RMSE, MAE, and R-Square metrics. Results show ANFIS-GP performs best at early windows with RMSE of 0.038, MAE of 0.0276, and R-Square of 0.9983, while Bi-LSTM is more robust for medium-term prediction due to its capacity to model long-range temporal dependencies, achieving RMSE of 0.1863, MAE of 0.0833, and R-Square of 0.987 at a forecasting of 20. The degradation in model performance was quantified using logarithmic transformation, with slope values used to measure robustness. Among DL models, Bi-LSTM had the flattest slope (0.0454 RMSE, 0.0545 MAE for flow), whereas ANFIS-GP had 0.1058 for RMSE and 0.1037 for flow MAE. The study concludes by identifying hybrid models as a promising future direction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

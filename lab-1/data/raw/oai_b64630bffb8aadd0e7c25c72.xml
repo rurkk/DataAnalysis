@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-09T14:37:36Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2602.22274" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2602.22274</identifier>
+        <datestamp>2026-02-27</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2602.22274</id>
+        <created>2026-02-25</created>
+            <updated>2026-02-27</updated>
+        <authors>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Runfei</forenames>
+                </author>
+        </authors>
+        <title>Positional-aware Spatio-Temporal Network for Large-Scale Traffic Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted for the 104th Transportation Research Board (TRB) Annual Meeting in 2025</comments>
+            <license>http://creativecommons.org/licenses/by-nc-sa/4.0/</license>
+            <abstract>Traffic flow forecasting has emerged as an indispensable mission for daily life, which is required to utilize the spatiotemporal relationship between each location within a time period under a graph structure to predict future flow. However, the large travel demand for broader geographical areas and longer time spans requires models to distinguish each node clearly and possess a holistic view of the history, which has been paid less attention to in prior works. Furthermore, increasing sizes of data hinder the deployment of most models in real application environments. To this end, in this paper, we propose a lightweight Positional-aware Spatio-Temporal Network (PASTN) to effectively capture both temporal and spatial complexities in an end-to-end manner. PASTN introduces positional-aware embeddings to separate each node&#39;s representation, while also utilizing a temporal attention module to improve the long-range perception of current models. Extensive experiments verify the effectiveness and efficiency of PASTN across datasets of various scales (county, megalopolis and state). Further analysis demonstrates the efficacy of newly introduced modules either.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

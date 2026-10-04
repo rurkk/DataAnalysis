@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:41:16Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2604.16612" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2604.16612</identifier>
+        <datestamp>2026-04-21</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2604.16612</id>
+        <created>2026-04-17</created>
+            <updated>2026-04-21</updated>
+        <authors>
+                <author>
+                    <keyname>Kaur</keyname>
+                        <forenames>Seerat</forenames>
+                </author>
+                <author>
+                    <keyname>Sehra</keyname>
+                        <forenames>Sukhjit Singh</forenames>
+                </author>
+                <author>
+                    <keyname>Ebrahimi</keyname>
+                        <forenames>Dariush</forenames>
+                </author>
+        </authors>
+        <title>FedLLM: A Privacy-Preserving Federated Large Language Model for Explainable Traffic Flow Prediction</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by-sa/4.0/</license>
+            <abstract>Traffic prediction plays a central role in intelligent transportation systems (ITS) by supporting real-time decision-making, congestion management, and long-term planning. However, many existing approaches face practical limitations. Most spatio-temporal models are trained on centralized data, rely on numerical representations, and offer limited explainability. Recent Large Language Model (LLM) methods improve reasoning capabilities but typically assume centralized data availability and do not fully capture the distributed and heterogeneous nature of real-world traffic systems. To address these challenges, this study proposes FedLLM (Federated LLM), a privacy-preserving and distributed framework for explainable multi-horizon short-term traffic flow prediction (15-60 minutes). The framework introduces four key contributions: 1) a Composite Selection Score (CSS) for data-driven freeway selection that captures structural diversity across traffic regions 2) a domain-adapted LLM fine-tuned on structured traffic prompts encoding spatial, temporal, and statistical context 3) FedLLM framework, that enables collaborative training across heterogeneous clients while exchanging only lightweight LoRA adapter parameters, 4) a structured prompt representation that supports contextual reasoning and cross-region generalization. The FedLLM design allows each client to learn from local traffic patterns while contributing to a shared global model through efficient parameter exchange, reducing communication overhead and keeping data private. This setup supports learning under non-IID traffic distributions. Experimental results show that FedLLM achieves improved predictive performance over centralized baselines, while producing structured and explainable outputs. These findings highlight the potential of combining FL with domain-adapted LLMs for scalable, privacy-aware, and explainable traffic prediction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

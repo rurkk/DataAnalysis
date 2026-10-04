@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:46:45Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2104.13096" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2104.13096</identifier>
+        <datestamp>2021-04-28</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2104.13096</id>
+        <created>2021-04-27</created>
+            <updated>2021-04-28</updated>
+        <authors>
+                <author>
+                    <keyname>Rico</keyname>
+                        <forenames>João</forenames>
+                </author>
+                <author>
+                    <keyname>Barateiro</keyname>
+                        <forenames>José</forenames>
+                </author>
+                <author>
+                    <keyname>Oliveira</keyname>
+                        <forenames>Arlindo</forenames>
+                </author>
+        </authors>
+        <title>Graph Neural Networks for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <journal-ref>OMAINTEC 2019</journal-ref>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>The significant increase in world population and urbanisation has brought several important challenges, in particular regarding the sustainability, maintenance and planning of urban mobility. At the same time, the exponential increase of computing capability and of available sensor and location data have offered the potential for innovative solutions to these challenges. In this work, we focus on the challenge of traffic forecasting and review the recent development and application of graph neural networks (GNN) to this problem. GNNs are a class of deep learning methods that directly process the input as graph data. This leverages more directly the spatial dependencies of traffic data and makes use of the advantages of deep learning producing state-of-the-art results. We introduce and review the emerging topic of GNNs, including their most common variants, with a focus on its application to traffic forecasting. We address the different ways of modelling traffic forecasting as a (temporal) graph, the different approaches developed so far to combine the graph and temporal learning components, as well as current limitations and research opportunities.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

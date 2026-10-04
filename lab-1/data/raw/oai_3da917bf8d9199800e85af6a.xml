@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:47:08Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2306.09386" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2306.09386</identifier>
+        <datestamp>2023-06-19</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2306.09386</id>
+        <created>2023-06-15</created>
+            <updated>2023-06-19</updated>
+        <authors>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Yirong</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Ziyue</forenames>
+                </author>
+                <author>
+                    <keyname>Ouyang</keyname>
+                        <forenames>Wanli</forenames>
+                </author>
+                <author>
+                    <keyname>Lepech</keyname>
+                        <forenames>Michael</forenames>
+                </author>
+        </authors>
+        <title>Adaptive Hierarchical SpatioTemporal Network for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted to IEEE CASE 2023</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic forecasting is vital to intelligent transportation systems, which are widely adopted to solve urban traffic issues. Existing traffic forecasting studies focus on modeling spatial-temporal dynamics in traffic data, among which the graph convolution network (GCN) is at the center for exploiting the spatial dependency embedded in the road network graphs. However, these GCN-based methods operate intrinsically on the node level (e.g., road and intersection) only whereas overlooking the spatial hierarchy of the whole city. Nodes such as intersections and road segments can form clusters (e.g., regions), which could also have interactions with each other and share similarities at a higher level. In this work, we propose an Adaptive Hierarchical SpatioTemporal Network (AHSTN) to promote traffic forecasting by exploiting the spatial hierarchy and modeling multi-scale spatial correlations. Apart from the node-level spatiotemporal blocks, AHSTN introduces the adaptive spatiotemporal downsampling module to infer the spatial hierarchy for spatiotemporal modeling at the cluster level. Then, an adaptive spatiotemporal upsampling module is proposed to upsample the cluster-level representations to the node-level and obtain the multi-scale representations for generating predictions. Experiments on two real-world datasets show that AHSTN achieves better performance over several strong baselines.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

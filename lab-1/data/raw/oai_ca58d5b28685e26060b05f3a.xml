@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:08:54Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2310.08328" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2310.08328</identifier>
+        <datestamp>2024-12-24</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2310.08328</id>
+        <created>2024-12-23</created>
+            <updated>2024-12-24</updated>
+        <authors>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Xiao</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Lei</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Bailong</forenames>
+                </author>
+                <author>
+                    <keyname>Liang</keyname>
+                        <forenames>Zhizhen</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Xuefei</forenames>
+                </author>
+        </authors>
+        <title>Transport-Hub-Aware Spatial-Temporal Adaptive Graph Transformer for Traffic Flow Prediction</title>
+            <categories>cs.AI</categories>
+            <comments>Previous submissions on arxiv are early versions of this manuscript, the latest of which has been rejected by T-ITS. Incremental learning in this work requires more rigorous problem definition and more extensive experiments</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>As a core technology of Intelligent Transportation System (ITS), traffic flow prediction has a wide range of applications. Traffic flow data are spatial-temporal, which are not only correlated to spatial locations in road networks, but also vary with temporal time indices. Existing methods have solved the challenges in traffic flow prediction partly, focusing on modeling spatial-temporal dependencies effectively, while not all intrinsic properties of traffic flow data are utilized fully. Besides, there are very few attempts at incremental learning of spatial-temporal data mining, and few previous works can be easily transferred to the traffic flow prediction task. Motivated by the challenge of incremental learning methods for traffic flow prediction and the underutilization of intrinsic properties of road networks, we propose a Transport-Hub-aware Spatial-Temporal adaptive graph transFormer (H-STFormer) for traffic flow prediction. Specifically, we first design a novel spatial self-attention module to capture the dynamic spatial dependencies. Three graph masking matrices are integrated into spatial self-attentions to highlight both short- and long-term dependences. Additionally, we employ a temporal self-attention module to detect dynamic temporal patterns in the traffic flow data. Finally, we design an extra spatial-temporal knowledge distillation module for incremental learning of traffic flow prediction tasks. Through extensive experiments, we show the effectiveness of H-STFormer in normal and incremental traffic flow prediction tasks. The code is available at https://github.com/Fantasy-Shaw/H-STFormer.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

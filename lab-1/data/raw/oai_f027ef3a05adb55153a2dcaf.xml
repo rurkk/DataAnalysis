@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:48:17Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2012.02598" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2012.02598</identifier>
+        <datestamp>2020-12-07</datestamp>
+            <setSpec>cs:cs:CV</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2012.02598</id>
+        <created>2020-12-04</created>
+            <updated>2020-12-07</updated>
+        <authors>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Jingwei</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Jianjin</forenames>
+                </author>
+                <author>
+                    <keyname>Yao</keyname>
+                        <forenames>Zhiyu</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Yunbo</forenames>
+                </author>
+        </authors>
+        <title>Towards Good Practices of U-Net for Traffic Forecasting</title>
+            <categories>cs.CV</categories>
+            <comments>Code is available at \&lt;https://github.com/ZJianjin/Traffic4cast2020_LDS&gt;</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>This technical report presents a solution for the 2020 Traffic4Cast Challenge. We consider the traffic forecasting problem as a future frame prediction task with relatively weak temporal dependencies (might be due to stochastic urban traffic dynamics) and strong prior knowledge, \textit{i.e.}, the roadmaps of the cities. For these reasons, we use the U-Net as the backbone model, and we propose a roadmap generation method to make the predicted traffic flows more rational. Meanwhile, we use a fine-tuning strategy based on the validation set to prevent overfitting, which effectively improves the prediction results. At the end of this report, we further discuss several approaches that we have considered or could be explored in future work: (1) harnessing inherent data patterns, such as seasonality; (2) distilling and transferring common knowledge between different cities. We also analyze the validity of the evaluation metric.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

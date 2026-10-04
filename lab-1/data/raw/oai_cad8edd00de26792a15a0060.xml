@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:51Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2308.10276" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2308.10276</identifier>
+        <datestamp>2023-08-24</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2308.10276</id>
+        <created>2023-08-23</created>
+            <updated>2023-08-24</updated>
+        <authors>
+                <author>
+                    <keyname>Duan</keyname>
+                        <forenames>Wenying</forenames>
+                </author>
+                <author>
+                    <keyname>Rao</keyname>
+                        <forenames>Hong</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>He</keyname>
+                        <forenames>Xiaoxi</forenames>
+                </author>
+        </authors>
+        <title>Minimalist Traffic Prediction: Linear Layer Is All You Need</title>
+            <categories>cs.LG</categories>
+            <comments>9 pages</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction is essential for the progression of Intelligent Transportation Systems (ITS) and the vision of smart cities. While Spatial-Temporal Graph Neural Networks (STGNNs) have shown promise in this domain by leveraging Graph Neural Networks (GNNs) integrated with either RNNs or Transformers, they present challenges such as computational complexity, gradient issues, and resource-intensiveness. This paper addresses these challenges, advocating for three main solutions: a node-embedding approach, time series decomposition, and periodicity learning. We introduce STLinear, a minimalist model architecture designed for optimized efficiency and performance. Unlike traditional STGNNs, STlinear operates fully locally, avoiding inter-node data exchanges, and relies exclusively on linear layers, drastically cutting computational demands. Our empirical studies on real-world datasets confirm STLinear&#39;s prowess, matching or exceeding the accuracy of leading STGNNs, but with significantly reduced complexity and computation overhead (more than 95% reduction in MACs per epoch compared to state-of-the-art STGNN baseline published in 2023). In summary, STLinear emerges as a potent, efficient alternative to conventional STGNNs, with profound implications for the future of ITS and smart city initiatives.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

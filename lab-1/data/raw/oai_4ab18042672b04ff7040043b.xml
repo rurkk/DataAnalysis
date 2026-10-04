@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:43Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2109.10253" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2109.10253</identifier>
+        <datestamp>2023-12-06</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>eess:eess:SP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2109.10253</id>
+        <created>2021-09-21</created>
+            <updated>2023-12-06</updated>
+        <authors>
+                <author>
+                    <keyname>Pereira</keyname>
+                        <forenames>Mike</forenames>
+                </author>
+                <author>
+                    <keyname>Lang</keyname>
+                        <forenames>Annika</forenames>
+                </author>
+                <author>
+                    <keyname>Kulcsár</keyname>
+                        <forenames>Balázs</forenames>
+                </author>
+        </authors>
+        <title>Short-term traffic prediction using physics-aware neural networks</title>
+            <categories>cs.LG eess.SP</categories>
+            <comments>17 pages, 11 figures, 2 tables</comments>
+            <doi>10.1016/j.trc.2022.103772</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>In this work, we propose an algorithm performing short-term predictions of the flux of vehicles on a stretch of road, using past measurements of the flux. This algorithm is based on a physics-aware recurrent neural network. A discretization of a macroscopic traffic flow model (using the so-called Traffic Reaction Model) is embedded in the architecture of the network and yields flux predictions based on estimated and predicted space-time dependent traffic parameters. These parameters are themselves obtained using a succession of LSTM ans simple recurrent neural networks. Besides, on top of the predictions, the algorithm yields a smoothing of its inputs which is also physically-constrained by the macroscopic traffic flow model. The algorithm is tested on raw flux measurements obtained from loop detectors.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

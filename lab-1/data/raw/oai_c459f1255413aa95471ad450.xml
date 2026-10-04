@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:52:59Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2405.06719" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2405.06719</identifier>
+        <datestamp>2024-05-14</datestamp>
+            <setSpec>cs:cs:CL</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2405.06719</id>
+        <created>2024-05-10</created>
+            <updated>2024-05-14</updated>
+        <authors>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Xiannan</forenames>
+                </author>
+        </authors>
+        <title>Enhancing Traffic Prediction with Textual Data Using Large Language Models</title>
+            <categories>cs.CL cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction is pivotal for rational transportation supply scheduling and allocation. Existing researches into short-term traffic prediction, however, face challenges in adequately addressing exceptional circumstances and integrating non-numerical contextual information like weather into models. While, Large language models offer a promising solution due to their inherent world knowledge. However, directly using them for traffic prediction presents drawbacks such as high cost, lack of determinism, and limited mathematical capability. To mitigate these issues, this study proposes a novel approach. Instead of directly employing large models for prediction, it utilizes them to process textual information and obtain embeddings. These embeddings are then combined with historical traffic data and inputted into traditional spatiotemporal forecasting models. The study investigates two types of special scenarios: regional-level and node-level. For regional-level scenarios, textual information is represented as a node connected to the entire network. For node-level scenarios, embeddings from the large model represent additional nodes connected only to corresponding nodes. This approach shows a significant improvement in prediction accuracy according to our experiment of New York Bike dataset.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

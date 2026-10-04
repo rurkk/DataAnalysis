@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:46:41Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2101.11174" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2101.11174</identifier>
+        <datestamp>2022-07-08</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2101.11174</id>
+        <created>2022-02-22</created>
+            <updated>2022-07-08</updated>
+        <authors>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Weiwei</forenames>
+                </author>
+                <author>
+                    <keyname>Luo</keyname>
+                        <forenames>Jiayun</forenames>
+                </author>
+        </authors>
+        <title>Graph Neural Network for Traffic Forecasting: A Survey</title>
+            <categories>cs.LG cs.AI</categories>
+            <journal-ref>Expert Systems with Applications Volume, vol. 207, 30 November 2022, 117921</journal-ref>
+            <doi>10.1016/j.eswa.2022.117921</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting is important for the success of intelligent transportation systems. Deep learning models, including convolution neural networks and recurrent neural networks, have been extensively applied in traffic forecasting problems to model spatial and temporal dependencies. In recent years, to model the graph structures in transportation systems as well as contextual information, graph neural networks have been introduced and have achieved state-of-the-art performance in a series of traffic forecasting problems. In this survey, we review the rapidly growing body of research using different graph neural networks, e.g. graph convolutional and graph attention networks, in various traffic forecasting problems, e.g. road traffic flow and speed forecasting, passenger flow forecasting in urban rail transit systems, and demand forecasting in ride-hailing platforms. We also present a comprehensive list of open data and source resources for each problem and identify future research directions. To the best of our knowledge, this paper is the first comprehensive survey that explores the application of graph neural networks for traffic forecasting problems. We have also created a public GitHub repository where the latest papers, open data, and source resources will be updated.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

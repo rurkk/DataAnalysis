@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:07:32Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2501.00756" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2501.00756</identifier>
+        <datestamp>2025-01-03</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2501.00756</id>
+        <created>2025-01-01</created>
+            <updated>2025-01-03</updated>
+        <authors>
+                <author>
+                    <keyname>Dai</keyname>
+                        <forenames>Ben-Ao</forenames>
+                </author>
+                <author>
+                    <keyname>Lyu</keyname>
+                        <forenames>Nengchao</forenames>
+                </author>
+                <author>
+                    <keyname>Miao</keyname>
+                        <forenames>Yongchao</forenames>
+                </author>
+        </authors>
+        <title>FasterSTS: A Faster Spatio-Temporal Synchronous Graph Convolutional Networks for Traffic flow Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>13pages,3 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic flow prediction heavily relies on the spatio-temporal correlation of traffic flow data. Most current studies separately capture correlations in spatial and temporal dimensions, making it difficult to capture complex spatio-temporal heterogeneity, and often at the expense of increasing model complexity to improve prediction accuracy. Although there have been groundbreaking attempts in the field of spatio-temporal synchronous modeling, significant limitations remain in terms of performance and complexity control.This study proposes a quicker and more effective spatio-temporal synchronous traffic flow forecast model to address these issues.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

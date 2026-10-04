@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:44:09Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2604.13453" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2604.13453</identifier>
+        <datestamp>2026-04-16</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2604.13453</id>
+        <created>2026-04-15</created>
+            <updated>2026-04-16</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Xinjin</forenames>
+                </author>
+                <author>
+                    <keyname>Cao</keyname>
+                        <forenames>Jinghan</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Mengyue</forenames>
+                </author>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Yue</forenames>
+                </author>
+                <author>
+                    <keyname>Yan</keyname>
+                        <forenames>Longxiang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Yeyang</forenames>
+                </author>
+                <author>
+                    <keyname>Sha</keyname>
+                        <forenames>Ziqi</forenames>
+                </author>
+                <author>
+                    <keyname>Ma</keyname>
+                        <forenames>Yu</forenames>
+                </author>
+        </authors>
+        <title>FAST: A Synergistic Framework of Attention and State-space Models for Spatiotemporal Traffic Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>Accepted by ICME 2026</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting requires modeling complex temporal dynamics and long-range spatial dependencies over large sensor networks. Existing methods typically face a trade-off between expressiveness and efficiency: Transformer-based models capture global dependencies well but suffer from quadratic complexity, while recent selective state-space models are computationally efficient yet less effective at modeling spatial interactions in graph-structured traffic data. We propose FAST, a unified framework that combines attention and state-space modeling for scalable spatiotemporal traffic forecasting. FAST adopts a Temporal-Spatial-Temporal architecture, where temporal attention modules capture both short- and long-term temporal patterns, and a Mamba-based spatial module models long-range inter-sensor dependencies with linear complexity. To better represent heterogeneous traffic contexts, FAST further introduces a learnable multi-source spatiotemporal embedding that integrates historical traffic flow, temporal context, and node-level information, together with a multi-level skip prediction mechanism for hierarchical feature fusion. Experiments on PeMS04, PeMS07, and PeMS08 show that FAST consistently outperforms strong baselines from Transformer-, GNN-, attention-, and Mamba-based families. In particular, FAST achieves the best MAE and RMSE on all three benchmarks, with up to 4.3\% lower RMSE and 2.8\% lower MAE than the strongest baseline, demonstrating a favorable balance between accuracy, scalability, and generalization.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

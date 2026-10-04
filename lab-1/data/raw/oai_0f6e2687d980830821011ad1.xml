@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:57:21Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2301.02731" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2301.02731</identifier>
+        <datestamp>2023-01-10</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2301.02731</id>
+        <created>2023-01-06</created>
+            <updated>2023-01-10</updated>
+        <authors>
+                <author>
+                    <keyname>Sherafat</keyname>
+                        <forenames>Elahe</forenames>
+                </author>
+                <author>
+                    <keyname>Farooq</keyname>
+                        <forenames>Bilal</forenames>
+                </author>
+                <author>
+                    <keyname>Karbasi</keyname>
+                        <forenames>Amir Hossein</forenames>
+                </author>
+                <author>
+                    <keyname>Seyedabrishami</keyname>
+                        <forenames>Seyedehsan</forenames>
+                </author>
+        </authors>
+        <title>Attention-LSTM for Multivariate Traffic State Prediction on Rural Roads</title>
+            <categories>cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic volume and speed prediction have a wide range of applications in transportation. It can result in useful and timely information for both travellers and transportation decision-makers. In this study, an Attention based Long Sort-Term Memory model (A-LSTM) is proposed to simultaneously predict traffic volume and speed in a critical rural road segmentation which connects Tehran to Chalus, the most tourist destination city in Iran. Moreover, this study compares the results of the A-LSTM model with the Long Short-Term Memory (LSTM) model. Both models show acceptable performance in predicting speed and flow. However, the A-LSTM model outperforms the LSTM in 5 and 15-minute intervals. In contrast, there is no meaningful difference between the two models for the 30-minute time interval. By comparing the performance of the models based on different time horizons, the 15-minute horizon model outperforms the others by reaching the lowest Mean Square Error (MSE) loss of 0.0032, followed by the 30 and 5-minutes horizons with 0.004 and 0.0051, respectively. In addition, this study compares the results of the models based on two transformations of temporal categorical input variables, one-hot or cyclic, for the 15-minute time interval. The results demonstrate that both LSTM and A-LSTM with cyclic feature encoding outperform those with one-hot feature encoding.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

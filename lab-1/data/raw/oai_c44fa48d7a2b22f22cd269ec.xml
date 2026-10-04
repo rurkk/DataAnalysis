@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:43:42Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2305.00985" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2305.00985</identifier>
+        <datestamp>2023-05-03</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2305.00985</id>
+        <created>2023-05-01</created>
+            <updated>2023-05-03</updated>
+        <authors>
+                <author>
+                    <keyname>Zhong</keyname>
+                        <forenames>Weiheng</forenames>
+                </author>
+                <author>
+                    <keyname>Meidani</keyname>
+                        <forenames>Hadi</forenames>
+                </author>
+                <author>
+                    <keyname>Macfarlane</keyname>
+                        <forenames>Jane</forenames>
+                </author>
+        </authors>
+        <title>Attention-based Spatial-Temporal Graph Neural ODE for Traffic Prediction</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by-sa/4.0/</license>
+            <abstract>Traffic forecasting is an important issue in intelligent traffic systems (ITS). Graph neural networks (GNNs) are effective deep learning models to capture the complex spatio-temporal dependency of traffic data, achieving ideal prediction performance. In this paper, we propose attention-based graph neural ODE (ASTGODE) that explicitly learns the dynamics of the traffic system, which makes the prediction of our machine learning model more explainable. Our model aggregates traffic patterns of different periods and has satisfactory performance on two real-world traffic data sets. The results show that our model achieves the highest accuracy of the root mean square error metric among all the existing GNN models in our experiments.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

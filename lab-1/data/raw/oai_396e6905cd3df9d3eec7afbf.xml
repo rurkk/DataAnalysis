@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:49:31Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2205.08689" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2205.08689</identifier>
+        <datestamp>2024-03-07</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2205.08689</id>
+        <created>2022-09-26</created>
+            <updated>2024-03-07</updated>
+        <authors>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Aoyu</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Yaying</forenames>
+                </author>
+        </authors>
+        <title>Spatial-Temporal Interactive Dynamic Graph Convolution Network for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <doi>10.1109/TITS.2024.3362145</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic forecasting is essential for smart cities to achieve traffic control, route planning, and flow detection. Although many spatial-temporal methods are currently proposed, these methods are deficient in capturing the spatial-temporal dependence of traffic data synchronously. In addition, most of the methods ignore the dynamically changing correlations between road network nodes that arise as traffic data changes. We propose a neural network-based Spatial-Temporal Interactive Dynamic Graph Convolutional Network (STIDGCN) to address the above challenges for traffic forecasting. Specifically, we propose an interactive dynamic graph convolution structure, which divides the sequences at intervals and synchronously captures the traffic data&#39;s spatial-temporal dependence through an interactive learning strategy. The interactive learning strategy makes STIDGCN effective for long-term prediction. We also propose a novel dynamic graph convolution module to capture the dynamically changing correlations in the traffic network, consisting of a graph generator and fusion graph convolution. The dynamic graph convolution module can use the input traffic data and pre-defined graph structure to generate a graph structure. It is then fused with the defined adaptive adjacency matrix to generate a dynamic adjacency matrix, which fills the pre-defined graph structure and simulates the generation of dynamic associations between nodes in the road network. Extensive experiments on four real-world traffic flow datasets demonstrate that STIDGCN outperforms the state-of-the-art baseline.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

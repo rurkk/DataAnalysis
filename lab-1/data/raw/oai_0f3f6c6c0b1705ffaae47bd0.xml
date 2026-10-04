@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:55:16Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2405.04841" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2405.04841</identifier>
+        <datestamp>2024-05-09</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2405.04841</id>
+        <created>2024-05-08</created>
+            <updated>2024-05-09</updated>
+        <authors>
+                <author>
+                    <keyname>Ung</keyname>
+                        <forenames>Huy Quang</forenames>
+                </author>
+                <author>
+                    <keyname>Niu</keyname>
+                        <forenames>Hao</forenames>
+                </author>
+                <author>
+                    <keyname>Dao</keyname>
+                        <forenames>Minh-Son</forenames>
+                </author>
+                <author>
+                    <keyname>Wada</keyname>
+                        <forenames>Shinya</forenames>
+                </author>
+                <author>
+                    <keyname>Minamikawa</keyname>
+                        <forenames>Atsunori</forenames>
+                </author>
+        </authors>
+        <title>xMTrans: Temporal Attentive Cross-Modality Fusion Transformer for Long-Term Traffic Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted at MDM 2024</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic predictions play a crucial role in intelligent transportation systems. The rapid development of IoT devices allows us to collect different kinds of data with high correlations to traffic predictions, fostering the development of efficient multi-modal traffic prediction models. Until now, there are few studies focusing on utilizing advantages of multi-modal data for traffic predictions. In this paper, we introduce a novel temporal attentive cross-modality transformer model for long-term traffic predictions, namely xMTrans, with capability of exploring the temporal correlations between the data of two modalities: one target modality (for prediction, e.g., traffic congestion) and one support modality (e.g., people flow). We conducted extensive experiments to evaluate our proposed model on traffic congestion and taxi demand predictions using real-world datasets. The results showed the superiority of xMTrans against recent state-of-the-art methods on long-term traffic predictions. In addition, we also conducted a comprehensive ablation study to further analyze the effectiveness of each module in xMTrans.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

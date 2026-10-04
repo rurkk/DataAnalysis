@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:50:24Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2509.00515" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2509.00515</identifier>
+        <datestamp>2025-09-03</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2509.00515</id>
+        <created>2025-08-30</created>
+            <updated>2025-09-03</updated>
+        <authors>
+                <author>
+                    <keyname>Ji</keyname>
+                        <forenames>Xinyu</forenames>
+                </author>
+                <author>
+                    <keyname>Yan</keyname>
+                        <forenames>Chengcheng</forenames>
+                </author>
+                <author>
+                    <keyname>Yuan</keyname>
+                        <forenames>Jibiao</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Fiefie</forenames>
+                </author>
+        </authors>
+        <title>Graph Convolutional Network With Pattern-Spatial Interactive and Regional Awareness for Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is significant for urban traffic management, intelligent route planning, and real-time flow monitoring. Recent advances in spatial-temporal models have markedly improved the modeling of intricate spatial-temporal correlations for traffic forecasting. Unfortunately, most previous studies have encountered challenges in effectively modeling spatial-temporal correlations across various perceptual perspectives, which have neglected the interactive fusion between traffic patterns and spatial correlations. Additionally, constrained by spatial heterogeneity, most studies fail to consider distinct regional heterogeneity during message-passing. To overcome these limitations, we propose a Pattern-Spatial Interactive and Regional Awareness Graph Convolutional Network (PSIRAGCN) for traffic forecasting. Specifically, we propose a pattern-spatial interactive fusion framework composed of pattern and spatial modules. This framework aims to capture patterns and spatial correlations by adopting a perception perspective from the global to the local level and facilitating mutual utilization with positive feedback. In the spatial module, we designed a graph convolutional network based on message-passing. The network is designed to leverage a regional characteristics bank to reconstruct data-driven message-passing with regional awareness. Reconstructed message passing can reveal the regional heterogeneity between nodes in the traffic network. Extensive experiments on three real-world traffic datasets demonstrate that PSIRAGCN outperforms the State-of-the-art baseline while balancing computational costs.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

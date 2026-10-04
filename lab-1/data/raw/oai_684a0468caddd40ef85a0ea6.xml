@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:57:33Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2504.08061" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2504.08061</identifier>
+        <datestamp>2026-06-23</datestamp>
+            <setSpec>cs:cs:CV</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2504.08061</id>
+        <created>2026-06-21</created>
+            <updated>2026-06-23</updated>
+        <authors>
+                <author>
+                    <keyname>Hao</keyname>
+                        <forenames>Zhifeng</forenames>
+                </author>
+                <author>
+                    <keyname>Hu</keyname>
+                        <forenames>Kai</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Juncai</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Zhidan</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Zhengming</forenames>
+                </author>
+        </authors>
+        <title>Efficient Traffic State Prediction With Dynamic Joint Spatio-Temporal Relation Inference</title>
+            <categories>cs.CV cs.AI</categories>
+            <comments>This submission is v2 of preprint arXiv:2504.08061. Compared with v1, the manuscript is fully restructured: core model theory is redesigned, abundant ablation experiments are supplemented, and the whole text is reorganized and rewritten mainly by Zhifeng Hao</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction is difficult due to the complex interplay of temporal evolution, spatial interactions, and delayed spatio-temporal propagation over road networks. Existing methods either model spatial and temporal dependencies separately or employ unified spatio-temporal structures, but they often insufficiently characterize how neighboring sensors at historical timestamps influence a target node, while complex joint models may incur high computation. This paper proposes STEI-PCN, an efficient pure convolutional network based on spatio-temporal encoding and relation inference. It first builds a local causal joint spatio-temporal graph to restrict candidate interactions, then uses absolute position and relative distance encodings to infer dynamic edge weights. A single-layer graph convolution with a position-aware gated activation unit captures local joint dependencies, and temporal dilated causal convolutions complement long-range temporal patterns. A multi-view prediction module fuses raw, local propagation, and long-range temporal representations for direct multi-step forecasting. Experiments on PeMS03, PeMS04, PeMS07, PeMS08, and PeMS-Bay under multiple horizons show that STEI-PCN achieves competitive accuracy with moderate parameters and low training and inference costs. Ablation and fluctuation analyses further verify the contributions of the main components and empirically analyze the effects of the training-stage constraints under sharp speed changes. Our code is available at a GitHub link https://github.com/Jessez2/STEI-PCN.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

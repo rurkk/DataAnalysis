@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:08:23Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2110.04038" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2110.04038</identifier>
+        <datestamp>2021-10-11</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2110.04038</id>
+        <created>2021-10-08</created>
+            <updated>2021-10-11</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Xiyue</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Chao</forenames>
+                </author>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Yong</forenames>
+                </author>
+                <author>
+                    <keyname>Xia</keyname>
+                        <forenames>Lianghao</forenames>
+                </author>
+                <author>
+                    <keyname>Dai</keyname>
+                        <forenames>Peng</forenames>
+                </author>
+                <author>
+                    <keyname>Bo</keyname>
+                        <forenames>Liefeng</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Junbo</forenames>
+                </author>
+                <author>
+                    <keyname>Zheng</keyname>
+                        <forenames>Yu</forenames>
+                </author>
+        </authors>
+        <title>Traffic Flow Forecasting with Spatial-Temporal Graph Diffusion Network</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Published as a paper at AAAI 2021</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate forecasting of citywide traffic flow has been playing critical role in a variety of spatial-temporal mining applications, such as intelligent traffic control and public risk assessment. While previous work has made significant efforts to learn traffic temporal dynamics and spatial dependencies, two key limitations exist in current models. First, only the neighboring spatial correlations among adjacent regions are considered in most existing methods, and the global inter-region dependency is ignored. Additionally, these methods fail to encode the complex traffic transition regularities exhibited with time-dependent and multi-resolution in nature. To tackle these challenges, we develop a new traffic prediction framework-Spatial-Temporal Graph Diffusion Network (ST-GDN). In particular, ST-GDN is a hierarchically structured graph neural architecture which learns not only the local region-wise geographical dependencies, but also the spatial semantics from a global perspective. Furthermore, a multi-scale attention network is developed to empower ST-GDN with the capability of capturing multi-level temporal dynamics. Experiments on several real-life traffic datasets demonstrate that ST-GDN outperforms different types of state-of-the-art baselines. Source codes of implementations are available at https://github.com/jill001/ST-GDN.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

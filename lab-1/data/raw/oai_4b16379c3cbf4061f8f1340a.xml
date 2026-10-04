@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:09:09Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2408.04232" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2408.04232</identifier>
+        <datestamp>2024-08-09</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:IR</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2408.04232</id>
+        <created>2024-08-08</created>
+            <updated>2024-08-09</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Tang</keyname>
+                        <forenames>Peng</forenames>
+                </author>
+        </authors>
+        <title>Enhanced Traffic Flow Prediction with Multi-Segment Fusion Tensor Graph Convolutional Networks</title>
+            <categories>cs.LG cs.IR</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic Flow Prediction can assist in traffic management, route planning, and congestion mitigation, which holds significant importance in enhancing the efficiency and reliability of intelligent transportation systems (ITS). However, existing traffic flow prediction models suffer from limitations in capturing the complex spatial-temporal dependencies within traffic networks. In order to address this issue, this study proposes a multi-segment fusion tensor graph convolutional network (MS-FTGCN) for traffic flow prediction with the following three-fold ideas: a) building a unified spatial-temporal graph convolutional framework based on Tensor M-product, which capture the spatial-temporal patterns simultaneously; b) incorporating hourly, daily, and weekly components to model multi temporal properties of traffic flows, respectively; c) fusing the outputs of the three components by attention mechanism to obtain the final traffic flow prediction results. The results of experiments conducted on two traffic flow datasets demonstrate that the proposed MS-FTGCN outperforms the state-of-the-art models.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

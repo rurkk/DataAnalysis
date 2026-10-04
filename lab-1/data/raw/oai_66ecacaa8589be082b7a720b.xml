@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:53:06Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2508.08543" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2508.08543</identifier>
+        <datestamp>2025-11-13</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2508.08543</id>
+        <created>2025-11-12</created>
+            <updated>2025-11-13</updated>
+        <authors>
+                <author>
+                    <keyname>Jin</keyname>
+                        <forenames>Guangyin</forenames>
+                </author>
+                <author>
+                    <keyname>Lai</keyname>
+                        <forenames>Sicong</forenames>
+                </author>
+                <author>
+                    <keyname>Hao</keyname>
+                        <forenames>Xiaoshuai</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Mingtao</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Jinlei</forenames>
+                </author>
+        </authors>
+        <title>M3-Net: A Cost-Effective Graph-Free MLP-Based Model for Traffic Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Achieving accurate traffic prediction is a fundamental but crucial task in the development of current intelligent transportation systems.Most of the mainstream methods that have made breakthroughs in traffic prediction rely on spatio-temporal graph neural networks, spatio-temporal attention mechanisms, etc. The main challenges of the existing deep learning approaches are that they either depend on a complete traffic network structure or require intricate model designs to capture complex spatio-temporal dependencies. These limitations pose significant challenges for the efficient deployment and operation of deep learning models on large-scale datasets. To address these challenges, we propose a cost-effective graph-free Multilayer Perceptron (MLP) based model M3-Net for traffic prediction. Our proposed model not only employs time series and spatio-temporal embeddings for efficient feature processing but also first introduces a novel MLP-Mixer architecture with a mixture of experts (MoE) mechanism. Extensive experiments conducted on multiple real datasets demonstrate the superiority of the proposed model in terms of prediction performance and lightweight deployment.Our code is available at https://github.com/jinguangyin/M3_NET</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:41:05Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2209.00225" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2209.00225</identifier>
+        <datestamp>2024-03-07</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2209.00225</id>
+        <created>2024-03-06</created>
+            <updated>2024-03-07</updated>
+        <authors>
+                <author>
+                    <keyname>Ji</keyname>
+                        <forenames>Jiahao</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Jingyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Zhe</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Jiawei</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Hu</forenames>
+                </author>
+        </authors>
+        <title>STDEN: Towards Physics-Guided Neural Networks for Traffic Flow Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>36th AAAI Conference on Artificial Intelligence (AAAI 2022)</comments>
+            <doi>10.1609/aaai.v36i4.20322</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>High-performance traffic flow prediction model designing, a core technology of Intelligent Transportation System, is a long-standing but still challenging task for industrial and academic communities. The lack of integration between physical principles and data-driven models is an important reason for limiting the development of this field. In the literature, physics-based methods can usually provide a clear interpretation of the dynamic process of traffic flow systems but are with limited accuracy, while data-driven methods, especially deep learning with black-box structures, can achieve improved performance but can not be fully trusted due to lack of a reasonable physical basis. To bridge the gap between purely data-driven and physics-driven approaches, we propose a physics-guided deep learning model named Spatio-Temporal Differential Equation Network (STDEN), which casts the physical mechanism of traffic flow dynamics into a deep neural network framework. Specifically, we assume the traffic flow on road networks is driven by a latent potential energy field (like water flows are driven by the gravity field), and model the spatio-temporal dynamic process of the potential energy field as a differential equation network. STDEN absorbs both the performance advantage of data-driven models and the interpretability of physics-based models, so is named a physics-guided prediction model. Experiments on three real-world traffic datasets in Beijing show that our model outperforms state-of-the-art baselines by a significant margin. A case study further verifies that STDEN can capture the mechanism of urban traffic and generate accurate predictions with physical meaning. The proposed framework of differential equation network modeling may also cast light on other similar applications.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:52:44Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2307.02507" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2307.02507</identifier>
+        <datestamp>2023-12-19</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2307.02507</id>
+        <created>2023-12-17</created>
+            <updated>2023-12-19</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Lincan</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Kaixiang</forenames>
+                </author>
+                <author>
+                    <keyname>Luo</keyname>
+                        <forenames>Fengji</forenames>
+                </author>
+                <author>
+                    <keyname>Bi</keyname>
+                        <forenames>Jichao</forenames>
+                </author>
+        </authors>
+        <title>STS-CCL: Spatial-Temporal Synchronous Contextual Contrastive Learning for Urban Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>This work was accepted by the 49th IEEE International Conference on Acoustics, Speech, &amp; Signal Processing (ICASSP 2024). We will present our work in Seoul, Korea</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Efficiently capturing the complex spatiotemporal representations from large-scale unlabeled traffic data remains to be a challenging task. In considering of the dilemma, this work employs the advanced contrastive learning and proposes a novel Spatial-Temporal Synchronous Contextual Contrastive Learning (STS-CCL) model. First, we elaborate the basic and strong augmentation methods for spatiotemporal graph data, which not only perturb the data in terms of graph structure and temporal characteristics, but also employ a learning-based dynamic graph view generator for adaptive augmentation. Second, we introduce a Spatial-Temporal Synchronous Contrastive Module (STS-CM) to simultaneously capture the decent spatial-temporal dependencies and realize graph-level contrasting. To further discriminate node individuals in negative filtering, a Semantic Contextual Contrastive method is designed based on semantic features and spatial heterogeneity, achieving node-level contrastive learning along with negative filtering. Finally, we present a hard mutual-view contrastive training scheme and extend the classic contrastive loss to an integrated objective function, yielding better performance. Extensive experiments and evaluations demonstrate that building a predictor upon STS-CCL contrastive learning model gains superior performance than existing traffic forecasting benchmarks. The proposed STS-CCL is highly suitable for large datasets with only a few labeled data and other spatiotemporal tasks with data scarcity issue.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

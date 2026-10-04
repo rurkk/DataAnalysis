@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:41:36Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2308.05601" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2308.05601</identifier>
+        <datestamp>2023-08-11</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2308.05601</id>
+        <created>2023-08-10</created>
+            <updated>2023-08-11</updated>
+        <authors>
+                <author>
+                    <keyname>Ding</keyname>
+                        <forenames>Weilong</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Tianpu</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Jianwu</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Zhuofeng</forenames>
+                </author>
+        </authors>
+        <title>Multi-graph Spatio-temporal Graph Convolutional Network for Traffic Flow Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Inter-city highway transportation is significant for urban life. As one of the key functions in intelligent transportation system (ITS), traffic evaluation always plays significant role nowadays, and daily traffic flow prediction still faces challenges at network-wide toll stations. On the one hand, the data imbalance in practice among various locations deteriorates the performance of prediction. On the other hand, complex correlative spatio-temporal factors cannot be comprehensively employed in long-term duration. In this paper, a prediction method is proposed for daily traffic flow in highway domain through spatio-temporal deep learning. In our method, data normalization strategy is used to deal with data imbalance, due to long-tail distribution of traffic flow at network-wide toll stations. And then, based on graph convolutional network, we construct networks in distinct semantics to capture spatio-temporal features. Beside that, meteorology and calendar features are used by our model in the full connection stage to extra external characteristics of traffic flow. By extensive experiments and case studies in one Chinese provincial highway, our method shows clear improvement in predictive accuracy than baselines and practical benefits in business.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

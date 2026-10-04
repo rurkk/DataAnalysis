@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:08:19Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2404.02937" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2404.02937</identifier>
+        <datestamp>2026-01-19</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2404.02937</id>
+        <created>2024-09-03</created>
+            <updated>2026-01-19</updated>
+        <authors>
+                <author>
+                    <keyname>Guo</keyname>
+                        <forenames>Xusen</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Qiming</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Junyue</forenames>
+                </author>
+                <author>
+                    <keyname>Peng</keyname>
+                        <forenames>Mingxing</forenames>
+                </author>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Meixin</forenames>
+                </author>
+                <author>
+                    <keyname>Hao</keyname>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                </author>
+        </authors>
+        <title>Towards Explainable Traffic Flow Prediction with Large Language Models</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>31pages, 16 figures</comments>
+            <journal-ref>Communications in Transportation Research, vol. 4, 100150, 2024</journal-ref>
+            <doi>10.1016/j.commtr.2024.100150</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting is crucial for intelligent transportation systems. It has experienced significant advancements thanks to the power of deep learning in capturing latent patterns of traffic data. However, recent deep-learning architectures require intricate model designs and lack an intuitive understanding of the mapping from input data to predicted results. Achieving both accuracy and explainability in traffic prediction models remains a challenge due to the complexity of traffic data and the inherent opacity of deep learning models. To tackle these challenges, we propose a Traffic flow Prediction model based on Large Language Models (LLMs) to generate explainable traffic predictions, named xTP-LLM. By transferring multi-modal traffic data into natural language descriptions, xTP-LLM captures complex time-series patterns and external factors from comprehensive traffic data. The LLM framework is fine-tuned using language-based instructions to align with spatial-temporal traffic flow data. Empirically, xTP-LLM shows competitive accuracy compared with deep learning baselines, while providing an intuitive and reliable explanation for predictions. This paper contributes to advancing explainable traffic prediction models and lays a foundation for future exploration of LLM applications in transportation. To the best of our knowledge, this is the first study to use LLM for explainable prediction of traffic flows.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

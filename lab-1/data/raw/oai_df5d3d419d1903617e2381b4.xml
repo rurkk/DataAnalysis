@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:52:02Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2210.00704" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2210.00704</identifier>
+        <datestamp>2022-10-04</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2210.00704</id>
+        <created>2022-10-03</created>
+            <updated>2022-10-04</updated>
+        <authors>
+                <author>
+                    <keyname>Pu</keyname>
+                        <forenames>Yingming</forenames>
+                </author>
+        </authors>
+        <title>Combined Dynamic Virtual Spatiotemporal Graph Mapping for Traffic Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>The continuous expansion of the urban construction scale has recently contributed to the demand for the dynamics of traffic intersections that are managed, making adaptive modellings become a hot topic. Existing deep learning methods are powerful to fit complex heterogeneous graphs. However, they still have drawbacks, which can be roughly classified into two categories, 1) spatiotemporal async-modelling approaches separately consider temporal and spatial dependencies, resulting in weak generalization and large instability while aggregating; 2) spatiotemporal sync-modelling is hard to capture long-term temporal dependencies because of the local receptive field. In order to overcome above challenges, a \textbf{C}ombined \textbf{D}ynamic \textbf{V}irtual spatiotemporal \textbf{G}raph \textbf{M}apping \textbf{(CDVGM)} is proposed in this work. The contributions are the following: 1) a dynamic virtual graph Laplacian ($DVGL$) is designed, which considers both the spatial signal passing and the temporal features simultaneously; 2) the Long-term Temporal Strengthen model ($LT^2S$) for improving the stability of time series forecasting; Extensive experiments demonstrate that CDVGM has excellent performances of fast convergence speed and low resource consumption and achieves the current SOTA effect in terms of both accuracy and generalization. The code is available at \hyperlink{https://github.com/Dandelionym/CDVGM.}{https://github.com/Dandelionym/CDVGM.}</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

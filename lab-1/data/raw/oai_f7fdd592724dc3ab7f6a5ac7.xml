@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:08:39Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2112.02409" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2112.02409</identifier>
+        <datestamp>2023-06-21</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2112.02409</id>
+        <created>2023-06-17</created>
+            <updated>2023-06-21</updated>
+        <authors>
+                <author>
+                    <keyname>Lee</keyname>
+                        <forenames>Won Kyung</forenames>
+                </author>
+                <author>
+                    <keyname>Kwon</keyname>
+                        <forenames>Deuk Sin</forenames>
+                </author>
+                <author>
+                    <keyname>Sohn</keyname>
+                        <forenames>So Young</forenames>
+                </author>
+        </authors>
+        <title>Understanding Dynamic Spatio-Temporal Contexts in Long Short-Term Memory for Road Traffic Speed Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>10pages, 2 tables, 4 figures, 2017 KDD Cup</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Reliable traffic flow prediction is crucial to creating intelligent transportation systems. Many big-data-based prediction approaches have been developed but they do not reflect complicated dynamic interactions between roads considering time and location. In this study, we propose a dynamically localised long short-term memory (LSTM) model that involves both spatial and temporal dependence between roads. To do so, we use a localised dynamic spatial weight matrix along with its dynamic variation. Moreover, the LSTM model can deal with sequential data with long dependency as well as complex non-linear features. Empirical results indicated superior prediction performances of the proposed model compared to two different baseline methods.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

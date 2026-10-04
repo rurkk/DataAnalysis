@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:13Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2408.10822" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2408.10822</identifier>
+        <datestamp>2024-08-27</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2408.10822</id>
+        <created>2024-08-25</created>
+            <updated>2024-08-27</updated>
+        <authors>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Jianxiang</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Erdong</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Zhong</keyname>
+                        <forenames>Siru</forenames>
+                </author>
+                <author>
+                    <keyname>Liang</keyname>
+                        <forenames>Yuxuan</forenames>
+                </author>
+        </authors>
+        <title>Navigating Spatio-Temporal Heterogeneity: A Graph Transformer Approach for Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting has emerged as a crucial research area in the development of smart cities. Although various neural networks with intricate architectures have been developed to address this problem, they still face two key challenges: i) Recent advancements in network designs for modeling spatio-temporal correlations are starting to see diminishing returns in performance enhancements. ii) Additionally, most models do not account for the spatio-temporal heterogeneity inherent in traffic data, i.e., traffic distribution varies significantly across different regions and traffic flow patterns fluctuate across various time slots. To tackle these challenges, we introduce the Spatio-Temporal Graph Transformer (STGormer), which effectively integrates attribute and structure information inherent in traffic data for learning spatio-temporal correlations, and a mixture-of-experts module for capturing heterogeneity along spaital and temporal axes. Specifically, we design two straightforward yet effective spatial encoding methods based on the graph structure and integrate time position encoding into the vanilla transformer to capture spatio-temporal traffic patterns. Additionally, a mixture-of-experts enhanced feedforward neural network (FNN) module adaptively assigns suitable expert layers to distinct patterns via a spatio-temporal gating network, further improving overall prediction accuracy. Experiments on real-world traffic datasets demonstrate that STGormer achieves state-of-the-art performance.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

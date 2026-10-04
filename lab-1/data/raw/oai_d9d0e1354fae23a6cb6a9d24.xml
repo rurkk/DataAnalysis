@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:10:21Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2208.03415" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2208.03415</identifier>
+        <datestamp>2023-06-06</datestamp>
+            <setSpec>eess:eess:SP</setSpec>
+            <setSpec>stat:stat:AP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2208.03415</id>
+        <created>2022-08-06</created>
+            <updated>2023-06-06</updated>
+        <authors>
+                <author>
+                    <keyname>Momin</keyname>
+                        <forenames>Khondhaker Al</forenames>
+                </author>
+                <author>
+                    <keyname>Barua</keyname>
+                        <forenames>Saurav</forenames>
+                </author>
+                <author>
+                    <keyname>Jamil</keyname>
+                        <forenames>Md. Shahreer</forenames>
+                </author>
+                <author>
+                    <keyname>Hamim</keyname>
+                        <forenames>Omar Faruqe</forenames>
+                </author>
+        </authors>
+        <title>Short Duration Traffic Flow Prediction Using Kalman Filtering</title>
+            <categories>eess.SP stat.AP</categories>
+            <comments>Shooting writing. Good research</comments>
+            <journal-ref>2023</journal-ref>
+            <doi>10.1063/5.0129721</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>The research examined predicting short-duration traffic flow counts with the Kalman filtering technique (KFT), a computational filtering method. Short-term traffic prediction is an important tool for operation in traffic management and transportation system. The short-term traffic flow value results can be used for travel time estimation by route guidance and advanced traveler information systems. Though the KFT has been tested for homogeneous traffic, its efficiency in heterogeneous traffic has yet to be investigated. The research was conducted on Mirpur Road in Dhaka, near the Sobhanbagh Mosque. The stream contains a heterogeneous mix of traffic, which implies uncertainty in prediction. The propositioned method is executed in Python using the pykalman library. The library is mostly used in advanced database modeling in the KFT framework, which addresses uncertainty. The data was derived from a three-hour traffic count of the vehicle. According to the Geometric Design Standards Manual published by Roads and Highways Division (RHD), Bangladesh in 2005, the heterogeneous traffic flow value was translated into an equivalent passenger car unit (PCU). The PCU obtained from five-minute aggregation was then utilized as the suggested model&#39;s dataset. The propositioned model has a mean absolute percent error (MAPE) of 14.62, indicating that the KFT model can forecast reasonably well. The root mean square percent error (RMSPE) shows an 18.73% accuracy which is less than 25%; hence the model is acceptable. The developed model has an R2 value of 0.879, indicating that it can explain 87.9 percent of the variability in the dataset. If the data were collected over a more extended period of time, the R2 value could be closer to 1.0.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:54:08Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2002.06095" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2002.06095</identifier>
+        <datestamp>2020-02-17</datestamp>
+            <setSpec>cs:cs:NE</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>eess:eess:SP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2002.06095</id>
+        <created>2020-02-14</created>
+            <updated>2020-02-17</updated>
+        <authors>
+                <author>
+                    <keyname>Patelli</keyname>
+                        <forenames>Alina</forenames>
+                </author>
+                <author>
+                    <keyname>Lush</keyname>
+                        <forenames>Victoria</forenames>
+                </author>
+                <author>
+                    <keyname>Ekart</keyname>
+                        <forenames>Aniko</forenames>
+                </author>
+                <author>
+                    <keyname>Ilie-Zudor</keyname>
+                        <forenames>Elisabeth</forenames>
+                </author>
+        </authors>
+        <title>Traffic Modelling and Prediction via Symbolic Regression on Road Sensor Data</title>
+            <categories>cs.NE cs.AI eess.SP</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>The continuous expansion of the urban traffic sensing infrastructure has led to a surge in the volume of widely available road related data. Consequently, increasing effort is being dedicated to the creation of intelligent transportation systems, where decisions on issues ranging from city-wide road maintenance planning to improving the commuting experience are informed by computational models of urban traffic instead of being left entirely to humans. The automation of traffic management has received substantial attention from the research community, however, most approaches target highways, produce predictions valid for a limited time window or require expensive retraining of available models in order to accurately forecast traffic at a new location. In this article, we propose a novel and accurate traffic flow prediction method based on symbolic regression enhanced with a lag operator. Our approach produces robust models suitable for the intricacies of urban roads, much more difficult to predict than highways. Additionally, there is no need to retrain the model for a period of up to 9 weeks. Furthermore, the proposed method generates models that are transferable to other segments of the road network, similar to, yet geographically distinct from the ones they were initially trained on. We demonstrate the achievement of these claims by conducting extensive experiments on data collected from the Darmstadt urban infrastructure.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

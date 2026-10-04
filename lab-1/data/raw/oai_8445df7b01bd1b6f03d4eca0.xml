@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:58:16Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2011.07728" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2011.07728</identifier>
+        <datestamp>2020-11-18</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2011.07728</id>
+        <created>2020-11-17</created>
+            <updated>2020-11-18</updated>
+        <authors>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Fanyou</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Yang</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Zhiyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Qu</keyname>
+                        <forenames>Xiaobo</forenames>
+                </author>
+                <author>
+                    <keyname>Gazo</keyname>
+                        <forenames>Rado</forenames>
+                </author>
+                <author>
+                    <keyname>Haviarova</keyname>
+                        <forenames>Eva</forenames>
+                </author>
+        </authors>
+        <title>TLab: Traffic Map Movie Forecasting Based on HR-NET</title>
+            <categories>cs.LG</categories>
+            <comments>arXiv admin note: text overlap with arXiv:1911.05699 by other authors</comments>
+            <license>http://creativecommons.org/publicdomain/zero/1.0/</license>
+            <abstract>The problem of the effective prediction for large-scale spatio-temporal traffic data has long haunted researchers in the field of intelligent transportation. Limited by the quantity of data, citywide traffic state prediction was seldom achieved. Hence the complex urban transportation system of an entire city cannot be truly understood. Thanks to the efforts of organizations like IARAI, the massive open data provided by them has made the research possible. In our 2020 Competition solution, we further design multiple variants based on HR-NET and UNet. Through feature engineering, the hand-crafted features are input into the model in a form of channels. It is worth noting that, to learn the inherent attributes of geographical locations, we proposed a novel method called geo-embedding, which contributes to significant improvement in the accuracy of the model. In addition, we explored the influence of the selection of activation functions and optimizers, as well as tricks during model training on the model performance. In terms of prediction accuracy, our solution has won 2nd place in NeurIPS 2020, Traffic4cast Challenge.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

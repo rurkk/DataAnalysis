@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:53:45Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2108.02424" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2108.02424</identifier>
+        <datestamp>2021-08-06</datestamp>
+            <setSpec>stat:stat:AP</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>stat:stat:ML</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2108.02424</id>
+        <created>2021-08-05</created>
+            <updated>2021-08-06</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Tiange</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Zijun</forenames>
+                </author>
+                <author>
+                    <keyname>Tsui</keyname>
+                        <forenames>Kwok-Leung</forenames>
+                </author>
+        </authors>
+        <title>PSTN: Periodic Spatial-temporal Deep Neural Network for Traffic Condition Prediction</title>
+            <categories>stat.AP cs.LG stat.ML</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Accurate forecasting of traffic conditions is critical for improving safety, stability, and efficiency of a city transportation system. In reality, it is challenging to produce accurate traffic forecasts due to the complex and dynamic spatiotemporal correlations. Most existing works only consider partial characteristics and features of traffic data, and result in unsatisfactory performances on modeling and forecasting. In this paper, we propose a periodic spatial-temporal deep neural network (PSTN) with three pivotal modules to improve the forecasting performance of traffic conditions through a novel integration of three types of information. First, the historical traffic information is folded and fed into a module consisting of a graph convolutional network and a temporal convolutional network. Second, the recent traffic information together with the historical output passes through the second module consisting of a graph convolutional network and a gated recurrent unit framework. Finally, a multi-layer perceptron is applied to process the auxiliary road attributes and output the final predictions. Experimental results on two publicly accessible real-world urban traffic data sets show that the proposed PSTN outperforms the state-of-the-art benchmarks by significant margins for short-term traffic conditions forecasting</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

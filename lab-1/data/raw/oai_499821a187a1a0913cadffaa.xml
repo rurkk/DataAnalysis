@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:57:40Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2012.00125" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2012.00125</identifier>
+        <datestamp>2020-12-02</datestamp>
+            <setSpec>cs:cs:CV</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>eess:eess:IV</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2012.00125</id>
+        <created>2020-11-24</created>
+            <updated>2020-12-02</updated>
+        <authors>
+                <author>
+                    <keyname>Choi</keyname>
+                        <forenames>Sungbin</forenames>
+                </author>
+        </authors>
+        <title>Utilizing UNet for the future traffic map prediction task Traffic4cast challenge 2020</title>
+            <categories>cs.CV cs.LG eess.IV</categories>
+            <comments>8 pages, 4 figures, NeurIPS 2020 Traffic4cast workshop paper</comments>
+            <msc-class>68T07</msc-class>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>This paper describes our UNet based experiments on the Traffic4cast challenge 2020. Similar to the Traffic4cast challenge 2019, the task is to predict traffic flow volume, direction and speed on a high resolution map of three large cities worldwide. We mainly experimented with UNet based deep convolutional networks with various compositions of densely connected convolution layers, average pooling layers and max pooling layers. Three base UNet model types are tried and predictions are combined by averaging prediction scores or taking median value. Our method achieved best performance in this years newly built challenge dataset.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

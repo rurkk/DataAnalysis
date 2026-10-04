@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:58:08Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2405.21045" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2405.21045</identifier>
+        <datestamp>2024-06-03</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2405.21045</id>
+        <created>2024-05-31</created>
+            <updated>2024-06-03</updated>
+        <authors>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Qinhua</forenames>
+                </author>
+                <author>
+                    <keyname>Liao</keyname>
+                        <forenames>Xishun</forenames>
+                </author>
+                <author>
+                    <keyname>Gong</keyname>
+                        <forenames>Yaofa</forenames>
+                </author>
+                <author>
+                    <keyname>Ma</keyname>
+                        <forenames>Jiaqi</forenames>
+                </author>
+        </authors>
+        <title>An Attention-Based Multi-Context Convolutional Encoder-Decoder Neural Network for Work Zone Traffic Impact Prediction</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Work zone is one of the major causes of non-recurrent traffic congestion and road incidents. Despite the significance of its impact, studies on predicting the traffic impact of work zones remain scarce. In this paper, we propose a data integration pipeline that enhances the utilization of work zone and traffic data from diversified platforms, and introduce a novel deep learning model to predict the traffic speed and incident likelihood during planned work zone events. The proposed model transforms traffic patterns into 2D space-time images for both model input and output and employs an attention-based multi-context convolutional encoder-decoder architecture to capture the spatial-temporal dependencies between work zone events and traffic variations. Trained and validated on four years of archived work zone traffic data from Maryland, USA, the model demonstrates superior performance over baseline models in predicting traffic speed, incident likelihood, and inferred traffic attributes such as queue length and congestion timings (i.e., start time and duration). Specifically, the proposed model outperforms the baseline models by reducing the prediction error of traffic speed by 5% to 34%, queue length by 11% to 29%, congestion timing by 6% to 17%, and increasing the accuracy of incident predictions by 5% to 7%. Consequently, this model offers substantial promise for enhancing the planning and traffic management of work zones.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

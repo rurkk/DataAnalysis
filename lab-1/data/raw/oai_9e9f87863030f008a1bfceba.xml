@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:42:23Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2312.16596" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2312.16596</identifier>
+        <datestamp>2023-12-29</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2312.16596</id>
+        <created>2023-12-27</created>
+            <updated>2023-12-29</updated>
+        <authors>
+                <author>
+                    <keyname>Choudhary</keyname>
+                        <forenames>Himanshu</forenames>
+                </author>
+                <author>
+                    <keyname>Hassani</keyname>
+                        <forenames>Marwan</forenames>
+                </author>
+        </authors>
+        <title>Enhancing Traffic Flow Prediction using Outlier-Weighted AutoEncoders: Handling Real-Time Changes</title>
+            <categories>cs.LG</categories>
+            <comments>10 pages</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>In today&#39;s urban landscape, traffic congestion poses a critical challenge, especially during outlier scenarios. These outliers can indicate abrupt traffic peaks, drops, or irregular trends, often arising from factors such as accidents, events, or roadwork. Moreover, Given the dynamic nature of traffic, the need for real-time traffic modeling also becomes crucial to ensure accurate and up-to-date traffic predictions. To address these challenges, we introduce the Outlier Weighted Autoencoder Modeling (OWAM) framework. OWAM employs autoencoders for local outlier detection and generates correlation scores to assess neighboring traffic&#39;s influence. These scores serve as a weighted factor for neighboring sensors, before fusing them into the model. This information enhances the traffic model&#39;s performance and supports effective real-time updates, a crucial aspect for capturing dynamic traffic patterns. OWAM demonstrates a favorable trade-off between accuracy and efficiency, rendering it highly suitable for real-world applications. The research findings contribute significantly to the development of more efficient and adaptive traffic prediction models, advancing the field of transportation management for the future. The code and datasets of our framework is publicly available under https://github.com/himanshudce/OWAM.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

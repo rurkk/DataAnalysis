@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:50:58Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2406.02614" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2406.02614</identifier>
+        <datestamp>2024-06-07</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2406.02614</id>
+        <created>2024-06-06</created>
+            <updated>2024-06-07</updated>
+        <authors>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Zhanyu</forenames>
+                </author>
+                <author>
+                    <keyname>Ding</keyname>
+                        <forenames>Jianrong</forenames>
+                </author>
+                <author>
+                    <keyname>Zheng</keyname>
+                        <forenames>Guanjie</forenames>
+                </author>
+        </authors>
+        <title>Frequency Enhanced Pre-training for Cross-city Few-shot Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted by ECMLPKDD 2024 (Research Track)</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>The field of Intelligent Transportation Systems (ITS) relies on accurate traffic forecasting to enable various downstream applications. However, developing cities often face challenges in collecting sufficient training traffic data due to limited resources and outdated infrastructure. Recognizing this obstacle, the concept of cross-city few-shot forecasting has emerged as a viable approach. While previous cross-city few-shot forecasting methods ignore the frequency similarity between cities, we have made an observation that the traffic data is more similar in the frequency domain between cities. Based on this fact, we propose a \textbf{F}requency \textbf{E}nhanced \textbf{P}re-training Framework for \textbf{Cross}-city Few-shot Forecasting (\textbf{FEPCross}). FEPCross has a pre-training stage and a fine-tuning stage. In the pre-training stage, we propose a novel Cross-Domain Spatial-Temporal Encoder that incorporates the information of the time and frequency domain and trains it with self-supervised tasks encompassing reconstruction and contrastive objectives. In the fine-tuning stage, we design modules to enrich training samples and maintain a momentum-updated graph structure, thereby mitigating the risk of overfitting to the few-shot training data. Empirical evaluations performed on real-world traffic datasets validate the exceptional efficacy of FEPCross, outperforming existing approaches of diverse categories and demonstrating characteristics that foster the progress of cross-city few-shot forecasting.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

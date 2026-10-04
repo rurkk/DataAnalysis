@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:47:04Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2305.05740" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2305.05740</identifier>
+        <datestamp>2023-05-11</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:SI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2305.05740</id>
+        <created>2023-05-09</created>
+            <updated>2023-05-11</updated>
+        <authors>
+                <author>
+                    <keyname>Prabowo</keyname>
+                        <forenames>Arian</forenames>
+                </author>
+                <author>
+                    <keyname>Xue</keyname>
+                        <forenames>Hao</forenames>
+                </author>
+                <author>
+                    <keyname>Shao</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Koniusz</keyname>
+                        <forenames>Piotr</forenames>
+                </author>
+                <author>
+                    <keyname>Salim</keyname>
+                        <forenames>Flora D.</forenames>
+                </author>
+        </authors>
+        <title>Message Passing Neural Networks for Traffic Forecasting</title>
+            <categories>cs.LG cs.SI</categories>
+            <comments>18 pages, 5 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>A road network, in the context of traffic forecasting, is typically modeled as a graph where the nodes are sensors that measure traffic metrics (such as speed) at that location. Traffic forecasting is interesting because it is complex as the future speed of a road is dependent on a number of different factors. Therefore, to properly forecast traffic, we need a model that is capable of capturing all these different factors. A factor that is missing from the existing works is the node interactions factor. Existing works fail to capture the inter-node interactions because none are using the message-passing flavor of GNN, which is the one best suited to capture the node interactions This paper presents a plausible scenario in road traffic where node interactions are important and argued that the most appropriate GNN flavor to capture node interactions is message-passing. Results from real-world data show the superiority of the message-passing flavor for traffic forecasting. An additional experiment using synthetic data shows that the message-passing flavor can capture inter-node interaction better than other flavors.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

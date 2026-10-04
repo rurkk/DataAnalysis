@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:49:57Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2112.02264" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2112.02264</identifier>
+        <datestamp>2021-12-07</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2112.02264</id>
+        <created>2021-12-04</created>
+            <updated>2021-12-07</updated>
+        <authors>
+                <author>
+                    <keyname>Qin</keyname>
+                        <forenames>Yanjun</forenames>
+                </author>
+                <author>
+                    <keyname>Fang</keyname>
+                        <forenames>Yuchen</forenames>
+                </author>
+                <author>
+                    <keyname>Luo</keyname>
+                        <forenames>Haiyong</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Fang</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Chenxing</forenames>
+                </author>
+        </authors>
+        <title>DMGCRN: Dynamic Multi-Graph Convolution Recurrent Network for Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>10 pages</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is a problem of intelligent transportation systems (ITS) and crucial for individuals and public agencies. Therefore, researches pay great attention to deal with the complex spatio-temporal dependencies of traffic system for accurate forecasting. However, there are two challenges: 1) Most traffic forecasting studies mainly focus on modeling correlations of neighboring sensors and ignore correlations of remote sensors, e.g., business districts with similar spatio-temporal patterns; 2) Prior methods which use static adjacency matrix in graph convolutional networks (GCNs) are not enough to reflect the dynamic spatial dependence in traffic system. Moreover, fine-grained methods which use self-attention to model dynamic correlations of all sensors ignore hierarchical information in road networks and have quadratic computational complexity. In this paper, we propose a novel dynamic multi-graph convolution recurrent network (DMGCRN) to tackle above issues, which can model the spatial correlations of distance, the spatial correlations of structure, and the temporal correlations simultaneously. We not only use the distance-based graph to capture spatial information from nodes are close in distance but also construct a novel latent graph which encoded the structure correlations among roads to capture spatial information from nodes are similar in structure. Furthermore, we divide the neighbors of each sensor into coarse-grained regions, and dynamically assign different weights to each region at different times. Meanwhile, we integrate the dynamic multi-graph convolution network into the gated recurrent unit (GRU) to capture temporal dependence. Extensive experiments on three real-world traffic datasets demonstrate that our proposed algorithm outperforms state-of-the-art baselines.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

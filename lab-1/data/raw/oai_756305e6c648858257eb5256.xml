@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:50:16Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2512.24625" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2512.24625</identifier>
+        <datestamp>2026-07-28</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2512.24625</id>
+        <created>2026-07-27</created>
+            <updated>2026-07-28</updated>
+        <authors>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Zijian</forenames>
+                </author>
+                <author>
+                    <keyname>Shang</keyname>
+                        <forenames>Yitong</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Sen</forenames>
+                </author>
+        </authors>
+        <title>AutoFed: Personalized Federated Traffic Prediction via Adaptive Prompt</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic prediction is essential for Intelligent Transportation Systems, including ride-hailing, urban road planning, and vehicle fleet management. However, due to significant privacy concerns surrounding traffic data, most existing methods rely on local training, resulting in data silos and limited knowledge sharing. Federated Learning (FL) offers an efficient solution through privacy-preserving collaborative training; however, standard FL struggles with the non-independent and identically distributed (non-IID) problem among clients. This challenge has led to the emergence of Personalized Federated Learning (PFL) as a promising paradigm. Nevertheless, current PFL frameworks require further adaptation for traffic prediction tasks, such as specialized graph feature engineering, data processing, and network architecture design. A notable limitation of many prior studies is their reliance on hyper-parameter optimization across datasets-information that is often unavailable in real-world scenarios-thus impeding practical deployment. To address this challenge, we propose AutoFed, a novel PFL framework for traffic prediction that eliminates the need for manual hyper-parameter tuning. Inspired by prompt learning, AutoFed introduces a federated representor that employs a client-aligned adapter to distill local data into a compact, globally shared prompt matrix. This prompt then conditions a personalized predictor, allowing each client to benefit from cross-client knowledge while maintaining local specificity. Extensive experiments on real-world datasets demonstrate that AutoFed consistently achieves superior performance across diverse scenarios. The code of this paper is provided at https://github.com/RS2002/AutoFed .</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

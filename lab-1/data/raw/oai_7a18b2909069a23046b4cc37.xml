@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:48:48Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2404.11996" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2404.11996</identifier>
+        <datestamp>2024-04-19</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2404.11996</id>
+        <created>2024-04-18</created>
+            <updated>2024-04-19</updated>
+        <authors>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Songtao</forenames>
+                </author>
+                <author>
+                    <keyname>Song</keyname>
+                        <forenames>Hongjin</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Tianqi</forenames>
+                </author>
+                <author>
+                    <keyname>Telikani</keyname>
+                        <forenames>Akbar</forenames>
+                </author>
+                <author>
+                    <keyname>Shen</keyname>
+                        <forenames>Jun</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Qingguo</forenames>
+                </author>
+                <author>
+                    <keyname>Yong</keyname>
+                        <forenames>Binbin</forenames>
+                </author>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Qiang</forenames>
+                </author>
+        </authors>
+        <title>DST-GTN: Dynamic Spatio-Temporal Graph Transformer Network for Traffic Forecasting</title>
+            <categories>cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic forecasting is essential for effective urban planning and congestion management. Deep learning (DL) approaches have gained colossal success in traffic forecasting but still face challenges in capturing the intricacies of traffic dynamics. In this paper, we identify and address this challenges by emphasizing that spatial features are inherently dynamic and change over time. A novel in-depth feature representation, called Dynamic Spatio-Temporal (Dyn-ST) features, is introduced, which encapsulates spatial characteristics across varying times. Moreover, a Dynamic Spatio-Temporal Graph Transformer Network (DST-GTN) is proposed by capturing Dyn-ST features and other dynamic adjacency relations between intersections. The DST-GTN can model dynamic ST relationships between nodes accurately and refine the representation of global and local ST characteristics by adopting adaptive weights in low-pass and all-pass filters, enabling the extraction of Dyn-ST features from traffic time-series data. Through numerical experiments on public datasets, the DST-GTN achieves state-of-the-art performance for a range of traffic forecasting tasks and demonstrates enhanced stability.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

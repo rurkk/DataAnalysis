@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:58:04Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2501.02008" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2501.02008</identifier>
+        <datestamp>2025-05-20</datestamp>
+            <setSpec>eess:eess:SY</setSpec>
+            <setSpec>cs:cs:SY</setSpec>
+            <setSpec>eess:eess:IV</setSpec>
+            <setSpec>eess:eess:SP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2501.02008</id>
+        <created>2025-01-02</created>
+            <updated>2025-05-20</updated>
+        <authors>
+                <author>
+                    <keyname>Zrigui</keyname>
+                        <forenames>Ismail</forenames>
+                </author>
+                <author>
+                    <keyname>Khoulji</keyname>
+                        <forenames>Samira</forenames>
+                </author>
+                <author>
+                    <keyname>Kerkeb</keyname>
+                        <forenames>Mohamed Larbi</forenames>
+                </author>
+        </authors>
+        <title>Integrated Strategy for Urban Traffic Optimization: Prediction, Adaptive Signal Control, and Distributed Communication via Messaging</title>
+            <categories>eess.SY cs.SY eess.IV eess.SP</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>This work introduces an integrated approach to optimizing urban traffic by combining predictive modeling of vehicle flow, adaptive traffic signal control, and a modular integration architecture through distributed messaging. Using real-time data from various sensors, the system anticipates traffic fluctuations and dynamically adjusts signal phase durations to minimize delays and improve traffic flow. This proactive adjustment, supported by algorithms inspired by simulated annealing and reinforcement learning, also enhances energy efficiency, reduces pollutant emissions, and responds effectively to unexpected events (adverse weather, accidents, or temporary gatherings). Preliminary simulations conducted in a realistic urban environment demonstrate a significant reduction in average waiting times. Future developments include incorporating data from connected vehicles, integrating new modes of transport, and continuously refining predictive models to address the growing challenges of urban mobility.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

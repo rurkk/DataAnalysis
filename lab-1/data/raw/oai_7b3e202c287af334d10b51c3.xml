@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:28Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2302.12973" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2302.12973</identifier>
+        <datestamp>2023-02-28</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2302.12973</id>
+        <created>2023-02-25</created>
+            <updated>2023-02-28</updated>
+        <authors>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Haiyang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Chunjiang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Detian</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Qing</forenames>
+                </author>
+        </authors>
+        <title>Attention-based Spatial-Temporal Graph Convolutional Recurrent Networks for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is one of the most fundamental problems in transportation science and artificial intelligence. The key challenge is to effectively model complex spatial-temporal dependencies and correlations in modern traffic data. Existing methods, however, cannot accurately model both long-term and short-term temporal correlations simultaneously, limiting their expressive power on complex spatial-temporal patterns. In this paper, we propose a novel spatial-temporal neural network framework: Attention-based Spatial-Temporal Graph Convolutional Recurrent Network (ASTGCRN), which consists of a graph convolutional recurrent module (GCRN) and a global attention module. In particular, GCRN integrates gated recurrent units and adaptive graph convolutional networks for dynamically learning graph structures and capturing spatial dependencies and local temporal relationships. To effectively extract global temporal dependencies, we design a temporal attention layer and implement it as three independent modules based on multi-head self-attention, transformer, and informer respectively. Extensive experiments on five real traffic datasets have demonstrated the excellent predictive performance of all our three models with all their average MAE, RMSE and MAPE across the test datasets lower than the baseline methods.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

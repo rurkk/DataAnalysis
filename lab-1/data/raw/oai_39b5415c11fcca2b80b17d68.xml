@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:56:02Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2401.16453" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2401.16453</identifier>
+        <datestamp>2024-01-31</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2401.16453</id>
+        <created>2024-01-29</created>
+            <updated>2024-01-31</updated>
+        <authors>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Wang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Doudou</forenames>
+                </author>
+                <author>
+                    <keyname>Long</keyname>
+                        <forenames>Baichao</forenames>
+                </author>
+                <author>
+                    <keyname>Xiao</keyname>
+                        <forenames>Jianli</forenames>
+                </author>
+        </authors>
+        <title>Hybrid Transformer and Spatial-Temporal Self-Supervised Learning for Long-term Traffic Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>22 pages, 10 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Long-term traffic prediction has always been a challenging task due to its dynamic temporal dependencies and complex spatial dependencies. In this paper, we propose a model that combines hybrid Transformer and spatio-temporal self-supervised learning. The model enhances its robustness by applying adaptive data augmentation techniques at the sequence-level and graph-level of the traffic data. It utilizes Transformer to overcome the limitations of recurrent neural networks in capturing long-term sequences, and employs Chebyshev polynomial graph convolution to capture complex spatial dependencies. Furthermore, considering the impact of spatio-temporal heterogeneity on traffic speed, we design two self-supervised learning tasks to model the temporal and spatial heterogeneity, thereby improving the accuracy and generalization ability of the model. Experimental evaluations are conducted on two real-world datasets, PeMS04 and PeMS08, and the results are visualized and analyzed, demonstrating the superior performance of the proposed model.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

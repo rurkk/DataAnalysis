@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:07:25Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2506.02609" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2506.02609</identifier>
+        <datestamp>2025-06-04</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2506.02609</id>
+        <created>2025-06-03</created>
+            <updated>2025-06-04</updated>
+        <authors>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Tianfan</forenames>
+                </author>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Mei</forenames>
+                </author>
+                <author>
+                    <keyname>Weng</keyname>
+                        <forenames>Wenchao</forenames>
+                </author>
+                <author>
+                    <keyname>Seng</keyname>
+                        <forenames>Dewen</forenames>
+                </author>
+                <author>
+                    <keyname>Lin</keyname>
+                        <forenames>Yiqian</forenames>
+                </author>
+        </authors>
+        <title>A Time-Enhanced Data Disentanglement Network for Traffic Flow Forecasting</title>
+            <categories>cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>In recent years, traffic flow prediction has become a highlight in the field of intelligent transportation systems. However, due to the temporal variations and dynamic spatial correlations of traffic data, traffic prediction remains highly challenging.Traditional spatiotemporal networks, which rely on end-to-end training, often struggle to handle the diverse data dependencies of multiple traffic flow patterns. Additionally, traffic flow variations are highly sensitive to temporal information changes. Regrettably, other researchers have not sufficiently recognized the importance of temporal information.To address these challenges, we propose a novel approach called A Time-Enhanced Data Disentanglement Network for Traffic Flow Forecasting (TEDDN). This network disentangles the originally complex and intertwined traffic data into stable patterns and trends. By flexibly learning temporal and node information through a dynamic graph enhanced by a temporal feature extraction module, TEDDN demonstrates significant efficacy in disentangling and extracting complex traffic information. Experimental evaluations and ablation studies on four real-world datasets validate the superiority of our method.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

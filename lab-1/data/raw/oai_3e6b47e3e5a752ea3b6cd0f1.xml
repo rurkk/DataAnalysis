@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:55:58Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2202.12505" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2202.12505</identifier>
+        <datestamp>2022-02-28</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:SI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2202.12505</id>
+        <created>2022-02-25</created>
+            <updated>2022-02-28</updated>
+        <authors>
+                <author>
+                    <keyname>Rahman</keyname>
+                        <forenames>Rezaur</forenames>
+                </author>
+                <author>
+                    <keyname>Hasan</keyname>
+                        <forenames>Samiul</forenames>
+                </author>
+        </authors>
+        <title>A Deep Learning Approach for Network-wide Dynamic Traffic Prediction during Hurricane Evacuation</title>
+            <categories>cs.LG cs.SI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Proactive evacuation traffic management largely depends on real-time monitoring and prediction of traffic flow at a high spatiotemporal resolution. However, evacuation traffic prediction is challenging due to the uncertainties caused by sudden changes in projected hurricane paths and consequently household evacuation behavior. Moreover, modeling spatiotemporal traffic flow patterns requires extensive data over a longer time period, whereas evacuations typically last for 2 to 5 days. In this paper, we present a novel data-driven approach for predicting evacuation traffic at a network scale. We develop a dynamic graph convolution LSTM (DGCN-LSTM) model to learn the network dynamics of hurricane evacuation. We first train the model for non-evacuation period traffic data showing that the model outperforms existing deep learning models for predicting non-evacuation period traffic with an RMSE value of 226.84. However, when we apply the model for evacuation period, the RMSE value increased to 1440.99. We overcome this issue by adopting a transfer learning approach with additional features related to evacuation traffic demand such as distance from the evacuation zone, time to landfall, and other zonal level features to control the transfer of information (network dynamics) from non-evacuation periods to evacuation periods. The final transfer learned DGCN-LSTM model performs well to predict evacuation traffic flow (RMSE=399.69). The implemented model can be applied to predict evacuation traffic over a longer forecasting horizon (6 hour). It will assist transportation agencies to activate appropriate traffic management strategies to reduce delays for evacuating traffic.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

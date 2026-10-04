@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:48:32Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2006.12292" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2006.12292</identifier>
+        <datestamp>2021-01-01</datestamp>
+            <setSpec>eess:eess:SP</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>math:math:OC</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2006.12292</id>
+        <created>2020-06-22</created>
+            <updated>2021-01-01</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Wenqing</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Chuhan</forenames>
+                </author>
+                <author>
+                    <keyname>Jabari</keyname>
+                        <forenames>Saif Eddin</forenames>
+                </author>
+        </authors>
+        <title>Short-Term Traffic Forecasting Using High-Resolution Traffic Data</title>
+            <categories>eess.SP cs.LG math.OC</categories>
+            <report-no>2020</report-no>
+            <journal-ref>The 23rd IEEE International Conference on Intelligent Transportation Systems, 2020</journal-ref>
+            <doi>10.1109/ITSC45102.2020.9294706</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>This paper develops a data-driven toolkit for traffic forecasting using high-resolution (a.k.a. event-based) traffic data. This is the raw data obtained from fixed sensors in urban roads. Time series of such raw data exhibit heavy fluctuations from one time step to the next (typically on the order of 0.1-1 second). Short-term forecasts (10-30 seconds into the future) of traffic conditions are critical for traffic operations applications (e.g., adaptive signal control). But traffic forecasting tools in the literature deal predominantly with 3-5 minute aggregated data, where the typical signal cycle is on the order of 2 minutes. This renders such forecasts useless at the operations level. To this end, we model the traffic forecasting problem as a matrix completion problem, where the forecasting inputs are mapped to a higher dimensional space using kernels. The formulation allows us to capture both nonlinear dependencies between forecasting inputs and outputs but also allows us to capture dependencies among the inputs. These dependencies correspond to correlations between different locations in the network. We further employ adaptive boosting to enhance the training accuracy and capture historical patterns in the data. The performance of the proposed methods is verified using high-resolution data obtained from a real-world traffic network in Abu Dhabi, UAE. Our experimental results show that the proposed method outperforms other state-of-the-art algorithms.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

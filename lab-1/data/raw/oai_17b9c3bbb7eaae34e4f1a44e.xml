@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:46:48Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2209.05406" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2209.05406</identifier>
+        <datestamp>2022-09-13</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2209.05406</id>
+        <created>2022-09-12</created>
+            <updated>2022-09-13</updated>
+        <authors>
+                <author>
+                    <keyname>Kim</keyname>
+                        <forenames>Daejin</forenames>
+                </author>
+                <author>
+                    <keyname>Cho</keyname>
+                        <forenames>Youngin</forenames>
+                </author>
+                <author>
+                    <keyname>Kim</keyname>
+                        <forenames>Dongmin</forenames>
+                </author>
+                <author>
+                    <keyname>Park</keyname>
+                        <forenames>Cheonbok</forenames>
+                </author>
+                <author>
+                    <keyname>Choo</keyname>
+                        <forenames>Jaegul</forenames>
+                </author>
+        </authors>
+        <title>Residual Correction in Real-Time Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>Accepted to CIKM 2022</comments>
+            <doi>10.1145/3511808.3557432</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Predicting traffic conditions is tremendously challenging since every road is highly dependent on each other, both spatially and temporally. Recently, to capture this spatial and temporal dependency, specially designed architectures such as graph convolutional networks and temporal convolutional networks have been introduced. While there has been remarkable progress in traffic forecasting, we found that deep-learning-based traffic forecasting models still fail in certain patterns, mainly in event situations (e.g., rapid speed drops). Although it is commonly accepted that these failures are due to unpredictable noise, we found that these failures can be corrected by considering previous failures. Specifically, we observe autocorrelated errors in these failures, which indicates that some predictable information remains. In this study, to capture the correlation of errors, we introduce ResCAL, a residual estimation module for traffic forecasting, as a widely applicable add-on module to existing traffic forecasting models. Our ResCAL calibrates the prediction of the existing models in real time by estimating future errors using previous errors and graph signals. Extensive experiments on METR-LA and PEMS-BAY demonstrate that our ResCAL can correctly capture the correlation of errors and correct the failures of various traffic forecasting models in event situations.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

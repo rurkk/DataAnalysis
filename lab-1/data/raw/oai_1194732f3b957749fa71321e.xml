@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:57:06Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2012.02115" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2012.02115</identifier>
+        <datestamp>2020-12-04</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2012.02115</id>
+        <created>2020-12-03</created>
+            <updated>2020-12-04</updated>
+        <authors>
+                <author>
+                    <keyname>Qi</keyname>
+                        <forenames>Qi</forenames>
+                </author>
+                <author>
+                    <keyname>Kwok</keyname>
+                        <forenames>Pak Hay</forenames>
+                </author>
+        </authors>
+        <title>Traffic4cast 2020 -- Graph Ensemble Net and the Importance of Feature And Loss Function Design for Traffic Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>8 pages, 5 figures</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>This paper details our solution to Traffic4cast 2020. Similar to Traffic4cast 2019, Traffic4cast 2020 challenged its contestants to develop algorithms that can predict the future traffic states of big cities. Our team tackled this challenge on two fronts. We studied the importance of feature and loss function design, and achieved significant improvement to the best performing U-Net solution from last year. We also explored the use of Graph Neural Networks and introduced a novel ensemble GNN architecture which outperformed the GNN solution from last year. While our GNN was improved, it was still unable to match the performance of U-Nets and the potential reasons for this shortfall were discussed. Our final solution, an ensemble of our U-Net and GNN, achieved the 4th place solution in Traffic4cast 2020.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

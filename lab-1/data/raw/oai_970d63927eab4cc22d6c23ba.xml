@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:45:28Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2504.07822" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2504.07822</identifier>
+        <datestamp>2025-04-15</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2504.07822</id>
+        <created>2025-04-11</created>
+            <updated>2025-04-15</updated>
+        <authors>
+                <author>
+                    <keyname>Cui</keyname>
+                        <forenames>Wanna</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Peizheng</forenames>
+                </author>
+                <author>
+                    <keyname>Yin</keyname>
+                        <forenames>Faliang</forenames>
+                </author>
+        </authors>
+        <title>DG-STMTL: A Novel Graph Convolutional Network for Multi-Task Spatio-Temporal Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://creativecommons.org/publicdomain/zero/1.0/</license>
+            <abstract>Spatio-temporal traffic prediction is crucial in intelligent transportation systems. The key challenge of accurate prediction is how to model the complex spatio-temporal dependencies and adapt to the inherent dynamics in data. Traditional Graph Convolutional Networks (GCNs) often struggle with static adjacency matrices that introduce domain bias or learnable matrices that may be overfitting to specific patterns. This challenge becomes more complex when considering Multi-Task Learning (MTL). While MTL has the potential to enhance prediction accuracy through task synergies, it can also face significant hurdles due to task interference. To overcome these challenges, this study introduces a novel MTL framework, Dynamic Group-wise Spatio-Temporal Multi-Task Learning (DG-STMTL). DG-STMTL proposes a hybrid adjacency matrix generation module that combines static matrices with dynamic ones through a task-specific gating mechanism. We also introduce a group-wise GCN module to enhance the modelling capability of spatio-temporal dependencies. We conduct extensive experiments on two real-world datasets to evaluate our method. Results show that our method outperforms other state-of-the-arts, indicating its effectiveness and robustness.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

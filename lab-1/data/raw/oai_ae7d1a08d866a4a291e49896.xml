@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:56:47Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2008.00928" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2008.00928</identifier>
+        <datestamp>2021-01-07</datestamp>
+            <setSpec>cs:cs:CV</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:CY</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2008.00928</id>
+        <created>2020-07-12</created>
+            <updated>2021-01-07</updated>
+        <authors>
+                <author>
+                    <keyname>Yadav</keyname>
+                        <forenames>Piyush</forenames>
+                </author>
+                <author>
+                    <keyname>Sarkar</keyname>
+                        <forenames>Dipto</forenames>
+                </author>
+                <author>
+                    <keyname>Salwala</keyname>
+                        <forenames>Dhaval</forenames>
+                </author>
+                <author>
+                    <keyname>Curry</keyname>
+                        <forenames>Edward</forenames>
+                </author>
+        </authors>
+        <title>Traffic Prediction Framework for OpenStreetMap using Deep Learning based Complex Event Processing and Open Traffic Cameras</title>
+            <categories>cs.CV cs.AI cs.CY</categories>
+            <comments>16 pages, 9 Figures, 3 Tables, Paper accepted in GIScience 2020 (now postponed to 2021)</comments>
+            <doi>10.4230/LIPIcs.GIScience.2021.I.17</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Displaying near-real-time traffic information is a useful feature of digital navigation maps. However, most commercial providers rely on privacy-compromising measures such as deriving location information from cellphones to estimate traffic. The lack of an open-source traffic estimation method using open data platforms is a bottleneck for building sophisticated navigation services on top of OpenStreetMap (OSM). We propose a deep learning-based Complex Event Processing (CEP) method that relies on publicly available video camera streams for traffic estimation. The proposed framework performs near-real-time object detection and objects property extraction across camera clusters in parallel to derive multiple measures related to traffic with the results visualized on OpenStreetMap. The estimation of object properties (e.g. vehicle speed, count, direction) provides multidimensional data that can be leveraged to create metrics and visualization for congestion beyond commonly used density-based measures. Our approach couples both flow and count measures during interpolation by considering each vehicle as a sample point and their speed as weight. We demonstrate multidimensional traffic metrics (e.g. flow rate, congestion estimation) over OSM by processing 22 traffic cameras from London streets. The system achieves a near-real-time performance of 1.42 seconds median latency and an average F-score of 0.80.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

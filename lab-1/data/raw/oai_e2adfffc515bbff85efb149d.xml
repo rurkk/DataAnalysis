@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:50:31Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2305.18687" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2305.18687</identifier>
+        <datestamp>2023-06-02</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2305.18687</id>
+        <created>2023-06-01</created>
+            <updated>2023-06-02</updated>
+        <authors>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Zibo</forenames>
+                </author>
+                <author>
+                    <keyname>Shojaee</keyname>
+                        <forenames>Parshin</forenames>
+                </author>
+                <author>
+                    <keyname>Reddy</keyname>
+                        <forenames>Chandan K</forenames>
+                </author>
+        </authors>
+        <title>Graph-based Multi-ODE Neural Networks for Spatio-Temporal Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Published in Transactions on Machine Learning Research, 2023</comments>
+            <journal-ref>Transactions on Machine Learning Research, 2023</journal-ref>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>There is a recent surge in the development of spatio-temporal forecasting models in the transportation domain. Long-range traffic forecasting, however, remains a challenging task due to the intricate and extensive spatio-temporal correlations observed in traffic networks. Current works primarily rely on road networks with graph structures and learn representations using graph neural networks (GNNs), but this approach suffers from over-smoothing problem in deep architectures. To tackle this problem, recent methods introduced the combination of GNNs with residual connections or neural ordinary differential equations (ODE). However, current graph ODE models face two key limitations in feature extraction: (1) they lean towards global temporal patterns, overlooking local patterns that are important for unexpected events; and (2) they lack dynamic semantic edges in their architectural design. In this paper, we propose a novel architecture called Graph-based Multi-ODE Neural Networks (GRAM-ODE) which is designed with multiple connective ODE-GNN modules to learn better representations by capturing different views of complex local and global dynamic spatio-temporal dependencies. We also add some techniques like shared weights and divergence constraints into the intermediate layers of distinct ODE-GNN modules to further improve their communication towards the forecasting task. Our extensive set of experiments conducted on six real-world datasets demonstrate the superior performance of GRAM-ODE compared with state-of-the-art baselines as well as the contribution of different components to the overall performance. The code is available at https://github.com/zbliu98/GRAM-ODE</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

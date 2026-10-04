@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:09Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2211.00641" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2211.00641</identifier>
+        <datestamp>2022-12-16</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2211.00641</id>
+        <created>2022-12-15</created>
+            <updated>2022-12-16</updated>
+        <authors>
+                <author>
+                    <keyname>Deng</keyname>
+                        <forenames>Leyan</forenames>
+                </author>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Chenwang</forenames>
+                </author>
+                <author>
+                    <keyname>Lian</keyname>
+                        <forenames>Defu</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Min</forenames>
+                </author>
+        </authors>
+        <title>Transposed Variational Auto-encoder with Intrinsic Feature Learning for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>8 pages, 5 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>In this technical report, we present our solutions to the Traffic4cast 2022 core challenge and extended challenge. In this competition, the participants are required to predict the traffic states for the future 15-minute based on the vehicle counter data in the previous hour. Compared to other competitions in the same series, this year focuses on the prediction of different data sources and sparse vertex-to-edge generalization. To address these issues, we introduce the Transposed Variational Auto-encoder (TVAE) model to reconstruct the missing data and Graph Attention Networks (GAT) to strengthen the correlations between learned representations. We further apply feature selection to learn traffic patterns from diverse but easily available data.
+  Our solutions have ranked first in both challenges on the final leaderboard. The source code is available at \url{https://github.com/Daftstone/Traffic4cast}</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

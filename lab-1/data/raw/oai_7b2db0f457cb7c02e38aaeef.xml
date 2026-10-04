@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:43:20Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2110.01535" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2110.01535</identifier>
+        <datestamp>2021-10-05</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:CV</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2110.01535</id>
+        <created>2021-10-04</created>
+            <updated>2021-10-05</updated>
+        <authors>
+                <author>
+                    <keyname>Lu</keyname>
+                        <forenames>Yuanjie</forenames>
+                </author>
+                <author>
+                    <keyname>Kamranfar</keyname>
+                        <forenames>Parastoo</forenames>
+                </author>
+                <author>
+                    <keyname>Lattanzi</keyname>
+                        <forenames>David</forenames>
+                </author>
+                <author>
+                    <keyname>Shehu</keyname>
+                        <forenames>Amarda</forenames>
+                </author>
+        </authors>
+        <title>Traffic Flow Forecasting with Maintenance Downtime via Multi-Channel Attention-Based Spatio-Temporal Graph Convolutional Networks</title>
+            <categories>cs.LG cs.AI cs.CV</categories>
+            <comments>10 pages, 6 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Forecasting traffic flows is a central task in intelligent transportation system management. Graph structures have shown promise as a modeling framework, with recent advances in spatio-temporal modeling via graph convolution neural networks, improving the performance or extending the prediction horizon on traffic flows. However, a key shortcoming of state-of-the-art methods is their inability to take into account information of various modalities, for instance the impact of maintenance downtime on traffic flows. This is the issue we address in this paper. Specifically, we propose a novel model to predict traffic speed under the impact of construction work. The model is based on the powerful attention-based spatio-temporal graph convolution architecture but utilizes various channels to integrate different sources of information, explicitly builds spatio-temporal dependencies among traffic states, captures the relationships between heterogeneous roadway networks, and then predicts changes in traffic flow resulting from maintenance downtime events. The model is evaluated on two benchmark datasets and a novel dataset we have collected over the bustling Tyson&#39;s corner region in Northern Virginia. Extensive comparative experiments and ablation studies show that the proposed model can capture complex and nonlinear spatio-temporal relationships across a transportation corridor, outperforming baseline models.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

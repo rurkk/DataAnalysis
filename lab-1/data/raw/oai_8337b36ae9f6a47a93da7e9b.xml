@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:50:42Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2605.30486" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2605.30486</identifier>
+        <datestamp>2026-08-26</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2605.30486</id>
+        <created>2026-05-28</created>
+            <updated>2026-08-26</updated>
+        <authors>
+                <author>
+                    <keyname>Ghaffari</keyname>
+                        <forenames>Amirhossein</forenames>
+                </author>
+                <author>
+                    <keyname>Sheikhi</keyname>
+                        <forenames>Saeid</forenames>
+                </author>
+                <author>
+                    <keyname>Gilman</keyname>
+                        <forenames>Ekaterina</forenames>
+                </author>
+        </authors>
+        <title>Graph-Conditioned Mixture of Graph Neural Network Experts for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>An accepted paper at the 27th IEEE International Conference on Mobile Data Management (MDM 2026)</comments>
+            <doi>10.1109/MDM71479.2026.00037</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Spatio-temporal forecasting on sensor graphs is commonly tackled with a single backbone architecture applied uniformly across all nodes, although graph regions can exhibit different dynamics. Road segments differ in functional class, structure, and traffic behavior, suggesting that node-wise expert specialization can be useful. We propose GC-MoE, a graph-conditioned mixture of experts framework that assigns each node a personalized combination of frozen forecasting experts based on graph topology and the recent traffic input window. GC-MoE combines frozen pretrained spatio-temporal GNN experts with an input-aware, spatially contextualized router while training only a lightweight routing module. We also study a bounded graph-conditioned output refinement layer as an optional extension and include node-adaptive ST-LoRA adapters only as an ablation diagnostic. Across four standard benchmarks (PEMS04, PEMS07, METR-LA, and PEMS-BAY), GC-MoE improves MAE over a zero-parameter ensemble baseline, with competitive RMSE and MAPE, while training only ~17K parameters on top of 1.5M frozen expert weights. The implementation is available at https://github.com/Ahghaffari/gc_moe.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

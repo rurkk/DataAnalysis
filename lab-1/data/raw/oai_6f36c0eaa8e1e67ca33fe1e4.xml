@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:49:15Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2201.00008" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2201.00008</identifier>
+        <datestamp>2022-05-05</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2201.00008</id>
+        <created>2022-05-04</created>
+            <updated>2022-05-05</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Guanyao</forenames>
+                </author>
+                <author>
+                    <keyname>Zhong</keyname>
+                        <forenames>Shuhan</forenames>
+                </author>
+                <author>
+                    <keyname>Chan</keyname>
+                        <forenames>S. -H. Gary</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Ruiyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Hung</keyname>
+                        <forenames>Chih-Chieh</forenames>
+                </author>
+                <author>
+                    <keyname>Peng</keyname>
+                        <forenames>Wen-Chih</forenames>
+                </author>
+        </authors>
+        <title>A Lightweight and Accurate Spatial-Temporal Transformer for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>We study the forecasting problem for traffic with dynamic, possibly periodical, and joint spatial-temporal dependency between regions. Given the aggregated inflow and outflow traffic of regions in a city from time slots 0 to t-1, we predict the traffic at time t at any region. Prior arts in the area often consider the spatial and temporal dependencies in a decoupled manner or are rather computationally intensive in training with a large number of hyper-parameters to tune. We propose ST-TIS, a novel, lightweight, and accurate Spatial-Temporal Transformer with information fusion and region sampling for traffic forecasting. ST-TIS extends the canonical Transformer with information fusion and region sampling. The information fusion module captures the complex spatial-temporal dependency between regions. The region sampling module is to improve the efficiency and prediction accuracy, cutting the computation complexity for dependency learning from $O(n^2)$ to $O(n\sqrt{n})$, where n is the number of regions. With far fewer parameters than state-of-the-art models, the offline training of our model is significantly faster in terms of tuning and computation (with a reduction of up to $90\%$ on training time and network parameters). Notwithstanding such training efficiency, extensive experiments show that ST-TIS is substantially more accurate in online prediction than state-of-the-art approaches (with an average improvement of up to $9.5\%$ on RMSE, and $12.4\%$ on MAPE).</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

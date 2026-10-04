@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:49:03Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2012.02260" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2012.02260</identifier>
+        <datestamp>2020-12-07</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:NE</setSpec>
+            <setSpec>eess:eess:SP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2012.02260</id>
+        <created>2020-12-02</created>
+            <updated>2020-12-07</updated>
+        <authors>
+                <author>
+                    <keyname>Manibardo</keyname>
+                        <forenames>Eric L.</forenames>
+                </author>
+                <author>
+                    <keyname>Laña</keyname>
+                        <forenames>Ibai</forenames>
+                </author>
+                <author>
+                    <keyname>Del Ser</keyname>
+                        <forenames>Javier</forenames>
+                </author>
+        </authors>
+        <title>Deep Learning for Road Traffic Forecasting: Does it Make a Difference?</title>
+            <categories>cs.LG cs.AI cs.NE eess.SP</categories>
+            <comments>25 pages, 7 figures, 2 tables</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Deep Learning methods have been proven to be flexible to model complex phenomena. This has also been the case of Intelligent Transportation Systems (ITS), in which several areas such as vehicular perception and traffic analysis have widely embraced Deep Learning as a core modeling technology. Particularly in short-term traffic forecasting, the capability of Deep Learning to deliver good results has generated a prevalent inertia towards using Deep Learning models, without examining in depth their benefits and downsides. This paper focuses on critically analyzing the state of the art in what refers to the use of Deep Learning for this particular ITS research area. To this end, we elaborate on the findings distilled from a review of publications from recent years, based on two taxonomic criteria. A posterior critical analysis is held to formulate questions and trigger a necessary debate about the issues of Deep Learning for traffic forecasting. The study is completed with a benchmark of diverse short-term traffic forecasting methods over traffic datasets of different nature, aimed to cover a wide spectrum of possible scenarios. Our experimentation reveals that Deep Learning could not be the best modeling technique for every case, which unveils some caveats unconsidered to date that should be addressed by the community in prospective studies. These insights reveal new challenges and research opportunities in road traffic forecasting, which are enumerated and discussed thoroughly, with the intention of inspiring and guiding future research efforts in this field.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

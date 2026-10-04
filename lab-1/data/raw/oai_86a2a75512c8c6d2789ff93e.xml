@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:47:27Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2302.12388" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2302.12388</identifier>
+        <datestamp>2023-03-06</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2302.12388</id>
+        <created>2023-03-03</created>
+            <updated>2023-03-06</updated>
+        <authors>
+                <author>
+                    <keyname>Tedjopurnomo</keyname>
+                        <forenames>David Alexander</forenames>
+                </author>
+                <author>
+                    <keyname>Choudhury</keyname>
+                        <forenames>Farhana M.</forenames>
+                </author>
+                <author>
+                    <keyname>Qin</keyname>
+                        <forenames>A. K.</forenames>
+                </author>
+        </authors>
+        <title>TrafFormer: A Transformer Model for Predicting Long-term Traffic</title>
+            <categories>cs.LG</categories>
+            <comments>14 pages, 6 figures</comments>
+            <msc-class>ACM-class: I.2.1</msc-class>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic prediction is a flourishing research field due to its importance in human mobility in the urban space. Despite this, existing studies only focus on short-term prediction of up to few hours in advance, with most being up to one hour only. Long-term traffic prediction can enable more comprehensive, informed, and proactive measures against traffic congestion and is therefore an important task to explore. In this paper, we explore the task of long-term traffic prediction; where we predict traffic up to 24 hours in advance. We note the weaknesses of existing models--which are based on recurrent structures--for long-term traffic prediction and propose a modified Transformer model &#34;TrafFormer&#34;. Experiments comparing our model with existing hybrid neural network models show the superiority of our model.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:55:36Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2411.00844" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2411.00844</identifier>
+        <datestamp>2024-11-05</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2411.00844</id>
+        <created>2024-10-30</created>
+            <updated>2024-11-05</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Zhiwei</forenames>
+                </author>
+                <author>
+                    <keyname>E</keyname>
+                        <forenames>Shaojun</forenames>
+                </author>
+                <author>
+                    <keyname>Meng</keyname>
+                        <forenames>Fandong</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Jie</forenames>
+                </author>
+                <author>
+                    <keyname>Han</keyname>
+                        <forenames>Wenjuan</forenames>
+                </author>
+        </authors>
+        <title>Extralonger: Toward a Unified Perspective of Spatial-Temporal Factors for Extra-Long-Term Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted by NeurIPS2024 workshop</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting plays a key role in Intelligent Transportation Systems, and significant strides have been made in this field. However, most existing methods can only predict up to four hours in the future, which doesn&#39;t quite meet real-world demands. we identify that the prediction horizon is limited to a few hours mainly due to the separation of temporal and spatial factors, which results in high complexity. Drawing inspiration from Albert Einstein&#39;s relativity theory, which suggests space and time are unified and inseparable, we introduce Extralonger, which unifies temporal and spatial factors. Extralonger notably extends the prediction horizon to a week on real-world benchmarks, demonstrating superior efficiency in the training time, inference time, and memory usage. It sets new standards in long-term and extra-long-term scenarios. The code is available at https://github.com/PlanckChang/Extralonger.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

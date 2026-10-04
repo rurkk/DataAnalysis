@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:55:47Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2403.14941" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2403.14941</identifier>
+        <datestamp>2025-06-17</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2403.14941</id>
+        <created>2025-06-14</created>
+            <updated>2025-06-17</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Shuhao</forenames>
+                </author>
+                <author>
+                    <keyname>Cui</keyname>
+                        <forenames>Yue</forenames>
+                </author>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Jingyi</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Libin</forenames>
+                </author>
+                <author>
+                    <keyname>Meng</keyname>
+                        <forenames>Lingkai</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Weidong</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Fan</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Xiaofang</forenames>
+                </author>
+        </authors>
+        <title>Unifying Lane-Level Traffic Prediction from a Graph Structural Perspective: Benchmark and Baseline</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction has long been a focal and pivotal area in research, witnessing both significant strides from city-level to road-level predictions in recent years. With the advancement of Vehicle-to-Everything (V2X) technologies, autonomous driving, and large-scale models in the traffic domain, lane-level traffic prediction has emerged as an indispensable direction. However, further progress in this field is hindered by the absence of comprehensive and unified evaluation standards, coupled with limited public availability of data and code. In this paper, we present the first systematic classification framework for lane-level traffic prediction, offering a structured taxonomy and analysis of existing methods. We construct three representative datasets from two real-world road networks, covering both regular and irregular lane configurations, and make them publicly available to support future research. We further establishes a unified spatial topology structure and prediction task formulation, and proposes a simple yet effective baseline model, GraphMLP, based on graph structure and MLP networks. This unified framework enables consistent evaluation across datasets and modeling paradigms. We also reproduce previously unavailable code from existing studies and conduct extensive experiments to assess a range of models in terms of accuracy, efficiency, and applicability, providing the first benchmark that jointly considers predictive performance and training cost for lane-level traffic scenarios. All datasets and code are released at https://github.com/ShuhaoLii/LaneLevel-Traffic-Benchmark.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

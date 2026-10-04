@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:02Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2502.14525" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2502.14525</identifier>
+        <datestamp>2025-02-21</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2502.14525</id>
+        <created>2025-02-20</created>
+            <updated>2025-02-21</updated>
+        <authors>
+                <author>
+                    <keyname>Wölker</keyname>
+                        <forenames>Yannick</forenames>
+                </author>
+                <author>
+                    <keyname>Hajisafi</keyname>
+                        <forenames>Arash</forenames>
+                </author>
+                <author>
+                    <keyname>Shahabi</keyname>
+                        <forenames>Cyrus</forenames>
+                </author>
+                <author>
+                    <keyname>Renz</keyname>
+                        <forenames>Matthias</forenames>
+                </author>
+        </authors>
+        <title>Small Graph Is All You Need: DeepStateGNN for Scalable Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Yannick Wölker and Arash Hajisafi contributed equally to this work</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>We propose a novel Graph Neural Network (GNN) model, named DeepStateGNN, for analyzing traffic data, demonstrating its efficacy in two critical tasks: forecasting and reconstruction. Unlike typical GNN methods that treat each traffic sensor as an individual graph node, DeepStateGNN clusters sensors into higher-level graph nodes, dubbed Deep State Nodes, based on various similarity criteria, resulting in a fixed number of nodes in a Deep State graph. The term &#34;Deep State&#34; nodes is a play on words, referencing hidden networks of power that, like these nodes, secretly govern traffic independently of visible sensors. These Deep State Nodes are defined by several similarity factors, including spatial proximity (e.g., sensors located nearby in the road network), functional similarity (e.g., sensors on similar types of freeways), and behavioral similarity under specific conditions (e.g., traffic behavior during rain). This clustering approach allows for dynamic and adaptive node grouping, as sensors can belong to multiple clusters and clusters may evolve over time. Our experimental results show that DeepStateGNN offers superior scalability and faster training, while also delivering more accurate results than competitors. It effectively handles large-scale sensor networks, outperforming other methods in both traffic forecasting and reconstruction accuracy.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

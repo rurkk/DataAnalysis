@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:08:00Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2001.02908" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2001.02908</identifier>
+        <datestamp>2021-03-30</datestamp>
+            <setSpec>eess:eess:SP</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2001.02908</id>
+        <created>2021-03-29</created>
+            <updated>2021-03-30</updated>
+        <authors>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Mingxing</forenames>
+                </author>
+                <author>
+                    <keyname>Dai</keyname>
+                        <forenames>Wenrui</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Chunmiao</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Xing</forenames>
+                </author>
+                <author>
+                    <keyname>Lin</keyname>
+                        <forenames>Weiyao</forenames>
+                </author>
+                <author>
+                    <keyname>Qi</keyname>
+                        <forenames>Guo-Jun</forenames>
+                </author>
+                <author>
+                    <keyname>Xiong</keyname>
+                        <forenames>Hongkai</forenames>
+                </author>
+        </authors>
+        <title>Spatial-Temporal Transformer Networks for Traffic Flow Forecasting</title>
+            <categories>eess.SP cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting has emerged as a core component of intelligent transportation systems. However, timely accurate traffic forecasting, especially long-term forecasting, still remains an open challenge due to the highly nonlinear and dynamic spatial-temporal dependencies of traffic flows. In this paper, we propose a novel paradigm of Spatial-Temporal Transformer Networks (STTNs) that leverages dynamical directed spatial dependencies and long-range temporal dependencies to improve the accuracy of long-term traffic forecasting. Specifically, we present a new variant of graph neural networks, named spatial transformer, by dynamically modeling directed spatial dependencies with self-attention mechanism to capture realtime traffic conditions as well as the directionality of traffic flows. Furthermore, different spatial dependency patterns can be jointly modeled with multi-heads attention mechanism to consider diverse relationships related to different factors (e.g. similarity, connectivity and covariance). On the other hand, the temporal transformer is utilized to model long-range bidirectional temporal dependencies across multiple time steps. Finally, they are composed as a block to jointly model the spatial-temporal dependencies for accurate traffic prediction. Compared to existing works, the proposed model enables fast and scalable training over a long range spatial-temporal dependencies. Experiment results demonstrate that the proposed model achieves competitive results compared with the state-of-the-arts, especially forecasting long-term traffic flows on real-world PeMS-Bay and PeMSD7(M) datasets.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

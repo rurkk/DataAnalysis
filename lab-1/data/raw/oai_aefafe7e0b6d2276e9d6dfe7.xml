@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:45:20Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2410.14726" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2410.14726</identifier>
+        <datestamp>2024-10-22</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2410.14726</id>
+        <created>2024-10-16</created>
+            <updated>2024-10-22</updated>
+        <authors>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Xiannan</forenames>
+                </author>
+                <author>
+                    <keyname>Qiu</keyname>
+                        <forenames>Shuhan</forenames>
+                </author>
+                <author>
+                    <keyname>Cheng</keyname>
+                        <forenames>Yan</forenames>
+                </author>
+                <author>
+                    <keyname>Yuan</keyname>
+                        <forenames>Quan</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Chao</forenames>
+                </author>
+        </authors>
+        <title>Incorporating Long-term Data in Training Short-term Traffic Prediction Model</title>
+            <categories>cs.LG</categories>
+            <comments>submitted to IEEE TRANSACTIONS ON INTELLIGENT TRANSPORTATION SYSTEMS</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Short-term traffic volume prediction is crucial for intelligent transportation system and there are many researches focusing on this field. However, most of these existing researches concentrated on refining model architecture and ignored amount of training data. Therefore, there remains a noticeable gap in thoroughly exploring the effect of augmented dataset, especially extensive historical data in training. In this research, two datasets containing taxi and bike usage spanning over eight years in New York were used to test such effects. Experiments were conducted to assess the precision of models trained with data in the most recent 12, 24, 48, and 96 months. It was found that the training set encompassing 96 months, at times, resulted in diminished accuracy, which might be owing to disparities between historical traffic patterns and present ones. An analysis was subsequently undertaken to discern potential sources of inconsistent patterns, which may include both covariate shift and concept shift. To address these shifts, we proposed an innovative approach that aligns covariate distributions using a weighting scheme to manage covariate shift, coupled with an environment aware learning method to tackle the concept shift. Experiments based on real word datasets demonstrate the effectiveness of our method which can significantly decrease testing errors and ensure an improvement in accuracy when training with large-scale historical data. As far as we know, this work is the first attempt to assess the impact of contiguously expanding training dataset on the accuracy of traffic prediction models. Besides, our training method is able to be incorporated into most existing short-term traffic prediction models and make them more suitable for long term historical training dataset.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

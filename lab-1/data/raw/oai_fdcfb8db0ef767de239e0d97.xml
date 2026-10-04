@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:45:17Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2202.08982" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2202.08982</identifier>
+        <datestamp>2024-03-22</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2202.08982</id>
+        <created>2024-03-21</created>
+            <updated>2024-03-22</updated>
+        <authors>
+                <author>
+                    <keyname>Shin</keyname>
+                        <forenames>Yuyol</forenames>
+                </author>
+                <author>
+                    <keyname>Yoon</keyname>
+                        <forenames>Yoonjin</forenames>
+                </author>
+        </authors>
+        <title>PGCN: Progressive Graph Convolutional Networks for Spatial-Temporal Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>12 pages, 6 figures</comments>
+            <journal-ref>IEEE Transactions on Intelligent Transportation Systems (2024) 1-12</journal-ref>
+            <doi>10.1109/TITS.2024.3349565.</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>The complex spatial-temporal correlations in transportation networks make the traffic forecasting problem challenging. Since transportation system inherently possesses graph structures, many research efforts have been put with graph neural networks. Recently, constructing adaptive graphs to the data has shown promising results over the models relying on a single static graph structure. However, the graph adaptations are applied during the training phases and do not reflect the data used during the testing phases. Such shortcomings can be problematic especially in traffic forecasting since the traffic data often suffer from unexpected changes and irregularities in the time series. In this study, we propose a novel traffic forecasting framework called Progressive Graph Convolutional Network (PGCN). PGCN constructs a set of graphs by progressively adapting to online input data during the training and testing phases. Specifically, we implemented the model to construct progressive adjacency matrices by learning trend similarities among graph nodes. Then, the model is combined with the dilated causal convolution and gated activation unit to extract temporal features. With residual and skip connections, PGCN performs the traffic prediction. When applied to seven real-world traffic datasets of diverse geometric nature, the proposed model achieves state-of-the-art performance with consistency in all datasets. We conclude that the ability of PGCN to progressively adapt to input data enables the model to generalize in different study sites with robustness.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

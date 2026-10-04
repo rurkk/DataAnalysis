@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:43:08Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2605.08273" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2605.08273</identifier>
+        <datestamp>2026-05-12</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2605.08273</id>
+        <created>2026-05-08</created>
+            <updated>2026-05-12</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Qianru</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Xinyi</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Alexander</forenames>
+                </author>
+                <author>
+                    <keyname>Cheng</keyname>
+                        <forenames>Reynold</forenames>
+                </author>
+                <author>
+                    <keyname>Yiu</keyname>
+                        <forenames>Siu-Ming</forenames>
+                </author>
+                <author>
+                    <keyname>Yin</keyname>
+                        <forenames>Hongzhi</forenames>
+                </author>
+        </authors>
+        <title>Efficient Prompt Learning for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>24 pages. This paper is accepted by VLDBJ</comments>
+            <journal-ref>The VLDB Journal of 2026</journal-ref>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic prediction is essential for optimizing transportation systems, enhancing resource allocation, and improving overall urban administration. Spatio-temporal graph neural networks (GNNs) have achieved state-of-the-art performance and have been widely used in various spatio-temporal prediction scenarios. However, these prediction methods often exhibit low generalization ability, struggling with distribution shifts caused by spatio-temporal dynamics. To address this challenge, we propose an approach to enhance the generalization and adaptation of spatio-temporal GNNs through efficient prompting. Specifically, we introduce a lightweight and model-agnostic prompt tuning framework for spatio-temporal GNNs, named SimpleST. It facilitates adapting pre-trained spatio-temporal GNNs to novel distributions while keeping the model parameters fixed. This prompt mechanism reduces the overhead and complexity of adaptation, enabling efficient utilization of pre-trained models for out-of-distribution generalization. Extensive experiments conducted on five real-world urban spatio-temporal datasets demonstrate the superiority of our approach in terms of prediction accuracy and computational efficiency.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

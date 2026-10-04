@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:45:02Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2411.11448" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2411.11448</identifier>
+        <datestamp>2024-11-19</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2411.11448</id>
+        <created>2024-11-18</created>
+            <updated>2024-11-19</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Hongjun</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Jiyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Lingyu</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Renhe</forenames>
+                </author>
+                <author>
+                    <keyname>Song</keyname>
+                        <forenames>Xuan</forenames>
+                </author>
+        </authors>
+        <title>Unveiling the Inflexibility of Adaptive Embedding in Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Spatiotemporal Graph Neural Networks (ST-GNNs) and Transformers have shown significant promise in traffic forecasting by effectively modeling temporal and spatial correlations. However, rapid urbanization in recent years has led to dynamic shifts in traffic patterns and travel demand, posing major challenges for accurate long-term traffic prediction. The generalization capability of ST-GNNs in extended temporal scenarios and cross-city applications remains largely unexplored. In this study, we evaluate state-of-the-art models on an extended traffic benchmark and observe substantial performance degradation in existing ST-GNNs over time, which we attribute to their limited inductive capabilities. Our analysis reveals that this degradation stems from an inability to adapt to evolving spatial relationships within urban environments. To address this limitation, we reconsider the design of adaptive embeddings and propose a Principal Component Analysis (PCA) embedding approach that enables models to adapt to new scenarios without retraining. We incorporate PCA embeddings into existing ST-GNN and Transformer architectures, achieving marked improvements in performance. Notably, PCA embeddings allow for flexibility in graph structures between training and testing, enabling models trained on one city to perform zero-shot predictions on other cities. This adaptability demonstrates the potential of PCA embeddings in enhancing the robustness and generalization of spatiotemporal models.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

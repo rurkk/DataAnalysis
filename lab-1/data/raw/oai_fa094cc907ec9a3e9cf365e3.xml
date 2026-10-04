@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:40:07Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2404.15899" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2404.15899</identifier>
+        <datestamp>2024-05-10</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2404.15899</id>
+        <created>2024-05-09</created>
+            <updated>2024-05-10</updated>
+        <authors>
+                <author>
+                    <keyname>Shao</keyname>
+                        <forenames>Zhiqi</forenames>
+                </author>
+                <author>
+                    <keyname>Yao</keyname>
+                        <forenames>Xusheng</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Ze</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Junbin</forenames>
+                </author>
+        </authors>
+        <title>ST-MambaSync: The Complement of Mamba and Transformers for Spatial-Temporal in Traffic Flow Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>11 pages. arXiv admin note: substantial text overlap with arXiv:2404.13257</comments>
+            <msc-class>53A45</msc-class>
+            <acm-class>53A45</acm-class>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Accurate traffic flow prediction is crucial for optimizing traffic management, enhancing road safety, and reducing environmental impacts. Existing models face challenges with long sequence data, requiring substantial memory and computational resources, and often suffer from slow inference times due to the lack of a unified summary state. This paper introduces ST-MambaSync, an innovative traffic flow prediction model that combines transformer technology with the ST-Mamba block, representing a significant advancement in the field. We are the pioneers in employing the Mamba mechanism which is an attention mechanism integrated with ResNet within a transformer framework, which significantly enhances the model&#39;s explainability and performance. ST-MambaSync effectively addresses key challenges such as data length and computational efficiency, setting new benchmarks for accuracy and processing speed through comprehensive comparative analysis. This development has significant implications for urban planning and real-time traffic management, establishing a new standard in traffic flow prediction technology.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

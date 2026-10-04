@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:17Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2504.13267" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2504.13267</identifier>
+        <datestamp>2025-04-21</datestamp>
+            <setSpec>cs:cs:CR</setSpec>
+            <setSpec>cs:cs:SY</setSpec>
+            <setSpec>eess:eess:SY</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2504.13267</id>
+        <created>2025-04-17</created>
+            <updated>2025-04-21</updated>
+        <authors>
+                <author>
+                    <keyname>Adom</keyname>
+                        <forenames>Isaac</forenames>
+                </author>
+                <author>
+                    <keyname>Hossain</keyname>
+                        <forenames>Mohammmad Iqbal</forenames>
+                </author>
+                <author>
+                    <keyname>Mahmoud</keyname>
+                        <forenames>Hassan</forenames>
+                </author>
+                <author>
+                    <keyname>Alsharif</keyname>
+                        <forenames>Ahmad</forenames>
+                </author>
+                <author>
+                    <keyname>Mahmoud</keyname>
+                        <forenames>Mahmoud Nabil</forenames>
+                </author>
+                <author>
+                    <keyname>Xiao</keyname>
+                        <forenames>Yang</forenames>
+                </author>
+        </authors>
+        <title>Leveraging Functional Encryption and Deep Learning for Privacy-Preserving Traffic Forecasting</title>
+            <categories>cs.CR cs.SY eess.SY</categories>
+            <comments>17 pages, 14 Figures, Journal Publication</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Over the past few years, traffic congestion has continuously plagued the nation&#39;s transportation system creating several negative impacts including longer travel times, increased pollution rates, and higher collision risks. To overcome these challenges, Intelligent Transportation Systems (ITS) aim to improve mobility and vehicular systems, ensuring higher levels of safety by utilizing cutting-edge technologies, sophisticated sensing capabilities, and innovative algorithms. Drivers&#39; participatory sensing, current/future location reporting, and machine learning algorithms have considerably improved real-time congestion monitoring and future traffic management. However, each driver&#39;s sensitive spatiotemporal location information can create serious privacy concerns. To address these challenges, we propose in this paper a secure, privacy-preserving location reporting and traffic forecasting system that guarantees privacy protection of driver data while maintaining high traffic forecasting accuracy. Our novel k-anonymity scheme utilizes functional encryption to aggregate encrypted location information submitted by drivers while ensuring the privacy of driver location data. Additionally, using the aggregated encrypted location information as input, this research proposes a deep learning model that incorporates a Convolutional-Long Short-Term Memory (Conv-LSTM) module to capture spatial and short-term temporal features and a Bidirectional Long Short-Term Memory (Bi-LSTM) module to recover long-term periodic patterns for traffic forecasting. With extensive evaluation on real datasets, we demonstrate the effectiveness of the proposed scheme with less than 10% mean absolute error for a 60-minute forecasting horizon, all while protecting driver privacy.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:53:41Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2508.16623" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2508.16623</identifier>
+        <datestamp>2026-01-01</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2508.16623</id>
+        <created>2025-12-30</created>
+            <updated>2026-01-01</updated>
+        <authors>
+                <author>
+                    <keyname>Ruan</keyname>
+                        <forenames>Weilin</forenames>
+                </author>
+                <author>
+                    <keyname>Dang</keyname>
+                        <forenames>Xilin</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Ziyu</forenames>
+                </author>
+                <author>
+                    <keyname>Lyu</keyname>
+                        <forenames>Sisuo</forenames>
+                </author>
+                <author>
+                    <keyname>Liang</keyname>
+                        <forenames>Yuxuan</forenames>
+                </author>
+        </authors>
+        <title>RAST: A Retrieval Augmented Spatio-Temporal Framework for Traffic Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted by AAAI 2026 (AI for Social Impact)</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic prediction is a cornerstone of modern intelligent transportation systems and a critical task in spatio-temporal forecasting. Although advanced Spatio-temporal Graph Neural Networks (STGNNs) and pre-trained models have achieved significant progress in traffic prediction, two key challenges remain: (i) limited contextual capacity when modeling complex spatio-temporal dependencies, and (ii) low predictability at fine-grained spatio-temporal points due to heterogeneous patterns. Inspired by Retrieval-Augmented Generation (RAG), we propose RAST, a universal framework that integrates retrieval-augmented mechanisms with spatio-temporal modeling to address these challenges. Our framework consists of three key designs: 1) Decoupled Encoder and Query Generator to capture decoupled spatial and temporal features and construct a fusion query via residual fusion; 2) Spatio-temporal Retrieval Store and Retrievers to maintain and retrieve vectorized fine-grained patterns; and 3) Universal Backbone Predictor that flexibly accommodates pre-trained STGNNs or simple MLP predictors. Extensive experiments on six real-world traffic networks, including large-scale datasets, demonstrate that RAST achieves superior performance while maintaining computational efficiency.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

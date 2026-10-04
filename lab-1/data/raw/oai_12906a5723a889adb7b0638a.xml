@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:40:18Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2508.00884" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2508.00884</identifier>
+        <datestamp>2025-08-05</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2508.00884</id>
+        <created>2025-07-25</created>
+            <updated>2025-08-05</updated>
+        <authors>
+                <author>
+                    <keyname>Lin</keyname>
+                        <forenames>Zhenan</forenames>
+                </author>
+                <author>
+                    <keyname>Lai</keyname>
+                        <forenames>Yuni</forenames>
+                </author>
+                <author>
+                    <keyname>Lo</keyname>
+                        <forenames>Wai Lun</forenames>
+                </author>
+                <author>
+                    <keyname>Hsung</keyname>
+                        <forenames>Richard Tai-Chiu</forenames>
+                </author>
+                <author>
+                    <keyname>Tsang</keyname>
+                        <forenames>Harris Sik-Ho</forenames>
+                </author>
+                <author>
+                    <keyname>Xue</keyname>
+                        <forenames>Xiaoyu</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Kai</forenames>
+                </author>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Yulin</forenames>
+                </author>
+        </authors>
+        <title>Multi-Grained Temporal-Spatial Graph Learning for Stable Traffic Flow Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Time-evolving traffic flow forecasting are playing a vital role in intelligent transportation systems and smart cities. However, the dynamic traffic flow forecasting is a highly nonlinear problem with complex temporal-spatial dependencies. Although the existing methods has provided great contributions to mine the temporal-spatial patterns in the complex traffic networks, they fail to encode the globally temporal-spatial patterns and are prone to overfit on the pre-defined geographical correlations, and thus hinder the model&#39;s robustness on the complex traffic environment. To tackle this issue, in this work, we proposed a multi-grained temporal-spatial graph learning framework to adaptively augment the globally temporal-spatial patterns obtained from a crafted graph transformer encoder with the local patterns from the graph convolution by a crafted gated fusion unit with residual connection techniques. Under these circumstances, our proposed model can mine the hidden global temporal-spatial relations between each monitor stations and balance the relative importance of local and global temporal-spatial patterns. Experiment results demonstrate the strong representation capability of our proposed method and our model consistently outperforms other strong baselines on various real-world traffic networks.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:56:35Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2406.12119" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2406.12119</identifier>
+        <datestamp>2024-06-19</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:SI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2406.12119</id>
+        <created>2024-06-17</created>
+            <updated>2024-06-19</updated>
+        <authors>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Qinhua</forenames>
+                </author>
+                <author>
+                    <keyname>He</keyname>
+                        <forenames>Brian Yueshuai</forenames>
+                </author>
+                <author>
+                    <keyname>Lee</keyname>
+                        <forenames>Changju</forenames>
+                </author>
+                <author>
+                    <keyname>Ma</keyname>
+                        <forenames>Jiaqi</forenames>
+                </author>
+        </authors>
+        <title>Deploying scalable traffic prediction models for efficient management in real-world large transportation networks during hurricane evacuations</title>
+            <categories>cs.LG cs.AI cs.SI</categories>
+            <comments>Submitted to IEEE ITS Magazine and currently under review</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Accurate traffic prediction is vital for effective traffic management during hurricane evacuation. This paper proposes a predictive modeling system that integrates Multilayer Perceptron (MLP) and Long-Short Term Memory (LSTM) models to capture both long-term congestion patterns and short-term speed patterns. Leveraging various input variables, including archived traffic data, spatial-temporal road network information, and hurricane forecast data, the framework is designed to address challenges posed by heterogeneous human behaviors, limited evacuation data, and hurricane event uncertainties. Deployed in a real-world traffic prediction system in Louisiana, the model achieved an 82% accuracy in predicting long-term congestion states over a 6-hour period during a 7-day hurricane-impacted duration. The short-term speed prediction model exhibited Mean Absolute Percentage Errors (MAPEs) ranging from 7% to 13% across evacuation horizons from 1 to 6 hours. Evaluation results underscore the model&#39;s potential to enhance traffic management during hurricane evacuations, and real-world deployment highlights its adaptability and scalability in diverse hurricane scenarios within extensive transportation networks.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

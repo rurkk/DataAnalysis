@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:43:35Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2408.06445" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2408.06445</identifier>
+        <datestamp>2024-08-14</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2408.06445</id>
+        <created>2024-08-12</created>
+            <updated>2024-08-14</updated>
+        <authors>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Zibo</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Zhe</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Shigang</forenames>
+                </author>
+        </authors>
+        <title>Multi-View Neural Differential Equations for Continuous-Time Stream Data in Long-Term Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Long-term traffic flow forecasting plays a crucial role in intelligent transportation as it allows traffic managers to adjust their decisions in advance. However, the problem is challenging due to spatio-temporal correlations and complex dynamic patterns in continuous-time stream data. Neural Differential Equations (NDEs) are among the state-of-the-art methods for learning continuous-time traffic dynamics. However, the traditional NDE models face issues in long-term traffic forecasting due to failures in capturing delayed traffic patterns, dynamic edge (location-to-location correlation) patterns, and abrupt trend patterns. To fill this gap, we propose a new NDE architecture called Multi-View Neural Differential Equations. Our model captures current states, delayed states, and trends in different state variables (views) by learning latent multiple representations within Neural Differential Equations. Extensive experiments conducted on several real-world traffic datasets demonstrate that our proposed method outperforms the state-of-the-art and achieves superior prediction accuracy for long-term forecasting and robustness with noisy or missing inputs.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

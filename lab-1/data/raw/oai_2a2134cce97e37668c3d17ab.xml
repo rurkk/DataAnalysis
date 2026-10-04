@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:47:46Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2508.08947" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2508.08947</identifier>
+        <datestamp>2026-01-01</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2508.08947</id>
+        <created>2025-12-30</created>
+            <updated>2026-01-01</updated>
+        <authors>
+                <author>
+                    <keyname>Su</keyname>
+                        <forenames>Xinyu</forenames>
+                </author>
+                <author>
+                    <keyname>Sarvi</keyname>
+                        <forenames>Majid</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Feng</forenames>
+                </author>
+                <author>
+                    <keyname>Tanin</keyname>
+                        <forenames>Egemen</forenames>
+                </author>
+                <author>
+                    <keyname>Qi</keyname>
+                        <forenames>Jianzhong</forenames>
+                </author>
+        </authors>
+        <title>Generalising Traffic Forecasting to Regions without Traffic Observations</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted by AAAI 2026</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is essential for intelligent transportation systems. Accurate forecasting relies on continuous observations collected by traffic sensors. However, due to high deployment and maintenance costs, not all regions are equipped with such sensors. This paper aims to forecast for regions without traffic sensors, where the lack of historical traffic observations challenges the generalisability of existing models. We propose a model named GenCast, the core idea of which is to exploit external knowledge to compensate for the missing observations and to enhance generalisation. We integrate physics-informed neural networks into GenCast, enabling physical principles to regularise the learning process. We introduce an external signal learning module to explore correlations between traffic states and external signals such as weather conditions, further improving model generalisability. Additionally, we design a spatial grouping module to filter localised features that hinder model generalisability. Extensive experiments show that GenCast consistently reduces forecasting errors on multiple real-world datasets.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:08:50Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2105.10478" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2105.10478</identifier>
+        <datestamp>2022-03-01</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:CY</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2105.10478</id>
+        <created>2022-02-27</created>
+            <updated>2022-03-01</updated>
+        <authors>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Zichuan</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Rui</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Chen</forenames>
+                </author>
+                <author>
+                    <keyname>Xiao</keyname>
+                        <forenames>Zhu</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Hongbo</forenames>
+                </author>
+        </authors>
+        <title>Spatial-temporal Conv-sequence Learning with Accident Encoding for Traffic Flow Prediction</title>
+            <categories>cs.LG cs.CY</categories>
+            <doi>10.1109/TNSE.2022.3152983</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>In an intelligent transportation system, the key problem of traffic forecasting is how to extract periodic temporal dependencies and complex spatial correlations. Current state-of-the-art methods for predicting traffic flow are based on graph architectures and sequence learning models, but they do not fully exploit dynamic spatial-temporal information in the traffic system. Specifically, the temporal dependencies in the short-range are diluted by recurrent neural networks. Moreover, local spatial information is also ignored by existing sequence models, because their convolution operation uses global average pooling. Besides, accidents may occur during object transition, which will cause congestion in the real world and further decrease prediction accuracy. To overcome these challenges, we propose Spatial-Temporal Conv-sequence Learning (STCL), where a focused temporal block uses unidirectional convolution to capture short-term periodic temporal dependencies effectively, and a patial-temporal fusion module is responsible for extracting dependencies of interactions and decreasing the feature dimensions. Moreover, as the accidents features have an impact on local traffic congestion, we employ position encoding to detect anomalies in complex traffic situations. We have conducted a large number of experiments on real-world tasks and verified the effectiveness of our proposed method.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

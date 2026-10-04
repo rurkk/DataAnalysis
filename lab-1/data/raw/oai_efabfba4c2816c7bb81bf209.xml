@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:49:22Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2401.06040" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2401.06040</identifier>
+        <datestamp>2024-03-05</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2401.06040</id>
+        <created>2024-03-04</created>
+            <updated>2024-03-05</updated>
+        <authors>
+                <author>
+                    <keyname>Qian</keyname>
+                        <forenames>Qipeng</forenames>
+                </author>
+                <author>
+                    <keyname>Mallick</keyname>
+                        <forenames>Tanwi</forenames>
+                </author>
+        </authors>
+        <title>Wavelet-Inspired Multiscale Graph Convolutional Recurrent Network for Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is the foundation for intelligent transportation systems. Spatiotemporal graph neural networks have demonstrated state-of-the-art performance in traffic forecasting. However, these methods do not explicitly model some of the natural characteristics in traffic data, such as the multiscale structure that encompasses spatial and temporal variations at different levels of granularity or scale. To that end, we propose a Wavelet-Inspired Graph Convolutional Recurrent Network (WavGCRN) which combines multiscale analysis (MSA)-based method with Deep Learning (DL)-based method. In WavGCRN, the traffic data is decomposed into time-frequency components with Discrete Wavelet Transformation (DWT), constructing a multi-stream input structure; then Graph Convolutional Recurrent networks (GCRNs) are employed as encoders for each stream, extracting spatiotemporal features in different scales; and finally the learnable Inversed DWT and GCRN are combined as the decoder, fusing the information from all streams for traffic metrics reconstruction and prediction. Furthermore, road-network-informed graphs and data-driven graph learning are combined to accurately capture spatial correlation. The proposed method can offer well-defined interpretability, powerful learning capability, and competitive forecasting performance on real-world traffic data sets.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

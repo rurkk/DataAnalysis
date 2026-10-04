@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:07:52Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2003.08725" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2003.08725</identifier>
+        <datestamp>2020-05-04</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:CR</setSpec>
+            <setSpec>stat:stat:ML</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2003.08725</id>
+        <created>2020-03-19</created>
+            <updated>2020-05-04</updated>
+        <authors>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Yi</forenames>
+                </author>
+                <author>
+                    <keyname>Yu</keyname>
+                        <forenames>James J. Q.</forenames>
+                </author>
+                <author>
+                    <keyname>Kang</keyname>
+                        <forenames>Jiawen</forenames>
+                </author>
+                <author>
+                    <keyname>Niyato</keyname>
+                        <forenames>Dusit</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Shuyu</forenames>
+                </author>
+        </authors>
+        <title>Privacy-preserving Traffic Flow Prediction: A Federated Learning Approach</title>
+            <categories>cs.LG cs.CR stat.ML</categories>
+            <comments>This paper is in the second round of under review of the IEEE Internet of Things Journal</comments>
+            <doi>10.1109/JIOT.2020.2991401</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Existing traffic flow forecasting approaches by deep learning models achieve excellent success based on a large volume of datasets gathered by governments and organizations. However, these datasets may contain lots of user&#39;s private data, which is challenging the current prediction approaches as user privacy is calling for the public concern in recent years. Therefore, how to develop accurate traffic prediction while preserving privacy is a significant problem to be solved, and there is a trade-off between these two objectives. To address this challenge, we introduce a privacy-preserving machine learning technique named federated learning and propose a Federated Learning-based Gated Recurrent Unit neural network algorithm (FedGRU) for traffic flow prediction. FedGRU differs from current centralized learning methods and updates universal learning models through a secure parameter aggregation mechanism rather than directly sharing raw data among organizations. In the secure parameter aggregation mechanism, we adopt a Federated Averaging algorithm to reduce the communication overhead during the model parameter transmission process. Furthermore, we design a Joint Announcement Protocol to improve the scalability of FedGRU. We also propose an ensemble clustering-based scheme for traffic flow prediction by grouping the organizations into clusters before applying FedGRU algorithm. Through extensive case studies on a real-world dataset, it is shown that FedGRU&#39;s prediction accuracy is 90.96% higher than the advanced deep learning models, which confirm that FedGRU can achieve accurate and timely traffic prediction without compromising the privacy and security of raw data.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

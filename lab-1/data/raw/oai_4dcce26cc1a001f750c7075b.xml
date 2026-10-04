@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:39:25Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2005.05069" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2005.05069</identifier>
+        <datestamp>2020-05-12</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2005.05069</id>
+        <created>2020-05-08</created>
+            <updated>2020-05-12</updated>
+        <authors>
+                <author>
+                    <keyname>Manibardo</keyname>
+                        <forenames>Eric L.</forenames>
+                </author>
+                <author>
+                    <keyname>Laña</keyname>
+                        <forenames>Ibai</forenames>
+                </author>
+                <author>
+                    <keyname>Del Ser</keyname>
+                        <forenames>Javier</forenames>
+                </author>
+        </authors>
+        <title>Transfer Learning and Online Learning for Traffic Forecasting under Different Data Availability Conditions: Alternatives and Pitfalls</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Conference paper at ITSC 2020</comments>
+            <msc-class>68T05</msc-class>
+            <license>http://creativecommons.org/publicdomain/zero/1.0/</license>
+            <abstract>This work aims at unveiling the potential of Transfer Learning (TL) for developing a traffic flow forecasting model in scenarios of absent data. Knowledge transfer from high-quality predictive models becomes feasible under the TL paradigm, enabling the generation of new proper models with few data. In order to explore this capability, we identify three different levels of data absent scenarios, where TL techniques are applied among Deep Learning (DL) methods for traffic forecasting. Then, traditional batch learning is compared against TL based models using real traffic flow data, collected by deployed loops managed by the City Council of Madrid (Spain). In addition, we apply Online Learning (OL) techniques, where model receives an update after each prediction, in order to adapt to traffic flow trend changes and incrementally learn from new incoming traffic data. The obtained experimental results shed light on the advantages of transfer and online learning for traffic flow forecasting, and draw practical insights on their interplay with the amount of available training data at the location of interest.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

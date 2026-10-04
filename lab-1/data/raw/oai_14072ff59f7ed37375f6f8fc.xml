@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:57:02Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2406.11921" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2406.11921</identifier>
+        <datestamp>2024-06-19</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2406.11921</id>
+        <created>2024-06-17</created>
+            <updated>2024-06-19</updated>
+        <authors>
+                <author>
+                    <keyname>Lin</keyname>
+                        <forenames>Jiaqi</forenames>
+                </author>
+                <author>
+                    <keyname>Ren</keyname>
+                        <forenames>Qianqian</forenames>
+                </author>
+        </authors>
+        <title>Rethinking Spatio-Temporal Transformer for Traffic Prediction:Multi-level Multi-view Augmented Learning Framework</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction is a challenging spatio-temporal forecasting problem that involves highly complex spatio-temporal correlations. This paper proposes a Multi-level Multi-view Augmented Spatio-temporal Transformer (LVSTformer) for traffic prediction. The model aims to capture spatial dependencies from three different levels: local geographic, global semantic, and pivotal nodes, along with long- and short-term temporal dependencies. Specifically, we design three spatial augmented views to delve into the spatial information from the perspectives of local, global, and pivotal nodes. By combining three spatial augmented views with three parallel spatial self-attention mechanisms, the model can comprehensively captures spatial dependencies at different levels. We design a gated temporal self-attention mechanism to effectively capture long- and short-term temporal dependencies. Furthermore, a spatio-temporal context broadcasting module is introduced between two spatio-temporal layers to ensure a well-distributed allocation of attention scores, alleviating overfitting and information loss, and enhancing the generalization ability and robustness of the model. A comprehensive set of experiments is conducted on six well-known traffic benchmarks, the experimental results demonstrate that LVSTformer achieves state-of-the-art performance compared to competing baselines, with the maximum improvement reaching up to 4.32%.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

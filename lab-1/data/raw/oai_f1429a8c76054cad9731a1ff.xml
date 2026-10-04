@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:52:55Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2311.09498" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2311.09498</identifier>
+        <datestamp>2023-11-17</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2311.09498</id>
+        <created>2023-11-16</created>
+            <updated>2023-11-17</updated>
+        <authors>
+                <author>
+                    <keyname>Rashid</keyname>
+                        <forenames>Md Mobasshir</forenames>
+                </author>
+                <author>
+                    <keyname>Rahman</keyname>
+                        <forenames>Rezaur</forenames>
+                </author>
+                <author>
+                    <keyname>Hasan</keyname>
+                        <forenames>Samiul</forenames>
+                </author>
+        </authors>
+        <title>Network Wide Evacuation Traffic Prediction in a Rapidly Intensifying Hurricane from Traffic Detectors and Facebook Movement Data: A Deep Learning Approach</title>
+            <categories>cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction during hurricane evacuation is essential for optimizing the use of transportation infrastructures. It can reduce evacuation time by providing information on future congestion in advance. However, evacuation traffic prediction can be challenging as evacuation traffic patterns is significantly different than regular period traffic. A data-driven traffic prediction model is developed in this study by utilizing traffic detector and Facebook movement data during Hurricane Ian, a rapidly intensifying hurricane. We select 766 traffic detectors from Florida&#39;s 4 major interstates to collect traffic features. Additionally, we use Facebook movement data collected during Hurricane Ian&#39;s evacuation period. The deep-learning model is first trained on regular period (May-August 2022) data to understand regular traffic patterns and then Hurricane Ian&#39;s evacuation period data is used as test data. The model achieves 95% accuracy (RMSE = 356) during regular period, but it underperforms with 55% accuracy (RMSE = 1084) during the evacuation period. Then, a transfer learning approach is adopted where a pretrained model is used with additional evacuation related features to predict evacuation period traffic. After transfer learning, the model achieves 89% accuracy (RMSE = 514). Adding Facebook movement data further reduces model&#39;s RMSE value to 393 and increases accuracy to 93%. The proposed model is capable to forecast traffic up to 6-hours in advance. Evacuation traffic management officials can use the developed traffic prediction model to anticipate future traffic congestion in advance and take proactive measures to reduce delays during evacuation.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

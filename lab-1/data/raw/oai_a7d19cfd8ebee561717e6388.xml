@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:57:48Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2110.08712" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2110.08712</identifier>
+        <datestamp>2024-03-12</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:CR</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2110.08712</id>
+        <created>2021-10-17</created>
+            <updated>2024-03-12</updated>
+        <authors>
+                <author>
+                    <keyname>Poudel</keyname>
+                        <forenames>Bibek</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Weizi</forenames>
+                </author>
+        </authors>
+        <title>Black-box Adversarial Attacks on Network-wide Multi-step Traffic State Prediction Models</title>
+            <categories>cs.LG cs.AI cs.CR</categories>
+            <comments>Accepted to IEEE International Conference on Intelligent Transportation Systems (ITSC), 2021</comments>
+            <doi>10.1109/ITSC48978.2021.9564671</doi>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic state prediction is necessary for many Intelligent Transportation Systems applications. Recent developments of the topic have focused on network-wide, multi-step prediction, where state of the art performance is achieved via deep learning models, in particular, graph neural network-based models. While the prediction accuracy of deep learning models is high, these models&#39; robustness has raised many safety concerns, given that imperceptible perturbations added to input can substantially degrade the model performance. In this work, we propose an adversarial attack framework by treating the prediction model as a black-box, i.e., assuming no knowledge of the model architecture, training data, and (hyper)parameters. However, we assume that the adversary can oracle the prediction model with any input and obtain corresponding output. Next, the adversary can train a substitute model using input-output pairs and generate adversarial signals based on the substitute model. To test the attack effectiveness, two state of the art, graph neural network-based models (GCGRNN and DCRNN) are examined. As a result, the adversary can degrade the target model&#39;s prediction accuracy up to $54\%$. In comparison, two conventional statistical models (linear regression and historical average) are also examined. While these two models do not produce high prediction accuracy, they are either influenced negligibly (less than $3\%$) or are immune to the adversary&#39;s attack.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

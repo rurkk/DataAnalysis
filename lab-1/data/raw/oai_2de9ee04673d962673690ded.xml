@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:56:10Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2210.16789" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2210.16789</identifier>
+        <datestamp>2023-06-28</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2210.16789</id>
+        <created>2022-10-30</created>
+            <updated>2023-06-28</updated>
+        <authors>
+                <author>
+                    <keyname>He</keyname>
+                        <forenames>Silu</forenames>
+                </author>
+                <author>
+                    <keyname>Luo</keyname>
+                        <forenames>Qinyao</forenames>
+                </author>
+                <author>
+                    <keyname>Du</keyname>
+                        <forenames>Ronghua</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Ling</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Haifeng</forenames>
+                </author>
+        </authors>
+        <title>STGC-GNNs: A GNN-based traffic prediction framework with a spatial-temporal Granger causality graph</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>14 pages, 16 figures, 4 tables</comments>
+            <doi>10.1016/j.physa.2023.128913</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>The key to traffic prediction is to accurately depict the temporal dynamics of traffic flow traveling in a road network, so it is important to model the spatial dependence of the road network. The essence of spatial dependence is to accurately describe how traffic information transmission is affected by other nodes in the road network, and the GNN-based traffic prediction model, as a benchmark for traffic prediction, has become the most common method for the ability to model spatial dependence by transmitting traffic information with the message passing mechanism. However, existing methods model a local and static spatial dependence, which cannot transmit the global-dynamic traffic information (GDTi) required for long-term prediction. The challenge is the difficulty of detecting the precise transmission of GDTi due to the uncertainty of individual transport, especially for long-term transmission. In this paper, we propose a new hypothesis\: GDTi behaves macroscopically as a transmitting causal relationship (TCR) underlying traffic flow, which remains stable under dynamic changing traffic flow. We further propose spatial-temporal Granger causality (STGC) to express TCR, which models global and dynamic spatial dependence. To model global transmission, we model the causal order and causal lag of TCRs global transmission by a spatial-temporal alignment algorithm. To capture dynamic spatial dependence, we approximate the stable TCR underlying dynamic traffic flow by a Granger causality test. The experimental results on three backbone models show that using STGC to model the spatial dependence has better results than the original model for 45 min and 1 h long-term prediction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

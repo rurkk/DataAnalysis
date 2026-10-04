@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:41:02Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2208.06947" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2208.06947</identifier>
+        <datestamp>2022-08-23</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2208.06947</id>
+        <created>2022-08-21</created>
+            <updated>2022-08-23</updated>
+        <authors>
+                <author>
+                    <keyname>Tabatabaie</keyname>
+                        <forenames>Mahan</forenames>
+                </author>
+                <author>
+                    <keyname>Maniscalco</keyname>
+                        <forenames>James</forenames>
+                </author>
+                <author>
+                    <keyname>Lynch</keyname>
+                        <forenames>Connor</forenames>
+                </author>
+                <author>
+                    <keyname>He</keyname>
+                        <forenames>Suining</forenames>
+                </author>
+        </authors>
+        <title>Towards Spatio-Temporal Cross-Platform Graph Embedding Fusion for Urban Traffic Flow Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>5 pages, UrbComp 2022</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>In this paper, we have proposed STC-GEF, a novel Spatio-Temporal Cross-platform Graph Embedding Fusion approach for the urban traffic flow prediction. We have designed a spatial embedding module based on graph convolutional networks (GCN) to extract the complex spatial features within traffic flow data. Furthermore, to capture the temporal dependencies between the traffic flow data from various time intervals, we have designed a temporal embedding module based on recurrent neural networks. Based on the observations that different transportation platforms trip data (e.g., taxis, Uber, and Lyft) can be correlated, we have designed an effective fusion mechanism that combines the trip data from different transportation platforms and further uses them for cross-platform traffic flow prediction (e.g., integrating taxis and ride-sharing platforms for taxi traffic flow prediction). We have conducted extensive real-world experimental studies based on real-world trip data of yellow taxis and ride-sharing (Lyft) from the New York City (NYC), and validated the accuracy and effectiveness of STC-GEF in fusing different transportation platform data and predicting traffic flows.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

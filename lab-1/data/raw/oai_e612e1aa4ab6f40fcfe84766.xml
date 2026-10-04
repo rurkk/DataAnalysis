@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:39:44Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2212.04475" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2212.04475</identifier>
+        <datestamp>2024-03-07</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2212.04475</id>
+        <created>2024-03-06</created>
+            <updated>2024-03-07</updated>
+        <authors>
+                <author>
+                    <keyname>Ji</keyname>
+                        <forenames>Jiahao</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Jingyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Chao</forenames>
+                </author>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Junjie</forenames>
+                </author>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Boren</forenames>
+                </author>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Zhenhe</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Junbo</forenames>
+                </author>
+                <author>
+                    <keyname>Zheng</keyname>
+                        <forenames>Yu</forenames>
+                </author>
+        </authors>
+        <title>Spatio-Temporal Self-Supervised Learning for Traffic Flow Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>37th AAAI Conference on Artificial Intelligence (AAAI 2023)</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Robust prediction of citywide traffic flows at different time periods plays a crucial role in intelligent transportation systems. While previous work has made great efforts to model spatio-temporal correlations, existing methods still suffer from two key limitations: i) Most models collectively predict all regions&#39; flows without accounting for spatial heterogeneity, i.e., different regions may have skewed traffic flow distributions. ii) These models fail to capture the temporal heterogeneity induced by time-varying traffic patterns, as they typically model temporal correlations with a shared parameterized space for all time periods. To tackle these challenges, we propose a novel Spatio-Temporal Self-Supervised Learning (ST-SSL) traffic prediction framework which enhances the traffic pattern representations to be reflective of both spatial and temporal heterogeneity, with auxiliary self-supervised learning paradigms. Specifically, our ST-SSL is built over an integrated module with temporal and spatial convolutions for encoding the information across space and time. To achieve the adaptive spatio-temporal self-supervised learning, our ST-SSL first performs the adaptive augmentation over the traffic flow graph data at both attribute- and structure-levels. On top of the augmented traffic graph, two SSL auxiliary tasks are constructed to supplement the main traffic prediction task with spatial and temporal heterogeneity-aware augmentation. Experiments on four benchmark datasets demonstrate that ST-SSL consistently outperforms various state-of-the-art baselines. Since spatio-temporal heterogeneity widely exists in practical datasets, the proposed framework may also cast light on other spatial-temporal applications. Model implementation is available at https://github.com/Echo-Ji/ST-SSL.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

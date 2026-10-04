@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:42:49Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2006.12715" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2006.12715</identifier>
+        <datestamp>2023-07-10</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>stat:stat:ML</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2006.12715</id>
+        <created>2020-06-23</created>
+            <updated>2023-07-10</updated>
+        <authors>
+                <author>
+                    <keyname>Dai</keyname>
+                        <forenames>Rui</forenames>
+                </author>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Shenkun</forenames>
+                </author>
+                <author>
+                    <keyname>Gu</keyname>
+                        <forenames>Qian</forenames>
+                </author>
+                <author>
+                    <keyname>Ji</keyname>
+                        <forenames>Chenguang</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Kaikui</forenames>
+                </author>
+        </authors>
+        <title>Hybrid Spatio-Temporal Graph Convolutional Network: Improving Traffic Prediction with Navigation Data</title>
+            <categories>cs.LG stat.ML</categories>
+            <doi>10.1145/3394486.3403358</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting has recently attracted increasing interest due to the popularity of online navigation services, ridesharing and smart city projects. Owing to the non-stationary nature of road traffic, forecasting accuracy is fundamentally limited by the lack of contextual information. To address this issue, we propose the Hybrid Spatio-Temporal Graph Convolutional Network (H-STGCN), which is able to &#34;deduce&#34; future travel time by exploiting the data of upcoming traffic volume. Specifically, we propose an algorithm to acquire the upcoming traffic volume from an online navigation engine. Taking advantage of the piecewise-linear flow-density relationship, a novel transformer structure converts the upcoming volume into its equivalent in travel time. We combine this signal with the commonly-utilized travel-time signal, and then apply graph convolution to capture the spatial dependency. Particularly, we construct a compound adjacency matrix which reflects the innate traffic proximity. We conduct extensive experiments on real-world datasets. The results show that H-STGCN remarkably outperforms state-of-the-art methods in various metrics, especially for the prediction of non-recurring congestion.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

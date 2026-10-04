@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:07:18Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2407.11407" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2407.11407</identifier>
+        <datestamp>2024-07-17</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2407.11407</id>
+        <created>2024-07-16</created>
+            <updated>2024-07-17</updated>
+        <authors>
+                <author>
+                    <keyname>Lu</keyname>
+                        <forenames>Yuanjie</forenames>
+                </author>
+                <author>
+                    <keyname>Shehu</keyname>
+                        <forenames>Amarda</forenames>
+                </author>
+                <author>
+                    <keyname>Lattanzi</keyname>
+                        <forenames>David</forenames>
+                </author>
+        </authors>
+        <title>Accounting for Work Zone Disruptions in Traffic Flow Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>Traffic speed prediction, graph neural network, spatio-temporal correlation, hypergraph, work zone, maintenance downtime. arXiv admin note: text overlap with arXiv:2110.01535</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic speed forecasting is an important task in intelligent transportation system management. The objective of much of the current computational research is to minimize the difference between predicted and actual speeds, but information modalities other than speed priors are largely not taken into account. In particular, though state of the art performance is achieved on speed forecasting with graph neural network methods, these methods do not incorporate information on roadway maintenance work zones and their impacts on predicted traffic flows; yet, the impacts of construction work zones are of significant interest to roadway management agencies, because they translate to impacts on the local economy and public well-being. In this paper, we build over the convolutional graph neural network architecture and present a novel ``Graph Convolutional Network for Roadway Work Zones&#34; model that includes a novel data fusion mechanism and a new heterogeneous graph aggregation methodology to accommodate work zone information in spatio-temporal dependencies among traffic states. The model is evaluated on two data sets that capture traffic flows in the presence of work zones in the Commonwealth of Virginia. Extensive comparative evaluation and ablation studies show that the proposed model can capture complex and nonlinear spatio-temporal relationships across a transportation corridor, outperforming baseline models, particularly when predicting traffic flow during a workzone event.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

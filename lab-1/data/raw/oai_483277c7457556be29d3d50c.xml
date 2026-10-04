@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:38:58Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2205.10365" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2205.10365</identifier>
+        <datestamp>2022-07-19</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2205.10365</id>
+        <created>2022-07-17</created>
+            <updated>2022-07-19</updated>
+        <authors>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Weiguo</forenames>
+                </author>
+                <author>
+                    <keyname>Sun</keyname>
+                        <forenames>Yongqi</forenames>
+                </author>
+                <author>
+                    <keyname>Yi</keyname>
+                        <forenames>Xintong</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Yan</forenames>
+                </author>
+        </authors>
+        <title>A Correlation Information-based Spatiotemporal Network for Traffic Flow Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>19 pages, 13 figures, 5 tables</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>The technology of traffic flow forecasting plays an important role in intelligent transportation systems. Based on graph neural networks and attention mechanisms, most previous works utilize the transformer architecture to discover spatiotemporal dependencies and dynamic relationships. However, they have not considered correlation information among spatiotemporal sequences thoroughly. In this paper, based on the maximal information coefficient, we present two elaborate spatiotemporal representations, spatial correlation information (SCorr) and temporal correlation information (TCorr). Using SCorr, we propose a correlation information-based spatiotemporal network (CorrSTN) that includes a dynamic graph neural network component for integrating correlation information into spatial structure effectively and a multi-head attention component for modeling dynamic temporal dependencies accurately. Utilizing TCorr, we explore the correlation pattern among different periodic data to identify the most relevant data, and then design an efficient data selection scheme to further enhance model performance. The experimental results on the highway traffic flow (PEMS07 and PEMS08) and metro crowd flow (HZME inflow and outflow) datasets demonstrate that CorrSTN outperforms the state-of-the-art methods in terms of predictive performance. In particular, on the HZME (outflow) dataset, our model makes significant improvements compared with the ASTGNN model by 12.7%, 14.4% and 27.4% in the metrics of MAE, RMSE and MAPE, respectively.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

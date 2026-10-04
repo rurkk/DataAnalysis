@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:07:21Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2504.14248" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2504.14248</identifier>
+        <datestamp>2025-04-22</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2504.14248</id>
+        <created>2025-04-19</created>
+            <updated>2025-04-22</updated>
+        <authors>
+                <author>
+                    <keyname>Shijiao</keyname>
+                        <forenames>Li</forenames>
+                </author>
+                <author>
+                    <keyname>Zhipeng</keyname>
+                        <forenames>Ma</forenames>
+                </author>
+                <author>
+                    <keyname>Huajun</keyname>
+                        <forenames>He</forenames>
+                </author>
+                <author>
+                    <keyname>Haiyue</keyname>
+                        <forenames>Chen</forenames>
+                </author>
+        </authors>
+        <title>Rethinking Traffic Flow Forecasting: From Transition to Generatation</title>
+            <categories>cs.AI cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by-sa/4.0/</license>
+            <abstract>Traffic flow prediction plays an important role in Intelligent Transportation Systems in traffic management and urban planning. There have been extensive successful works in this area. However, these approaches focus only on modelling the flow transition and ignore the flow generation process, which manifests itself in two ways: (i) The models are based on Markovian assumptions, ignoring the multi-periodicity of the flow generation in nodes. (ii) The same structure is designed to encode both the transition and generation processes, ignoring the differences between them. To address these problems, we propose an Effective Multi-Branch Similarity Transformer for Traffic Flow Prediction, namely EMBSFormer. Through data analysis, we find that the factors affecting traffic flow include node-level traffic generation and graph-level traffic transition, which describe the multi-periodicity and interaction pattern of nodes, respectively. Specifically, to capture traffic generation patterns, we propose a similarity analysis module that supports multi-branch encoding to dynamically expand significant cycles. For traffic transition, we employ a temporal and spatial self-attention mechanism to maintain global node interactions, and use GNN and time conv to model local node interactions, respectively. Model performance is evaluated on three real-world datasets on both long-term and short-term prediction tasks. Experimental results show that EMBSFormer outperforms baselines on both tasks. Moreover, compared to models based on flow transition modelling (e.g. GMAN, 513k), the variant of EMBSFormer(93K) only uses 18\% of the parameters, achieving the same performance.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

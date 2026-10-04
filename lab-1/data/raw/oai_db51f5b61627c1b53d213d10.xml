@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:54:50Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2302.09956" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2302.09956</identifier>
+        <datestamp>2023-03-01</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:CV</setSpec>
+            <setSpec>cs:cs:DB</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2302.09956</id>
+        <created>2023-02-28</created>
+            <updated>2023-03-01</updated>
+        <authors>
+                <author>
+                    <keyname>Prabowo</keyname>
+                        <forenames>Arian</forenames>
+                </author>
+                <author>
+                    <keyname>Shao</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Xue</keyname>
+                        <forenames>Hao</forenames>
+                </author>
+                <author>
+                    <keyname>Koniusz</keyname>
+                        <forenames>Piotr</forenames>
+                </author>
+                <author>
+                    <keyname>Salim</keyname>
+                        <forenames>Flora D.</forenames>
+                </author>
+        </authors>
+        <title>Because Every Sensor Is Unique, so Is Every Pair: Handling Dynamicity in Traffic Forecasting</title>
+            <categories>cs.LG cs.CV cs.DB</categories>
+            <comments>20 pages, IoTDI 2023; Correction on Fig. 4</comments>
+            <journal-ref>IoTDI 2023</journal-ref>
+            <doi>10.1145/3576842.3582362</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is a critical task to extract values from cyber-physical infrastructures, which is the backbone of smart transportation. However owing to external contexts, the dynamics at each sensor are unique. For example, the afternoon peaks at sensors near schools are more likely to occur earlier than those near residential areas. In this paper, we first analyze real-world traffic data to show that each sensor has a unique dynamic. Further analysis also shows that each pair of sensors also has a unique dynamic. Then, we explore how node embedding learns the unique dynamics at every sensor location. Next, we propose a novel module called Spatial Graph Transformers (SGT) where we use node embedding to leverage the self-attention mechanism to ensure that the information flow between two sensors is adaptive with respect to the unique dynamic of each pair. Finally, we present Graph Self-attention WaveNet (G-SWaN) to address the complex, non-linear spatiotemporal traffic dynamics. Through empirical experiments on four real-world, open datasets, we show that the proposed method achieves superior performance on both traffic speed and flow forecasting. Code is available at: https://github.com/aprbw/G-SWaN</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

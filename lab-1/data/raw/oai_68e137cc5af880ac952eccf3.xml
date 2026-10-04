@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:10:02Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2112.02740" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2112.02740</identifier>
+        <datestamp>2022-01-19</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2112.02740</id>
+        <created>2022-01-17</created>
+            <updated>2022-01-19</updated>
+        <authors>
+                <author>
+                    <keyname>Fang</keyname>
+                        <forenames>Yuchen</forenames>
+                </author>
+                <author>
+                    <keyname>Qin</keyname>
+                        <forenames>Yanjun</forenames>
+                </author>
+                <author>
+                    <keyname>Luo</keyname>
+                        <forenames>Haiyong</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Fang</forenames>
+                </author>
+                <author>
+                    <keyname>Xu</keyname>
+                        <forenames>Bingbing</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Chenxing</forenames>
+                </author>
+                <author>
+                    <keyname>Zeng</keyname>
+                        <forenames>Liang</forenames>
+                </author>
+        </authors>
+        <title>Spatio-Temporal meets Wavelet: Disentangled Traffic Flow Forecasting via Efficient Spectral Graph Attention Network</title>
+            <categories>cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is crucial for public safety and resource optimization, yet is very challenging due to three aspects: i) current existing works mostly exploit intricate temporal patterns (e.g., the short-term thunderstorm and long-term daily trends) within a single method, which fail to accurately capture spatio-temporal dependencies under different schemas; ii) the under-exploration of the graph positional encoding limit the extraction of spatial information in the commonly used full graph attention network; iii) the quadratic complexity of the full graph attention introduces heavy computational needs. To achieve the effective traffic flow forecasting, we propose an efficient spectral graph attention network with disentangled traffic sequences. Specifically, the discrete wavelet transform is leveraged to obtain the low- and high-frequency components of traffic sequences, and a dual-channel encoder is elaborately designed to accurately capture the spatio-temporal dependencies under long- and short-term schemas of the low- and high-frequency components. Moreover, a novel wavelet-based graph positional encoding and a query sampling strategy are introduced in our spectral graph attention to effectively guide message passing and efficiently calculate the attention. Extensive experiments on four real-world datasets show the superiority of our model, i.e., the higher traffic forecasting precision with lower computational cost.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

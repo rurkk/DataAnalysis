@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:41:44Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2608.29658" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2608.29658</identifier>
+        <datestamp>2026-09-01</datestamp>
+            <setSpec>physics:physics:soc-ph</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>physics:physics:data-an</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2608.29658</id>
+        <created>2026-08-30</created>
+            <updated>2026-09-01</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Limiao</forenames>
+                </author>
+                <author>
+                    <keyname>Lu</keyname>
+                        <forenames>Yuhui</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Jie</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Hao</forenames>
+                </author>
+                <author>
+                    <keyname>Ma</keyname>
+                        <forenames>Haiping</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Xingyi</forenames>
+                </author>
+        </authors>
+        <title>ButterMamba: Butterworth-Enhanced Spatial-Temporal Mamba for Efficient Traffic Flow Prediction</title>
+            <categories>physics.soc-ph cs.LG physics.data-an</categories>
+            <comments>9 pages, 6 figures</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic flow prediction is fundamental to intelligent transportation systems, playing a pivotal role in urban mobility optimization and smart city development. While Graph Neural Networks (GNNs) integrated with time series forecasting have emerged as promising solutions, two critical limitations persist: (1) the quadratic complexity of attention-based architectures hinders real-time deployment in large-scale networks, and (2) high-frequency noise in sensor data significantly degrades prediction reliability. These challenges are particularly acute in metropolitan scenarios where both computational efficiency and noise robustness are paramount. To address these limitations, we introduce \textbf{ButterMamba}, a novel and efficient framework based on State Space Models (SSMs). ButterMamba consists of two key components: (1) a Butterworth Spectral Filtering module that preprocesses the data by removing high-frequency noise, allowing the model to focus on significant underlying trends, and (2) a Spatial-Temporal State Mixer that uses a parallel Mamba architecture to efficiently capture both long-range temporal dependencies and complex spatial correlations across the road network. By decoupling noise filtering from spatial-temporal modeling, ButterMamba achieves superior predictive accuracy with linear computational complexity. Extensive experiments on three public datasets demonstrate that ButterMamba not only outperforms existing state-of-the-art models in terms of prediction accuracy but also considerably reduces training time and memory usage.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:44:01Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2204.10222" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2204.10222</identifier>
+        <datestamp>2022-04-22</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2204.10222</id>
+        <created>2022-04-21</created>
+            <updated>2022-04-22</updated>
+        <authors>
+                <author>
+                    <keyname>Ghazi</keyname>
+                        <forenames>Mehdi Mehdipour</forenames>
+                </author>
+                <author>
+                    <keyname>Ramezani</keyname>
+                        <forenames>Amin</forenames>
+                </author>
+                <author>
+                    <keyname>Siahi</keyname>
+                        <forenames>Mehdi</forenames>
+                </author>
+                <author>
+                    <keyname>Ghazi</keyname>
+                        <forenames>Mostafa Mehdipour</forenames>
+                </author>
+        </authors>
+        <title>Learning spatiotemporal features from incomplete data for traffic flow prediction using hybrid deep neural networks</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Urban traffic flow prediction using data-driven models can play an important role in route planning and preventing congestion on highways. These methods utilize data collected from traffic recording stations at different timestamps to predict the future status of traffic. Hence, data collection, transmission, storage, and extraction techniques can have a significant impact on the performance of the traffic flow model. On the other hand, a comprehensive database can provide the opportunity for using complex, yet reliable predictive models such as deep learning methods. However, most of these methods have difficulties in handling missing values and outliers. This study focuses on hybrid deep neural networks to predict traffic flow in the California Freeway Performance Measurement System (PeMS) with missing values. The proposed networks are based on a combination of recurrent neural networks (RNNs) to consider the temporal dependencies in the data recorded in each station and convolutional neural networks (CNNs) to take the spatial correlations in the adjacent stations into account. Various architecture configurations with series and parallel connections are considered based on RNNs and CNNs, and several prevalent data imputation techniques are used to examine the robustness of the hybrid networks to missing values. A comprehensive analysis performed on two different datasets from PeMS indicates that the proposed series-parallel hybrid network with the mean imputation technique achieves the lowest error in predicting the traffic flow and is robust to missing values up until 21% missing ratio in both complete and incomplete training data scenarios when applied to an incomplete test data.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

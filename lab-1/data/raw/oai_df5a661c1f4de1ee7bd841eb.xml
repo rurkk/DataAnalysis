@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:50:20Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2302.11774" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2302.11774</identifier>
+        <datestamp>2024-04-02</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2302.11774</id>
+        <created>2024-03-31</created>
+            <updated>2024-04-02</updated>
+        <authors>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Kehua</forenames>
+                </author>
+                <author>
+                    <keyname>Liang</keyname>
+                        <forenames>Yuxuan</forenames>
+                </author>
+                <author>
+                    <keyname>Han</keyname>
+                        <forenames>Jindong</forenames>
+                </author>
+                <author>
+                    <keyname>Feng</keyname>
+                        <forenames>Siyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Meixin</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Hai</forenames>
+                </author>
+        </authors>
+        <title>Semantic-Fused Multi-Granularity Cross-City Traffic Prediction</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Accurate traffic prediction is essential for effective urban management and the improvement of transportation efficiency. Recently, data-driven traffic prediction methods have been widely adopted, with better performance than traditional approaches. However, they often require large amounts of data for effective training, which becomes challenging given the prevalence of data scarcity in regions with inadequate sensing infrastructures. To address this issue, we propose a Semantic-Fused Multi-Granularity Transfer Learning (SFMGTL) model to achieve knowledge transfer across cities with fused semantics at different granularities. In detail, we design a semantic fusion module to fuse various semantics while conserving static spatial dependencies via reconstruction losses. Then, a fused graph is constructed based on node features through graph structure learning. Afterwards, we implement hierarchical node clustering to generate graphs with different granularity. To extract feasible meta-knowledge, we further introduce common and private memories and obtain domain-invariant features via adversarial training. It is worth noting that our work jointly addresses semantic fusion and multi-granularity issues in transfer learning. We conduct extensive experiments on six real-world datasets to verify the effectiveness of our SFMGTL model by comparing it with other state-of-the-art baselines. Afterwards, we also perform ablation and case studies, demonstrating that our model possesses substantially fewer parameters compared to baseline models. Moreover, we illustrate how knowledge transfer aids the model in accurately predicting demands, especially during peak hours. The codes can be found at https://github.com/zeonchen/SFMGTL.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:07:40Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2501.03492" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2501.03492</identifier>
+        <datestamp>2025-04-29</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2501.03492</id>
+        <created>2025-04-28</created>
+            <updated>2025-04-29</updated>
+        <authors>
+                <author>
+                    <keyname>Xiong</keyname>
+                        <forenames>Weijiang</forenames>
+                </author>
+                <author>
+                    <keyname>Fonod</keyname>
+                        <forenames>Robert</forenames>
+                </author>
+                <author>
+                    <keyname>Alahi</keyname>
+                        <forenames>Alexandre</forenames>
+                </author>
+                <author>
+                    <keyname>Geroliminis</keyname>
+                        <forenames>Nikolas</forenames>
+                </author>
+        </authors>
+        <title>Multi-Source Urban Traffic Flow Forecasting with Drone and Loop Detector Data</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by-nc-sa/4.0/</license>
+            <abstract>Traffic forecasting is a fundamental task in transportation research, however the scope of current research has mainly focused on a single data modality of loop detectors. Recently, the advances in Artificial Intelligence and drone technologies have made possible novel solutions for efficient, accurate and flexible aerial observations of urban traffic. As a promising traffic monitoring approach, drone-captured data can create an accurate multi-sensor mobility observatory for large-scale urban networks, when combined with existing infrastructure. Therefore, this paper investigates the problem of multi-source traffic speed prediction, simultaneously using drone and loop detector data. A simple yet effective graph-based model HiMSNet is proposed to integrate multiple data modalities and learn spatio-temporal correlations. Detailed analysis shows that predicting accurate segment-level speed is more challenging than the regional speed, especially under high-demand scenarios with heavier congestions and varying traffic dynamics. Utilizing both drone and loop detector data, the prediction accuracy can be improved compared to single-modality cases, when the sensors have lower coverages and are subject to noise. Our simulation study based on vehicle trajectories in a real urban road network has highlighted the added value of integrating drones in traffic forecasting and monitoring.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

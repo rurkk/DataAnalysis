@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:53:18Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2111.05990" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2111.05990</identifier>
+        <datestamp>2021-11-12</datestamp>
+            <setSpec>cs:cs:CV</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2111.05990</id>
+        <created>2021-11-10</created>
+            <updated>2021-11-12</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Bo</forenames>
+                </author>
+                <author>
+                    <keyname>Mohajerpoor</keyname>
+                        <forenames>Reza</forenames>
+                </author>
+                <author>
+                    <keyname>Cai</keyname>
+                        <forenames>Chen</forenames>
+                </author>
+                <author>
+                    <keyname>Kim</keyname>
+                        <forenames>Inhi</forenames>
+                </author>
+                <author>
+                    <keyname>Vu</keyname>
+                        <forenames>Hai L.</forenames>
+                </author>
+        </authors>
+        <title>Traffic4cast -- Large-scale Traffic Prediction using 3DResNet and Sparse-UNet</title>
+            <categories>cs.CV</categories>
+            <license>http://creativecommons.org/licenses/by-nc-sa/4.0/</license>
+            <abstract>The IARAI competition Traffic4cast 2021 aims to predict short-term city-wide high-resolution traffic states given the static and dynamic traffic information obtained previously. The aim is to build a machine learning model for predicting the normalized average traffic speed and flow of the subregions of multiple large-scale cities using historical data points. The model is supposed to be generic, in a way that it can be applied to new cities. By considering spatiotemporal feature learning and modeling efficiency, we explore 3DResNet and Sparse-UNet approaches for the tasks in this competition. The 3DResNet based models use 3D convolution to learn the spatiotemporal features and apply sequential convolutional layers to enhance the temporal relationship of the outputs. The Sparse-UNet model uses sparse convolutions as the backbone for spatiotemporal feature learning. Since the latter algorithm mainly focuses on non-zero data points of the inputs, it dramatically reduces the computation time, while maintaining a competitive accuracy. Our results show that both of the proposed models achieve much better performance than the baseline algorithms. The codes and pretrained models are available at https://github.com/resuly/Traffic4Cast-2021.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:10:06Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2207.05064" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2207.05064</identifier>
+        <datestamp>2022-07-13</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2207.05064</id>
+        <created>2022-07-09</created>
+            <updated>2022-07-13</updated>
+        <authors>
+                <author>
+                    <keyname>Feng</keyname>
+                        <forenames>Aosong</forenames>
+                </author>
+                <author>
+                    <keyname>Tassiulas</keyname>
+                        <forenames>Leandros</forenames>
+                </author>
+        </authors>
+        <title>Adaptive Graph Spatial-Temporal Transformer Network for Traffic Flow Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow forecasting on graphs has real-world applications in many fields, such as transportation system and computer networks. Traffic forecasting can be highly challenging due to complex spatial-temporal correlations and non-linear traffic patterns. Existing works mostly model such spatial-temporal dependencies by considering spatial correlations and temporal correlations separately and fail to model the direct spatial-temporal correlations. Inspired by the recent success of transformers in the graph domain, in this paper, we propose to directly model the cross-spatial-temporal correlations on the spatial-temporal graph using local multi-head self-attentions. To reduce the time complexity, we set the attention receptive field to the spatially neighboring nodes, and we also introduce an adaptive graph to capture the hidden spatial-temporal dependencies. Based on these attention mechanisms, we propose a novel Adaptive Graph Spatial-Temporal Transformer Network (ASTTN), which stacks multiple spatial-temporal attention layers to apply self-attention on the input graph, followed by linear layers for predictions. Experimental results on public traffic network datasets, METR-LA PEMS-BAY, PeMSD4, and PeMSD7, demonstrate the superior performance of our model.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:42:46Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2211.03033" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2211.03033</identifier>
+        <datestamp>2022-11-08</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2211.03033</id>
+        <created>2022-11-06</created>
+            <updated>2022-11-08</updated>
+        <authors>
+                <author>
+                    <keyname>Lei</keyname>
+                        <forenames>Bin</forenames>
+                </author>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Shaoyi</forenames>
+                </author>
+                <author>
+                    <keyname>Ding</keyname>
+                        <forenames>Caiwen</forenames>
+                </author>
+                <author>
+                    <keyname>Filipovska</keyname>
+                        <forenames>Monika</forenames>
+                </author>
+        </authors>
+        <title>Efficient Traffic State Forecasting using Spatio-Temporal Network Dependencies: A Sparse Graph Neural Network Approach</title>
+            <categories>cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic state prediction in a transportation network is paramount for effective traffic operations and management, as well as informed user and system-level decision-making. However, long-term traffic prediction (beyond 30 minutes into the future) remains challenging in current research. In this work, we integrate the spatio-temporal dependencies in the transportation network from network modeling, together with the graph convolutional network (GCN) and graph attention network (GAT). To further tackle the dramatic computation and memory cost caused by the giant model size (i.e., number of weights) caused by multiple cascaded layers, we propose sparse training to mitigate the training cost, while preserving the prediction accuracy. It is a process of training using a fixed number of nonzero weights in each layer in each iteration. We consider the problem of long-term traffic speed forecasting for a real large-scale transportation network data from the California Department of Transportation (Caltrans) Performance Measurement System (PeMS). Experimental results show that the proposed GCN-STGT and GAT-STGT models achieve low prediction errors on short-, mid- and long-term prediction horizons, of 15, 30 and 45 minutes in duration, respectively. Using our sparse training, we could train from scratch with high sparsity (e.g., up to 90%), equivalent to 10 times floating point operations per second (FLOPs) reduction on computational cost using the same epochs as dense training, and arrive at a model with very small accuracy loss compared with the original dense training</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:32Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2310.20366" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2310.20366</identifier>
+        <datestamp>2023-11-01</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:SY</setSpec>
+            <setSpec>eess:eess:SY</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2310.20366</id>
+        <created>2023-10-31</created>
+            <updated>2023-11-01</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Guopeng</forenames>
+                </author>
+                <author>
+                    <keyname>Knoop</keyname>
+                        <forenames>Victor L.</forenames>
+                </author>
+                <author>
+                    <keyname>C.</keyname>
+                        <forenames>J. W.</forenames>
+                </author>
+                <author>
+                    <keyname>Lint</keyname>
+                        <forenames>van</forenames>
+                </author>
+        </authors>
+        <title>Distil the informative essence of loop detector data set: Is network-level traffic forecasting hungry for more data?</title>
+            <categories>cs.LG cs.SY eess.SY</categories>
+            <comments>13 pages, 5 figures</comments>
+            <license>http://creativecommons.org/licenses/by-nc-sa/4.0/</license>
+            <abstract>Network-level traffic condition forecasting has been intensively studied for decades. Although prediction accuracy has been continuously improved with emerging deep learning models and ever-expanding traffic data, traffic forecasting still faces many challenges in practice. These challenges include the robustness of data-driven models, the inherent unpredictability of traffic dynamics, and whether further improvement of traffic forecasting requires more sensor data. In this paper, we focus on this latter question and particularly on data from loop detectors. To answer this, we propose an uncertainty-aware traffic forecasting framework to explore how many samples of loop data are truly effective for training forecasting models. Firstly, the model design combines traffic flow theory with graph neural networks, ensuring the robustness of prediction and uncertainty quantification. Secondly, evidential learning is employed to quantify different sources of uncertainty in a single pass. The estimated uncertainty is used to &#34;distil&#34; the essence of the dataset that sufficiently covers the information content. Results from a case study of a highway network around Amsterdam show that, from 2018 to 2021, more than 80\% of the data during daytime can be removed. The remaining 20\% samples have equal prediction power for training models. This result suggests that indeed large traffic datasets can be subdivided into significantly smaller but equally informative datasets. From these findings, we conclude that the proposed methodology proves valuable in evaluating large traffic datasets&#39; true information content. Further extensions, such as extracting smaller, spatially non-redundant datasets, are possible with this method.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

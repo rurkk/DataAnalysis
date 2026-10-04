@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:54:27Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2403.02221" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2403.02221</identifier>
+        <datestamp>2024-10-27</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2403.02221</id>
+        <created>2024-03-18</created>
+            <updated>2024-10-27</updated>
+        <authors>
+                <author>
+                    <keyname>Ren</keyname>
+                        <forenames>Yilong</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Yue</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Shuai</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Boyue</forenames>
+                </author>
+                <author>
+                    <keyname>Yu</keyname>
+                        <forenames>Haiyang</forenames>
+                </author>
+                <author>
+                    <keyname>Cui</keyname>
+                        <forenames>Zhiyong</forenames>
+                </author>
+        </authors>
+        <title>TPLLM: A Traffic Prediction Framework Based on Pretrained Large Language Models</title>
+            <categories>cs.LG</categories>
+            <comments>This work has been submitted to the IEEE for possible publication</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction constitutes a pivotal facet within the purview of Intelligent Transportation Systems (ITS), and the attainment of highly precise predictions holds profound significance for efficacious traffic management. The precision of prevailing deep learning-driven traffic prediction models typically sees an upward trend with a rise in the volume of training data. However, the procurement of comprehensive spatiotemporal datasets for traffic is often fraught with challenges, primarily stemming from the substantial costs associated with data collection and retention. Consequently, developing a model that can achieve accurate predictions and good generalization ability in areas with limited historical traffic data is a challenging problem. It is noteworthy that the rapidly advancing pretrained Large Language Models (LLMs) of recent years have demonstrated exceptional proficiency in cross-modality knowledge transfer and few-shot learning. Recognizing the sequential nature of traffic data, similar to language, we introduce TPLLM, a novel traffic prediction framework leveraging LLMs. In this framework, we construct a sequence embedding layer based on Convolutional Neural Networks (CNNs) and a graph embedding layer based on Graph Convolutional Networks (GCNs) to extract sequence features and spatial features, respectively. These are subsequently integrated to form inputs that are suitable for LLMs. A Low-Rank Adaptation (LoRA) fine-tuning approach is applied to TPLLM, thereby facilitating efficient learning and minimizing computational demands. Experiments on two real-world datasets demonstrate that TPLLM exhibits commendable performance in both full-sample and few-shot prediction scenarios, effectively supporting the development of ITS in regions with scarce historical traffic data.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:46:33Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2507.13112" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2507.13112</identifier>
+        <datestamp>2025-07-18</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2507.13112</id>
+        <created>2025-07-17</created>
+            <updated>2025-07-18</updated>
+        <authors>
+                <author>
+                    <keyname>Lee</keyname>
+                        <forenames>Junseong</forenames>
+                </author>
+                <author>
+                    <keyname>Cho</keyname>
+                        <forenames>Jaegwan</forenames>
+                </author>
+                <author>
+                    <keyname>Cho</keyname>
+                        <forenames>Yoonju</forenames>
+                </author>
+                <author>
+                    <keyname>Choi</keyname>
+                        <forenames>Seoyoon</forenames>
+                </author>
+                <author>
+                    <keyname>Shin</keyname>
+                        <forenames>Yejin</forenames>
+                </author>
+        </authors>
+        <title>Prediction of Highway Traffic Flow Based on Artificial Intelligence Algorithms Using California Traffic Data</title>
+            <categories>cs.AI</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>The study &#34;Prediction of Highway Traffic Flow Based on Artificial Intelligence Algorithms Using California Traffic Data&#34; presents a machine learning-based traffic flow prediction model to address global traffic congestion issues. The research utilized 30-second interval traffic data from California Highway 78 over a five-month period from July to November 2022, analyzing a 7.24 km westbound section connecting &#34;Melrose Dr&#34; and &#34;El-Camino Real&#34; in the San Diego area. The study employed Multiple Linear Regression (MLR) and Random Forest (RF) algorithms, analyzing data collection intervals ranging from 30 seconds to 15 minutes. Using R^2, MAE, and RMSE as performance metrics, the analysis revealed that both MLR and RF models performed optimally with 10-minute data collection intervals. These findings are expected to contribute to future traffic congestion solutions and efficient traffic management.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

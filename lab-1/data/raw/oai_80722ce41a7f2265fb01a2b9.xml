@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:58:11Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2008.01902" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2008.01902</identifier>
+        <datestamp>2020-08-06</datestamp>
+            <setSpec>eess:eess:SP</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:SY</setSpec>
+            <setSpec>eess:eess:SY</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2008.01902</id>
+        <created>2020-08-05</created>
+            <updated>2020-08-06</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Yihang</forenames>
+                </author>
+                <author>
+                    <keyname>Papadopoulos</keyname>
+                        <forenames>Aristotelis-Angelos</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Pengfei</forenames>
+                </author>
+                <author>
+                    <keyname>Alasiri</keyname>
+                        <forenames>Faisal</forenames>
+                </author>
+                <author>
+                    <keyname>Yuan</keyname>
+                        <forenames>Tianchen</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Jin</forenames>
+                </author>
+                <author>
+                    <keyname>Ioannou</keyname>
+                        <forenames>Petros A.</forenames>
+                </author>
+        </authors>
+        <title>Integrated Traffic Simulation-Prediction System using Neural Networks with Application to the Los Angeles International Airport Road Network</title>
+            <categories>eess.SP cs.LG cs.SY eess.SY</categories>
+            <comments>19 pages. Under review</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Transportation networks are highly complex and the design of efficient traffic management systems is difficult due to lack of adequate measured data and accurate predictions of the traffic states. Traffic simulation models can capture the complex dynamics of transportation networks by using limited available traffic data and can help central traffic authorities in their decision-making, if appropriate input is fed into the simulator. In this paper, we design an integrated simulation-prediction system which estimates the Origin-Destination (OD) matrix of a road network using only flow rate information and predicts the behavior of the road network in different simulation scenarios. The proposed system includes an optimization-based OD matrix generation method, a Neural Network (NN) model trained to predict OD matrices via the pattern of traffic flow and a microscopic traffic simulator with a Dynamic Traffic Assignment (DTA) scheme to predict the behavior of the transportation system. We test the proposed system on the road network of the central terminal area (CTA) of the Los Angeles International Airport (LAX), which demonstrates that the integrated traffic simulation-prediction system can be used to simulate the effects of several real world scenarios such as lane closures, curbside parking and other changes. The model is an effective tool for learning the impact and possible benefits of changes in the network and for analyzing scenarios at a very low cost without disrupting the network.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:39:22Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2404.13257" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2404.13257</identifier>
+        <datestamp>2024-05-21</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2404.13257</id>
+        <created>2024-05-18</created>
+            <updated>2024-05-21</updated>
+        <authors>
+                <author>
+                    <keyname>Shao</keyname>
+                        <forenames>Zhiqi</forenames>
+                </author>
+                <author>
+                    <keyname>Bell</keyname>
+                        <forenames>Michael G. H.</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Ze</forenames>
+                </author>
+                <author>
+                    <keyname>Geers</keyname>
+                        <forenames>D. Glenn</forenames>
+                </author>
+                <author>
+                    <keyname>Xi</keyname>
+                        <forenames>Haoning</forenames>
+                </author>
+                <author>
+                    <keyname>Gao</keyname>
+                        <forenames>Junbin</forenames>
+                </author>
+        </authors>
+        <title>ST-Mamba: Spatial-Temporal Selective State Space Model for Traffic Flow Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>25 pages, 6 figures</comments>
+            <msc-class>53A45</msc-class>
+            <acm-class>53A45</acm-class>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Traffic flow prediction, a critical aspect of intelligent transportation systems, has been increasingly popular in the field of artificial intelligence, driven by the availability of extensive traffic data. The current challenges of traffic flow prediction lie in integrating diverse factors while balancing the trade-off between computational complexity and the precision necessary for effective long-range and large-scale predictions. To address these challenges, we introduce a Spatial-Temporal Selective State Space (ST-Mamba) model, which is the first to leverage the power of spatial-temporal learning in traffic flow prediction without using graph modeling. The ST-Mamba model can effectively capture the long-range dependency for traffic flow data, thereby avoiding the issue of over-smoothing. The proposed ST-Mamba model incorporates an effective Spatial-Temporal Mixer (ST-Mixer) to seamlessly integrate spatial and temporal data processing into a unified framework and employs a Spatial-Temporal Selective State Space (ST-SSM) block to improve computational efficiency. The proposed ST-Mamba model, specifically designed for spatial-temporal data, simplifies processing procedure and enhances generalization capabilities, thereby significantly improving the accuracy of long-range traffic flow prediction. Compared to the previous state-of-the-art (SOTA) model, the proposed ST-Mamba model achieves a 61.11\% improvement in computational speed and increases prediction accuracy by 0.67\%. Extensive experiments with real-world traffic datasets demonstrate that the \textsf{ST-Mamba} model sets a new benchmark in traffic flow prediction, achieving SOTA performance in computational efficiency for both long- and short-range predictions and significantly improving the overall efficiency and effectiveness of traffic management.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

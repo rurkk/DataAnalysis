@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:40:42Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2506.02654" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2506.02654</identifier>
+        <datestamp>2025-06-04</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2506.02654</id>
+        <created>2025-06-03</created>
+            <updated>2025-06-04</updated>
+        <authors>
+                <author>
+                    <keyname>Shen</keyname>
+                        <forenames>Shiyu</forenames>
+                </author>
+                <author>
+                    <keyname>Pan</keyname>
+                        <forenames>Bin</forenames>
+                </author>
+                <author>
+                    <keyname>Xue</keyname>
+                        <forenames>Guirong</forenames>
+                </author>
+        </authors>
+        <title>A Pretrained Probabilistic Transformer for City-Scale Traffic Volume Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>City-scale traffic volume prediction plays a pivotal role in intelligent transportation systems, yet remains a challenge due to the inherent incompleteness and bias in observational data. Although deep learning-based methods have shown considerable promise, most existing approaches produce deterministic point estimates, thereby neglecting the uncertainty arising from unobserved traffic flows. Furthermore, current models are typically trained in a city-specific manner, which hinders their generalizability and limits scalability across diverse urban contexts. To overcome these limitations, we introduce TrafficPPT, a Pretrained Probabilistic Transformer designed to model traffic volume as a distributional aggregation of trajectories. Our framework fuses heterogeneous data sources-including real-time observations, historical trajectory data, and road network topology-enabling robust and uncertainty-aware traffic inference. TrafficPPT is initially pretrained on large-scale simulated data spanning multiple urban scenarios, and later fine-tuned on target cities to ensure effective domain adaptation. Experiments on real-world datasets show that TrafficPPT consistently surpasses state-of-the-art baselines, particularly under conditions of extreme data sparsity. Code will be open.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

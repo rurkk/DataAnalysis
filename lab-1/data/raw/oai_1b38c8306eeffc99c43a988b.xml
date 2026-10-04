@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:09:24Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2405.06266" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2405.06266</identifier>
+        <datestamp>2024-05-13</datestamp>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2405.06266</id>
+        <created>2024-05-10</created>
+            <updated>2024-05-13</updated>
+        <authors>
+                <author>
+                    <keyname>Xiao</keyname>
+                        <forenames>Jianli</forenames>
+                </author>
+                <author>
+                    <keyname>Long</keyname>
+                        <forenames>Baichao</forenames>
+                </author>
+        </authors>
+        <title>A Multi-Channel Spatial-Temporal Transformer Model for Traffic Flow Forecasting</title>
+            <categories>cs.AI</categories>
+            <journal-ref>Xiao J, Long B. A Multi-Channel Spatial-Temporal Transformer Model for Traffic Flow Forecasting[J]. Information Sciences, 2024: 120648</journal-ref>
+            <doi>10.1016/j.ins.2024.120648</doi>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow forecasting is a crucial task in transportation management and planning. The main challenges for traffic flow forecasting are that (1) as the length of prediction time increases, the accuracy of prediction will decrease; (2) the predicted results greatly rely on the extraction of temporal and spatial dependencies from the road networks. To overcome the challenges mentioned above, we propose a multi-channel spatial-temporal transformer model for traffic flow forecasting, which improves the accuracy of the prediction by fusing results from different channels of traffic data. Our approach leverages graph convolutional network to extract spatial features from each channel while using a transformer-based architecture to capture temporal dependencies across channels. We introduce an adaptive adjacency matrix to overcome limitations in feature extraction from fixed topological structures. Experimental results on six real-world datasets demonstrate that introducing a multi-channel mechanism into the temporal model enhances performance and our proposed model outperforms state-of-the-art models in terms of accuracy.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

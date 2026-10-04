@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:42:03Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2211.09984" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2211.09984</identifier>
+        <datestamp>2022-11-21</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2211.09984</id>
+        <created>2022-11-18</created>
+            <updated>2022-11-21</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Jiezhang</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Junjun</forenames>
+                </author>
+                <author>
+                    <keyname>Gong</keyname>
+                        <forenames>Yue-Jiao</forenames>
+                </author>
+        </authors>
+        <title>Multi-task Learning for Sparse Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic prediction is crucial to improve the performance of intelligent transportation systems. Previous traffic prediction tasks mainly focus on small and non-isolated traffic subsystems, while the Traffic4cast 2022 competition is dedicated to exploring the traffic state dynamics of entire cities. Given one hour of sparse loop count data only, the task is to predict the congestion classes for all road segments and the expected times of arrival along super-segments 15 minutes into the future. The sparsity of loop counter data and highly uncertain real-time traffic conditions make the competition challenging. For this reason, we propose a multi-task learning network that can simultaneously predict the congestion classes and the speed of each road segment. Specifically, we use clustering and neural network methods to learn the dynamic features of loop counter data. Then, we construct a graph with road segments as nodes and capture the spatial dependence between road segments based on a Graph Neural Network. Finally, we learn three measures, namely the congestion class, the speed value and the volume class, simultaneously through a multi-task learning module. For the extended competition, we use the predicted speeds to calculate the expected times of arrival along super-segments. Our method achieved excellent results on the dataset provided by the Traffic4cast Competition 2022, source code is available at https://github.com/OctopusLi/NeurIPS2022-traffic4cast.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

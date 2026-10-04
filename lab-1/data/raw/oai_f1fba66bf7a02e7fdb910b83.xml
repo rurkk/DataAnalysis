@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:39:40Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2011.11866" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2011.11866</identifier>
+        <datestamp>2020-11-25</datestamp>
+            <setSpec>stat:stat:AP</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2011.11866</id>
+        <created>2020-11-24</created>
+            <updated>2020-11-25</updated>
+        <authors>
+                <author>
+                    <keyname>Comert</keyname>
+                        <forenames>Gurcan</forenames>
+                </author>
+        </authors>
+        <title>Gaussian Processes for Traffic Speed Prediction at Different Aggregation Levels</title>
+            <categories>stat.AP cs.AI cs.LG</categories>
+            <comments>13 pages, 13 figures</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Dynamic behavior of traffic adversely affect the performance of the prediction models in intelligent transportation applications. This study applies Gaussian processes (GPs) to traffic speed prediction. Such predictions can be used by various transportation applications, such as real-time route guidance, ramp metering, congestion pricing and special events traffic management. One-step predictions with various aggregation levels (1 to 60-minute) are tested for performance of the generated models. Univariate and multivariate GPs are compared with several other linear, nonlinear time series, and Grey system models using loop and Inrix probe vehicle datasets from California, Portland, and Virginia freeways respectively. Based on the test data samples, results are promising that GP models are able to consistently outperform compared models with similar computational times.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

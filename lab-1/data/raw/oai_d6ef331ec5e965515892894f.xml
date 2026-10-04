@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:40:39Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2310.08138" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2310.08138</identifier>
+        <datestamp>2023-10-13</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2310.08138</id>
+        <created>2023-10-12</created>
+            <updated>2023-10-13</updated>
+        <authors>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Haiyang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Chunjiang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Detian</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Qing</forenames>
+                </author>
+        </authors>
+        <title>Multi-Scale Spatial-Temporal Recurrent Networks for Traffic Flow Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow prediction is one of the most fundamental tasks of intelligent transportation systems. The complex and dynamic spatial-temporal dependencies make the traffic flow prediction quite challenging. Although existing spatial-temporal graph neural networks hold prominent, they often encounter challenges such as (1) ignoring the fixed graph that limits the predictive performance of the model, (2) insufficiently capturing complex spatial-temporal dependencies simultaneously, and (3) lacking attention to spatial-temporal information at different time lengths. In this paper, we propose a Multi-Scale Spatial-Temporal Recurrent Network for traffic flow prediction, namely MSSTRN, which consists of two different recurrent neural networks: the single-step gate recurrent unit and the multi-step gate recurrent unit to fully capture the complex spatial-temporal information in the traffic data under different time windows. Moreover, we propose a spatial-temporal synchronous attention mechanism that integrates adaptive position graph convolutions into the self-attention mechanism to achieve synchronous capture of spatial-temporal dependencies. We conducted extensive experiments on four real traffic datasets and demonstrated that our model achieves the best prediction accuracy with non-trivial margins compared to all the twenty baseline methods.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

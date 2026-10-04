@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:03:42Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2406.02726" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2406.02726</identifier>
+        <datestamp>2024-06-06</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2406.02726</id>
+        <created>2024-06-04</created>
+            <updated>2024-06-06</updated>
+        <authors>
+                <author>
+                    <keyname>Lee</keyname>
+                        <forenames>Sanghyun</forenames>
+                </author>
+                <author>
+                    <keyname>Park</keyname>
+                        <forenames>Chanyoung</forenames>
+                </author>
+        </authors>
+        <title>Temporal Graph Learning Recurrent Neural Network for Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic flow forecasting is a crucial research topic in transportation management. However, it is a challenging problem due to rapidly changing traffic conditions, high nonlinearity of traffic flow, and complex spatial and temporal correlations of road networks. Most existing studies either try to capture the spatial dependencies between roads using the same semantic graph over different time steps, or assume all sensors on the roads are equally likely to be connected regardless of the distance between them. However, we observe that the spatial dependencies between roads indeed change over time, and two distant roads are not likely to be helpful to each other when predicting the traffic flow, both of which limit the performance of existing studies. In this paper, we propose Temporal Graph Learning Recurrent Neural Network (TGLRN) to address these problems. More precisely, to effectively model the nature of time series, we leverage Recurrent Neural Networks (RNNs) to dynamically construct a graph at each time step, thereby capturing the time-evolving spatial dependencies between roads (i.e., microscopic view). Simultaneously, we provide the Adaptive Structure Information to the model, ensuring that close and consecutive sensors are considered to be more important for predicting the traffic flow (i.e., macroscopic view). Furthermore, to endow TGLRN with robustness, we introduce an edge sampling strategy when constructing the graph at each time step, which eventually leads to further improvements on the model performance. Experimental results on four commonly used real-world benchmark datasets show the effectiveness of TGLRN.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

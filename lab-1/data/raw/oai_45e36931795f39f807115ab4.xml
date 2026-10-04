@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:42:18Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2404.13853" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2404.13853</identifier>
+        <datestamp>2024-04-23</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:NI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2404.13853</id>
+        <created>2024-04-22</created>
+            <updated>2024-04-23</updated>
+        <authors>
+                <author>
+                    <keyname>Rong</keyname>
+                        <forenames>Yi</forenames>
+                </author>
+                <author>
+                    <keyname>Mao</keyname>
+                        <forenames>Yingchi</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Yinqiu</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Ling</forenames>
+                </author>
+                <author>
+                    <keyname>He</keyname>
+                        <forenames>Xiaoming</forenames>
+                </author>
+                <author>
+                    <keyname>Niyato</keyname>
+                        <forenames>Dusit</forenames>
+                </author>
+        </authors>
+        <title>ICST-DNET: An Interpretable Causal Spatio-Temporal Diffusion Network for Traffic Speed Prediction</title>
+            <categories>cs.LG cs.NI</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic speed prediction is significant for intelligent navigation and congestion alleviation. However, making accurate predictions is challenging due to three factors: 1) traffic diffusion, i.e., the spatial and temporal causality existing between the traffic conditions of multiple neighboring roads, 2) the poor interpretability of traffic data with complicated spatio-temporal correlations, and 3) the latent pattern of traffic speed fluctuations over time, such as morning and evening rush. Jointly considering these factors, in this paper, we present a novel architecture for traffic speed prediction, called Interpretable Causal Spatio-Temporal Diffusion Network (ICST-DNET). Specifically, ICST-DENT consists of three parts, namely the Spatio-Temporal Causality Learning (STCL), Causal Graph Generation (CGG), and Speed Fluctuation Pattern Recognition (SFPR) modules. First, to model the traffic diffusion within road networks, an STCL module is proposed to capture both the temporal causality on each individual road and the spatial causality in each road pair. The CGG module is then developed based on STCL to enhance the interpretability of the traffic diffusion procedure from the temporal and spatial perspectives. Specifically, a time causality matrix is generated to explain the temporal causality between each road&#39;s historical and future traffic conditions. For spatial causality, we utilize causal graphs to visualize the diffusion process in road pairs. Finally, to adapt to traffic speed fluctuations in different scenarios, we design a personalized SFPR module to select the historical timesteps with strong influences for learning the pattern of traffic speed fluctuations. Extensive experimental results prove that ICST-DNET can outperform all existing baselines, as evidenced by the higher prediction accuracy, ability to explain causality, and adaptability to different scenarios.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

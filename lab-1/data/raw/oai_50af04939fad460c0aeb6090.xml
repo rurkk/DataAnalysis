@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:08:27Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2212.05653" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2212.05653</identifier>
+        <datestamp>2022-12-13</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2212.05653</id>
+        <created>2022-12-12</created>
+            <updated>2022-12-13</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Qin</forenames>
+                </author>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Xuan</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Yong</forenames>
+                </author>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Yuankai</forenames>
+                </author>
+                <author>
+                    <keyname>He</keyname>
+                        <forenames>Deqiang</forenames>
+                </author>
+        </authors>
+        <title>Spatial-temporal traffic modeling with a fusion graph reconstructed by tensor decomposition</title>
+            <categories>cs.LG</categories>
+            <comments>11 pages, 8 figures</comments>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Accurate spatial-temporal traffic flow forecasting is essential for helping traffic managers to take control measures and drivers to choose the optimal travel routes. Recently, graph convolutional networks (GCNs) have been widely used in traffic flow prediction owing to their powerful ability to capture spatial-temporal dependencies. The design of the spatial-temporal graph adjacency matrix is a key to the success of GCNs, and it is still an open question. This paper proposes reconstructing the binary adjacency matrix via tensor decomposition, and a traffic flow forecasting method is proposed. First, we reformulate the spatial-temporal fusion graph adjacency matrix into a three-way adjacency tensor. Then, we reconstructed the adjacency tensor via Tucker decomposition, wherein more informative and global spatial-temporal dependencies are encoded. Finally, a Spatial-temporal Synchronous Graph Convolutional module for localized spatial-temporal correlations learning and a Dilated Convolution module for global correlations learning are assembled to aggregate and learn the comprehensive spatial-temporal dependencies of the road network. Experimental results on four open-access datasets demonstrate that the proposed model outperforms state-of-the-art approaches in terms of the prediction performance and computational cost.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:54:24Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2507.11550" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2507.11550</identifier>
+        <datestamp>2025-09-22</datestamp>
+            <setSpec>cs:cs:CV</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2507.11550</id>
+        <created>2025-09-19</created>
+            <updated>2025-09-22</updated>
+        <authors>
+                <author>
+                    <keyname>Jin</keyname>
+                        <forenames>Hyeonseok</forenames>
+                </author>
+                <author>
+                    <keyname>Kim</keyname>
+                        <forenames>Geonmin</forenames>
+                </author>
+                <author>
+                    <keyname>Kim</keyname>
+                        <forenames>Kyungbaek</forenames>
+                </author>
+        </authors>
+        <title>Deformable Dynamic Convolution for Accurate yet Efficient Spatio-Temporal Traffic Prediction</title>
+            <categories>cs.CV cs.AI</categories>
+            <comments>8 pages, 5 figures</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic prediction is a critical component of intelligent transportation systems, enabling applications such as congestion mitigation and accident risk prediction. While recent research has explored both graph-based and grid-based approaches, key limitations remain. Graph-based methods effectively capture non-Euclidean spatial structures but often incur high computational overhead, limiting their practicality in large-scale systems. In contrast, grid-based methods, which primarily leverage Convolutional Neural Networks (CNNs), offer greater computational efficiency but struggle to model irregular spatial patterns due to the fixed shape of their filters. Moreover, both approaches often fail to account for inherent spatio-temporal heterogeneity, as they typically apply a shared set of parameters across diverse regions and time periods. To address these challenges, we propose the Deformable Dynamic Convolutional Network (DDCN), a novel CNN-based architecture that integrates both deformable and dynamic convolution operations. The deformable layer introduces learnable offsets to create flexible receptive fields that better align with spatial irregularities, while the dynamic layer generates region-specific filters, allowing the model to adapt to varying spatio-temporal traffic patterns. By combining these two components, DDCN effectively captures both non-Euclidean spatial structures and spatio-temporal heterogeneity. Extensive experiments on four real-world traffic datasets demonstrate that DDCN achieves competitive predictive performance while significantly reducing computational costs, underscoring its potential for large-scale and real-time deployment.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

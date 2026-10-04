@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:47:39Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2410.00385" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2410.00385</identifier>
+        <datestamp>2024-10-16</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:DB</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2410.00385</id>
+        <created>2024-10-15</created>
+            <updated>2024-10-16</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Hongjun</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Jiyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Pan</keyname>
+                        <forenames>Tong</forenames>
+                </author>
+                <author>
+                    <keyname>Dong</keyname>
+                        <forenames>Zheng</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Lingyu</forenames>
+                </author>
+                <author>
+                    <keyname>Jiang</keyname>
+                        <forenames>Renhe</forenames>
+                </author>
+                <author>
+                    <keyname>Song</keyname>
+                        <forenames>Xuan</forenames>
+                </author>
+        </authors>
+        <title>STGformer: Efficient Spatiotemporal Graph Transformer for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI cs.DB</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting is a cornerstone of smart city management, enabling efficient resource allocation and transportation planning. Deep learning, with its ability to capture complex nonlinear patterns in spatiotemporal (ST) data, has emerged as a powerful tool for traffic forecasting. While graph neural networks (GCNs) and transformer-based models have shown promise, their computational demands often hinder their application to real-world road networks, particularly those with large-scale spatiotemporal interactions. To address these challenges, we propose a novel spatiotemporal graph transformer (STGformer) architecture. STGformer effectively balances the strengths of GCNs and Transformers, enabling efficient modeling of both global and local traffic patterns while maintaining a manageable computational footprint. Unlike traditional approaches that require multiple attention layers, STG attention block captures high-order spatiotemporal interactions in a single layer, significantly reducing computational cost. In particular, STGformer achieves a 100x speedup and a 99.8\% reduction in GPU memory usage compared to STAEformer during batch inference on a California road graph with 8,600 sensors. We evaluate STGformer on the LargeST benchmark and demonstrate its superiority over state-of-the-art Transformer-based methods such as PDFormer and STAEformer, which underline STGformer&#39;s potential to revolutionize traffic forecasting by overcoming the computational and memory limitations of existing approaches, making it a promising foundation for future spatiotemporal modeling tasks.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

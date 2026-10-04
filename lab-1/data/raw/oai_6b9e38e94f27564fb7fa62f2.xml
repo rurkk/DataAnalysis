@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:53:34Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2303.07184" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2303.07184</identifier>
+        <datestamp>2023-03-14</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2303.07184</id>
+        <created>2023-03-13</created>
+            <updated>2023-03-14</updated>
+        <authors>
+                <author>
+                    <keyname>Huang</keyname>
+                        <forenames>Yunjie</forenames>
+                </author>
+                <author>
+                    <keyname>Song</keyname>
+                        <forenames>Xiaozhuang</forenames>
+                </author>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Yuanshao</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Shiyao</forenames>
+                </author>
+                <author>
+                    <keyname>Yu</keyname>
+                        <forenames>James J. Q.</forenames>
+                </author>
+        </authors>
+        <title>Traffic Prediction with Transfer Learning: A Mutual Information-based Approach</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>submited to T-ITS, 16 pages, 13 figures in color</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>In modern traffic management, one of the most essential yet challenging tasks is accurately and timely predicting traffic. It has been well investigated and examined that deep learning-based Spatio-temporal models have an edge when exploiting Spatio-temporal relationships in traffic data. Typically, data-driven models require vast volumes of data, but gathering data in small cities can be difficult owing to constraints such as equipment deployment and maintenance costs. To resolve this problem, we propose TrafficTL, a cross-city traffic prediction approach that uses big data from other cities to aid data-scarce cities in traffic prediction. Utilizing a periodicity-based transfer paradigm, it identifies data similarity and reduces negative transfer caused by the disparity between two data distributions from distant cities. In addition, the suggested method employs graph reconstruction techniques to rectify defects in data from small data cities. TrafficTL is evaluated by comprehensive case studies on three real-world datasets and outperforms the state-of-the-art baseline by around 8 to 25 percent.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

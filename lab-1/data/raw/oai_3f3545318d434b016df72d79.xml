@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:39Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2507.03927" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2507.03927</identifier>
+        <datestamp>2025-07-08</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2507.03927</id>
+        <created>2025-07-05</created>
+            <updated>2025-07-08</updated>
+        <authors>
+                <author>
+                    <keyname>Hamad</keyname>
+                        <forenames>Mohamed</forenames>
+                </author>
+                <author>
+                    <keyname>Mabrok</keyname>
+                        <forenames>Mohamed</forenames>
+                </author>
+                <author>
+                    <keyname>Zorba</keyname>
+                        <forenames>Nizar</forenames>
+                </author>
+        </authors>
+        <title>MCST-Mamba: Multivariate Mamba-Based Model for Traffic Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>Submitted to the Communications Software and Multimedia track of the 2025 IEEE Global Communications Conference</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Accurate traffic prediction plays a vital role in intelligent transportation systems by enabling efficient routing, congestion mitigation, and proactive traffic control. However, forecasting is challenging due to the combined effects of dynamic road conditions, varying traffic patterns across different locations, and external influences such as weather and accidents. Traffic data often consists of several interrelated measurements - such as speed, flow and occupancy - yet many deep-learning approaches either predict only one of these variables or require a separate model for each. This limits their ability to capture joint patterns across channels. To address this, we introduce the Multi-Channel Spatio-Temporal (MCST) Mamba model, a forecasting framework built on the Mamba selective state-space architecture that natively handles multivariate inputs and simultaneously models all traffic features. The proposed MCST-Mamba model integrates adaptive spatio-temporal embeddings and separates the modeling of temporal sequences and spatial sensor interactions into two dedicated Mamba blocks, improving representation learning. Unlike prior methods that evaluate on a single channel, we assess MCST-Mamba across all traffic features at once, aligning more closely with how congestion arises in practice. Our results show that MCST-Mamba achieves strong predictive performance with a lower parameter count compared to baseline models.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

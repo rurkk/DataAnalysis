@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:43:12Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2111.11337" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2111.11337</identifier>
+        <datestamp>2021-11-23</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2111.11337</id>
+        <created>2021-11-22</created>
+            <updated>2021-11-23</updated>
+        <authors>
+                <author>
+                    <keyname>Lin</keyname>
+                        <forenames>Lei</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Weizi</forenames>
+                </author>
+                <author>
+                    <keyname>Zhu</keyname>
+                        <forenames>Lei</forenames>
+                </author>
+        </authors>
+        <title>Network-wide Multi-step Traffic Volume Prediction using Graph Convolutional Gated Recurrent Neural Network</title>
+            <categories>cs.LG</categories>
+            <comments>Technical Report</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Accurate prediction of network-wide traffic conditions is essential for intelligent transportation systems. In the last decade, machine learning techniques have been widely used for this task, resulting in state-of-the-art performance. We propose a novel deep learning model, Graph Convolutional Gated Recurrent Neural Network (GCGRNN), to predict network-wide, multi-step traffic volume. GCGRNN can automatically capture spatial correlations between traffic sensors and temporal dependencies in historical traffic data. We have evaluated our model using two traffic datasets extracted from 150 sensors in Los Angeles, California, at the time resolutions one hour and 15 minutes, respectively. The results show that our model outperforms the other five benchmark models in terms of prediction accuracy. For instance, our model reduces MAE by 25.3%, RMSE by 29.2%, and MAPE by 20.2%, compared to the state-of-the-art Diffusion Convolutional Recurrent Neural Network (DCRNN) model using the hourly dataset. Our model also achieves faster training than DCRNN by up to 52%. The data and implementation of GCGRNN can be found at https://github.com/leilin-research/GCGRNN.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

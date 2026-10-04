@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:55:54Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2103.02578" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2103.02578</identifier>
+        <datestamp>2021-03-04</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2103.02578</id>
+        <created>2021-03-03</created>
+            <updated>2021-03-04</updated>
+        <authors>
+                <author>
+                    <keyname>Kim</keyname>
+                        <forenames>Youngjoo</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Peng</forenames>
+                </author>
+                <author>
+                    <keyname>Mihaylova</keyname>
+                        <forenames>Lyudmila</forenames>
+                </author>
+        </authors>
+        <title>Scalable Learning With a Structural Recurrent Neural Network for Short-Term Traffic Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>9 pages, 6 figures</comments>
+            <journal-ref>IEEE Sensors Journal, vol. 19, issue. 23, pp. 11359 - 11366, 2019</journal-ref>
+            <doi>10.1109/JSEN.2019.2933823</doi>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>This paper presents a scalable deep learning approach for short-term traffic prediction based on historical traffic data in a vehicular road network. Capturing the spatio-temporal relationship of the big data often requires a significant amount of computational burden or an ad-hoc design aiming for a specific type of road network. To tackle the problem, we combine a road network graph with recurrent neural networks (RNNs) to construct a structural RNN (SRNN). The SRNN employs a spatio-temporal graph to infer the interaction between adjacent road segments as well as the temporal dynamics of the time series data. The model is scalable thanks to two key aspects. First, the proposed SRNN architecture is built by using the semantic similarity of the spatio-temporal dynamic interactions of all segments. Second, we design the architecture to deal with fixed-length tensors regardless of the graph topology. With the real traffic speed data measured in the city of Santander, we demonstrate the proposed SRNN outperforms the image-based approaches using the capsule network (CapsNet) by 14.1% and the convolutional neural network (CNN) by 5.87%, respectively, in terms of root mean squared error (RMSE). Moreover, we show that the proposed model is scalable. The SRNN model trained with data of a road network is able to predict traffic speed of different road networks, with the fixed number of parameters to train.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

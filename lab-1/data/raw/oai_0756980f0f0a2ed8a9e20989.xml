@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:54:54Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2501.12776" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2501.12776</identifier>
+        <datestamp>2025-01-23</datestamp>
+            <setSpec>physics:quant-ph</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:NE</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2501.12776</id>
+        <created>2025-01-22</created>
+            <updated>2025-01-23</updated>
+        <authors>
+                <author>
+                    <keyname>Schetakis</keyname>
+                        <forenames>Nikolaos</forenames>
+                </author>
+                <author>
+                    <keyname>Bonfini</keyname>
+                        <forenames>Paolo</forenames>
+                </author>
+                <author>
+                    <keyname>Alisoltani</keyname>
+                        <forenames>Negin</forenames>
+                </author>
+                <author>
+                    <keyname>Blazakis</keyname>
+                        <forenames>Konstantinos</forenames>
+                </author>
+                <author>
+                    <keyname>Tsintzos</keyname>
+                        <forenames>Symeon I.</forenames>
+                </author>
+                <author>
+                    <keyname>Askitopoulos</keyname>
+                        <forenames>Alexis</forenames>
+                </author>
+                <author>
+                    <keyname>Aghamalyan</keyname>
+                        <forenames>Davit</forenames>
+                </author>
+                <author>
+                    <keyname>Fafoutellis</keyname>
+                        <forenames>Panagiotis</forenames>
+                </author>
+                <author>
+                    <keyname>Vlahogianni</keyname>
+                        <forenames>Eleni I.</forenames>
+                </author>
+        </authors>
+        <title>Data re-uploading in Quantum Machine Learning for time series: application to traffic forecasting</title>
+            <categories>quant-ph cs.AI cs.LG cs.NE</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic forecasting plays a crucial role in modern Intelligent Transportation Systems (ITS), as it enables real-time traffic flow management, reduces congestion, and improves the overall efficiency of urban transportation networks. With the rise of Quantum Machine Learning (QML), it has emerged a new paradigm possessing the potential to enhance predictive capabilities beyond what classical machine learning models can achieve. In the present work we pursue a heuristic approach to explore the potential of QML, and focus on a specific transport issue. In particular, as a case study we investigate a traffic forecast task for a major urban area in Athens (Greece), for which we possess high-resolution data. In this endeavor we explore the application of Quantum Neural Networks (QNN), and, notably, we present the first application of quantum data re-uploading in the context of transport forecasting. This technique allows quantum models to better capture complex patterns, such as traffic dynamics, by repeatedly encoding classical data into a quantum state. Aside from providing a prediction model, we spend considerable effort in comparing the performance of our hybrid quantum-classical neural networks with classical deep learning approaches. Our results show that hybrid models achieve competitive accuracy with state-of-the-art classical methods, especially when the number of qubits and re-uploading blocks is increased. While the classical models demonstrate lower computational demands, we provide evidence that increasing the complexity of the quantum model improves predictive accuracy. These findings indicate that QML techniques, and specifically the data re-uploading approach, hold promise for advancing traffic forecasting models and could be instrumental in addressing challenges inherent in ITS environments.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

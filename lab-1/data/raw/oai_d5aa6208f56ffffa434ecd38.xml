@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:57:37Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2311.02880" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2311.02880</identifier>
+        <datestamp>2023-11-07</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2311.02880</id>
+        <created>2023-11-06</created>
+            <updated>2023-11-07</updated>
+        <authors>
+                <author>
+                    <keyname>Zou</keyname>
+                        <forenames>Dongcheng</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Senzhang</forenames>
+                </author>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Xuefeng</forenames>
+                </author>
+                <author>
+                    <keyname>Peng</keyname>
+                        <forenames>Hao</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Yuandong</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Chunyang</forenames>
+                </author>
+                <author>
+                    <keyname>Sheng</keyname>
+                        <forenames>Kehua</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Bo</forenames>
+                </author>
+        </authors>
+        <title>MultiSPANS: A Multi-range Spatial-Temporal Transformer Network for Traffic Forecast via Structural Entropy Optimization</title>
+            <categories>cs.LG</categories>
+            <comments>10 pages, 7 figures, conference. The work has been accepted by WSDM2024</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is a complex multivariate time-series regression task of paramount importance for traffic management and planning. However, existing approaches often struggle to model complex multi-range dependencies using local spatiotemporal features and road network hierarchical knowledge. To address this, we propose MultiSPANS. First, considering that an individual recording point cannot reflect critical spatiotemporal local patterns, we design multi-filter convolution modules for generating informative ST-token embeddings to facilitate attention computation. Then, based on ST-token and spatial-temporal position encoding, we employ the Transformers to capture long-range temporal and spatial dependencies. Furthermore, we introduce structural entropy theory to optimize the spatial attention mechanism. Specifically, The structural entropy minimization algorithm is used to generate optimal road network hierarchies, i.e., encoding trees. Based on this, we propose a relative structural entropy-based position encoding and a multi-head attention masking scheme based on multi-layer encoding trees. Extensive experiments demonstrate the superiority of the presented framework over several state-of-the-art methods in real-world traffic datasets, and the longer historical windows are effectively utilized. The code is available at https://github.com/SELGroup/MultiSPANS.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

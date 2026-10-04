@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-11T02:13:21Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2609.11314" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2609.11314</identifier>
+        <datestamp>2026-09-11</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2609.11314</id>
+        <created>2026-09-10</created>
+            <updated>2026-09-11</updated>
+        <authors>
+                <author>
+                    <keyname>Qiu</keyname>
+                        <forenames>Xue</forenames>
+                </author>
+                <author>
+                    <keyname>Xiao</keyname>
+                        <forenames>Jianli</forenames>
+                </author>
+        </authors>
+        <title>A Dynamic Fusion Large Language Model for Traffic Flow Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>Accepted by WISA 2026</comments>
+            <acm-class>None</acm-class>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow prediction is a core supporting technology for intelligent transportation systems. It uses historical data to infer future traffic dynamics in specific areas, thereby helping to alleviate congestion and improve resource allocation efficiency. Traditional neural networks struggle to break through accuracy limits due to their reliance on singular feature modeling, while large language models (LLMs) suffer from insufficient capture of spatial topological information and mining spatiotemporal correlation. This study proposes a Dynamic Fusion Large Language Model (DF-LLM) for traffic flow prediction. The model incorporates three core components: spatiotemporal embedding module, spatiotemporal fusion module, and LLM backbone. The spatiotemporal embedding module enables synergistic representation of multi-scale spatiotemporal features. The spatiotemporal fusion module integrates spatial topology and dynamic dependencies via graph convolution. The LLM backbone adopts a differentiated parameter adaptation strategy to balance training efficiency and traffic data adaptability. Additionally, it introduces a context aggregation attention module to strengthens global dependencies. More importantly, the LLM backbone takes the residual connections to mitigate the gradient vanishing in deep networks. Experiments show that DF-LLM has achieved better performance by comparing the metrics on all the four datasets.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

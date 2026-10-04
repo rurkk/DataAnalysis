@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:08:12Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2504.13576" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2504.13576</identifier>
+        <datestamp>2025-04-21</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2504.13576</id>
+        <created>2025-04-18</created>
+            <updated>2025-04-21</updated>
+        <authors>
+                <author>
+                    <keyname>Qin</keyname>
+                        <forenames>Weiqi</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Yuxin</forenames>
+                </author>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Dongze</forenames>
+                </author>
+                <author>
+                    <keyname>Qin</keyname>
+                        <forenames>Zhenkai</forenames>
+                </author>
+                <author>
+                    <keyname>Luo</keyname>
+                        <forenames>Qining</forenames>
+                </author>
+        </authors>
+        <title>MSTIM: A MindSpore-Based Model for Traffic Flow Prediction</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/publicdomain/zero/1.0/</license>
+            <abstract>Aiming at the problems of low accuracy and large error fluctuation of traditional traffic flow predictionmodels when dealing with multi-scale temporal features and dynamic change patterns. this paperproposes a multi-scale time series information modelling model MSTIM based on the Mindspore framework, which integrates long and short-term memory networks (LSTMs), convolutional neural networks (CNN), and the attention mechanism to improve the modelling accuracy and stability. The Metropolitan Interstate Traffic Volume (MITV) dataset was used for the experiments and compared and analysed with typical LSTM-attention models, CNN-attention models and LSTM-CNN models. The experimental results show that the MSTIM model achieves better results in the metrics of Mean Absolute Error (MAE), Mean Square Error (MSE), and Root Mean Square Error (RMSE), which significantly improves the accuracy and stability of the traffic volume prediction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

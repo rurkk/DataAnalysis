@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:09:17Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2308.00391" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2308.00391</identifier>
+        <datestamp>2023-08-02</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2308.00391</id>
+        <created>2023-08-01</created>
+            <updated>2023-08-02</updated>
+        <authors>
+                <author>
+                    <keyname>Yang</keyname>
+                        <forenames>Ying</forenames>
+                </author>
+                <author>
+                    <keyname>Du</keyname>
+                        <forenames>Kai</forenames>
+                </author>
+                <author>
+                    <keyname>Dai</keyname>
+                        <forenames>Xingyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Fang</keyname>
+                        <forenames>Jianwu</forenames>
+                </author>
+        </authors>
+        <title>Counterfactual Graph Transformer for Traffic Flow Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>accepted by ITSC 2023</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow prediction (TFP) is a fundamental problem of the Intelligent Transportation System (ITS), as it models the latent spatial-temporal dependency of traffic flow for potential congestion prediction. Recent graph-based models with multiple kinds of attention mechanisms have achieved promising performance. However, existing methods for traffic flow prediction tend to inherit the bias pattern from the dataset and lack interpretability. To this end, we propose a Counterfactual Graph Transformer (CGT) model with an instance-level explainer (e.g., finding the important subgraphs) specifically designed for TFP. We design a perturbation mask generator over input sensor features at the time dimension and the graph structure on the graph transformer module to obtain spatial and temporal counterfactual explanations. By searching the optimal perturbation masks on the input data feature and graph structures, we can obtain the concise and dominant data or graph edge links for the subsequent TFP task. After re-training the utilized graph transformer model after counterfactual perturbation, we can obtain improved and interpretable traffic flow prediction. Extensive results on three real-world public datasets show that CGT can produce reliable explanations and is promising for traffic flow prediction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

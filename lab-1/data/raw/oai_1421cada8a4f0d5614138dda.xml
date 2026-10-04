@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:48:25Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2607.27604" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2607.27604</identifier>
+        <datestamp>2026-07-31</datestamp>
+            <setSpec>cs:cs:CR</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2607.27604</id>
+        <created>2026-07-30</created>
+            <updated>2026-07-31</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Qingzhao</forenames>
+                </author>
+        </authors>
+        <title>Revisiting the Adversarial Robustness of Graph-Based Traffic Forecasting</title>
+            <categories>cs.CR cs.AI</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting by graph-based AI is a critical component of intelligent transportation systems, motivating security research on robustness to malicious sensor readings. We argue that prior robustness evaluations are largely shaped by unrealistic threat models and untargeted objectives, so both attacks and defenses must be revisited. We study a practical adversary with limited model knowledge and the ability to monitor and manipulate only a few road sensors. More importantly, practical attacks can be localized to specific links or routes, causing incorrect estimated arrival times or unnecessary rerouting while leaving the broader network largely unaffected. This targeted setting remains underexplored, and defenses such as adversarial training do not transfer well from the norm-bounded attacks they train on to structurally different, physics-aware attacks that mimic genuine congestion. We therefore reframe robustness as a detection problem, introducing a learned physics-informed detector whose output is fed to a hardened forecaster as an input feature and trained against adaptive attacks with the forecaster fixed. We evaluate across a variety of model architectures and benchmarks. The physics-aware attack multiplies target-link error several-fold while the network-wide error barely moves, and adversarial training, tuned to norm-bounded perturbations, barely dents it. Our detection--mitigation defense improves even on adversarial training hardened against the physics-aware attack itself, on $13$ of $15$ model--dataset settings and by the widest margin on a held-out attack, at near-zero clean cost. The results emphasize the need to examine abstracted AI adversarial attacks under application-specific constraints to assess their true security impacts.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

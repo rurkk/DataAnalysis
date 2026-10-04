@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:45:24Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2504.19967" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2504.19967</identifier>
+        <datestamp>2025-04-29</datestamp>
+            <setSpec>cs:cs:ET</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>stat:stat:AP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2504.19967</id>
+        <created>2025-04-28</created>
+            <updated>2025-04-29</updated>
+        <authors>
+                <author>
+                    <keyname>Das</keyname>
+                        <forenames>Adway</forenames>
+                </author>
+                <author>
+                    <keyname>Sengupta</keyname>
+                        <forenames>Agnimitra</forenames>
+                </author>
+                <author>
+                    <keyname>Guler</keyname>
+                        <forenames>S. Ilgin</forenames>
+                </author>
+        </authors>
+        <title>Enhancing short-term traffic prediction by integrating trends and fluctuations with attention mechanism</title>
+            <categories>cs.ET cs.AI cs.LG stat.AP</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic flow prediction is a critical component of intelligent transportation systems, yet accurately forecasting traffic remains challenging due to the interaction between long-term trends and short-term fluctuations. Standard deep learning models often struggle with these challenges because their architectures inherently smooth over fine-grained fluctuations while focusing on general trends. This limitation arises from low-pass filtering effects, gate biases favoring stability, and memory update mechanisms that prioritize long-term information retention. To address these shortcomings, this study introduces a hybrid deep learning framework that integrates both long-term trend and short-term fluctuation information using two input features processed in parallel, designed to capture complementary aspects of traffic flow dynamics. Further, our approach leverages attention mechanisms, specifically Bahdanau attention, to selectively focus on critical time steps within traffic data, enhancing the model&#39;s ability to predict congestion and other transient phenomena. Experimental results demonstrate that features learned from both branches are complementary, significantly improving the goodness-of-fit statistics across multiple prediction horizons compared to a baseline model. Notably, the attention mechanism enhances short-term forecast accuracy by directly targeting immediate fluctuations, though challenges remain in fully integrating long-term trends. This framework can contribute to more effective congestion mitigation and urban mobility planning by advancing the robustness and precision of traffic prediction models.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

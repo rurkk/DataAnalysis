@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:49:34Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2211.07031" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2211.07031</identifier>
+        <datestamp>2022-11-15</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2211.07031</id>
+        <created>2022-11-13</created>
+            <updated>2022-11-15</updated>
+        <authors>
+                <author>
+                    <keyname>Wu</keyname>
+                        <forenames>Xinhua</forenames>
+                </author>
+                <author>
+                    <keyname>Lyu</keyname>
+                        <forenames>Cheng</forenames>
+                </author>
+                <author>
+                    <keyname>Lu</keyname>
+                        <forenames>Qing-Long</forenames>
+                </author>
+                <author>
+                    <keyname>Mahajan</keyname>
+                        <forenames>Vishal</forenames>
+                </author>
+        </authors>
+        <title>Similarity-based Feature Extraction for Large-scale Sparse Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>8 pages, 2 figures, NeurIPS Traffic4cast 2022</comments>
+            <license>http://creativecommons.org/licenses/by-sa/4.0/</license>
+            <abstract>Short-term traffic forecasting is an extensively studied topic in the field of intelligent transportation system. However, most existing forecasting systems are limited by the requirement of real-time probe vehicle data because of their formulation as a time series forecasting problem. Towards this issue, the NeurIPS 2022 Traffic4cast challenge is dedicated to predicting the citywide traffic states with publicly available sparse loop count data. This technical report introduces our second-place winning solution to the extended challenge of ETA prediction. We present a similarity-based feature extraction method using multiple nearest neighbor (NN) filters. Similarity-based features, static features, node flow features and combined features of segments are extracted for training the gradient boosting decision tree model. Experimental results on three cities (including London, Madrid and Melbourne) demonstrate the strong predictive performance of our approach, which outperforms a number of graph-neural-network-based solutions in the task of travel time estimation. The source code is available at \url{https://github.com/c-lyu/Traffic4Cast2022-TSE}.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

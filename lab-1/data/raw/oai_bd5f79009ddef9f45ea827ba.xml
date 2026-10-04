@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:56:50Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2407.14065" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2407.14065</identifier>
+        <datestamp>2024-07-22</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>stat:stat:ML</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2407.14065</id>
+        <created>2024-07-19</created>
+            <updated>2024-07-22</updated>
+        <authors>
+                <author>
+                    <keyname>Li</keyname>
+                        <forenames>Shuang</forenames>
+                </author>
+                <author>
+                    <keyname>Pu</keyname>
+                        <forenames>Ziyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Nan</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Duxin</forenames>
+                </author>
+                <author>
+                    <keyname>Dong</keyname>
+                        <forenames>Lu</forenames>
+                </author>
+                <author>
+                    <keyname>Graham</keyname>
+                        <forenames>Daniel J.</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Yinhai</forenames>
+                </author>
+        </authors>
+        <title>MSCT: Addressing Time-Varying Confounding with Marginal Structural Causal Transformer for Counterfactual Post-Crash Traffic Prediction</title>
+            <categories>cs.LG stat.ML</categories>
+            <comments>13 pages, 9 figures</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic crashes profoundly impede traffic efficiency and pose economic challenges. Accurate prediction of post-crash traffic status provides essential information for evaluating traffic perturbations and developing effective solutions. Previous studies have established a series of deep learning models to predict post-crash traffic conditions, however, these correlation-based methods cannot accommodate the biases caused by time-varying confounders and the heterogeneous effects of crashes. The post-crash traffic prediction model needs to estimate the counterfactual traffic speed response to hypothetical crashes under various conditions, which demonstrates the necessity of understanding the causal relationship between traffic factors. Therefore, this paper presents the Marginal Structural Causal Transformer (MSCT), a novel deep learning model designed for counterfactual post-crash traffic prediction. To address the issue of time-varying confounding bias, MSCT incorporates a structure inspired by Marginal Structural Models and introduces a balanced loss function to facilitate learning of invariant causal features. The proposed model is treatment-aware, with a specific focus on comprehending and predicting traffic speed under hypothetical crash intervention strategies. In the absence of ground-truth data, a synthetic data generation procedure is proposed to emulate the causal mechanism between traffic speed, crashes, and covariates. The model is validated using both synthetic and real-world data, demonstrating that MSCT outperforms state-of-the-art models in multi-step-ahead prediction performance. This study also systematically analyzes the impact of time-varying confounding bias and dataset distribution on model performance, contributing valuable insights into counterfactual prediction for intelligent transportation systems.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

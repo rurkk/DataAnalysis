@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:43:31Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2309.07196" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2309.07196</identifier>
+        <datestamp>2023-09-15</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+            <setSpec>cs:cs:GR</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2309.07196</id>
+        <created>2023-09-13</created>
+            <updated>2023-09-15</updated>
+        <authors>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Tianpu</forenames>
+                </author>
+                <author>
+                    <keyname>Ding</keyname>
+                        <forenames>Weilong</forenames>
+                </author>
+                <author>
+                    <keyname>Xing</keyname>
+                        <forenames>Mengda</forenames>
+                </author>
+        </authors>
+        <title>Attention-based Dynamic Graph Convolutional Recurrent Neural Network for Traffic Flow Prediction in Highway Transportation</title>
+            <categories>cs.LG cs.AI cs.GR</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>As one of the important tools for spatial feature extraction, graph convolution has been applied in a wide range of fields such as traffic flow prediction. However, current popular works of graph convolution cannot guarantee spatio-temporal consistency in a long period. The ignorance of correlational dynamics, convolutional locality and temporal comprehensiveness would limit predictive accuracy. In this paper, a novel Attention-based Dynamic Graph Convolutional Recurrent Neural Network (ADGCRNN) is proposed to improve traffic flow prediction in highway transportation. Three temporal resolutions of data sequence are effectively integrated by self-attention to extract characteristics; multi-dynamic graphs and their weights are dynamically created to compliantly combine the varying characteristics; a dedicated gated kernel emphasizing highly relative nodes is introduced on these complete graphs to reduce overfitting for graph convolution operations. Experiments on two public datasets show our work better than state-of-the-art baselines, and case studies of a real Web system prove practical benefit in highway transportation.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

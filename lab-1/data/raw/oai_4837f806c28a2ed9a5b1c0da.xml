@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:40:46Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2308.06155" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2308.06155</identifier>
+        <datestamp>2023-08-14</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2308.06155</id>
+        <created>2023-08-11</created>
+            <updated>2023-08-14</updated>
+        <authors>
+                <author>
+                    <keyname>Ding</keyname>
+                        <forenames>Weilong</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Tianpu</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Zhe</forenames>
+                </author>
+        </authors>
+        <title>Phased Deep Spatio-temporal Learning for Highway Traffic Volume Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Inter-city highway transportation is significant for citizens&#39; modern urban life and generates heterogeneous sensory data with spatio-temporal characteristics. As a routine analysis in transportation domain, daily traffic volume estimation faces challenges for highway toll stations including lacking of exploration of correlative spatio-temporal features from a long-term perspective and effective means to deal with data imbalance which always deteriorates the predictive performance. In this paper, a deep spatio-temporal learning method is proposed to predict daily traffic volume in three phases. In feature pre-processing phase, data is normalized elaborately according to latent long-tail distribution. In spatio-temporal learning phase, a hybrid model is employed combining fully convolution network (FCN) and long short-term memory (LSTM), which considers time, space, meteorology, and calendar from heterogeneous data. In decision phase, traffic volumes on a coming day at network-wide toll stations would be achieved effectively, which is especially calibrated for vital few highway stations. Using real-world data from one Chinese provincial highway, extensive experiments show our method has distinct improvement for predictive accuracy than various traditional models, reaching 5.269 and 0.997 in MPAE and R-squre metrics, respectively.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

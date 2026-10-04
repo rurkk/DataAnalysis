@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:48:44Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2205.01480" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2205.01480</identifier>
+        <datestamp>2022-10-03</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2205.01480</id>
+        <created>2022-09-27</created>
+            <updated>2022-10-03</updated>
+        <authors>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Shiqi</forenames>
+                </author>
+                <author>
+                    <keyname>Zhou</keyname>
+                        <forenames>Bing</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Bei</forenames>
+                </author>
+        </authors>
+        <title>Multi-Spatio-temporal Fusion Graph Recurrent Network for Traffic forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <report-no>EAAI-22-3734</report-no>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic forecasting is essential for the traffic construction of smart cities in the new era. However, traffic data&#39;s complex spatial and temporal dependencies make traffic forecasting extremely challenging. Most existing traffic forecasting methods rely on the predefined adjacency matrix to model the Spatio-temporal dependencies. Nevertheless, the road traffic state is highly real-time, so the adjacency matrix should change dynamically with time. This article presents a new Multi-Spatio-temporal Fusion Graph Recurrent Network (MSTFGRN) to address the issues above. The network proposes a data-driven weighted adjacency matrix generation method to compensate for real-time spatial dependencies not reflected by the predefined adjacency matrix. It also efficiently learns hidden Spatio-temporal dependencies by performing a new two-way Spatio-temporal fusion operation on parallel Spatio-temporal relations at different moments. Finally, global Spatio-temporal dependencies are captured simultaneously by integrating a global attention mechanism into the Spatio-temporal fusion module. Extensive trials on four large-scale, real-world traffic datasets demonstrate that our method achieves state-of-the-art performance compared to alternative baselines.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

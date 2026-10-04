@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:09:28Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2012.03874" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2012.03874</identifier>
+        <datestamp>2020-12-14</datestamp>
+            <setSpec>cs:cs:CV</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2012.03874</id>
+        <created>2020-12-11</created>
+            <updated>2020-12-14</updated>
+        <authors>
+                <author>
+                    <keyname>Bojesomo</keyname>
+                        <forenames>Alabi</forenames>
+                </author>
+                <author>
+                    <keyname>Liatsis</keyname>
+                        <forenames>Panos</forenames>
+                </author>
+                <author>
+                    <keyname>Marzouqi</keyname>
+                        <forenames>Hasan Al</forenames>
+                </author>
+        </authors>
+        <title>Traffic flow prediction using Deep Sedenion Networks</title>
+            <categories>cs.CV</categories>
+            <comments>5 pages, 4 figures, 1 table, 2 equations</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>In this paper, we present our solution to the Traffic4cast2020 traffic prediction challenge. In this competition, participants are to predict future traffic parameters (speed and volume) in three different cities: Berlin, Istanbul and Moscow. The information provided includes nine channels where the first eight represent the speed and volume for four different direction of traffic (NE, NW, SE and SW), while the last channel is used to indicate presence of traffic incidents. The expected output should have the first 8 channels of the input at six future timing intervals (5, 10, 15, 30, 45, and 60min), while a one hour duration of past traffic data, in 5mins intervals, are provided as input. We solve the problem using a novel sedenion U-Net neural network. Sedenion networks provide the means for efficient encoding of correlated multimodal datasets. We use 12 of the 15 sedenion imaginary parts for the dynamic inputs and the real sedenion component is used for the static input. The sedenion output of the network is used to represent the multimodal traffic predictions. Proposed system achieved a validation MSE of 1.33e-3 and a test MSE of 1.31e-3.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

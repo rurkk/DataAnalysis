@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:50:08Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2012.05207" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2012.05207</identifier>
+        <datestamp>2020-12-10</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>stat:stat:ML</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2012.05207</id>
+        <created>2020-12-09</created>
+            <updated>2020-12-10</updated>
+        <authors>
+                <author>
+                    <keyname>Maas</keyname>
+                        <forenames>Tijs</forenames>
+                </author>
+                <author>
+                    <keyname>Bloem</keyname>
+                        <forenames>Peter</forenames>
+                </author>
+        </authors>
+        <title>Uncertainty Intervals for Graph-based Spatio-Temporal Traffic Prediction</title>
+            <categories>cs.LG stat.ML</categories>
+            <license>http://creativecommons.org/licenses/by-sa/4.0/</license>
+            <abstract>Many traffic prediction applications rely on uncertainty estimates instead of the mean prediction. Statistical traffic prediction literature has a complete subfield devoted to uncertainty modelling, but recent deep learning traffic prediction models either lack this feature or make specific assumptions that restrict its practicality. We propose Quantile Graph Wavenet, a Spatio-Temporal neural network that is trained to estimate a density given the measurements of previous timesteps, conditioned on a quantile. Our method of density estimation is fully parameterised by our neural network and does not use a likelihood approximation internally. The quantile loss function is asymmetric and this makes it possible to model skewed densities. This approach produces uncertainty estimates without the need to sample during inference, such as in Monte Carlo Dropout, which makes our method also efficient.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

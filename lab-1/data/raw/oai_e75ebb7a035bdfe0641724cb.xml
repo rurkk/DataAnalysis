@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:41:29Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2212.07194" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2212.07194</identifier>
+        <datestamp>2022-12-15</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:IR</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2212.07194</id>
+        <created>2022-12-14</created>
+            <updated>2022-12-15</updated>
+        <authors>
+                <author>
+                    <keyname>Kong</keyname>
+                        <forenames>Jianlei</forenames>
+                </author>
+                <author>
+                    <keyname>Fan</keyname>
+                        <forenames>Xiaomeng</forenames>
+                </author>
+                <author>
+                    <keyname>Jin</keyname>
+                        <forenames>Xue-Bo</forenames>
+                </author>
+                <author>
+                    <keyname>Zuo</keyname>
+                        <forenames>Min</forenames>
+                </author>
+        </authors>
+        <title>Traffic Flow Prediction via Variational Bayesian Inference-based Encoder-Decoder Framework</title>
+            <categories>cs.LG cs.IR</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic flow prediction, a hotspot for intelligent transportation research, is the prerequisite for mastering traffic and making travel plans. The speed of traffic flow can be affected by roads condition, weather, holidays, etc. Furthermore, the sensors to catch the information about traffic flow will be interfered with by environmental factors such as illumination, collection time, occlusion, etc. Therefore, the traffic flow in the practical transportation system is complicated, uncertain, and challenging to predict accurately. This paper proposes a deep encoder-decoder prediction framework based on variational Bayesian inference. A Bayesian neural network is constructed by combining variational inference with gated recurrent units (GRU) and used as the deep neural network unit of the encoder-decoder framework to mine the intrinsic dynamics of traffic flow. Then, the variational inference is introduced into the multi-head attention mechanism to avoid noise-induced deterioration of prediction accuracy. The proposed model achieves superior prediction performance on the Guangzhou urban traffic flow dataset over the benchmarks, particularly when the long-term prediction.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

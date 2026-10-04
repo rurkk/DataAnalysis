@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:42:57Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2507.09805" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2507.09805</identifier>
+        <datestamp>2025-07-15</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2507.09805</id>
+        <created>2025-07-13</created>
+            <updated>2025-07-15</updated>
+        <authors>
+                <author>
+                    <keyname>Banik</keyname>
+                        <forenames>Audri</forenames>
+                </author>
+                <author>
+                    <keyname>de Carvalho</keyname>
+                        <forenames>Glaucio Haroldo Silva</forenames>
+                </author>
+                <author>
+                    <keyname>Dividino</keyname>
+                        <forenames>Renata</forenames>
+                </author>
+        </authors>
+        <title>Federated Learning with Graph-Based Aggregation for Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted at FedKDD 2025: International Joint Workshop on Federated Learning for Data Mining and Graph Analytics. 6 pages, 1 figure</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>In traffic prediction, the goal is to estimate traffic speed or flow in specific regions or road segments using historical data collected by devices deployed in each area. Each region or road segment can be viewed as an individual client that measures local traffic flow, making Federated Learning (FL) a suitable approach for collaboratively training models without sharing raw data. In centralized FL, a central server collects and aggregates model updates from multiple clients to build a shared model while preserving each client&#39;s data privacy. Standard FL methods, such as Federated Averaging (FedAvg), assume that clients are independent, which can limit performance in traffic prediction tasks where spatial relationships between clients are important. Federated Graph Learning methods can capture these dependencies during server-side aggregation, but they often introduce significant computational overhead. In this paper, we propose a lightweight graph-aware FL approach that blends the simplicity of FedAvg with key ideas from graph learning. Rather than training full models, our method applies basic neighbourhood aggregation principles to guide parameter updates, weighting client models based on graph connectivity. This approach captures spatial relationships effectively while remaining computationally efficient. We evaluate our method on two benchmark traffic datasets, METR-LA and PEMS-BAY, and show that it achieves competitive performance compared to standard baselines and recent graph-based federated learning techniques.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

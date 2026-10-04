@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:51:55Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2205.07851" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2205.07851</identifier>
+        <datestamp>2022-05-18</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2205.07851</id>
+        <created>2022-05-05</created>
+            <updated>2022-05-18</updated>
+        <authors>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Hongjun</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>Jiyuan</forenames>
+                </author>
+                <author>
+                    <keyname>Fan</keyname>
+                        <forenames>Zipei</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Zhiwen</forenames>
+                </author>
+                <author>
+                    <keyname>Cai</keyname>
+                        <forenames>Zekun</forenames>
+                </author>
+                <author>
+                    <keyname>Song</keyname>
+                        <forenames>Xuan</forenames>
+                </author>
+        </authors>
+        <title>ST-ExpertNet: A Deep Expert Framework for Traffic Prediction</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Recently, forecasting the crowd flows has become an important research topic, and plentiful technologies have achieved good performances. As we all know, the flow at a citywide level is in a mixed state with several basic patterns (e.g., commuting, working, and commercial) caused by the city area functional distributions (e.g., developed commercial areas, educational areas and parks). However, existing technologies have been criticized for their lack of considering the differences in the flow patterns among regions since they want to build only one comprehensive model to learn the mixed flow tensors. Recognizing this limitation, we present a new perspective on flow prediction and propose an explainable framework named ST-ExpertNet, which can adopt every spatial-temporal model and train a set of functional experts devoted to specific flow patterns. Technically, we train a bunch of experts based on the Mixture of Experts (MoE), which guides each expert to specialize in different kinds of flow patterns in sample spaces by using the gating network. We define several criteria, including comprehensiveness, sparsity, and preciseness, to construct the experts for better interpretability and performances. We conduct experiments on a wide range of real-world taxi and bike datasets in Beijing and NYC. The visualizations of the expert&#39;s intermediate results demonstrate that our ST-ExpertNet successfully disentangles the city&#39;s mixed flow tensors along with the city layout, e.g., the urban ring road structure. Different network architectures, such as ST-ResNet, ConvLSTM, and CNN, have been adopted into our ST-ExpertNet framework for experiments and the results demonstrates the superiority of our framework in both interpretability and performances.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

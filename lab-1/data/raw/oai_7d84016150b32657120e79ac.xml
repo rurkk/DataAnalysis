@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:54:38Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2205.15218" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2205.15218</identifier>
+        <datestamp>2022-05-31</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2205.15218</id>
+        <created>2022-05-30</created>
+            <updated>2022-05-31</updated>
+        <authors>
+                <author>
+                    <keyname>Qi</keyname>
+                        <forenames>Jianzhong</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Zhuowei</forenames>
+                </author>
+                <author>
+                    <keyname>Tanin</keyname>
+                        <forenames>Egemen</forenames>
+                </author>
+                <author>
+                    <keyname>Cui</keyname>
+                        <forenames>Tingru</forenames>
+                </author>
+                <author>
+                    <keyname>Nassir</keyname>
+                        <forenames>Neema</forenames>
+                </author>
+                <author>
+                    <keyname>Sarvi</keyname>
+                        <forenames>Majid</forenames>
+                </author>
+        </authors>
+        <title>A Graph and Attentive Multi-Path Convolutional Network for Traffic Prediction</title>
+            <categories>cs.LG</categories>
+            <comments>Accepted to appear in IEEE Transactions on Knowledge and Data Engineering</comments>
+            <license>http://creativecommons.org/licenses/by-nc-nd/4.0/</license>
+            <abstract>Traffic prediction is an important and yet highly challenging problem due to the complexity and constantly changing nature of traffic systems. To address the challenges, we propose a graph and attentive multi-path convolutional network (GAMCN) model to predict traffic conditions such as traffic speed across a given road network into the future. Our model focuses on the spatial and temporal factors that impact traffic conditions. To model the spatial factors, we propose a variant of the graph convolutional network (GCN) named LPGCN to embed road network graph vertices into a latent space, where vertices with correlated traffic conditions are close to each other. To model the temporal factors, we use a multi-path convolutional neural network (CNN) to learn the joint impact of different combinations of past traffic conditions on the future traffic conditions. Such a joint impact is further modulated by an attention} generated from an embedding of the prediction time, which encodes the periodic patterns of traffic conditions. We evaluate our model on real-world road networks and traffic data. The experimental results show that our model outperforms state-of-art traffic prediction models by up to 18.9% in terms of prediction errors and 23.4% in terms of prediction efficiency.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

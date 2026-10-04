@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:46:17Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2209.13123" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2209.13123</identifier>
+        <datestamp>2022-09-28</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2209.13123</id>
+        <created>2022-09-27</created>
+            <updated>2022-09-28</updated>
+        <authors>
+                <author>
+                    <keyname>Zhong</keyname>
+                        <forenames>Weiheng</forenames>
+                </author>
+                <author>
+                    <keyname>Mallick</keyname>
+                        <forenames>Tanwi</forenames>
+                </author>
+                <author>
+                    <keyname>Meidani</keyname>
+                        <forenames>Hadi</forenames>
+                </author>
+                <author>
+                    <keyname>Macfarlane</keyname>
+                        <forenames>Jane</forenames>
+                </author>
+                <author>
+                    <keyname>Balaprakash</keyname>
+                        <forenames>Prasanna</forenames>
+                </author>
+        </authors>
+        <title>Explainable Graph Pyramid Autoformer for Long-Term Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Accurate traffic forecasting is vital to an intelligent transportation system. Although many deep learning models have achieved state-of-art performance for short-term traffic forecasting of up to 1 hour, long-term traffic forecasting that spans multiple hours remains a major challenge. Moreover, most of the existing deep learning traffic forecasting models are black box, presenting additional challenges related to explainability and interpretability. We develop Graph Pyramid Autoformer (X-GPA), an explainable attention-based spatial-temporal graph neural network that uses a novel pyramid autocorrelation attention mechanism. It enables learning from long temporal sequences on graphs and improves long-term traffic forecasting accuracy. Our model can achieve up to 35 % better long-term traffic forecast accuracy than that of several state-of-the-art methods. The attention-based scores from the X-GPA model provide spatial and temporal explanations based on the traffic dynamics, which change for normal vs. peak-hour traffic and weekday vs. weekend traffic.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

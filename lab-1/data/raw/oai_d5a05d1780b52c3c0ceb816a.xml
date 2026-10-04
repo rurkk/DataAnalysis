@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:44:39Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2309.15169" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2309.15169</identifier>
+        <datestamp>2024-07-30</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2309.15169</id>
+        <created>2024-07-28</created>
+            <updated>2024-07-30</updated>
+        <authors>
+                <author>
+                    <keyname>Sun</keyname>
+                        <forenames>Jiarui</forenames>
+                </author>
+                <author>
+                    <keyname>Fan</keyname>
+                        <forenames>Yujie</forenames>
+                </author>
+                <author>
+                    <keyname>Yeh</keyname>
+                        <forenames>Chin-Chia Michael</forenames>
+                </author>
+                <author>
+                    <keyname>Zhang</keyname>
+                        <forenames>Wei</forenames>
+                </author>
+                <author>
+                    <keyname>Chowdhary</keyname>
+                        <forenames>Girish</forenames>
+                </author>
+        </authors>
+        <title>Revealing the Power of Masked Autoencoders in Traffic Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <comments>Accepted by CIKM 2024</comments>
+            <license>http://creativecommons.org/licenses/by/4.0/</license>
+            <abstract>Traffic forecasting, crucial for urban planning, requires accurate predictions of spatial-temporal traffic patterns across urban areas. Existing research mainly focuses on designing complex models that capture spatial-temporal dependencies among variables explicitly. However, this field faces challenges related to data scarcity and model stability, which results in limited performance improvement. To address these issues, we propose Spatial-Temporal Masked AutoEncoders (STMAE), a plug-and-play framework designed to enhance existing spatial-temporal models on traffic prediction. STMAE consists of two learning stages. In the pretraining stage, an encoder processes partially visible traffic data produced by a dual-masking strategy, including biased random walk-based spatial masking and patch-based temporal masking. Subsequently, two decoders aim to reconstruct the masked counterparts from both spatial and temporal perspectives. The fine-tuning stage retains the pretrained encoder and integrates it with decoders from existing backbones to improve forecasting accuracy. Our results on traffic benchmarks show that STMAE can largely enhance the forecasting capabilities of various spatial-temporal models.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:45:58Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2112.02262" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2112.02262</identifier>
+        <datestamp>2021-12-07</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2112.02262</id>
+        <created>2021-12-04</created>
+            <updated>2021-12-07</updated>
+        <authors>
+                <author>
+                    <keyname>Fang</keyname>
+                        <forenames>Yuchen</forenames>
+                </author>
+                <author>
+                    <keyname>Qin</keyname>
+                        <forenames>Yanjun</forenames>
+                </author>
+                <author>
+                    <keyname>Luo</keyname>
+                        <forenames>Haiyong</forenames>
+                </author>
+                <author>
+                    <keyname>Zhao</keyname>
+                        <forenames>Fang</forenames>
+                </author>
+                <author>
+                    <keyname>Wang</keyname>
+                        <forenames>Chenxing</forenames>
+                </author>
+        </authors>
+        <title>STJLA: A Multi-Context Aware Spatio-Temporal Joint Linear Attention Network for Traffic Forecasting</title>
+            <categories>cs.LG</categories>
+            <comments>12 pages</comments>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic prediction has gradually attracted the attention of researchers because of the increase in traffic big data. Therefore, how to mine the complex spatio-temporal correlations in traffic data to predict traffic conditions more accurately become a difficult problem. Previous works combined graph convolution networks (GCNs) and self-attention mechanism with deep time series models (e.g. recurrent neural networks) to capture the spatio-temporal correlations separately, ignoring the relationships across time and space. Besides, GCNs are limited by over-smoothing issue and self-attention is limited by quadratic problem, result in GCNs lack global representation capabilities, and self-attention inefficiently capture the global spatial dependence. In this paper, we propose a novel deep learning model for traffic forecasting, named Multi-Context Aware Spatio-Temporal Joint Linear Attention (STJLA), which applies linear attention to the spatio-temporal joint graph to capture global dependence between all spatio-temporal nodes efficiently. More specifically, STJLA utilizes static structural context and dynamic semantic context to improve model performance. The static structure context based on node2vec and one-hot encoding enriches the spatio-temporal position information. Furthermore, the multi-head diffusion convolution network based dynamic spatial context enhances the local spatial perception ability, and the GRU based dynamic temporal context stabilizes sequence position information of the linear attention, respectively. Experiments on two real-world traffic datasets, England and PEMSD7, demonstrate that our STJLA can achieve up to 9.83% and 3.08% accuracy improvement in MAE measure over state-of-the-art baselines.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:53:21Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2211.08541" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2211.08541</identifier>
+        <datestamp>2022-11-17</datestamp>
+            <setSpec>cs:cs:CV</setSpec>
+            <setSpec>eess:eess:SP</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2211.08541</id>
+        <created>2022-11-13</created>
+            <updated>2022-11-17</updated>
+        <authors>
+                <author>
+                    <keyname>Shoman</keyname>
+                        <forenames>Maged</forenames>
+                </author>
+                <author>
+                    <keyname>Aboah</keyname>
+                        <forenames>Armstrong</forenames>
+                </author>
+                <author>
+                    <keyname>Daud</keyname>
+                        <forenames>Abdulateef</forenames>
+                </author>
+                <author>
+                    <keyname>Adu-Gyamfi</keyname>
+                        <forenames>Yaw</forenames>
+                </author>
+        </authors>
+        <title>GC-GRU-N for Traffic Prediction using Loop Detector Data</title>
+            <categories>cs.CV eess.SP</categories>
+            <license>http://creativecommons.org/licenses/by-nc-sa/4.0/</license>
+            <abstract>Because traffic characteristics display stochastic nonlinear spatiotemporal dependencies, traffic prediction is a challenging task. In this paper develop a graph convolution gated recurrent unit (GC GRU N) network to extract the essential Spatio temporal features. we use Seattle loop detector data aggregated over 15 minutes and reframe the problem through space and time. The model performance is compared o benchmark models; Historical Average, Long Short Term Memory (LSTM), and Transformers. The proposed model ranked second with the fastest inference time and a very close performance to first place (Transformers). Our model also achieves a running time that is six times faster than transformers. Finally, we present a comparative study of our model and the available benchmarks using metrics such as training time, inference time, MAPE, MAE and RMSE. Spatial and temporal aspects are also analyzed for each of the trained models.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

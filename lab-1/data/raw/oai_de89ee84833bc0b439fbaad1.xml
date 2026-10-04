@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:38:47Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2006.14824" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2006.14824</identifier>
+        <datestamp>2020-07-07</datestamp>
+            <setSpec>eess:eess:SP</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2006.14824</id>
+        <created>2020-07-04</created>
+            <updated>2020-07-07</updated>
+        <authors>
+                <author>
+                    <keyname>Mihaita</keyname>
+                        <forenames>Adriana-Simona</forenames>
+                </author>
+                <author>
+                    <keyname>Papachatgis</keyname>
+                        <forenames>Zac</forenames>
+                </author>
+                <author>
+                    <keyname>Rizoiu</keyname>
+                        <forenames>Marian-Andrei</forenames>
+                </author>
+        </authors>
+        <title>Graph modelling approaches for motorway traffic flow prediction</title>
+            <categories>eess.SP cs.AI</categories>
+            <journal-ref>In 23rd IEEE International Conference on Intelligent Transportation Systems (ITSC&#39;20) (pp. 1--8). Rhodes, Greece (2020)</journal-ref>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Traffic flow prediction, particularly in areas that experience highly dynamic flows such as motorways, is a major issue faced in traffic management. Due to increasingly large volumes of data sets being generated every minute, deep learning methods have been used extensively in the latest years for both short and long term prediction. However, such models, despite their efficiency, need large amounts of historical information to be provided, and they take a considerable amount of time and computing resources to train, validate and test. This paper presents two new spatial-temporal approaches for building accurate short-term prediction along a popular motorway in Sydney, by making use of the graph structure of the motorway network (including exits and entries). The methods are built on proximity-based approaches, denoted backtracking and interpolation, which uses the most recent and closest traffic flow information for each of the target counting stations along the motorway. The results indicate that for short-term predictions (less than 10 minutes into the future), the proposed graph-based approaches outperform state-of-the-art deep learning models, such as long-term short memory, convolutional neuronal networks or hybrid models.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

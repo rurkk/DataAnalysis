@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-13T17:40:54Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2508.16685" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2508.16685</identifier>
+        <datestamp>2025-08-26</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2508.16685</id>
+        <created>2025-08-21</created>
+            <updated>2025-08-26</updated>
+        <authors>
+                <author>
+                    <keyname>Liang</keyname>
+                        <forenames>Zhuding</forenames>
+                </author>
+                <author>
+                    <keyname>Cui</keyname>
+                        <forenames>Jianxun</forenames>
+                </author>
+                <author>
+                    <keyname>Zeng</keyname>
+                        <forenames>Qingshuang</forenames>
+                </author>
+                <author>
+                    <keyname>Liu</keyname>
+                        <forenames>Feng</forenames>
+                </author>
+                <author>
+                    <keyname>Filipovic</keyname>
+                        <forenames>Nenad</forenames>
+                </author>
+                <author>
+                    <keyname>Geroski</keyname>
+                        <forenames>Tijana</forenames>
+                </author>
+        </authors>
+        <title>STGAtt: A Spatial-Temporal Unified Graph Attention Network for Traffic Flow Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate and timely traffic flow forecasting is crucial for intelligent transportation systems. This paper presents a novel deep learning model, the Spatial-Temporal Unified Graph Attention Network (STGAtt). By leveraging a unified graph representation and an attention mechanism, STGAtt effectively captures complex spatial-temporal dependencies. Unlike methods relying on separate spatial and temporal dependency modeling modules, STGAtt directly models correlations within a Spatial-Temporal Unified Graph, dynamically weighing connections across both dimensions. To further enhance its capabilities, STGAtt partitions traffic flow observation signal into neighborhood subsets and employs a novel exchanging mechanism, enabling effective capture of both short-range and long-range correlations. Extensive experiments on the PEMS-BAY and SHMetro datasets demonstrate STGAtt&#39;s superior performance compared to state-of-the-art baselines across various prediction horizons. Visualization of attention weights confirms STGAtt&#39;s ability to adapt to dynamic traffic patterns and capture long-range dependencies, highlighting its potential for real-world traffic flow forecasting applications.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <responseDate>2026-09-10T11:59:26Z</responseDate>
+                <request verb="GetRecord" identifier="oai:arXiv.org:2602.01936" metadataPrefix="arXiv">http://oaipmh.arxiv.org/oai</request>
+
+
+    <GetRecord>
+                <record>
+                <header>
+        <identifier>oai:arXiv.org:2602.01936</identifier>
+        <datestamp>2026-02-03</datestamp>
+            <setSpec>cs:cs:LG</setSpec>
+            <setSpec>cs:cs:AI</setSpec>
+    </header>
+
+            <metadata>
+                        <arXiv xmlns="http://arxiv.org/OAI/arXiv/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://arxiv.org/OAI/arXiv/ https://oaipmh.arxiv.org/OAI/arXiv.xsd">
+        <id>2602.01936</id>
+        <created>2026-02-02</created>
+            <updated>2026-02-03</updated>
+        <authors>
+                <author>
+                    <keyname>Fofanah</keyname>
+                        <forenames>Abdul Joseph</forenames>
+                </author>
+                <author>
+                    <keyname>Wen</keyname>
+                        <forenames>Lian</forenames>
+                </author>
+                <author>
+                    <keyname>Chen</keyname>
+                        <forenames>David</forenames>
+                </author>
+        </authors>
+        <title>PIMCST: Physics-Informed Multi-Phase Consensus and Spatio-Temporal Few-Shot Learning for Traffic Flow Forecasting</title>
+            <categories>cs.LG cs.AI</categories>
+            <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
+            <abstract>Accurate traffic flow prediction remains a fundamental challenge in intelligent transportation systems, particularly in cross-domain, data-scarce scenarios where limited historical data hinders model training and generalisation. The complex spatio-temporal dependencies and nonlinear dynamics of urban mobility networks further complicate few-shot learning across different cities. This paper proposes MCPST, a novel Multi-phase Consensus Spatio-Temporal framework for few-shot traffic forecasting that reconceptualises traffic prediction as a multi-phase consensus learning problem. Our framework introduces three core innovations: (1) a multi-phase engine that models traffic dynamics through diffusion, synchronisation, and spectral embeddings for comprehensive dynamic characterisation; (2) an adaptive consensus mechanism that dynamically fuses phase-specific predictions while enforcing consistency; and (3) a structured meta-learning strategy for rapid adaptation to new cities with minimal data. We establish extensive theoretical guarantees, including representation theorems with bounded approximation errors and generalisation bounds for few-shot adaptation. Through experiments on four real-world datasets, MCPST outperforms fourteen state-of-the-art methods in spatio-temporal graph learning methods, dynamic graph transfer learning methods, prompt-based spatio-temporal prediction methods and cross-domain few-shot settings, improving prediction accuracy while reducing required training data and providing interpretable insights. The implementation code is available at https://github.com/afofanah/MCPST.</abstract>
+    </arXiv>
+
+            </metadata>
+        </record>
+
+    </GetRecord>
+</OAI-PMH>
