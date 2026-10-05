@@ -2041,7 +2041,7 @@ creating,experimentation,1,1.0
 creating,interpret,1,1.0
 creating,open research,1,1.0
 creating,research field,1,1.0
-creating,spatio temporal,1,1.0
+creating,spatio temporal forecasting,1,1.0
 creating,temporal condition,1,1.0
 creating,temporal time,1,1.0
 creating,temporal traffic forecasting,1,1.0
@@ -2238,13 +2238,13 @@ stgnns,linear layer,1,1.0
 stgnns,profound implication,1,1.0
 stgnns,smart city,1,1.0
 stgnns,augmented spatio,1,1.0
+stgnns,challenge remain,1,1.0
 stgnns,decoupled spatial,1,1.0
 stgnns,fine grained,1,1.0
 stgnns,maintaining computational,1,1.0
 stgnns,pre trained,1,1.0
 stgnns,query,1,1.0
 stgnns,retrieval,1,1.0
-stgnns,spatio temporal,1,1.0
 stgnns,universal,1,1.0
 stgnns,cascaded,1,1.0
 stgnns,complex design,1,1.0
@@ -2278,8 +2278,8 @@ flow prediction,decision making,1,1.0
 flow prediction,domain expert,1,1.0
 flow prediction,input data,1,1.0
 flow prediction,make traffic,1,1.0
+flow prediction,recent year,1,1.0
 flow prediction,support,1,1.0
-flow prediction,traffic flow,1,1.0
 flow prediction,transparency,1,1.0
 flow prediction,visualization,1,1.0
 flow prediction,counterfactual,1,1.0
@@ -2296,8 +2296,8 @@ flow prediction,mse,1,1.0
 flow prediction,past traffic,1,1.0
 flow prediction,predict future traffic,1,1.0
 flow prediction,provided,1,1.0
+flow prediction,represent,1,1.0
 flow prediction,traffic parameter,1,1.0
-flow prediction,traffic prediction,1,1.0
 flow prediction,aimed,1,1.0
 flow prediction,demonstrated excellent,1,1.0
 flow prediction,long term trend,1,1.0
@@ -2590,8 +2590,8 @@ predict future traffic,min,1,1.0
 predict future traffic,mse,1,1.0
 predict future traffic,past traffic,1,1.0
 predict future traffic,provided,1,1.0
+predict future traffic,represent,1,1.0
 predict future traffic,traffic parameter,1,1.0
-predict future traffic,traffic prediction,1,1.0
 test time,attention matrix,1,1.0
 test time,bank,1,1.0
 test time,event,1,1.0
@@ -2888,15 +2888,15 @@ analysis,decision making,1,1.0
 analysis,domain expert,1,1.0
 analysis,input data,1,1.0
 analysis,make traffic,1,1.0
+analysis,recent year,1,1.0
 analysis,support,1,1.0
-analysis,traffic flow,1,1.0
 analysis,transparency,1,1.0
 analysis,visualization,1,1.0
 decision making,domain expert,1,1.0
 decision making,input data,1,1.0
 decision making,make traffic,1,1.0
+decision making,recent year,1,1.0
 decision making,support,1,1.0
-decision making,traffic flow,1,1.0
 decision making,transparency,1,1.0
 decision making,visualization,1,1.0
 decision making,business,1,1.0
@@ -2928,8 +2928,8 @@ decision making,uncertainty aware,1,1.0
 decision making,uncertainty quantification,1,1.0
 domain expert,input data,1,1.0
 domain expert,make traffic,1,1.0
+domain expert,recent year,1,1.0
 domain expert,support,1,1.0
-domain expert,traffic flow,1,1.0
 domain expert,transparency,1,1.0
 domain expert,visualization,1,1.0
 domain expert,analytics,1,1.0
@@ -2942,8 +2942,8 @@ domain expert,spatio temporal dependency,1,1.0
 domain expert,user,1,1.0
 domain expert,visual,1,1.0
 input data,make traffic,1,1.0
+input data,recent year,1,1.0
 input data,support,1,1.0
-input data,traffic flow,1,1.0
 input data,transparency,1,1.0
 input data,visualization,1,1.0
 input data,activation unit,1,1.0
@@ -2955,24 +2955,15 @@ input data,gated activation,1,1.0
 input data,progressive,1,1.0
 input data,skip connection,1,1.0
 input data,testing phase,1,1.0
+make traffic,recent year,1,1.0
 make traffic,support,1,1.0
-make traffic,traffic flow,1,1.0
 make traffic,transparency,1,1.0
 make traffic,visualization,1,1.0
-support,traffic flow,1,1.0
+recent year,support,1,1.0
+recent year,transparency,1,1.0
+recent year,visualization,1,1.0
 support,transparency,1,1.0
 support,visualization,1,1.0
-traffic flow,transparency,1,1.0
-traffic flow,visualization,1,1.0
-traffic flow,bayesian,1,1.0
-traffic flow,encoder decoder,1,1.0
-traffic flow,flow dataset,1,1.0
-traffic flow,head attention mechanism,1,1.0
-traffic flow,inference,1,1.0
-traffic flow,noise induced,1,1.0
-traffic flow,transportation research,1,1.0
-traffic flow,unit,1,1.0
-traffic flow,variational,1,1.0
 transparency,visualization,1,1.0
 counterfactual,lack interpretability,1,1.0
 counterfactual,latent spatial,1,1.0
@@ -3238,8 +3229,8 @@ channel,min,1,1.0
 channel,mse,1,1.0
 channel,past traffic,1,1.0
 channel,provided,1,1.0
+channel,represent,1,1.0
 channel,traffic parameter,1,1.0
-channel,traffic prediction,1,1.0
 channel,convolution neural,1,1.0
 channel,different source,1,1.0
 channel,downtime,1,1.0
@@ -3258,8 +3249,8 @@ different city,min,1,1.0
 different city,mse,1,1.0
 different city,past traffic,1,1.0
 different city,provided,1,1.0
+different city,represent,1,1.0
 different city,traffic parameter,1,1.0
-different city,traffic prediction,1,1.0
 different city,evaluation metric,1,1.0
 different city,fine tuning,1,1.0
 different city,frame,1,1.0
@@ -3271,18 +3262,18 @@ different city,traffic4cast challenge,1,1.0
 min,mse,1,1.0
 min,past traffic,1,1.0
 min,provided,1,1.0
+min,represent,1,1.0
 min,traffic parameter,1,1.0
-min,traffic prediction,1,1.0
 mse,past traffic,1,1.0
 mse,provided,1,1.0
+mse,represent,1,1.0
 mse,traffic parameter,1,1.0
-mse,traffic prediction,1,1.0
 past traffic,provided,1,1.0
+past traffic,represent,1,1.0
 past traffic,traffic parameter,1,1.0
-past traffic,traffic prediction,1,1.0
+provided,represent,1,1.0
 provided,traffic parameter,1,1.0
-provided,traffic prediction,1,1.0
-traffic parameter,traffic prediction,1,1.0
+represent,traffic parameter,1,1.0
 traffic parameter,congestion pricing,1,1.0
 traffic parameter,data point,1,1.0
 traffic parameter,error,1,1.0
@@ -3292,24 +3283,6 @@ traffic parameter,grey,1,1.0
 traffic parameter,linear time,1,1.0
 traffic parameter,outperformed,1,1.0
 traffic parameter,time series,1,1.0
-traffic prediction,alleviating traffic,1,1.0
-traffic prediction,artificial intelligence,1,1.0
-traffic prediction,emerging,1,1.0
-traffic prediction,improving traffic,1,1.0
-traffic prediction,negative consequence,1,1.0
-traffic prediction,opportunity,1,1.0
-traffic prediction,provide,1,1.0
-traffic prediction,recent advance,1,1.0
-traffic prediction,research,1,1.0
-traffic prediction,advancing traffic,1,1.0
-traffic prediction,conducting extensive,1,1.0
-traffic prediction,discus open,1,1.0
-traffic prediction,dispatching,1,1.0
-traffic prediction,multiple perspective,1,1.0
-traffic prediction,prediction application,1,1.0
-traffic prediction,public dataset,1,1.0
-traffic prediction,summarize,1,1.0
-traffic prediction,taxonomy,1,1.0
 adjacency matrix,advance,1,1.0
 adjacency matrix,core challenge,1,1.0
 adjacency matrix,dynamic graph,1,1.0
@@ -3546,6 +3519,7 @@ multiple perspective,scale attention,1,1.0
 multiple perspective,various scale,1,1.0
 multiple perspective,advancing traffic,1,1.0
 multiple perspective,conducting extensive,1,1.0
+multiple perspective,different region,1,1.0
 multiple perspective,discus open,1,1.0
 multiple perspective,dispatching,1,1.0
 multiple perspective,prediction application,1,1.0
@@ -4336,7 +4310,7 @@ work utilize,data scenario,1,1.0
 work utilize,deeper,1,1.0
 work utilize,different data,1,1.0
 work utilize,dilated,1,1.0
-work utilize,spatio temporal,1,1.0
+work utilize,spatio temporal representation,1,1.0
 work utilize,temporal synchronous,1,1.0
 work utilize,term spatio,1,1.0
 complicated spatial dependency,dependency learning,1,1.0
@@ -5107,6 +5081,7 @@ variational,flow dataset,1,1.0
 variational,head attention mechanism,1,1.0
 variational,inference,1,1.0
 variational,noise induced,1,1.0
+variational,superior prediction,1,1.0
 variational,transportation research,1,1.0
 variational,unit,1,1.0
 variational,auto,1,1.0
@@ -6031,12 +6006,12 @@ fine grained,provides,1,1.0
 fine grained,speed pattern,1,1.0
 fine grained,time efficient,1,1.0
 fine grained,augmented spatio,1,1.0
+fine grained,challenge remain,1,1.0
 fine grained,decoupled spatial,1,1.0
 fine grained,maintaining computational,1,1.0
 fine grained,pre trained,1,1.0
 fine grained,query,1,1.0
 fine grained,retrieval,1,1.0
-fine grained,spatio temporal,1,1.0
 fine grained,universal,1,1.0
 growing,provides,1,1.0
 growing,speed pattern,1,1.0
@@ -6767,6 +6742,7 @@ bayesian,flow dataset,1,1.0
 bayesian,head attention mechanism,1,1.0
 bayesian,inference,1,1.0
 bayesian,noise induced,1,1.0
+bayesian,superior prediction,1,1.0
 bayesian,transportation research,1,1.0
 bayesian,unit,1,1.0
 bayesian,attains superior,1,1.0
@@ -6784,6 +6760,7 @@ encoder decoder,flow dataset,1,1.0
 encoder decoder,head attention mechanism,1,1.0
 encoder decoder,inference,1,1.0
 encoder decoder,noise induced,1,1.0
+encoder decoder,superior prediction,1,1.0
 encoder decoder,transportation research,1,1.0
 encoder decoder,unit,1,1.0
 encoder decoder,demonstrates superior,1,1.0
@@ -6797,6 +6774,7 @@ encoder decoder,traffic speed,1,1.0
 flow dataset,head attention mechanism,1,1.0
 flow dataset,inference,2,0.5
 flow dataset,noise induced,1,1.0
+flow dataset,superior prediction,1,1.0
 flow dataset,transportation research,1,1.0
 flow dataset,unit,1,1.0
 flow dataset,accurate prediction,1,1.0
@@ -6808,9 +6786,11 @@ flow dataset,periodic pattern,1,1.0
 flow dataset,real time,1,1.0
 head attention mechanism,inference,1,1.0
 head attention mechanism,noise induced,1,1.0
+head attention mechanism,superior prediction,1,1.0
 head attention mechanism,transportation research,1,1.0
 head attention mechanism,unit,1,1.0
 inference,noise induced,1,1.0
+inference,superior prediction,1,1.0
 inference,transportation research,1,1.0
 inference,unit,1,1.0
 inference,accurate prediction,1,1.0
@@ -6844,6 +6824,7 @@ inference,joint,1,1.0
 inference,long range temporal,1,1.0
 inference,position,1,1.0
 inference,propagation,1,1.0
+noise induced,superior prediction,1,1.0
 noise induced,transportation research,1,1.0
 noise induced,unit,1,1.0
 noise induced,embedding,1,1.0
@@ -6853,6 +6834,8 @@ noise induced,identity,1,1.0
 noise induced,learning dynamic,1,1.0
 noise induced,self adaptive,1,1.0
 noise induced,shift,1,1.0
+superior prediction,transportation research,1,1.0
+superior prediction,unit,1,1.0
 transportation research,unit,1,1.0
 unit,computational complexity,1,1.0
 unit,convolution recurrent,1,1.0
@@ -8425,11 +8408,11 @@ pre trained,prompt learning,1,1.0
 pre trained,real world urban,1,1.0
 pre trained,spatio temporal gnns,1,1.0
 pre trained,augmented spatio,1,1.0
+pre trained,challenge remain,1,1.0
 pre trained,decoupled spatial,1,1.0
 pre trained,maintaining computational,1,1.0
 pre trained,query,1,1.0
 pre trained,retrieval,1,1.0
-pre trained,spatio temporal,1,1.0
 pre trained,universal,1,1.0
 prompt learning,real world urban,1,1.0
 prompt learning,spatio temporal gnns,1,1.0
@@ -8853,58 +8836,35 @@ adaptable,experimentation,1,1.0
 adaptable,interpret,1,1.0
 adaptable,open research,1,1.0
 adaptable,research field,1,1.0
-adaptable,spatio temporal,1,1.0
+adaptable,spatio temporal forecasting,1,1.0
 adaptable,temporal condition,1,1.0
 adaptable,temporal time,1,1.0
 adaptable,temporal traffic forecasting,1,1.0
 experimentation,interpret,1,1.0
 experimentation,open research,1,1.0
 experimentation,research field,1,1.0
-experimentation,spatio temporal,1,1.0
+experimentation,spatio temporal forecasting,1,1.0
 experimentation,temporal condition,1,1.0
 experimentation,temporal time,1,1.0
 experimentation,temporal traffic forecasting,1,1.0
 interpret,open research,1,1.0
 interpret,research field,1,1.0
-interpret,spatio temporal,1,1.0
+interpret,spatio temporal forecasting,1,1.0
 interpret,temporal condition,1,1.0
 interpret,temporal time,1,1.0
 interpret,temporal traffic forecasting,1,1.0
 open research,research field,1,1.0
-open research,spatio temporal,1,1.0
+open research,spatio temporal forecasting,1,1.0
 open research,temporal condition,1,1.0
 open research,temporal time,1,1.0
 open research,temporal traffic forecasting,1,1.0
-research field,spatio temporal,1,1.0
+research field,spatio temporal forecasting,1,1.0
 research field,temporal condition,1,1.0
 research field,temporal time,1,1.0
 research field,temporal traffic forecasting,1,1.0
-spatio temporal,temporal condition,1,1.0
-spatio temporal,temporal time,1,1.0
-spatio temporal,temporal traffic forecasting,1,1.0
-spatio temporal,called spatio,1,1.0
-spatio temporal,diminishing,1,1.0
-spatio temporal,effectively capturing,1,1.0
-spatio temporal,outstanding,1,1.0
-spatio temporal,rapid development,1,1.0
-spatio temporal,staeformer,1,1.0
-spatio temporal,temporal adaptive embedding,1,1.0
-spatio temporal,vanilla transformer,1,1.0
-spatio temporal,world traffic forecasting,1,1.0
-spatio temporal,auto,1,1.0
-spatio temporal,automated,1,1.0
-spatio temporal,data scenario,1,1.0
-spatio temporal,deeper,1,1.0
-spatio temporal,different data,1,1.0
-spatio temporal,dilated,1,1.0
-spatio temporal,temporal synchronous,1,1.0
-spatio temporal,term spatio,1,1.0
-spatio temporal,augmented spatio,1,1.0
-spatio temporal,decoupled spatial,1,1.0
-spatio temporal,maintaining computational,1,1.0
-spatio temporal,query,1,1.0
-spatio temporal,retrieval,1,1.0
-spatio temporal,universal,1,1.0
+spatio temporal forecasting,temporal condition,1,1.0
+spatio temporal forecasting,temporal time,1,1.0
+spatio temporal forecasting,temporal traffic forecasting,1,1.0
 temporal condition,temporal time,1,1.0
 temporal condition,temporal traffic forecasting,1,1.0
 temporal time,temporal traffic forecasting,1,1.0
@@ -9230,6 +9190,7 @@ data scenario,automated,1,1.0
 data scenario,deeper,1,1.0
 data scenario,different data,1,1.0
 data scenario,dilated,1,1.0
+data scenario,spatio temporal representation,1,1.0
 data scenario,temporal synchronous,1,1.0
 data scenario,term spatio,1,1.0
 deep neural network,different datasets,1,1.0
@@ -10945,37 +10906,46 @@ artificial intelligence,highway traffic flow,1,1.0
 artificial intelligence,traffic congestion,1,1.0
 artificial intelligence,alleviating traffic,1,1.0
 artificial intelligence,emerging,1,1.0
+artificial intelligence,emphasis,1,1.0
 artificial intelligence,improving traffic,1,1.0
 artificial intelligence,negative consequence,1,1.0
+artificial intelligence,new research,1,1.0
 artificial intelligence,opportunity,1,1.0
 artificial intelligence,provide,1,1.0
 artificial intelligence,recent advance,1,1.0
-artificial intelligence,research,1,1.0
 data collection,highway traffic flow,1,1.0
 data collection,traffic congestion,1,1.0
 highway traffic flow,traffic congestion,1,1.0
 alleviating traffic,emerging,1,1.0
+alleviating traffic,emphasis,1,1.0
 alleviating traffic,improving traffic,1,1.0
 alleviating traffic,negative consequence,1,1.0
+alleviating traffic,new research,1,1.0
 alleviating traffic,opportunity,1,1.0
 alleviating traffic,provide,1,1.0
 alleviating traffic,recent advance,1,1.0
-alleviating traffic,research,1,1.0
+emerging,emphasis,1,1.0
 emerging,improving traffic,1,1.0
 emerging,negative consequence,1,1.0
+emerging,new research,1,1.0
 emerging,opportunity,1,1.0
 emerging,provide,1,1.0
 emerging,recent advance,1,1.0
-emerging,research,1,1.0
+emphasis,improving traffic,1,1.0
+emphasis,negative consequence,1,1.0
+emphasis,new research,1,1.0
+emphasis,opportunity,1,1.0
+emphasis,provide,1,1.0
+emphasis,recent advance,1,1.0
 improving traffic,negative consequence,1,1.0
+improving traffic,new research,1,1.0
 improving traffic,opportunity,1,1.0
 improving traffic,provide,1,1.0
 improving traffic,recent advance,1,1.0
-improving traffic,research,1,1.0
+negative consequence,new research,1,1.0
 negative consequence,opportunity,1,1.0
 negative consequence,provide,1,1.0
 negative consequence,recent advance,1,1.0
-negative consequence,research,1,1.0
 negative consequence,adversarial attack,1,1.0
 negative consequence,adversarial robustness,1,1.0
 negative consequence,adversarial training,1,1.0
@@ -10984,12 +10954,19 @@ negative consequence,example,1,1.0
 negative consequence,inaccurate,1,1.0
 negative consequence,knowledge distillation,1,1.0
 negative consequence,spatiotemporal traffic forecasting,1,1.0
+new research,opportunity,1,1.0
+new research,provide,1,1.0
+new research,recent advance,1,1.0
+new research,aggregated data,1,1.0
+new research,continuously evolving,1,1.0
+new research,current public,1,1.0
+new research,extremely long,1,1.0
+new research,long forecasting,1,1.0
+new research,test,1,1.0
+new research,xxltraffic,1,1.0
 opportunity,provide,1,1.0
 opportunity,recent advance,1,1.0
-opportunity,research,1,1.0
 provide,recent advance,1,1.0
-provide,research,1,1.0
-recent advance,research,1,1.0
 contextual information,demand forecasting,1,1.0
 contextual information,graph neural network,1,1.0
 contextual information,open data,1,1.0
@@ -11260,6 +11237,7 @@ wide traffic state,manhattan,1,1.0
 wide traffic state,predict network,1,1.0
 wide traffic state,wide traffic prediction,1,1.0
 advancing traffic,conducting extensive,1,1.0
+advancing traffic,different region,1,1.0
 advancing traffic,discus open,1,1.0
 advancing traffic,dispatching,1,1.0
 advancing traffic,prediction application,1,1.0
@@ -11270,6 +11248,7 @@ advancing traffic,classical machine,1,1.0
 advancing traffic,complex pattern,1,1.0
 advancing traffic,explore,1,1.0
 advancing traffic,improves,1,1.0
+conducting extensive,different region,1,1.0
 conducting extensive,discus open,1,1.0
 conducting extensive,dispatching,1,1.0
 conducting extensive,prediction application,1,1.0
@@ -11282,6 +11261,12 @@ conducting extensive,produce,1,1.0
 conducting extensive,regression,1,1.0
 conducting extensive,sensing infrastructure,1,1.0
 conducting extensive,traffic sensing,1,1.0
+different region,discus open,1,1.0
+different region,dispatching,1,1.0
+different region,prediction application,1,1.0
+different region,public dataset,1,1.0
+different region,summarize,1,1.0
+different region,taxonomy,1,1.0
 discus open,dispatching,1,1.0
 discus open,prediction application,1,1.0
 discus open,public dataset,1,1.0
@@ -11412,6 +11397,7 @@ hierarchical,identifying,1,1.0
 hierarchical,network level,1,1.0
 hierarchical,provides higher,1,1.0
 hierarchical,traffic state,1,1.0
+called spatio,critical challenge,1,1.0
 called spatio,diminishing,1,1.0
 called spatio,effectively capturing,1,1.0
 called spatio,outstanding,1,1.0
@@ -11423,6 +11409,18 @@ called spatio,world traffic forecasting,1,1.0
 called spatio,dynamic spatio,1,1.0
 called spatio,joint graph,1,1.0
 called spatio,range,1,1.0
+critical challenge,diminishing,1,1.0
+critical challenge,effectively capturing,1,1.0
+critical challenge,outstanding,1,1.0
+critical challenge,rapid development,1,1.0
+critical challenge,staeformer,1,1.0
+critical challenge,temporal adaptive embedding,1,1.0
+critical challenge,vanilla transformer,1,1.0
+critical challenge,world traffic forecasting,1,1.0
+critical challenge,global attention,1,1.0
+critical challenge,set,1,1.0
+critical challenge,traditional statistical,1,1.0
+critical challenge,vertex,1,1.0
 diminishing,effectively capturing,1,1.0
 diminishing,outstanding,1,1.0
 diminishing,rapid development,1,1.0
@@ -11960,10 +11958,6 @@ dynamic spatio,inherently dynamic,1,1.0
 dynamic spatio,pas,1,1.0
 dynamic spatio,temporal graph transformer,1,1.0
 joint graph,range,1,1.0
-critical challenge,global attention,1,1.0
-critical challenge,set,1,1.0
-critical challenge,traditional statistical,1,1.0
-critical challenge,vertex,1,1.0
 global attention,set,1,1.0
 global attention,traditional statistical,1,1.0
 global attention,vertex,1,1.0
@@ -12064,7 +12058,6 @@ current public,aggregated data,1,1.0
 current public,continuously evolving,1,1.0
 current public,extremely long,1,1.0
 current public,long forecasting,1,1.0
-current public,new research,1,1.0
 current public,test,1,1.0
 current public,xxltraffic,1,1.0
 adversarial robustness,bounded,1,1.0
@@ -12117,7 +12110,6 @@ aggregated data,resolution data,1,1.0
 aggregated data,continuously evolving,1,1.0
 aggregated data,extremely long,1,1.0
 aggregated data,long forecasting,1,1.0
-aggregated data,new research,1,1.0
 aggregated data,test,1,1.0
 aggregated data,xxltraffic,1,1.0
 allows,capture historical,1,1.0
@@ -12423,6 +12415,7 @@ decoupled spatial,encompasses,1,1.0
 decoupled spatial,inherent,1,1.0
 decoupled spatial,temporal graph neural,1,1.0
 decoupled spatial,augmented spatio,1,1.0
+decoupled spatial,challenge remain,1,1.0
 decoupled spatial,maintaining computational,1,1.0
 decoupled spatial,query,1,1.0
 decoupled spatial,retrieval,1,1.0
@@ -12558,7 +12551,6 @@ continuously evolving,relative,1,1.0
 continuously evolving,simultaneously,1,1.0
 continuously evolving,extremely long,1,1.0
 continuously evolving,long forecasting,1,1.0
-continuously evolving,new research,1,1.0
 continuously evolving,test,1,1.0
 continuously evolving,xxltraffic,1,1.0
 dependency graph,evolving graph,1,1.0
@@ -12623,6 +12615,7 @@ multi modal,negative log,1,1.0
 multi modal,universal,1,1.0
 negative log,universal,1,1.0
 universal,augmented spatio,1,1.0
+universal,challenge remain,1,1.0
 universal,maintaining computational,1,1.0
 universal,query,1,1.0
 universal,retrieval,1,1.0
@@ -12679,7 +12672,6 @@ temporal graph,network architecture,1,1.0
 temporal graph,pruning,1,1.0
 temporal graph,time traffic,1,1.0
 extremely long,long forecasting,1,1.0
-extremely long,new research,1,1.0
 extremely long,test,1,1.0
 extremely long,xxltraffic,2,0.5
 extremely long,continual,1,1.0
@@ -12687,11 +12679,8 @@ extremely long,evolutionary,1,1.0
 extremely long,fixed sensor,1,1.0
 extremely long,forecasting benchmark,1,1.0
 extremely long,year,1,1.0
-long forecasting,new research,1,1.0
 long forecasting,test,1,1.0
 long forecasting,xxltraffic,1,1.0
-new research,test,1,1.0
-new research,xxltraffic,1,1.0
 test,xxltraffic,1,1.0
 xxltraffic,continual,1,1.0
 xxltraffic,evolutionary,1,1.0
@@ -13033,6 +13022,7 @@ auto,automated,1,1.0
 auto,deeper,1,1.0
 auto,different data,1,1.0
 auto,dilated,1,1.0
+auto,spatio temporal representation,1,1.0
 auto,temporal synchronous,1,1.0
 auto,term spatio,1,1.0
 feature learning,feature selection,1,1.0
@@ -13279,6 +13269,7 @@ query,traffic sensing,1,1.0
 query,traffic state,1,1.0
 query,unstructured,1,1.0
 query,augmented spatio,1,1.0
+query,challenge remain,1,1.0
 query,maintaining computational,1,1.0
 query,retrieval,1,1.0
 sensor location,traffic sensing,1,1.0
@@ -13487,17 +13478,23 @@ ranked,traffic characteristic,1,1.0
 automated,deeper,1,1.0
 automated,different data,1,1.0
 automated,dilated,1,1.0
+automated,spatio temporal representation,1,1.0
 automated,temporal synchronous,1,1.0
 automated,term spatio,1,1.0
 deeper,different data,1,1.0
 deeper,dilated,1,1.0
+deeper,spatio temporal representation,1,1.0
 deeper,temporal synchronous,1,1.0
 deeper,term spatio,1,1.0
 different data,dilated,1,1.0
+different data,spatio temporal representation,1,1.0
 different data,temporal synchronous,1,1.0
 different data,term spatio,1,1.0
+dilated,spatio temporal representation,1,1.0
 dilated,temporal synchronous,1,1.0
 dilated,term spatio,1,1.0
+spatio temporal representation,temporal synchronous,1,1.0
+spatio temporal representation,term spatio,1,1.0
 temporal synchronous,term spatio,1,1.0
 city traffic,graph reconstruction,1,1.0
 city traffic,identifies,1,1.0
@@ -13528,8 +13525,11 @@ transfer,rmse value,1,1.0
 improved real,individual,1,1.0
 improved real,traffic trend,1,1.0
 individual,traffic trend,1,1.0
+augmented spatio,challenge remain,1,1.0
 augmented spatio,maintaining computational,1,1.0
 augmented spatio,retrieval,1,1.0
+challenge remain,maintaining computational,1,1.0
+challenge remain,retrieval,1,1.0
 maintaining computational,retrieval,1,1.0
 consisting,output,1,1.0
 consisting,temporal deep,1,1.0

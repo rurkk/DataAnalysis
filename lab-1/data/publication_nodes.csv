@@ -21,11 +21,11 @@ arxiv_id,title,keyword_count,neighbors
 2412.12201,Embracing Large Language Models in Traffic Flow Forecasting,10,21
 2307.05517,Adaptive Graph Convolution Networks for Traffic Flow Forecasting,10,19
 2408.04232,Enhanced Traffic Flow Prediction with Multi-Segment Fusion Tensor Graph Convolutional Networks,10,16
-2203.06213,TrafPS: A Visual Analysis System Interpreting Traffic Prediction in Shapley,10,15
+2203.06213,TrafPS: A Visual Analysis System Interpreting Traffic Prediction in Shapley,10,14
 2308.00391,Counterfactual Graph Transformer for Traffic Flow Prediction,10,14
 2005.04788,Distributed Fine-Grained Traffic Speed Prediction for Large-Scale Transportation Networks based on Automatic LSTM Customization and Sharing,10,8
 2405.06266,A Multi-Channel Spatial-Temporal Transformer Model for Traffic Flow Forecasting,10,14
-2012.03874,Traffic flow prediction using Deep Sedenion Networks,10,16
+2012.03874,Traffic flow prediction using Deep Sedenion Networks,10,14
 2601.10328,Meta Dynamic Graph for Traffic Flow Prediction,10,15
 2503.13540,MSCMHMST: A traffic flow prediction model based on Transformer,10,18
 2303.07685,FPTN: Fast Pure Transformer Network for Traffic Flow Forecasting,10,22
@@ -71,7 +71,7 @@ arxiv_id,title,keyword_count,neighbors
 2210.01799,STGIN: A Spatial Temporal Graph-Informer Network for Long Sequence Traffic Speed Forecasting,10,10
 2604.16612,FedLLM: A Privacy-Preserving Federated Large Language Model for Explainable Traffic Flow Prediction,10,12
 2512.21685,RIPCN: A Road Impedance Principal Component Network for Probabilistic Traffic Flow Forecasting,10,13
-2212.07194,Traffic Flow Prediction via Variational Bayesian Inference-based Encoder-Decoder Framework,10,12
+2212.07194,Traffic Flow Prediction via Variational Bayesian Inference-based Encoder-Decoder Framework,10,11
 2302.12598,Dynamic Graph Convolutional Network with Attention Fusion for Traffic Flow Prediction,10,10
 2308.05601,Multi-graph Spatio-temporal Graph Convolutional Network for Traffic Flow Prediction,10,4
 2406.03140,Continual Traffic Forecasting via Mixture of Experts,10,9
@@ -104,7 +104,7 @@ arxiv_id,title,keyword_count,neighbors
 2406.02726,Temporal Graph Learning Recurrent Neural Network for Traffic Forecasting,10,17
 2309.07196,Attention-based Dynamic Graph Convolutional Recurrent Neural Network for Traffic Flow Prediction in Highway Transportation,10,9
 2408.06445,Multi-View Neural Differential Equations for Continuous-Time Stream Data in Long-Term Traffic Forecasting,10,23
-2003.13977,A Spatio-Temporal Spot-Forecasting Framework for Urban Traffic Prediction,10,7
+2003.13977,A Spatio-Temporal Spot-Forecasting Framework for Urban Traffic Prediction,10,4
 2305.00985,Attention-based Spatial-Temporal Graph Neural ODE for Traffic Prediction,10,5
 2501.03628,A Novel Approach to Real-Time Short-Term Traffic Prediction based on Distributed Fiber-Optic Sensing and Data Assimilation with a Stochastic Cell-Automata Model,10,18
 2602.16730,MMCAformer: Macro-Micro Cross-Attention Transformer for Traffic Speed Prediction with Microscopic Connected Vehicle Driving Behavior,10,6
@@ -149,17 +149,17 @@ arxiv_id,title,keyword_count,neighbors
 2602.02528,Incident-Guided Spatiotemporal Traffic Forecasting,10,7
 2104.09083,Multi-fold Correlation Attention Network for Predicting Traffic Speeds with Heterogeneous Frequency,10,15
 2507.13112,Prediction of Highway Traffic Flow Based on Artificial Intelligence Algorithms Using California Traffic Data,10,9
-2305.19591,Traffic Prediction using Artificial Intelligence: Review of Recent Advances and Emerging Opportunities,10,4
+2305.19591,Traffic Prediction using Artificial Intelligence: Review of Recent Advances and Emerging Opportunities,10,3
 2101.11174,Graph Neural Network for Traffic Forecasting: A Survey,10,7
 2104.13096,Graph Neural Networks for Traffic Forecasting,10,4
 2209.05406,Residual Correction in Real-Time Traffic Forecasting,10,12
 2503.14980,Embedding spatial context in urban traffic forecasting with contrastive pre-training,10,6
 2210.02447,Practical Adversarial Attacks on Spatiotemporal Traffic Forecasting Models,10,5
-2004.08555,"Deep Learning on Traffic Prediction: Methods, Analysis and Future Directions",10,8
+2004.08555,"Deep Learning on Traffic Prediction: Methods, Analysis and Future Directions",10,6
 2305.05740,Message Passing Neural Networks for Traffic Forecasting,10,11
 2306.09386,Adaptive Hierarchical SpatioTemporal Network for Traffic Forecasting,10,9
 2307.14596,HUTFormer: Hierarchical U-Net Transformer for Long-Term Traffic Forecasting,10,29
-2308.10425,STAEformer: Spatio-Temporal Adaptive Embedding Makes Vanilla Transformer SOTA for Traffic Forecasting,10,6
+2308.10425,STAEformer: Spatio-Temporal Adaptive Embedding Makes Vanilla Transformer SOTA for Traffic Forecasting,10,4
 2508.04517,Channel-Independent Federated Traffic Prediction,10,7
 2408.02689,Spatio-Temporal Partial Sensing Forecast for Long-term Traffic,10,16
 2302.12388,TrafFormer: A Transformer Model for Predicting Long-term Traffic,10,20
@@ -173,7 +173,7 @@ arxiv_id,title,keyword_count,neighbors
 2104.09369,Adversarial Diffusion Attacks on Graph-based Traffic Prediction Models,10,11
 2412.14569,Global Spatio-Temporal Fusion-based Traffic Prediction Algorithm with Anomaly Aware,10,5
 2111.13684,Spatio-Temporal Joint Graph Convolutional Networks for Traffic Forecasting,10,23
-2605.16726,A Global-Local Graph Attention Network for Traffic Forecasting,10,10
+2605.16726,A Global-Local Graph Attention Network for Traffic Forecasting,10,11
 2202.12586,Spatio-Temporal Latent Graph Structure Learning for Traffic Forecasting,10,9
 2012.02598,Towards Good Practices of U-Net for Traffic Forecasting,10,9
 2306.08259,LargeST: A Benchmark Dataset for Large-Scale Traffic Forecasting,10,9
@@ -201,7 +201,7 @@ arxiv_id,title,keyword_count,neighbors
 2006.11583,A3T-GCN: Attention Temporal Graph Convolutional Network for Traffic Forecasting,10,16
 2112.02264,DMGCRN: Dynamic Multi-Graph Convolution Recurrent Network for Traffic Forecasting,10,11
 2004.10958,Constructing Geographic and Long-term Temporal Graph for Traffic Forecasting,10,12
-2406.12693,XXLTraffic: Expanding and Extremely Long Traffic forecasting beyond test adaptation,10,7
+2406.12693,XXLTraffic: Expanding and Extremely Long Traffic forecasting beyond test adaptation,10,8
 2012.05207,Uncertainty Intervals for Graph-based Spatio-Temporal Traffic Prediction,10,5
 2401.10134,Spatial-Temporal Large Language Model for Traffic Prediction,10,19
 2512.24625,AutoFed: Personalized Federated Traffic Prediction via Adaptive Prompt,10,9
@@ -249,10 +249,10 @@ arxiv_id,title,keyword_count,neighbors
 2009.00712,Short-term Traffic Prediction with Deep Neural Networks: A Survey,10,19
 2111.05990,Traffic4cast -- Large-scale Traffic Prediction using 3DResNet and Sparse-UNet,10,11
 2211.08541,GC-GRU-N for Traffic Prediction using Loop Detector Data,10,11
-2207.10830,Automated Dilated Spatio-Temporal Synchronous Graph Modeling for Traffic Prediction,10,6
+2207.10830,Automated Dilated Spatio-Temporal Synchronous Graph Modeling for Traffic Prediction,10,3
 2303.07184,Traffic Prediction with Transfer Learning: A Mutual Information-based Approach,10,4
 2407.12226,Individualized Federated Learning for Traffic Prediction with Error Driven Aggregation,10,14
-2508.16623,RAST: A Retrieval Augmented Spatio-Temporal Framework for Traffic Prediction,10,13
+2508.16623,RAST: A Retrieval Augmented Spatio-Temporal Framework for Traffic Prediction,10,10
 2108.02424,PSTN: Periodic Spatial-temporal Deep Neural Network for Traffic Condition Prediction,10,12
 2203.03965,Few-Sample Traffic Prediction with Graph Networks using Locale as Relational Inductive Biases,10,6
 2510.16053,FUSE-Traffic: Fusion of Unstructured and Structured Data for Event-aware Traffic Forecasting,10,7
