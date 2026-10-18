@@ -1,0 +1,9 @@
+{
+  "key": "50f14e9ae24e87350255cf86916aa268ffceb932272922b06ffc4d8fa6c1e0de",
+  "dimension": 384,
+  "sha256": {
+    "recursive.npy": "93ffc778485ab65bff623997cf37e81145391a8ffe35943b90efdd7c16acef26",
+    "recursive.faiss": "50796359c2615c6ea7d4bb45609eb3f648361c04651a1ec25ad5f3e56e8f733a",
+    "recursive-metadata.json": "2c0edb97fcc6915b5f9e1b094964a4f3f5cffe40199609d135865317823e451f"
+  }
+}

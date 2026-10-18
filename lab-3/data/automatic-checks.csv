@@ -1,0 +1,16 @@
+Сценарий,Режим,Статей в контексте,Цитируемых ID,ID вне контекста,Отказ,Лимит ответа,Пустой ответ,"Вход, токенов","Ответ, токенов"
+Методика,base,0,0,,False,False,False,353,134
+Методика,words,4,1,,False,False,False,1587,220
+Методика,recursive,5,1,,False,False,False,1613,222
+Сравнение,base,0,0,,False,False,False,365,87
+Сравнение,words,4,1,,False,False,False,1564,290
+Сравнение,recursive,4,1,,False,False,False,1491,185
+Опечатки,base,0,0,,False,False,False,338,87
+Опечатки,words,5,1,,False,False,False,1703,105
+Опечатки,recursive,5,1,,False,False,False,1634,116
+Нет ответа,base,0,0,,True,False,False,345,27
+Нет ответа,words,5,0,,True,False,False,1621,44
+Нет ответа,recursive,5,0,,True,False,False,1531,44
+Обобщение,base,0,0,,True,False,False,345,97
+Обобщение,words,5,5,,False,False,False,1775,384
+Обобщение,recursive,4,4,,False,False,False,1551,434

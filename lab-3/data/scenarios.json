@@ -1,0 +1,27 @@
+[
+  {
+    "id": "fact",
+    "name": "Методика",
+    "query": "In FedOSTC (Online Spatio-Temporal Correlation-Based Federated Learning for Traffic Flow Forecasting), how are temporal patterns, spatial correlations and model aggregation handled?"
+  },
+  {
+    "id": "compare",
+    "name": "Сравнение",
+    "query": "How do HTVGNN (hybrid time-varying graph neural network) and ST-RetNet (Spatial-Temporal Retentive Network) differ in modeling static and dynamic spatial dependencies and temporal dependencies for traffic flow forecasting?"
+  },
+  {
+    "id": "typo",
+    "name": "Опечатки",
+    "query": "How does FedOSTC model tempral patterns and spatail correlations in trafic forecasting?"
+  },
+  {
+    "id": "absent",
+    "name": "Нет ответа",
+    "query": "What exact MAE did FedOSTC achieve on Kazan road traffic measured on October 10, 2026?"
+  },
+  {
+    "id": "summary",
+    "name": "Обобщение",
+    "query": "Which directions for modeling spatial and temporal dependencies in traffic forecasting are described in the retrieved papers, including adaptive graphs, attention and recurrent models?"
+  }
+]

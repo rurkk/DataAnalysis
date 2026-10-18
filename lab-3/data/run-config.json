@@ -1,0 +1,53 @@
+{
+  "source_sha256": "5de72fb7ea5bf992746e76bf25afe2ce3d645051cf374d456704e3a05c8c8533",
+  "embedding": {
+    "id": "BAAI/bge-small-en-v1.5",
+    "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "dimension": 384,
+    "max_seq_length": 512,
+    "query_prefix": "Represent this sentence for searching relevant passages: ",
+    "device": "cpu",
+    "normalization": "L2"
+  },
+  "chunking": {
+    "words": {
+      "size": 140,
+      "overlap": 25,
+      "unit": "words"
+    },
+    "recursive": {
+      "size": 1043,
+      "overlap": 186,
+      "unit": "characters"
+    }
+  },
+  "llm": {
+    "id": "mlx-community/Qwen2.5-3B-Instruct-4bit",
+    "revision": "4f83f8f146fdf28b512a06562b671d7af4fab457",
+    "runtime": "MLX",
+    "parameters": {
+      "temperature": 0.0,
+      "max_tokens": 650,
+      "seed": 42,
+      "context_tokens": 3000,
+      "input_tokens": 6000
+    }
+  },
+  "top_k": 5,
+  "python": "3.14.7",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "sentence-transformers": "5.1.2",
+    "transformers": "4.57.1",
+    "faiss-cpu": "1.13.0",
+    "langchain-text-splitters": "1.0.0",
+    "rapidfuzz": "3.14.1",
+    "mlx-lm": "0.28.3",
+    "mlx": "0.32.3",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.7",
+    "nbclient": "0.10.2",
+    "nbformat": "5.10.4"
+  }
+}

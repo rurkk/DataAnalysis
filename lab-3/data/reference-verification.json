@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-11",
+  "scope": "Three reference papers used to formulate questions; not a new corpus collection",
+  "papers": [
+    {
+      "doc_id": "2302.08658",
+      "url": "https://arxiv.org/abs/2302.08658",
+      "title_and_abstract_verified": true
+    },
+    {
+      "doc_id": "2401.10155",
+      "url": "https://arxiv.org/abs/2401.10155",
+      "title_and_abstract_verified": true
+    },
+    {
+      "doc_id": "2407.11074",
+      "url": "https://arxiv.org/abs/2407.11074",
+      "title_and_abstract_verified": true
+    }
+  ]
+}

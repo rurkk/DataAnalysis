@@ -1,0 +1,9 @@
+{
+  "key": "8c818c48d272d51a0385b41a3bee677c940efdaa438926eaf66d992b129bc13d",
+  "dimension": 384,
+  "sha256": {
+    "words.npy": "8567cfcb550dae69efa4f767db9e6a55a45b0988327ae024cfbe4375bcda37a0",
+    "words.faiss": "fdaea7a4c387383e47fab2f0945e0f5e001d623001ec3ead5f5fe98fdef375e7",
+    "words-metadata.json": "e907ee768787344d7e90156b0fb8b2e8220f56de5a1796b471e5e8b4aa34c502"
+  }
+}

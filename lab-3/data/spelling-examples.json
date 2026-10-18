@@ -1,0 +1,30 @@
+[
+  {
+    "original": "How does FedOSTC model tempral patterns and spatail correlations in trafic forecasting?",
+    "corrected": "How does FedOSTC model tempral patterns and spatial correlations in traffic forecasting?",
+    "changes": [
+      {
+        "from": "spatail",
+        "to": "spatial",
+        "distance": 1,
+        "frequency": 359
+      },
+      {
+        "from": "trafic",
+        "to": "traffic",
+        "distance": 1,
+        "frequency": 1999
+      }
+    ]
+  },
+  {
+    "original": "Compare GNN, LSTM, STGCN and Transformer for traffic forecasting.",
+    "corrected": "Compare GNN, LSTM, STGCN and Transformer for traffic forecasting.",
+    "changes": []
+  },
+  {
+    "original": "Use GraphWaveNet-X for traffic prediction.",
+    "corrected": "Use GraphWaveNet-X for traffic prediction.",
+    "changes": []
+  }
+]

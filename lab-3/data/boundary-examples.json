@@ -1,0 +1,56 @@
+[
+  {
+    "doc_id": "2401.10155",
+    "strategy": "words",
+    "left": "words:2401.10155:00",
+    "end": "order to overcome these challenges, we have proposed a novel hybrid time-varying graph neural network (HTVGNN)",
+    "start": "which at some level might leads to inaccuracies. In order to overcome these challenges, we have proposed a nov",
+    "overlap_words": 25,
+    "overlap_characters": 162
+  },
+  {
+    "doc_id": "2401.10155",
+    "strategy": "words",
+    "left": "words:2401.10155:01",
+    "end": " real data sets. Simulation results revealed that HTVGNN achieves superior prediction accuracy compared to the",
+    "start": "effectiveness of the proposed method HTVGNN was demonstrated with four real data sets. Simulation results reve",
+    "overlap_words": 25,
+    "overlap_characters": 180
+  },
+  {
+    "doc_id": "2401.10155",
+    "strategy": "recursive",
+    "left": "recursive:2401.10155:00",
+    "end": " scheme using a temporal multi-head self-attention mechanism, which at some level might leads to inaccuracies.",
+    "start": "In order to overcome these challenges, we have proposed a novel hybrid time-varying graph neural network (HTVG",
+    "overlap_words": 0,
+    "overlap_characters": 0
+  },
+  {
+    "doc_id": "2401.10155",
+    "strategy": "recursive",
+    "left": "recursive:2401.10155:01",
+    "end": "ves superior prediction accuracy compared to the state of the art spatio-temporal graph neural network models.",
+    "start": "Simulation results revealed that HTVGNN achieves superior prediction accuracy compared to the state of the art",
+    "overlap_words": 21,
+    "overlap_characters": 155
+  },
+  {
+    "doc_id": "2302.08658",
+    "strategy": "words",
+    "left": "words:2302.08658:00",
+    "end": "btain the internal temporal patterns inside traffic data sequences. Then, the central server evaluates spatial",
+    "start": "fluctuation. Specifically, clients employ Gated Recurrent Unit (GRU)-based encoders to obtain the internal tem",
+    "overlap_words": 25,
+    "overlap_characters": 198
+  },
+  {
+    "doc_id": "2302.08658",
+    "strategy": "recursive",
+    "left": "recursive:2302.08658:00",
+    "end": "ed Recurrent Unit (GRU)-based encoders to obtain the internal temporal patterns inside traffic data sequences.",
+    "start": "Specifically, clients employ Gated Recurrent Unit (GRU)-based encoders to obtain the internal temporal pattern",
+    "overlap_words": 18,
+    "overlap_characters": 142
+  }
+]

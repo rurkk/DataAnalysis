@@ -1,0 +1,9 @@
+{
+  "source": "lab-1/data/corpus.json",
+  "sha256": "5de72fb7ea5bf992746e76bf25afe2ce3d645051cf374d456704e3a05c8c8533",
+  "records": 318,
+  "scope": "arXiv, road traffic flow/speed forecasting, 2020-01-01..2026-09-13",
+  "metadata": "arXiv OAI-PMH",
+  "discovery": "DataCite",
+  "selection": "lab-1/data/screening.csv"
+}

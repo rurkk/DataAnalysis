@@ -1,0 +1,15 @@
+{
+  "notebook": "lab-3/lab-3.ipynb",
+  "notebook_sha256": "c3427c063508804838dcc10ffec77f6b651e262507ab7b2e7b619a9a82655ba6",
+  "cells": 30,
+  "executed_code_cells": 12,
+  "kernel": "lab3",
+  "fresh_kernel": true,
+  "execution_directory": "project root",
+  "errors": 0,
+  "scenario_answers": 15,
+  "generation_cache_records": 15,
+  "lab1_notebook_and_corpus_unchanged": true,
+  "dependencies_check": "passed",
+  "semantic_audit": "15 answers individually reviewed; limitations are documented, not assumed absent"
+}
