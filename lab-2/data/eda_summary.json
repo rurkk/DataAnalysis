@@ -1,0 +1,12 @@
+{
+  "events": 391150,
+  "users": 4334,
+  "items": 3659,
+  "pairs": 266221,
+  "density": 0.016787692048470353,
+  "repeat_pair_rows": 124929,
+  "multiple_names": 210,
+  "missing_names": 0,
+  "top1pct_event_share": 0.09794707912565512,
+  "single_user_items": 178
+}

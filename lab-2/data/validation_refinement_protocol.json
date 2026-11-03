@@ -1,0 +1,46 @@
+{
+  "seed": 42,
+  "grid": [
+    [
+      "ItemKNN",
+      30
+    ],
+    [
+      "ItemKNN",
+      10
+    ],
+    [
+      "ItemKNN",
+      20
+    ],
+    [
+      "ItemKNN",
+      50
+    ],
+    [
+      "EASE",
+      1000
+    ],
+    [
+      "EASE",
+      300
+    ],
+    [
+      "EASE",
+      3000
+    ],
+    [
+      "EASE",
+      10000
+    ]
+  ],
+  "users": 937,
+  "test_loaded": false,
+  "primary_metric": "NDCG@10",
+  "bootstrap_repeats": 2000,
+  "limitations": "Intervals are exploratory: winner was selected on the same validation users.",
+  "inputs_sha256": {
+    "train_events.csv": "f1106d4650b7261495be84337a12b374c5bd5c0d2a739f8acb0922f30fbef499",
+    "validation_events.csv": "1fe3c608093b4e872f3c109ca66aa4422d9eb312082157c791bdeb72e15bd5bc"
+  }
+}

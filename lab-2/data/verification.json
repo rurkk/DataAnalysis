@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "code_cells": 12,
+  "errors": 0,
+  "working_directory": "project root",
+  "checks": [
+    "sequential fresh-kernel execution",
+    "recommendation uniqueness",
+    "full train catalog",
+    "no seen items",
+    "hits verified against held-out data",
+    "aggregates match per-user metrics",
+    "coverage independently recomputed",
+    "archive SHA-256 verified"
+  ],
+  "notebook_sha256": "083b40e943b07435c92ed5b613ac6d33b809181213e15ff988202d6a07fb0af3",
+  "editorial_update": {
+    "scope": "current notebook before GitHub publication",
+    "fresh_kernel_execution": true
+  }
+}

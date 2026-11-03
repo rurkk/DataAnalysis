@@ -1,0 +1,34 @@
+{
+  "seed": 42,
+  "validation_start": "2011-10-01 00:00:00",
+  "test_start": "2011-11-01 00:00:00",
+  "feedback": "binary unique purchases",
+  "candidate_policy": "history catalog minus seen",
+  "primary_metric": "NDCG@10",
+  "K": [
+    5,
+    10,
+    20
+  ],
+  "selection": "full cleaned data, no sampling",
+  "source_sha256": "f5385cbb54bbebf7196389109c6b0621faab0c304e3702548165e71c84aede8b",
+  "refit": "train+validation for all models",
+  "cleaning": {
+    "drop_exact_duplicates": true,
+    "quantity_min_exclusive": 0,
+    "price_min_exclusive": 0,
+    "stockcode_regex": "\\d{5}[A-Za-z]*",
+    "drop_missing_customer": true
+  },
+  "search": {
+    "ItemKNN_neighbors": [
+      30,
+      100
+    ],
+    "ItemKNN_shrink": 10,
+    "EASE_lambda": [
+      100,
+      1000
+    ]
+  }
+}

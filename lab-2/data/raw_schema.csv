@@ -1,0 +1,9 @@
+field,dtype,missing
+InvoiceNo,object,0
+StockCode,object,0
+Description,object,1454
+Quantity,int64,0
+InvoiceDate,datetime64[us],0
+UnitPrice,float64,0
+CustomerID,float64,135080
+Country,str,0

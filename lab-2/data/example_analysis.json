@@ -1,0 +1,197 @@
+[
+  {
+    "user": 14284,
+    "role": "10% длины истории",
+    "history_items": 13,
+    "method": "MostPop",
+    "hits10": 0,
+    "NDCG10": 0.0,
+    "top_names": [
+      "REGENCY CAKESTAND 3 TIER",
+      "WHITE HANGING HEART T-LIGHT HOLDER",
+      "PARTY BUNTING"
+    ]
+  },
+  {
+    "user": 14284,
+    "role": "10% длины истории",
+    "history_items": 13,
+    "method": "ItemKNN",
+    "hits10": 0,
+    "NDCG10": 0.0,
+    "top_names": [
+      "SET OF 3 CAKE TINS PANTRY DESIGN",
+      "REGENCY CAKESTAND 3 TIER",
+      "SPOTTY BUNTING"
+    ]
+  },
+  {
+    "user": 14284,
+    "role": "10% длины истории",
+    "history_items": 13,
+    "method": "EASE",
+    "hits10": 2,
+    "NDCG10": 0.16354138662029635,
+    "top_names": [
+      "PAPER CHAIN KIT VINTAGE CHRISTMAS",
+      "JAM MAKING SET PRINTED",
+      "SET OF 3 CAKE TINS PANTRY DESIGN"
+    ]
+  },
+  {
+    "user": 17109,
+    "role": "50% длины истории",
+    "history_items": 56,
+    "method": "MostPop",
+    "hits10": 1,
+    "NDCG10": 0.08514311764162101,
+    "top_names": [
+      "REGENCY CAKESTAND 3 TIER",
+      "WHITE HANGING HEART T-LIGHT HOLDER",
+      "PACK OF 72 RETROSPOT CAKE CASES"
+    ]
+  },
+  {
+    "user": 17109,
+    "role": "50% длины истории",
+    "history_items": 56,
+    "method": "ItemKNN",
+    "hits10": 1,
+    "NDCG10": 0.1100458831490401,
+    "top_names": [
+      "WHITE HANGING HEART T-LIGHT HOLDER",
+      "REGENCY CAKESTAND 3 TIER",
+      "SPOTTY BUNTING"
+    ]
+  },
+  {
+    "user": 17109,
+    "role": "50% длины истории",
+    "history_items": 56,
+    "method": "EASE",
+    "hits10": 1,
+    "NDCG10": 0.2200917662980802,
+    "top_names": [
+      "SPOTTY BUNTING",
+      "WHITE HANGING HEART T-LIGHT HOLDER",
+      "REGENCY CAKESTAND 3 TIER"
+    ]
+  },
+  {
+    "user": 17625,
+    "role": "90% длины истории",
+    "history_items": 196,
+    "method": "MostPop",
+    "hits10": 0,
+    "NDCG10": 0.0,
+    "top_names": [
+      "REGENCY CAKESTAND 3 TIER",
+      "ASSORTED COLOUR BIRD ORNAMENT",
+      "SET OF 3 CAKE TINS PANTRY DESIGN"
+    ]
+  },
+  {
+    "user": 17625,
+    "role": "90% длины истории",
+    "history_items": 196,
+    "method": "ItemKNN",
+    "hits10": 0,
+    "NDCG10": 0.0,
+    "top_names": [
+      "HEART OF WICKER SMALL",
+      "SET OF 3 CAKE TINS PANTRY DESIGN",
+      "LUNCH BAG RED RETROSPOT"
+    ]
+  },
+  {
+    "user": 17625,
+    "role": "90% длины истории",
+    "history_items": 196,
+    "method": "EASE",
+    "hits10": 0,
+    "NDCG10": 0.0,
+    "top_names": [
+      "HEART OF WICKER SMALL",
+      "60 TEATIME FAIRY CAKE CASES",
+      "WOODEN PICTURE FRAME WHITE FINISH"
+    ]
+  },
+  {
+    "user": 13323,
+    "role": "Максимальное преимущество EASE",
+    "history_items": 5,
+    "method": "MostPop",
+    "hits10": 0,
+    "NDCG10": 0.0,
+    "top_names": [
+      "REGENCY CAKESTAND 3 TIER",
+      "WHITE HANGING HEART T-LIGHT HOLDER",
+      "PARTY BUNTING"
+    ]
+  },
+  {
+    "user": 13323,
+    "role": "Максимальное преимущество EASE",
+    "history_items": 5,
+    "method": "ItemKNN",
+    "hits10": 1,
+    "NDCG10": 0.6309297535714575,
+    "top_names": [
+      "CHOCOLATE HOT WATER BOTTLE",
+      "SCOTTIE DOG HOT WATER BOTTLE",
+      "HOT WATER BOTTLE I AM SO POORLY"
+    ]
+  },
+  {
+    "user": 13323,
+    "role": "Максимальное преимущество EASE",
+    "history_items": 5,
+    "method": "EASE",
+    "hits10": 1,
+    "NDCG10": 1.0,
+    "top_names": [
+      "SCOTTIE DOG HOT WATER BOTTLE",
+      "CHOCOLATE HOT WATER BOTTLE",
+      "HOT WATER BOTTLE I AM SO POORLY"
+    ]
+  },
+  {
+    "user": 13549,
+    "role": "Максимальная потеря EASE",
+    "history_items": 36,
+    "method": "MostPop",
+    "hits10": 1,
+    "NDCG10": 0.5,
+    "top_names": [
+      "ASSORTED COLOUR BIRD ORNAMENT",
+      "SET OF 3 CAKE TINS PANTRY DESIGN",
+      "JUMBO BAG RED RETROSPOT"
+    ]
+  },
+  {
+    "user": 13549,
+    "role": "Максимальная потеря EASE",
+    "history_items": 36,
+    "method": "ItemKNN",
+    "hits10": 1,
+    "NDCG10": 0.43067655807339306,
+    "top_names": [
+      "SET OF 3 CAKE TINS PANTRY DESIGN",
+      "HEART OF WICKER LARGE",
+      "SPOTTY BUNTING"
+    ]
+  },
+  {
+    "user": 13549,
+    "role": "Максимальная потеря EASE",
+    "history_items": 36,
+    "method": "EASE",
+    "hits10": 0,
+    "NDCG10": 0.0,
+    "top_names": [
+      "WOODEN FRAME ANTIQUE WHITE",
+      "HEART OF WICKER LARGE",
+      "GREEN REGENCY TEACUP AND SAUCER"
+    ]
+  }
+]

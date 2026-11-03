@@ -1,0 +1,3 @@
+split,future_users,future_events,future_unique_pairs,repeat_pairs_excluded,unseen_item_pairs,warm_eligible_users,warm_users_with_new_including_unseen,cold_users,cold_eligible_users,users_without_new_items,users_with_new_but_no_available_items,repeat_event_rows_excluded
+validation,1361,48611,44190,11709,1793,937,944,357,356,60,8,14169
+test,1904,79902,67524,22183,733,1440,1449,364,364,91,9,30146
