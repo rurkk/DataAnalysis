@@ -1,0 +1,15 @@
+measure,value
+full_rows,145667282.0
+sample_rows,7176714.0
+sample_users,9181.0
+sample_items,278193.0
+positive_rows,347750.0
+unique_positive_pairs,347750.0
+density_positive,0.0001361541719838884
+density_views,0.002809890876305333
+users_without_likes,1802.0
+like_rate,0.04845532370385667
+median_likes,6.0
+max_likes,1175.0
+repeat_pair_rows,0.0
+removed_invalid,0.0

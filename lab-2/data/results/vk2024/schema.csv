@@ -1,0 +1,8 @@
+field,dtype,missing_full_file
+user_id,uint32,0
+item_id,uint32,0
+timespent,uint8,0
+like,uint8,0
+dislike,uint8,0
+share,uint8,0
+bookmarks,uint8,0

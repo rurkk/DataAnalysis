@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "code_cells": 11,
+  "errors": 0,
+  "working_directory": "project root",
+  "dataset": "VK RecSys Challenge 2024",
+  "selected_parameters": {
+    "MostPop": null,
+    "ItemKNN": 50,
+    "ALS": 16
+  },
+  "test_users": 1500,
+  "checks": [
+    "fresh kernel, sequential execution",
+    "no duplicate or viewed recommendations",
+    "no future events in training",
+    "user hash selection",
+    "hits against held-out labels",
+    "metrics independently recomputed",
+    "coverage independently recomputed",
+    "parameters selected on validation",
+    "source SHA-256",
+    "metrics reproduced after clean restart"
+  ],
+  "notebook_sha256": "5a9678c6f10f5df2aab1b1bb0b565a85c1c0cb29af44a732e383703ef4517cdf"
+}

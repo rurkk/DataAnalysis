@@ -1,0 +1,19 @@
+{
+  "dataset": "VK RecSys Challenge 2024",
+  "description": "https://ods.ai/competitions/aivkchallenge/dataset",
+  "checked_at": "2026-11-21T09:47:44.455334+00:00",
+  "files": [
+    {
+      "file": "train_interactions.parquet",
+      "url": "https://storage.yandexcloud.net/ds-ods/files/data/docs/competitions/VKRecsysChallenge2024/dataset/train_interactions.parquet",
+      "bytes": 870185661,
+      "sha256": "475018d7befc7228872c1425b16b72152fb7293e968a9cff2a6e607f5e437fda"
+    },
+    {
+      "file": "items_meta.parquet",
+      "url": "https://storage.yandexcloud.net/ds-ods/files/files/13b479ed/items_meta.parquet",
+      "bytes": 41445375,
+      "sha256": "943e650637869b79047298cf14ce0e61ccb1383b3e8ecef1830c61175f3c3177"
+    }
+  ]
+}

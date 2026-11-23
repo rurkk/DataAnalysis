@@ -1,0 +1,34 @@
+{
+  "seed": 42,
+  "users_hash_mod": 20,
+  "max_eval_users": 1500,
+  "total_raw_rows": 145667282,
+  "boundaries": [
+    101967097,
+    123817189
+  ],
+  "target": "future like=1 and dislike=0, excluding previously viewed",
+  "candidate_catalog": "all history items minus user viewed",
+  "unseen_relevant_items": "remain in metric denominators",
+  "primary_metric": "NDCG@10",
+  "refit": "train+validation",
+  "K": [
+    5,
+    10,
+    20
+  ],
+  "grid": {
+    "ItemKNN_neighbors": [
+      20,
+      50
+    ],
+    "shrink": 10,
+    "ALS_factors": [
+      16,
+      32
+    ],
+    "ALS_alpha": 20,
+    "ALS_reg": 0.1,
+    "ALS_iterations": 10
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-11-21",
+  "attempts": [
+    {
+      "dataset": "Synerise RecSys Challenge 2025",
+      "official_archive": "https://data.recsys.synerise.com/dataset/ubc_data/ubc_data.tar.gz",
+      "result": "HTTP 404, confirmed with curl and official summary page"
+    },
+    {
+      "dataset": "EB-NeRD RecSys Challenge 2024",
+      "url": "https://recsys.eb.dk/",
+      "result": "Registration with name, email and affiliation required. Not downloaded."
+    },
+    {
+      "dataset": "VK RecSys Challenge 2024",
+      "url": "https://ods.ai/competitions/aivkchallenge/dataset",
+      "result": "Official public files downloaded and read successfully."
+    }
+  ]
+}

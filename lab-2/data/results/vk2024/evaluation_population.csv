@@ -1,0 +1,3 @@
+split,future_users,future_positive_users,positive_events,users_without_new_likes,repeat_liked_pairs_excluded,warm_before_cap,warm_evaluated,fallback_before_cap,fallback_evaluated,unseen_users,unseen_items,unreachable_relevant_pairs,all_relevant_pairs,recall_ceiling
+validation,9090,4626,55688,0,0,4429,1500,197,197,0,8204,1023,55264,0.977718031050732
+test,9101,4706,53928,0,0,4505,1500,201,201,0,7225,949,53576,0.981388356861053

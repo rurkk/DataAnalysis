@@ -1,0 +1,22 @@
+{
+  "rows": 145667282,
+  "missing": {
+    "user_id": 0,
+    "item_id": 0,
+    "timespent": 0,
+    "like": 0,
+    "dislike": 0,
+    "share": 0,
+    "bookmarks": 0
+  },
+  "ones": {
+    "like": 6788267,
+    "dislike": 57262,
+    "share": 1572875,
+    "bookmarks": 143603
+  },
+  "bad_flags": 0,
+  "like_and_dislike": 0,
+  "users": 183404,
+  "items": 337727
+}

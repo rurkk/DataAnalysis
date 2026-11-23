@@ -1,0 +1,4 @@
+method,known_author_share
+ALS,0.1232
+ItemKNN,0.152
+MostPop,0.068
